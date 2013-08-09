@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!--
+ This Script is Copyright by Tub (spam@authmann.de).
+ The latest Version can be found on http://www.authmann.de/d2/mxl/skillpointplanner/
+
+ You are permitted to store a copy on your computer for personal use.
+ You are NOT permitted to distribute copies of this script. Ask for permission first.
+
+ You are absolutely not permitted to sell this script, offer it on ad-supported sites or in any other way use it for monetary gain.
+
+ kambala has permission to distribute this script in his offline version, see http://modsbylaz.14.forumer.com/viewtopic.php?t=11864
+-->
+
+<head>
+	<title>Планировщик навыков для Median XL</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<link rel="stylesheet" type="text/css" href="skillcalc.css" />
+	<!--[if lt IE 7]>
+		<link rel="stylesheet" type="text/css" href="skillcalc_ie6.css" />
+	<![endif]-->
+	<script type="text/javascript" src="skills.js"></script>
+	<script type="text/javascript" src="skillpointcalc.js"></script>
+</head>
+
+
+<body onload="load()">
+
+<div id="blackout" style="display: none;"> </div>
+
+<div id="overlay" style="width: 1040px; margin: 0px auto; position: relative; display: none;">
+<div id="overlay_save" style="text-align: center; display: none;">
+	<b>Чтобы сохранить онлайн план навыков</b>: Нажмите на ссылку, добавьте открывшуюся страницу в закладки.<br />
+	<a id="save_url" href="#" style="white-space: normal;">#</a>
+	<br />
+	<br />
+	<b>Чтобы поделиться онлайн планом навыков</b>: Просто отошлите вышеуказанную ссылку товарищу. Также вы можете воспользоваться следующим кодом для форума:
+	<input id="save_bbcode" type="text" style="width: 100%;" value="#" />
+	<br />
+	<br />
+	<b>Чтобы сохранить оффлайн план навыков</b>: Нажмите &laquo;назад&raquo;, скопируйте выделенную ссылку и сохраните её куда-нибудь (например в текстовый файл). 
+	<br />
+	<br />
+	<b>Чтобы воспользоваться оффлайн планом навыков</b>: Вставьте вашу оффлайн ссылку в поле &laquo;Ссылка для оффлайн плана&raquo; и нажмите &laquo;показать&raquo;.
+	<br />
+	<br />
+	<b>Чтобы поделиться оффлайн планом навыков</b>: отправьте оффлайн ссылку своим друзьям, у которых есть оффлайн планировщик (этот или из английской оффлайн документации).
+	<br />
+	<br />
+	<a href="#" onClick="hideSave();return false;">назад</a>
+</div>
+
+<div id="overlay_faq" style="top: 50px; display: none; width: 800px;">
+<h1 style="text-align: center;">F.A.Q. (Ча.Во.) от автора Планировщика (Tub)</h1>
+<ul>
+<li><b>В: Что делает эта штука?</b><br />
+О: Она позволяет вам распланировать вложение очков навыков без быстрого их израсходования со всеми этими вещами, которые добавляют максимальный уровень навыков.</li>
+
+<li><b>В: Мне лень кликать по 20 раз чтобы замаксить навык!</b><br />
+О: Можно использовать Shift+клик на кнопки + и -.</li>
+
+<li><b>В: Когда добавляется поддержка новейшего патча?</b><br />
+О: Обычно сразу после официального релиза. Я не поддерживаю бета-, пререлиз-, и подобные версии. Поскольку я больше не играю в Медиан, я скорее всего не буду сразу же замечать новые версии - в таком случае пишите мне в личку на форуме.</li>
+
+<li><b>В: Могу ли я распланировать персонажа с устаревшими вещами/талисманами?</b><br />
+О: Не в этой жизни. Так задумано.</li>
+
+<li><b>В: Могу ли я сохранить своего персонажа?</b><br />
+О: Это планировщик, а не чит-программа. Он не создаст для вас готового персонажа.
+Однако, вы можете сохранить свой план навыков, чтобы взглянуть на него позже, показать его своим друзьям или дать на него ссылку в своем гайде. Просто введите имя, нажмите кнопку &laquo;Сохранить&raquo; и следуйте появившимся инструкциям.</li>
+
+<li><b>В: Какой урон моих навыков?</b><br />
+О: Я не знаю, и этот планировщик вам не может сказать.
+Воспользуйтесь <a href="http://modsbylaz.14.forumer.com/viewtopic.php?t=10204" target="_blank">Skill Progression Project</a>, хотя он неполный и частично устарел.</li>
+
+<li><b>В: Некоторые иконки навыков неправильные!</b><br />
+О: Некоторые иконки навыков изменились в более новых патчах. Этот калькулятор всегда будет использовать самые новые иконки для всех навыков.</li>
+
+<li><b>В: Я заметил баг или у меня есть предложение</b><br />
+О: Отписывайтесь в <a href="http://modsbylaz.14.forumer.com/viewtopic.php?t=10949" target="_blank">этой теме</a> (на английском) или свяжитесь со мной в IRC. Я обязательно исправлю серьезные баги.</li>
+
+<li><b>В: Я не могу качать навык паладина &laquo;Свет и Тень&raquo;!</b><br />
+О: Игра так работала до Омеги 002. Для начала прокачайте любой святой или нечестивый навык.</li>
+
+<li><b>В: Могу ли я выкладывать этот планировщик на своей страничке или в других общедоступных местах?</b><br />
+О: Только с моего разрешения.</li>
+
+<li><b>В: Кого я должен благодарить за такую классную штуку?</b><br />
+О: Brother Laz'а конечно, потому что он создал этот мод и иконки навыков. :p<br />
+Я (<a href="http://modsbylaz.14.forumer.com/profile.php?mode=viewprofile&u=9163" target="_blank">Tub</a>) всего лишь потратил пару часов на то, чтобы сваять этот небольшой 1000-строчный скрипт, надеясь, что другим он будет полезен так же, как и мне.<br />
+kambala (<a href="http://modsbylaz.14.forumer.com/profile.php?mode=viewprofile&u=26239" target="_blank">1</a>, <a href="http://diablozone.net/forum/index.php?showuser=40998" target="_blank">2</a>, <a href="http://forum.worldofplayers.ru/member.php?u=60591" target="_blank">3</a>) перевёл этот планировщик на русский язык.</li>
+
+</ul>
+
+<span style="display: block; text-align:center;">
+	<a href="#" onClick="showFaq(false);return false;">закрыть FAQ</a>
+</span>
+</div>
+</div>
+
+
+<form name="mainform" id="mainform" action="" onsubmit="return false;">
+
+<div style="width: 1000px; margin: 0 auto 10px auto; text-align: center;">
+Самую свежую версию этого скрипта всегда можно найти на <a href="http://authmann.de/d2/mxl/skillpointplanner/" target="_blank">его официальной страничке</a>.<br />
+Ссылка для оффлайн плана <input type="text" name="offline_link" size="100" value="" onkeypress="load()" keycode="enter" /> <input type="button" name="btnShow" value="показать" onclick="load()" />
+</div>
+
+<table style="margin: 0 auto; border: 2px solid black;" cellspacing="0"><tr><td style="width: 500px; border-right: 2px solid black;" rowspan="18">
+
+<!-- begin first cell -->
+Версия Median XL: <select name="version" size="1" onchange="changeVersion()">
+				<option value="199d">1.99d</option>
+				<option value="1A9">1.A9</option>
+				<option value="1D9">1.D9</option>
+				<option value="1E9">1.E9</option>
+				<option value="1F9">1.F9</option>
+				<option value="1G9">1.G9</option>
+				<option value="1Z9">1.Z9</option>
+				<option value="O001">&#937; 001</option>
+				<option value="O002">&#937; 002</option>
+				<option value="O003">&#937; 003</option>
+				<option value="2012">2012</option>
+				<option value="2012004">2012 v004</option>
+				<option value="2012005" selected="selected">2012 v005</option>
+			</select>
+<select name="class" size="1" onchange="changeClass()">
+				<option value="1">Амазонка</option>
+				<option value="2">Ассассин</option>
+				<option value="3">Варвар</option>
+				<option value="4">Друид</option>
+				<option value="5">Некромант</option>
+				<option value="6">Паладин</option>
+				<option value="7">Колдунья</option>
+			</select>
+Уровень <input type="text" value="120" name="clvl" size="3" maxlength="3" onchange="recalculate()" /><br />
+Название плана <input type="text" name="cname" value="" onchange="changeName()" /> <input type="button" value="Сохранить" onclick="save()" /> <input type="button" onclick="resetSkills();" value="Сброс навыков" /><br />
+<br />
+вложено: <span id="pspent">0</span> из <span id="pavail">0</span> очков, 
+максимальный уровень навыков: +<span id="slvlbonus">0</span><br />
+<br />
+
+<table border="0" width="100%" class="bonustable">
+	<tr><td>Логово Зла<br /><small>(+1 очко навыка за каждый)</small></td><td>
+		<input type="checkbox" checked="checked" value="1" name="q1_0" onchange="recalculate()" /> Ненависть<br />
+		<input type="checkbox" checked="checked" value="1" name="q1_1" onchange="recalculate()" /> Ужас<br />
+		<input type="checkbox" checked="checked" value="1" name="q1_2" onchange="recalculate()" /> Разрушение<br />
+	</td></tr>
+	<tr><td>Радамент<br /><small>(+1 очко навыка за каждый)</small></td><td>
+		<input type="checkbox" checked="checked" value="1" name="q2_0" onchange="recalculate()" /> Ненависть<br />
+		<input type="checkbox" checked="checked" value="1" name="q2_1" onchange="recalculate()" /> Ужас<br />
+		<input type="checkbox" checked="checked" value="1" name="q2_2" onchange="recalculate()" /> Разрушение<br />
+	</td></tr>
+	<tr><td>Тираэль<br /><small>(+2 очка навыка за каждый)</small></td><td>
+		<input type="checkbox" checked="checked" value="2" name="q3_0" onchange="recalculate()" /> Ненависть<br />
+		<input type="checkbox" checked="checked" value="2" name="q3_1" onchange="recalculate()" /> Ужас<br />
+		<input type="checkbox" checked="checked" value="2" name="q3_2" onchange="recalculate()" /> Разрушение<br />
+	</td></tr>
+	<tr><td>Испытание Эннеады<br /><small>(открывает навык Эннеады<span id="enneadplusone">, +1 максимальный уровень навыков</span>)</small></td><td><input type="checkbox" checked="checked" value="1" name="ennead" onchange="recalculate()" /></td></tr>
+	<tr><td>Испытание Чёрной Дороги<br /><small>(открывает навык Чёрной Дороги)</small></td><td><input type="checkbox" checked="checked" value="1" name="blackroad" onchange="recalculate()" /></td></tr>
+	<tr id="minigamerow"><td>Мини-игры<br /><small>(+1 максимальный уровень навыков за каждую)</small></td><td>
+		<input type="checkbox" checked="checked" value="1" name="m0" onchange="recalculate()" /> Королева Ведьм<br />
+		<input type="checkbox" checked="checked" value="1" name="m1" onchange="recalculate()" /> Коронация<br />
+		<span id="windowsinhell"><input type="checkbox" checked="checked" value="1" name="m2" onchange="recalculate()" /> У них есть Окна в Аду<br /></span>
+		<input type="checkbox" checked="checked" value="1" name="m3" onchange="recalculate()" /> Зеркало Зеркало<br />
+	</td></tr>
+	<tr><td>Элдрик Житан: Луна Паука<br /><small>(+1 максимальный уровень навыков)</small></td><td><input type="checkbox" checked="checked" value="1" name="q4" onchange="recalculate()" /></td></tr>
+	<tr><td>Бартук: Наследие Крови<br /><small>(+2 максимальный уровень навыков)</small></td><td><input type="checkbox" checked="checked" value="2" name="q5" onchange="recalculate()" /></td></tr>
+	<tr><td>Старый Бреммтаун<br /><small>(+1 максимальный уровень навыков)</small></td><td><input type="checkbox" checked="checked" value="1" name="q6" onchange="recalculate()" /></td></tr>
+	<tr><td>Тораджа<br /><small>(+<span id="toraja_bonus"></span> максимальный уровень навыков)</small></td><td><input type="checkbox" checked="checked" value="1" name="q7" onchange="recalculate()" /></td></tr>
+	<tr><td>Дрекавац (руна Таха в перчатки)<br /><small>(+1 максимальный уровень навыков)</small></td><td><input type="checkbox" checked="checked" value="1" name="q8" onchange="recalculate()" /></td></tr>
+	<tr id="ac500_row"><td>Испытание Атрибутов 500<br /><small>(+2 максимальный уровень навыков)</small></td><td><input type="checkbox" value="2" name="ac500" onchange="recalculate()" /></td></tr>
+	<tr id="slvl_by_item_row"><td><span id="venefica">Венефика (руна Куор в броню Колдуньи)<br /><small>(+1 максимальный уровень навыков)</small></span>
+		<span id="hornedhunter">Рогатый Охотник (СУ Олений Лук)<br /><small>(+1 к Викканству -> +1 максимальный уровень навыков)</small></span>
+		</td><td><input type="checkbox" value="1" name="q9" checked="checked" onchange="recalculate()" /></td></tr>
+	<tr id="energy_row"><td>Базовая Энергия<br /><small>(+1 к Навыкам Крови за каждые 100 единиц Энергии)</small></td><td><input type="text" size="4" value="15" name="energy" onchange="recalculate()" /></td></tr>
+	<tr id="signetofskillrow"><td>Печати Навыка<br /><small>(+1 очко навыка за каждую)</small></td><td>
+		<input type="checkbox" checked="checked" value="1" name="sos0" onchange="recalculate()" />
+		<input type="checkbox" checked="checked" value="1" name="sos1" onchange="recalculate()" />
+		<input type="checkbox" checked="checked" value="1" name="sos2" onchange="recalculate()" />
+	</td></tr>
+	<tr><td colspan="2" style="text-align: center;">
+		<input type="button" onclick="checkAll(false);" value="Снять выделение" />
+		<input type="button" onclick="checkAll(true);" value="Выделить всё" />
+	</td></tr>
+</table>
+
+<br />
+<br />
+<div style="text-align: center;">
+	Впервые пользуетесь? Прочтите <a href="#" onClick="showFaq();return false;">FAQ</a>
+</div>
+
+<!-- end first cell -->
+</td>
+
+<!-- begin autogenerated part -->
+	<td class="skillicon" id="skill21_img"></td><td style="width:200px"><span id="skill21_name">Название</span><br /><input type="button" id="skill21_minus" onclick="clickLower(event, 21)" value="-"/><input name="skill21_points" value="0" size="2" onchange="recalculate()" /><input type="button" id="skill21_plus" onclick="clickRaise(event, 21)" value="+"/> <span id="skill21_max">0</span></td>	<td class="skillicon" id="skill26_img"></td><td style="width:200px"><span id="skill26_name">Название</span><br /><input type="button" id="skill26_minus" onclick="clickLower(event, 26)" value="-"/><input name="skill26_points" value="0" size="2" onchange="recalculate()" /><input type="button" id="skill26_plus" onclick="clickRaise(event, 26)" value="+"/> <span id="skill26_max">0</span></td></tr>
+<tr>
+	<td class="skillicon" id="skill22_img"></td><td style="width:200px"><span id="skill22_name">Название</span><br /><input type="button" id="skill22_minus" onclick="clickLower(event, 22)" value="-"/><input name="skill22_points" value="0" size="2" onchange="recalculate()" /><input type="button" id="skill22_plus" onclick="clickRaise(event, 22)" value="+"/> <span id="skill22_max">0</span></td>	<td class="skillicon" id="skill27_img"></td><td style="width:200px"><span id="skill27_name">Название</span><br /><input type="button" id="skill27_minus" onclick="clickLower(event, 27)" value="-"/><input name="skill27_points" value="0" size="2" onchange="recalculate()" /><input type="button" id="skill27_plus" onclick="clickRaise(event, 27)" value="+"/> <span id="skill27_max">0</span></td></tr>
+<tr>
+	<td class="skillicon" id="skill23_img"></td><td style="width:200px"><span id="skill23_name">Название</span><br /><input type="button" id="skill23_minus" onclick="clickLower(event, 23)" value="-"/><input name="skill23_points" value="0" size="2" onchange="recalculate()" /><input type="button" id="skill23_plus" onclick="clickRaise(event, 23)" value="+"/> <span id="skill23_max">0</span></td>	<td class="skillicon" id="skill28_img"></td><td style="width:200px"><span id="skill28_name">Название</span><br /><input type="button" id="skill28_minus" onclick="clickLower(event, 28)" value="-"/><input name="skill28_points" value="0" size="2" onchange="recalculate()" /><input type="button" id="skill28_plus" onclick="clickRaise(event, 28)" value="+"/> <span id="skill28_max">0</span></td></tr>
+<tr>
+	<td class="skillicon" id="skill24_img"></td><td style="width:200px"><span id="skill24_name">Название</span><br /><input type="button" id="skill24_minus" onclick="clickLower(event, 24)" value="-"/><input name="skill24_points" value="0" size="2" onchange="recalculate()" /><input type="button" id="skill24_plus" onclick="clickRaise(event, 24)" value="+"/> <span id="skill24_max">0</span></td>	<td class="skillicon" id="skill29_img"></td><td style="width:200px"><span id="skill29_name">Название</span><br /><input type="button" id="skill29_minus" onclick="clickLower(event, 29)" value="-"/><input name="skill29_points" value="0" size="2" onchange="recalculate()" /><input type="button" id="skill29_plus" onclick="clickRaise(event, 29)" value="+"/> <span id="skill29_max">0</span></td></tr>
+<tr>
+	<td class="skillicon" id="skill25_img"></td><td style="width:200px"><span id="skill25_name">Название</span><br /><input type="button" id="skill25_minus" onclick="clickLower(event, 25)" value="-"/><input name="skill25_points" value="0" size="2" onchange="recalculate()" /><input type="button" id="skill25_plus" onclick="clickRaise(event, 25)" value="+"/> <span id="skill25_max">0</span></td>	<td class="skillicon" id="skill30_img"></td><td style="width:200px"><span id="skill30_name">Название</span><br /><input type="button" id="skill30_minus" onclick="clickLower(event, 30)" value="-"/><input name="skill30_points" value="0" size="2" onchange="recalculate()" /><input type="button" id="skill30_plus" onclick="clickRaise(event, 30)" value="+"/> <span id="skill30_max">0</span></td></tr>
+<tr style="background-color: black;"><td colspan="4" style="height:4px"></td></tr>
+<tr>
+	<td class="skillicon" id="skill11_img"></td><td style="width:200px"><span id="skill11_name">Название</span><br /><input type="button" id="skill11_minus" onclick="clickLower(event, 11)" value="-"/><input name="skill11_points" value="0" size="2" onchange="recalculate()" /><input type="button" id="skill11_plus" onclick="clickRaise(event, 11)" value="+"/> <span id="skill11_max">0</span></td>	<td class="skillicon" id="skill16_img"></td><td style="width:200px"><span id="skill16_name">Название</span><br /><input type="button" id="skill16_minus" onclick="clickLower(event, 16)" value="-"/><input name="skill16_points" value="0" size="2" onchange="recalculate()" /><input type="button" id="skill16_plus" onclick="clickRaise(event, 16)" value="+"/> <span id="skill16_max">0</span></td></tr>
+<tr>
+	<td class="skillicon" id="skill12_img"></td><td style="width:200px"><span id="skill12_name">Название</span><br /><input type="button" id="skill12_minus" onclick="clickLower(event, 12)" value="-"/><input name="skill12_points" value="0" size="2" onchange="recalculate()" /><input type="button" id="skill12_plus" onclick="clickRaise(event, 12)" value="+"/> <span id="skill12_max">0</span></td>	<td class="skillicon" id="skill17_img"></td><td style="width:200px"><span id="skill17_name">Название</span><br /><input type="button" id="skill17_minus" onclick="clickLower(event, 17)" value="-"/><input name="skill17_points" value="0" size="2" onchange="recalculate()" /><input type="button" id="skill17_plus" onclick="clickRaise(event, 17)" value="+"/> <span id="skill17_max">0</span></td></tr>
+<tr>
+	<td class="skillicon" id="skill13_img"></td><td style="width:200px"><span id="skill13_name">Название</span><br /><input type="button" id="skill13_minus" onclick="clickLower(event, 13)" value="-"/><input name="skill13_points" value="0" size="2" onchange="recalculate()" /><input type="button" id="skill13_plus" onclick="clickRaise(event, 13)" value="+"/> <span id="skill13_max">0</span></td>	<td class="skillicon" id="skill18_img"></td><td style="width:200px"><span id="skill18_name">Название</span><br /><input type="button" id="skill18_minus" onclick="clickLower(event, 18)" value="-"/><input name="skill18_points" value="0" size="2" onchange="recalculate()" /><input type="button" id="skill18_plus" onclick="clickRaise(event, 18)" value="+"/> <span id="skill18_max">0</span></td></tr>
+<tr>
+	<td class="skillicon" id="skill14_img"></td><td style="width:200px"><span id="skill14_name">Название</span><br /><input type="button" id="skill14_minus" onclick="clickLower(event, 14)" value="-"/><input name="skill14_points" value="0" size="2" onchange="recalculate()" /><input type="button" id="skill14_plus" onclick="clickRaise(event, 14)" value="+"/> <span id="skill14_max">0</span></td>	<td class="skillicon" id="skill19_img"></td><td style="width:200px"><span id="skill19_name">Название</span><br /><input type="button" id="skill19_minus" onclick="clickLower(event, 19)" value="-"/><input name="skill19_points" value="0" size="2" onchange="recalculate()" /><input type="button" id="skill19_plus" onclick="clickRaise(event, 19)" value="+"/> <span id="skill19_max">0</span></td></tr>
+<tr>
+	<td class="skillicon" id="skill15_img"></td><td style="width:200px"><span id="skill15_name">Название</span><br /><input type="button" id="skill15_minus" onclick="clickLower(event, 15)" value="-"/><input name="skill15_points" value="0" size="2" onchange="recalculate()" /><input type="button" id="skill15_plus" onclick="clickRaise(event, 15)" value="+"/> <span id="skill15_max">0</span></td>	<td class="skillicon" id="skill20_img"></td><td style="width:200px"><span id="skill20_name">Название</span><br /><input type="button" id="skill20_minus" onclick="clickLower(event, 20)" value="-"/><input name="skill20_points" value="0" size="2" onchange="recalculate()" /><input type="button" id="skill20_plus" onclick="clickRaise(event, 20)" value="+"/> <span id="skill20_max">0</span></td></tr>
+<tr style="background-color: black;"><td colspan="4" style="height:4px"></td></tr>
+<tr>
+	<td class="skillicon" id="skill1_img"></td><td style="width:200px"><span id="skill1_name">Название</span><br /><input type="button" id="skill1_minus" onclick="clickLower(event, 1)" value="-"/><input name="skill1_points" value="0" size="2" onchange="recalculate()" /><input type="button" id="skill1_plus" onclick="clickRaise(event, 1)" value="+"/> <span id="skill1_max">0</span></td>	<td class="skillicon" id="skill6_img"></td><td style="width:200px"><span id="skill6_name">Название</span><br /><input type="button" id="skill6_minus" onclick="clickLower(event, 6)" value="-"/><input name="skill6_points" value="0" size="2" onchange="recalculate()" /><input type="button" id="skill6_plus" onclick="clickRaise(event, 6)" value="+"/> <span id="skill6_max">0</span></td></tr>
+<tr>
+	<td class="skillicon" id="skill2_img"></td><td style="width:200px"><span id="skill2_name">Название</span><br /><input type="button" id="skill2_minus" onclick="clickLower(event, 2)" value="-"/><input name="skill2_points" value="0" size="2" onchange="recalculate()" /><input type="button" id="skill2_plus" onclick="clickRaise(event, 2)" value="+"/> <span id="skill2_max">0</span></td>	<td class="skillicon" id="skill7_img"></td><td style="width:200px"><span id="skill7_name">Название</span><br /><input type="button" id="skill7_minus" onclick="clickLower(event, 7)" value="-"/><input name="skill7_points" value="0" size="2" onchange="recalculate()" /><input type="button" id="skill7_plus" onclick="clickRaise(event, 7)" value="+"/> <span id="skill7_max">0</span></td></tr>
+<tr>
+	<td class="skillicon" id="skill3_img"></td><td style="width:200px"><span id="skill3_name">Название</span><br /><input type="button" id="skill3_minus" onclick="clickLower(event, 3)" value="-"/><input name="skill3_points" value="0" size="2" onchange="recalculate()" /><input type="button" id="skill3_plus" onclick="clickRaise(event, 3)" value="+"/> <span id="skill3_max">0</span></td>	<td class="skillicon" id="skill8_img"></td><td style="width:200px"><span id="skill8_name">Название</span><br /><input type="button" id="skill8_minus" onclick="clickLower(event, 8)" value="-"/><input name="skill8_points" value="0" size="2" onchange="recalculate()" /><input type="button" id="skill8_plus" onclick="clickRaise(event, 8)" value="+"/> <span id="skill8_max">0</span></td></tr>
+<tr>
+	<td class="skillicon" id="skill4_img"></td><td style="width:200px"><span id="skill4_name">Название</span><br /><input type="button" id="skill4_minus" onclick="clickLower(event, 4)" value="-"/><input name="skill4_points" value="0" size="2" onchange="recalculate()" /><input type="button" id="skill4_plus" onclick="clickRaise(event, 4)" value="+"/> <span id="skill4_max">0</span></td>	<td class="skillicon" id="skill9_img"></td><td style="width:200px"><span id="skill9_name">Название</span><br /><input type="button" id="skill9_minus" onclick="clickLower(event, 9)" value="-"/><input name="skill9_points" value="0" size="2" onchange="recalculate()" /><input type="button" id="skill9_plus" onclick="clickRaise(event, 9)" value="+"/> <span id="skill9_max">0</span></td></tr>
+<tr>
+	<td class="skillicon" id="skill5_img"></td><td style="width:200px"><span id="skill5_name">Название</span><br /><input type="button" id="skill5_minus" onclick="clickLower(event, 5)" value="-"/><input name="skill5_points" value="0" size="2" onchange="recalculate()" /><input type="button" id="skill5_plus" onclick="clickRaise(event, 5)" value="+"/> <span id="skill5_max">0</span></td>	<td class="skillicon" id="skill10_img"></td><td style="width:200px"><span id="skill10_name">Название</span><br /><input type="button" id="skill10_minus" onclick="clickLower(event, 10)" value="-"/><input name="skill10_points" value="0" size="2" onchange="recalculate()" /><input type="button" id="skill10_plus" onclick="clickRaise(event, 10)" value="+"/> <span id="skill10_max">0</span></td></tr>
+<!-- end autogenerated part -->
+
+<tr><td colspan="4"> </td></tr>
+</table>
+<div class="copy">Версия 1.12, Скрипт &copy; 2010-2012 <a href="http://modsbylaz.14.forumer.com/profile.php?mode=viewprofile&u=9163" target="_blank">Tub</a>, Median XL и все иконки навыков &copy; <a href="http://modsbylaz.hugelaser.com/" target="_blank">BrotherLaz</a>, перевод планировщика &copy; <a href="http://modsbylaz.14.forumer.com/profile.php?mode=viewprofile&u=26239" target="_blank">kambala</a>.<br />
+Пожалуйста направляйте все отзывы и отчёты об ошибках на английском в <a href="http://modsbylaz.14.forumer.com/viewtopic.php?t=10949" target="_blank">эту тему</a> или на русском - в <a href="http://forum.worldofplayers.ru/showthread.php?t=33660" target="_blank">эту</a>.</div>
+
+</form>
+</body>
+</html>

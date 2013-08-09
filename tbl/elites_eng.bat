@@ -1,0 +1,1 @@
+perl fix_elites_colorcodes.pl "2012 005 en\expansionstring.txt" "2012 005 en\string.txt" "2012 005 en\patchstring.txt"

@@ -1,0 +1,9 @@
+ancient's hand:
+
+Вот англ. строка: Hits Multiple Times
+ Converts 100% Physical Damage to Fire Damage
+
+ Вот рус. строка: Бьет Несколько Раз
+ Преобразовывает 100% Физического Урона в Магический
+
+ строка номер 8539, expansionstring

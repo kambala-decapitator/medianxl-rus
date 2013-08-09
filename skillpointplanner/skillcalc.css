@@ -1,0 +1,60 @@
+body {
+	background-color: #CCCCCC;
+}
+td {
+	text-align: left;
+	vertical-align: top;
+}
+input[type="button"] {
+	padding: 0px 2px;
+	border-width: 1px;
+	border-top-color: #940000;
+	border-right-color: #940000;
+	border-left-color: #290000;
+	border-bottom-color: #290000;
+	background-color: #5A1008;
+	color: #B5B59C;
+	text-align: center;
+	margin: 0 2px;
+	font-family: "Courier New", monospace;
+	font-weight: bold;
+}
+
+table.bonustable td {
+	border-bottom: 1px solid #BBBBBB;
+}
+div.copy {
+	font-size: smaller;
+	text-align: center;
+}
+
+td.skillicon {
+	width: 50px;
+	height: 50px;
+	padding: 0px;
+	background-repeat: no-repeat;
+	background-image: none;
+}
+
+#blackout {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	overflow: hidden;
+	opacity: 0.6;
+	-moz-opacity: 0.6;
+	filter: alpha(opacity=60);
+}
+
+#overlay div {
+	position: absolute;
+	background-color: white;
+	left: 180px;
+	right: 180px;
+	top: 300px;
+	border: 2px solid black;
+	padding: 20px;
+}

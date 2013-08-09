@@ -1,0 +1,673 @@
+/* -------------------- BASE STYLES -------------------- */
+
+/* base style for all pages */
+body {
+	background-color: #CCCCCC; /*AAABBB*/
+	color: #222222;
+	margin: 7px 5px 0px 5px;
+	font-family: Arial, sans-serif;
+	font-size: 8pt;
+	width:100%;
+	}
+/* whatever this means, I guess it's the bottom margin of a paragraph? Curse legacy code */
+p {
+	margin-bottom: 1em;
+	}
+
+/* -------------------- DIV SPECIFIC STYLES -------------------- */
+
+/* totally shotgun debugging... omg what a mess */
+div.text_on_the_left {
+	width:auto;
+	float:left;
+	position:relative;
+	min-width: 100px;
+	}
+div.ad_on_the_right {
+	width:300px;
+	float:right;
+	text-align:right;
+	vertical-align: middle;
+	position:absolute;
+	right: 0px;
+	}
+/* the box containing the gamespy banner; currently not used on the new server, but remains to serve the ads on the redirection page */
+div.banner {
+	height: 90px;
+	overflow: visible;
+	}
+
+/* -------------------- CONTENT SPECIFIC STYLES -------------------- */
+
+/* most regular pages */
+body.content {
+	background: #CCCCCC;
+	text-align:left;
+	vertical-align: top;
+	float:none;
+	}
+/* narrower pages, like the introduction page */
+body.content2 {
+	background: #CCCCCC;
+	width: 350px;
+	float:none;
+	}
+/* special content in square box */
+div.imabox {
+	border-style: hidden; /* left in css because I might want to turn it back on */
+	border-width:1px;
+	width:680px;
+	padding: 5px 5px 5px 0px;
+	margin: 15px 0px 0px 0px;
+	background-color: #AAAAAA;
+	}
+/* same as the above, but wider - used on the HMC page */
+div.imaboxtoo {
+	border-style: hidden;
+	border-width:1px;
+	width:560px;
+	padding: 7px;
+	margin: 15px 5px 5px 5px;
+	background-color: #AAAAAA;
+	}
+/* challenge box */
+div.overviewbox {
+	border-style: hidden; /* left in css because I might want to turn it back on */
+	border-width:1px;
+	width:360px;
+	padding: 5px 5px 5px 0px;
+	margin: 15px 0px 0px 0px;
+	background-color: #AAAAAA;
+	}
+/* a 'ps' box inside the text */
+div.psbox {
+	border-style: hidden;
+	border-width:1px;
+	width:250px;
+	padding: 7px;
+	margin: 0px 0px 0px 0px;
+	background-color: #AAAAAA;
+	position: relative;
+	left:50px;
+	}
+/* bold text, for eg. item names on character pages */
+div.black {
+	margin-left:75px;
+	font-weight:bold;
+	}
+
+/* -------------------- FRAME SPECIFIC STYLES -------------------- */
+
+/* The original developer wrote 'keep the distance between the text and the line minimal (actually it's increased by the lines style, but this lets us fix it to exactly how we want it)' and I have no idea what this is about */
+#left_top p {
+	margin: 0px;
+	}
+/* width of the regular content pages */
+.content {
+	width: 600px;
+	margin-left:50px;
+	}
+/* width of the narrower content pages */
+.content2 {
+	width: 350px;
+	margin-left:50px;
+	}
+/* width of the inline tables' left column */
+.tableleft {
+	margin-left:75px;
+	font-weight:bold;
+	}
+/* the difference with .content is what exactly? Whatever, it works */
+* html .content {
+	width: 600px;
+	margin-left:50px;
+	}
+/* the difference with .content2 is what exactly? Whatever, it works */
+* html .content2 {
+	width: 350px;
+	margin-left:50px;
+	}
+/* the difference with .tableleft is what exactly? Whatever, it works */
+* html .tableleft{
+	margin-left:75px;
+	font-weight:bold;
+	}
+/* frame: the basic menu at the bottom left */
+body.left_bottom {
+	background: #959595 url(images/leftnav_bg.gif) no-repeat fixed top right; /*777780*/
+	color: #555555; /*#A6846A;*/
+	margin: 7px 5px 0px 5px; /* USED */
+	position: absolute;
+	text-align: right;
+	bottom: 0px;
+	right: 0px;
+	}
+/* frame: always visible left navigation menu */
+body.navdefault {
+	background: #888888 url(images/interface/triangle_low.gif) no-repeat fixed bottom right;
+	color: #555555;
+	margin: 7px 5px 0px 5px;
+	position: absolute;
+	text-align: right;
+	bottom: 0px;
+	right: 0px;
+	}
+/* frame: unfolding left navigation menu */
+body.navleft {
+	background: #888888 url(images/interface/triangle_low.gif) no-repeat fixed bottom right;
+	color: #555555;
+	margin: 7px 5px 0px 5px;
+	position: absolute;
+	text-align: right;
+	bottom: 0px;
+	right: 0px;
+	}
+/* frame: top left frame with hit counter */
+body.left_top {
+	background-color: #BBBBBB;
+	background: #BBBBBB url(images/interface/triangle.gif) no-repeat fixed bottom right;
+	color: #705050;
+	margin: 2px 5px 0px 5px;
+	position: absolute;
+	text-align: right;
+	vertical-align: top
+	bottom: 0px;
+	right: 0px;
+	}
+/* frame: long wide bottom banner thing that isn't used for anything useful */
+body.bottom_banner {
+	background: #999999 url(images/bottombanner_bg.gif) no-repeat fixed top right; /*777780*/
+	color: #705050;
+	margin: 1px 5px 0px 5px;
+	position: absolute;
+	text-align: right;
+	vertical-align: top
+	bottom: 0px;
+	left: 0px;
+	}
+
+/* -------------------- TABLE STYLES -------------------- */
+
+/* to get the various tables to show up right */
+#allskills {
+	font-size: inherit;
+}
+#uniques {
+	font-size: inherit;
+	}
+#sets {
+	font-size: inherit;
+	}
+/* .content {} */
+/* table background colours and style overrides for various applications */
+td.intertable {
+	vertical-align:middle;
+	height:45px;
+	}
+td.green {
+	background-color: #558855;
+	}
+td.red {
+	background-color: #885555;
+	}
+td.red_email {
+	background-color: #885555;
+	}
+td.blue {
+	background-color: #555570;
+	}
+td.yellow {
+	background-color: #909000;
+	}
+td.orange2 {
+	background-color: #887033;
+	}
+td.white {
+	background-color: #CCCCCC;
+	}
+td.gold {
+	background-color: #706033;
+	}
+td.gray {
+	background-color: #666666;
+	}
+td.recipe {
+	background-color: #A0A0A0;
+	}
+td.black {
+	background-color: #555555;
+	}
+td.crafting {
+	background-color: #B4B4B4;
+	}
+/* some of these, like this one, are currently not used but will be applied to monster stats in the future */
+td.stamdrain {
+	background-color: #C6C6C6;
+	}
+td.purple {
+	background-color: #887088;
+	}
+td.ice {
+	background-color: #555588;
+	}
+td.drain {
+	background-color: #884400;
+	}
+td.rand {
+	background-color: #885588;
+	}
+td.softice {
+	background-color: #8888AA;
+	}
+td.softgray {
+	background-color: #888888;
+	}
+table.cube {
+	padding: 0px;
+	border-width: 0px;
+	border-style: solid;
+	border-color: #333333;
+	border-spacing: 0px;
+	width: 600px;
+	}
+table.craftpoints {
+	padding: 0px;
+	border-width: 0px;
+	border-style: solid;
+	border-color: #333333;
+	border-spacing: 0px;
+	width: 550px;
+	}
+
+/* -------------------- FONT STYLES -------------------- */
+
+/* big bad letters used in page titles */
+.genbig {
+	font-family: Arial, sans-serif;
+	font-size: 12pt;
+	font-weight: bold;
+	color: #626262; /* used to be 626270*/
+	}
+/* smaller and slightly less bad letters used in section titles et al */
+.gensmall {
+	font-family: Arial, sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+	color: #626262;
+	}
+/* generic small text style, used by the small caps in some places */
+.genflat {
+	font-family: Arial, sans-serif;
+	font-size: 8pt;
+	text-align: justify;
+	}
+/* similar to the previous one, but centred */
+.cenflat {
+	font-family: Arial, sans-serif;
+	font-size: 8pt;
+	text-align: center;
+	}
+/* generic small text style for the bottomnav, leftnav and left_top frames, with a different colour */
+/* this is a secret message for people rooting through files like this. I'm watching you */
+.leftsmall {
+	font-family: Arial, sans-serif;
+	font-size: 8pt;
+	color: #222222; /*text colour*/
+	}
+/* I have no idea what this one is about */
+.refer {
+	font-family: Arial, sans-serif;
+	font-size:8pt;
+	font-weight:bold;
+	color: #727272;
+	}
+/* special text colour spans to draw attention, display item grades etc */
+.unique {
+	color: #706033;
+	}
+.magic {
+	color: #555570;
+	}
+.rare {
+	color: #909000;
+	}
+.unique {
+	color: #706033;
+	}
+.reagent {
+	color: #884400;
+	margin:0px 0px 0px 65px;
+	/*border: 1px solid #665500;
+	padding: 2px;*/
+	}
+.set {
+	color: #117011;
+	}
+.grey {
+	color: #777777;
+	}
+.darkergrey {
+	color: #555555;
+	}
+.holy {
+	color: #886600;
+	}
+.unholy {
+	color: #AA66AA;
+	}
+.orange {
+	color: #706033;
+	}
+.red {
+	color: #705050;
+	}
+.red2 {
+	color: #804022;
+	}
+.red3 {
+	color: #604242;
+	}
+.text {
+	color: #222222;
+	}
+.blank {
+	color: #CCCCCC;
+	}
+/* special font type/style so cube recipes would stand out */
+.cubesmall {
+	font-family: Arial, sans-serif;
+	font-size: 11pt;
+	color: #565240;
+	font-weight: bold;
+	/*text-decoration: underline;
+	font-style: italic;*/
+	/*border: 1px solid #665500;
+	padding: 2000px 20px 8px 0px;*/
+	}
+/* small text used on the skills page for skill descriptions */
+.betasmall {
+	font-family: Arial, sans-serif;
+	font-size: 8pt;
+	text-align: left;
+	}
+/* same as the previous one, but only for the items page */
+.itemsmall {
+	font-family: Arial, sans-serif;
+	font-size: 8pt;
+	}
+/* same as the previous one again, but now for the monsters */
+.monsmall {
+	font-family: Arial, sans-serif;
+	font-size: 8pt;
+	}
+/* same as the previous one, but now for the skill page tables --- CHECK: no longer used? */
+.skillsmall {
+	font-family: Arial, sans-serif;
+	font-size: 8pt;
+	text-align: center;
+	}
+
+/* -------------------- LINK STYLES -------------------- */
+
+/* the links in the regular text; this appears to be ignored? I suspect it conflicts with something else, like images */
+a {
+	color: #333333; /* used to be 333342 */
+	font-family: Arial, sans-serif;
+	font-size: 8pt;
+	text-decoration: none;
+	}
+/* all unvisited links */
+a:link  {
+	color: #333333;
+	text-decoration: none;
+	}
+/* visited links */
+a:visited  {
+	color: #333333;
+	text-decoration: none;
+	}
+/* selected links */
+a:active  {
+	color: #EEEEFF;
+	text-decoration: none;
+	}
+/* links being hovered on */
+a:hover  {
+	color: #EEEEFF;
+	text-decoration: none;
+	}
+
+/* -------------------- HR/FRAME BORDER STYLES -------------------- */
+
+/* default horizontal lines */
+hr {
+	height: 1px;
+	border: 0px; /* overcomes hr color bug in FF */
+	border-top: 1px solid #444444; /* upper border only so the thickness can go below 2px */
+}
+/* the horizontal lines on regular content pages */
+.content hr {
+	width: 250px;
+	margin-left: 0px;
+	text-align: left;
+	}
+/* the horizontal lines on narrow content pages */
+.content2 hr {
+	width: 250px;
+	margin-left: 0px;
+	text-align: left;
+	}
+/* the irritating lines on the runeword page that refuse to remain short */
+.runewordpage hr {
+	width: 450px;
+	margin-left: 0px;
+	text-align: left;
+	}
+/* same as the previous, but for the lines on the unique item page */
+.uniquepage hr {
+	width: 250px;
+	margin-left: 0px;
+	text-align: left;
+	}
+/* the horizontal line in the top-left corner --- CHECK: no longer used? */
+#leftnothing hr {
+	width: 168px;
+	text-align: right;
+	margin-right: 0px;
+	margin-bottom: 1px;
+	margin-top: 12px;
+	border-top: 1px solid #444444;
+	}
+/* frame definitions */
+frameset, frame {
+	border: 0px none #333342; /* frame border doesn't seem to work in css */
+	margin: 0px;
+	}
+
+/* -------------------- IMAGE STYLES -------------------- */
+
+/* default image settings */
+a img {
+	border: 1px solid #000000;
+	border-color: #000000;
+	}
+img {
+	border: 1px solid #000000;
+	border-color: #000000;
+	}
+/* the lineart images on the character pages --- DEPRECATED */
+img.art {
+	width: 350px;
+	height: 350px;
+	margin-right: 3px;
+	float: bottom;
+	border: 0px;
+	}
+/* the lineart icons, eg. black road */
+img.art2 {
+	width: 50px;
+	height: 50px;
+	margin-top: 18px;
+	margin-right: 3px;
+	float: left;
+	border: 0px;
+	}
+/* the big multicoloured banner image on the welcome page */
+img.welcome {
+	width: 699px;
+	height: 135px;
+	margin-right: 3px;
+	float: bottom;
+	}
+/* the big skyscraper image on the welcome page --- UNUSED */
+img.welcome_vert {
+	width: 276px;
+	height: 276px;
+	margin-right: 0px;
+	margin-left: 4px;
+	float: bottom;
+	}
+/* the smaller pictures, one for each patch, that replace the big skyscraper on the welcome page */
+img.welcome_vert_patches {
+	width: 276px;
+	height: 163px;
+	margin-top:14px;
+	margin-right: 1px;
+	float: bottom;
+	}
+/* stamp format, used for things like the 1.12 compatibility stamp */
+img.stamp {
+	width: 205px;
+	height: 205px;
+	margin-right: 3px;
+	float: bottom;
+	border: 0px;
+	}
+/* splash screen --- CHECK: no longer used? */
+img.splash {
+	margin-right: 3px;
+	float: left;
+	}
+/* the M2008 banner --- CHECK: no longer used? */
+img.smallbanner {
+	width: 212px;
+	height: 50px;
+	margin-right: 3px;
+	float: bottom;
+	}
+/* the old large 'textwall breaker' images scattered throughout the text --- DEPRECATED */
+img.menu {
+	width: 300px;
+	height: 150px;
+	margin-right: 3px;
+	float: bottom;
+	}
+/* the small 'textwall breaker' images scattered throughout the text */
+img.tiny {
+	width: 150px;
+	height: 75px;
+	margin-right: 3px;
+	float: bottom;
+	}
+/* all small clickable screenshots that are not in a grid */
+img.omgpic {
+	width: 200px;
+	height: 150px;
+	margin-right: 3px;
+	float: bottom;
+	}
+/* all small clickable screenshots in a table grid */
+img.omgpic2 {
+	width: 200px;
+	height: 150px;
+	margin-right: 3px;
+	float: left;
+	}
+/* square information pictures, like the swirlies on the level challenge page */
+img.info {
+	width: 150px;
+	height: 150px;
+	margin-right: 3px;
+	margin-left:50px;
+	float: bottom;
+	}
+/* class page introduction pictures */
+img.classintro {
+	width: 150px;
+	height: 150px;
+	margin-right: 3px;
+	float: center;
+	}
+/* small rectangular information pictures with textual screenshots on them, like the green honorific item name */
+img.highlight {
+	width: 150px;
+	height: 50px;
+	margin-right: 3px;
+	margin-left:50px;
+	float: bottom;
+	}
+/* the small armor pictures on the armor page */
+img.vanity {
+	background-color: #808080;
+	width: 50px;
+	height: 90px;
+	margin-right: 3px;
+	float: center;
+	}
+/* similar to the previous, but for full sets; currently not used, awaiting set page redesign */
+img.vanity2 {
+	background-color: #505050;
+	width: 50px;
+	height: 90px;
+	margin-right: 3px;
+	margin-top: 3px;
+	float: left;
+	}
+/* the animation at the top left of the page --- DEPRECATED */
+img.spinner {
+	border: 0px;
+	}
+/* the pictures of individual gems and runes */
+img.aic {
+	border: 0px;
+	}
+/* the skill icons in the skill lists */
+img.skillicon {
+	width: 48px;
+	height: 48px;
+	margin-right: 3px;
+	}
+/* the small black and white class icons on the 'item only skills' page */
+img.charicon {
+	width: 24px;
+	height: 24px;
+	margin-right: 3px;
+	}
+/* the skill icons on the latestnews page; currently not used, but who knows */
+img.skillicon2 {
+	width: 48px;
+	height: 48px;
+	margin-right: 3px;
+	float: bottom;
+	}
+/* the country flags on the linkpage; currently not used due to the absence of a link page, heh --- DEPRECATED */
+img.flag {
+	width: 45px;
+	height: 30px;
+	margin-right: 3px;
+	float: left;
+	}
+/* the inventory pictures of items on the unique and set pages */
+img.item {
+	margin-right: 3px;
+	float: left;
+	padding: 10px;
+	}
+
+/* -------------------- LIST STYLES -------------------- */
+
+ul {
+	margin-left: 25px;
+}
+
+/* -------------------- EOF -------------------- */
