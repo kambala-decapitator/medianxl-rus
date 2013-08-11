@@ -115,7 +115,7 @@ my %phrases = (
 			# one-handed
 	"Short Sword" => "Короткий Меч", "Grim Fang" => "Беспощадный Клык", "The Xiphos" => "Ксифос", "Hellforge Edge" => "Клинок Адской Кузницы", "The Eviscerator" => "Потрошильщик",
 	"Scimitar" => "Ятаган", "Al Nath" => "Эль-Нат", "Al Nair" => "Альнаир", "Kraken's Cutlass" => "Сабля Кракена", "Sherazade" => "Шахерезада",
-	'Saber(?= [(])' => "Сабля", "Wardance" => "Военный Танец", "Infernolash" => "Адский Хлыст", "Saber of the Stormsail" => "Сабля Плаванья в Шторм", "Ice Shank" => "Ледяной Черенок",
+	'Saber(?=(?: [(])|<)' => "Сабля", "Wardance" => "Военный Танец", "Infernolash" => "Адский Хлыст", "Saber of the Stormsail" => "Сабля Плаванья в Шторм", "Ice Shank" => "Ледяной Черенок",
 	"Falchion" => "Фальшион", "Finis Terra" => "Финистерра", "Bone Gasher" => "Разрезатель Костей", "Falx Chthon" => "Серп Хтона", "Shadowhawk" => "Теневой Ястреб",
 	"Broad Sword" => "Широкий Меч", "Raptor Beak" => "Клюв Хищника", "Plaguemourn" => "Чумная Скорбь", "Sarandeshi Hellcaller" => "Адский Зов Сарандеши", "Holy Avenger" => "Святой Мститель",
 	"Long Sword" => "Длинный Меч", "Herr Donner" => "Повелитель Бурь", "Warwind" => "Ветер Войны", "Demacian Justice" => "Демасийское Правосудие", "Excalibur" => "Экскалибур",
@@ -131,7 +131,7 @@ my %phrases = (
 		# axes
 			# one-handed
 	"Hand Axe" => "Ручной Топор", "Brainhack" => "Мозгоруб", "Wererat's Bite" => "Укус Человека-Крысы", "Flintstone Axe" => "Топор Флинстоуна", "Headsman" => "Палач",
-	"(?<! )Axe(?= )" => "Топор", "The Lumberjack" => "Лесоруб", "Throatseeker" => "Горлоискатель", "Lavasurge" => "Волна Лавы", "Frigid Chopper" => "Холодный Тесак",
+	"(?<! )Axe(?=[ <])" => "Топор", "The Lumberjack" => "Лесоруб", "Throatseeker" => "Горлоискатель", "Lavasurge" => "Волна Лавы", "Frigid Chopper" => "Холодный Тесак",
 	"Double Axe" => "Двойной Топор", "Anthem De Frost" => "Гимн Морозу", "Moonbender's Wing" => "Крыло Изгибателя Луны", "Doublecross" => "Надувательство", "Bloodslayer" => "Кровавый Убийца",
 	"Military Pick" => "Военная Кирка", "The Prospector's Pick" => "Кирка Золотоискателя", "Snowhammer" => "Снежный Молот", "Klonk" => "Бумс", "Heaven's Bite" => "Укус Небес",
 	"War Axe" => "Военный Топор", "Rainbowcleave" => "Радужный Раскол", "Nimmenjuushin" => "Людской Зверь", "Fleshmender" => "Починщик Плоти", "Cranebeak" => "Крепкий Клюв",
@@ -886,7 +886,6 @@ my %phrases = (
 	"Icarus" => "Икар",
 	"Drekavac" => "Дрекавац",
 	"Snowsquall" => "Буран",
-	"Knave" => "Жулик",
 	#"Riff Raff" => "Riff Raff", # translation removes AC/DC reference
 		# Boots
 	"Epicenter" => "Эпицентр",
@@ -909,7 +908,7 @@ my %phrases = (
 	"Shaheeda" => "Шахидка",
 	"Showbiz" => "Индустрия Развлечений",
 		# Amazon Shields
-	"Edda" => "Эдда",
+	"Edda(?!r)" => "Эдда",
 	"(?<=>)Lion(?=<)" => "Лев",
 	"Eloi" => "Элои",
 	"Nix" => "Никс",
@@ -1097,7 +1096,7 @@ my %phrases = (
 	"Barbarian Shaman Set" => "Шаманский Комплект Варвара",
 	"Spirits of the Nephalem" => "Духи Нефалема",
 	"The Defender" => "Защитник",
-	"The Protector" => "Покровитель",
+	"(?:The )?Protector" => "Покровитель",
 	"The Guardian" => "Страж",
 	"Destiny" => "Участь",
 	"Sacred Charge" => "Священная Забота",
@@ -1248,6 +1247,59 @@ my %phrases = (
 	"Pentacle" => "Пентакль",
 	"Charge of the Goddess" => "Опека Богини",
 	# last item of the set is not missing, see replacing loop in the end of the script
+		# multiplayer
+	"SECRET MULTIPLAYER-ONLY SET" => "СЕКРЕТНЫЙ СЕРВЕРНЫЙ КОМПЛЕКТ",
+			# crossbow
+	"Crossbow Set" => "Арбалетный Комплект",
+	"Testament of the Apes" => "Завещание Обезьян",
+	"Apefoot" => "Обезьянья Нога",
+	"Apehand" => "Обезьянья Рука",
+	"Apeskull" => "Обезьяний Череп",
+	"Apeskin" => "Обезьянья Шкура",
+	"Apeshoot" => "Обезьяний Выстрел",
+		# tribute
+	"TRIBUTE SETS" => "КОМПЛЕКТЫ-ПОСВЯЩЕНИЯ",
+			# BrotherLaz
+	#"Necromancer Summoner Set" => "", # already present
+	"Archbishop Lazarus" => "Архиепископ Лазарус",
+	"BrotherLaz Tribute Set" => "Комплект-Посвящение BrotherLaz'у",
+	"Laz's Lamen" => "Ламен Лаза",
+	"Laz's Votive Lamp" => "Исполненный По Обету Светоч Лаза",
+	"Laz's Surplice Cap" => "Стихарьская Шапка Лаза",
+	"Laz's Chasuble" => "Риза Лаза",
+			# MarcoNecroX
+	"MarcoNecroX Tribute Set" => "Комплект-Посвящение MarcoNecroX'у",
+	"Cowboys From Hell" => "Ковбои Из Ада",
+	"Tanya, the Sorceress" => "Таня, Колдунья",
+	"Zoology, the Amazon" => "Зоология, Амазонка",
+	"MISSINGNO, the Paladin" => "Несуществующий, Паладин",
+	"Fearless, the Barbarian" => "Бесстрашный, Варвар",
+	"Natasha, the Assassin" => "Наташа, Ассассин",
+			# Community
+	"Community Tribute Set" => "Комплект-Посвящение Сообществу",
+	"rad's Guerrilla Warfare " => "Партизанская Борьба rad82",
+	"Segolia's Fenrir's Mercy" => "Фенрирово Милосердие Segolia",
+	"Greg's Silent Scream" => "Безмолвный Крик Greg'а",
+	"Stealthmaster's Triumph" => "Триумф Stealthmaster'а",
+	"xarugas' Dominion" => "Владычество xarugas'а",
+		# yshari
+	"YSHARI SETS" => "КОМПЛЕКТЫ ИШАРИ",
+			# bosses
+	"Yshari Bosses' Set" => "Комплект Боссов Ишари",
+	"Brotherhood of the Vizjerei" => "Братство Визжири",
+	"Bartuc's Blood" => "Кровь Бартука",
+	"Quov Tsin's Crown" => "Корона Куов Цина",
+	"Nor Tiraj's Safeguard" => "Конвой Нор Тиража",
+	#"Valthek's Blade" => "Клинок Валтека", # it's in %ambigious
+	"Horazon's Guard" => "Страж Хоразона",
+			# minions
+	"Yshari Minions' Set" => "Комплект Миньонов Ишари",
+	"Brotherhood of the Horadrim" => "Братство Хорадримов",
+	"Tal Rasha's Talisman" => "Талисман Тал Раши",
+	"Deckard Cain's Gem" => "Самоцвет Декарда Каина",
+	"Jered Cain's Diamond" => "Алмаз Джереда Каина",
+	"Radament's Greaves" => "Наголенники Радамента",
+	"Zoltun's Gauntlets" => "Рукавицы Золтана",
 
 	######################################################################################### item modifiers
 
@@ -1378,7 +1430,7 @@ my %phrases = (
 	"Slows Ranged Attacker by" => "Замедляет Дальнего Атакующего на",
 	"Extra Gold from Monsters" => "Больше Золота от Монстров",
 	"Less Gold from Monsters" => "Меньше Золота от Монстров",
-	"(?:Better|Worse) Chance of Getting Magic Items" => "к Шансу Нахождения Магических Вещей",
+	"(?:(?:Better|Worse) Chance of Getting Magic Items)|(?:Magic Find)" => "к Шансу Нахождения Магических Вещей",
 	"Stun Attack" => "Оглушение",
 	"Chance of Uninterruptable Attack" => "Шанс Непрерываемой Атаки",
 	"to Experience Gained" => "к Получаемому Опыту",
@@ -1402,7 +1454,7 @@ my %phrases = (
 	"Curse Length Reduction" => "Сокращение Длительности Проклятий",
 	"to Light Radius" => "к Радиусу Освещения",
 	"per(?: skill)? level" => "за уровень",
-	"Based on Character Level" => "Основано на Уровне Персонажа",
+	"Based on (?:Character Level)|Clvl" => "Основано на Уровне Персонажа",
 	"Enhanced Stance Radius" => "к Радиусу Стоек",
 	"Attacker Flees after Striking" => "Атакующий Убежит после Удара",
 	"Hit Causes Monster to Flee" => "Обращает Цель в Бегство при Попадании",
@@ -1419,11 +1471,11 @@ my %phrases = (
 	"Indestructible" => "Неразрушимо",
 	"Hit Blinds Target" => "Удар Ослепляет Цель",
 	"(?<!l )Blinds Attacker" => "Ослепляет Атакующего",
-	"Only Allows the Use of Melee, Summoning and Buff(?:/Debuff)? Skills" => "Работают Только Рукопашные, Навыки Призыва и Баффа/Дебаффа",
+	"Only Allows (?:the Use of )?Melee, Summoning and Buff(?:/Debuff)? Skills" => "Работают Только Рукопашные, Навыки Призыва и Баффа/Дебаффа",
 	"Prevent Monster Heal" => "Монстры Не Могут Лечиться",
 	#"Bonus to Vitality when using an Apple" => "к Живучести при использовании Яблока", # is composed from 2 strings
 	"Velocity Bonus to Sacred Armor" => "Бонус Скорости Священной Броне",
-	"Based on Blessed Life Skill Level" => "Основано на Уровне Навыка Благословенная Жизнь",
+	"Based on Blessed Life Skill Level|lvl" => "Основано на Уровне Навыка Благословенная Жизнь",
 	"Extra Magic Missiles Bolts" => "Дополнительных Магических Снарядов",
 	"Deadly Strike" => "Смертельный Удар",
 	"per strength" => "за единицу Силы",
@@ -1456,8 +1508,10 @@ my %phrases = (
 	"Lamia Reanimate Targets as: Rathma Priest" => "Ламия Возрождает Цели как: Священник Ратмы",
 	"to Searing Glow Dazzle Duration" => "к Длительности Ослепления Жгучего Сияния",
 	"of Poison Spell Damage Items to Vitality" => "к Живучести от Суммарного Бонуса Урону Заклинаний Яда", # "Hive Adds" is composed from 2 words
+	"Orb Effects Applied to this Item are Doubled" => "Эффект от Мистических Сфер Удваивается при Применении",
+	"Slain Monsters Rest in Peace" => "Убитые Монстры Не Оставляют Трупов",
 	# ctc
-	"Chance to cast level" => "Шанс использовать навык уровня",
+	"(?:Chance to cast level)|(?:CtC lvl)" => "Шанс использовать навык уровня",
 	"when you [kK]ill an [eE]nemy" => "при Убийстве Врага",
 	"when you Die" => "при Смерти",
 	"when you Level-Up" => "при получении Нового Уровня",
@@ -1467,14 +1521,15 @@ my %phrases = (
 	"when Struck by a Missile" => "при Попадании Снаряда по вам",
 	"when you Take Damage" => "при Получении Урона",
 	"when Attacked" => "когда вас Атакуют",
+	"when your Enemy is Slain" => "когда Враг Умирает",
 	# +skills
-	"to Amazon Skill Levels" => "к Навыкам Амазонки",
-	"to Assassin Skill Levels" => "к Навыкам Ассассина",
-	"to Barbarian Skill Levels" => "к Навыкам Варвара",
-	"to Druid Skill Levels" => "к Навыкам Друида",
-	"to Necromancer Skill Levels" => "к Навыкам Некроманта",
-	"to Paladin Skill Levels" => "к Навыкам Паладина",
-	"to Sorceress Skill Levels" => "к Навыкам Колдуньи",
+	"to Amazon Skill (?:Levels)|(?:lvls)" => "к Навыкам Амазонки",
+	"to Assassin Skill (?:Levels)|(?:lvls)" => "к Навыкам Ассассина",
+	"to Barbarian Skill (?:Levels)|(?:lvls)" => "к Навыкам Варвара",
+	"to Druid Skill (?:Levels)|(?:lvls)" => "к Навыкам Друида",
+	"to Necromancer Skill (?:Levels)|(?:lvls)" => "к Навыкам Некроманта",
+	"to Paladin Skill (?:Levels)|(?:lvls)" => "к Навыкам Паладина",
+	"to Sorceress Skill (?:Levels)|(?:lvls)" => "к Навыкам Колдуньи",
 	"to All Skills" => "ко Всем Навыкам",
 	#"to \(random active character skill\)" => "к (случайному непассивному навыку одного из персонажей)",
 	# monster names (reanimates)
@@ -1600,6 +1655,18 @@ my %phrases = (
 	"Magineer" => "Магинер",
 	"Blood Marquis" => "Кровавый Маркиз",
 	"Prowler Priestess" => "Рыскающая Жрица",
+	"Juris Khan, King of Ureh" => "Джарис Хан, Король Уреха",
+	"(?<=>)Venom(?=<)" => "Яд",
+	"Minion of Terror" => "Существо Ужаса",
+	"Void Archon" => "Архонт Пустоты",
+	"Landmass" => "Пустошь",
+	"(?<=>)Stone(?=<)" => "Камень",
+	"(?<=>)Snow(?=<)" => "Снег",
+	"(?<=>)Storm(?=<)" => "Гроза",
+	"(?<=>)Illusion(?=<)" => "Иллюзия",
+	"Ghost of Kabraxis" => "Призрак Кабраксиса",
+	"Sasquatch" => "Саскуотч",
+	"Abomination" => "Мерзость",
 	# skill names (ctc/charges)
 	"(?<![:o] )Blink" => "Скачок",
 	"Shower of Rocks" => "Камнепад",
@@ -1803,8 +1870,9 @@ my %phrases = (
 	"Unseelie Curse" => "Проклятие Злой Феи",
 	"Psychic Scream" => "Ментальный Крик",
 	"Amplify Damage" => "Усиление Урона",
-	"(?<![so] )Tempest" => "Буря",
+	"(?<![sog] )Tempest" => "Буря",
 	"Slicer Blade" => "Режущий Клинок",
+	"Black Lotus Strike" => "Удар Чёрного Лотоса",
 	# oskills
 	"to Hamstring" => "к Подрезке",
 	"to Forked Lightning" => "к Зигзагообразной Молнии",
@@ -2032,6 +2100,12 @@ my %phrases = (
 	"to Mythal" => "к Мифалу",
 	"to Scourge" => "к Бичу",
 	"to Hex" => "к Сглазу",
+	"to Frostclaw Totem" => "к Тотему Когтя Мороза",
+	"to Dragonlore" => "к Драконьим Сказаниям",
+	"to Freezing Gale" => "к Леденящей Буре",
+	"to Lightning Arena" => "к Арене Молний",
+	"to Wild and Free" => "к Свободе Дикой Природы",
+	"to Bacchanalia" => "к Вакханалии",
 	# other strings
 	"=630" => "=700", # html table width in uniques
 	"=380" => "=450", # html table width in sets
@@ -2057,18 +2131,29 @@ my %phrases = (
 	'Before 1.F9, this set was called <i>Warmage\'s Wrath</i> and was a combined fire/melee set. The pieces from the old set and new set cannot be combined, but the old set will still work if you have all pieces of it' => 'В версиях до 1.F9 этот комплект назывался <i>Гнев Боевого Мага</i> и был как огненным, так и рукопашным. Части старого и нового комплекта нельзя комбинировать, но старый комплект всё ещё работает если у вас есть все вещи из него',
 	'This is an oskill and therefore usable by any class' => "Это оскилл, а значит этот навык может использовать любой персонаж",
 	'The appearance of this affix is a bug and the affix does nothing' => "Этот аффикс ничего не даёт и появляется из-за бага, просто не обращайте внимание",
+	"(?<=>)NOTE" => "ПРИМЕЧАНИЕ",
+	"Every item in this set, except Valthek's Blade," => "Все предметы этого комплекта за исключением Клинка Валтека",
+	"can be drilled for sockets" => "могут иметь гнёзда",
 );
 
 my %ambigious = (
 	" to (?![M-])" => "–", # x to y -> x-y
 	"to(?= -)" => "–", # -x to -y -> -x - -y
+
 	"[Dd]efense" => "к Защите",
 	"[Dd]amage" => "к Урону",
+	
 	"Шлемs" => "Шлемы", # yeah, I'm lazy :)
 	"to Mana" => "к Мане", # for "to Mana (BoCL)"
+
 	"Shields" => "Щиты", # for RW
 	"Staves" => "Посохи", # same here
+	
 	"gives" => "даёт", # 'Ultimative' skill explanation in RW
+	"Elemental Set" => "Элементальный Комплект", # Ultimative set
+	"Fire Set" => "Огненный Комплект", # same here
+	"Valthek's Blade" => "Клинок Валтека",
+	"and" => "и", # Yshari Minions' Set note
 );
 
 $^I = "~";
