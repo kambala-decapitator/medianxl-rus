@@ -6,13 +6,6 @@ use strict;
 use HTML::FormatText;
 
 
-sub print_errors
-{
-	(my $line, my $reCond, my $msg) = @_;
-	print "$msg: $line\n" if $line =~ /$reCond/ and $line ne '[IMAGE]';
-}
-
-
 my %failsHash = (
 	eng => qr/[a-zA-Z]+/,
 	rus => qr/[\d)]-[а-яА-Я]/,
@@ -25,7 +18,7 @@ for my $filename (@ARGV)
 	{
 		for my $failedLang (keys %failsHash)
 		{
-			&print_errors($_, $failsHash{$failedLang}, $failedLang);
+			print "$failedLang: $_\n" if $_ =~ /$failsHash{$failedLang}/ and $_ ne '[IMAGE]'
 		}
 	}
 }

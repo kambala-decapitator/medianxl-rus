@@ -276,8 +276,7 @@ my %phrases = (
 	"Hand of God" => "Рука Бога", "Faithshaker" => "Сокрушитель Веры", "Malleus Maleficarum" => "Молот Ведьм", "Chober Chaber" => "Обаятель", "Blackened" => "Очернитель",
 			# spears
 	"Holy Lance" => "Святое Копьё", "The Crucifier" => "Распинатель", "Skylord" => "Повелитель Небес", "In Fero Salva" => "И Будешь Ты Спасён Моей Яростью", "Venom Sting" => "Ядовитое Жало",
-	"Tepoztopilli" => "Тепустопилли", "The Angiris Pike" => "Пика Ангириса", "Black Sun Spear" => "Копьё Чёрного Солнца", "Apocalypta" => "Апокалипсис", "Jaguar's Grasp" => "Хватка Ягуара"
-,
+	"Tepoztopilli" => "Тепустопилли", "The Angiris Pike" => "Пика Ангириса", "Black Sun Spear" => "Копьё Чёрного Солнца", "Apocalypta" => "Апокалипсис", "Jaguar's Grasp" => "Хватка Ягуара",
 		# sorceress
 			# orbs
 	"Eagle Orb" => "Орлиная Сфера", "The Watcher" => "Сторож", "Habacalva's Firestar" => "Огненная Звезда Хабакалвы", "Leah's Vision" => "Видение Леаха", "Horadrim's Fist" => "Кулак Хорадрима",
@@ -289,123 +288,123 @@ my %phrases = (
 	"Warp Blade" => "Клинок Кривизны", "The Warped Blade" => "Искривлённый Клинок", "Starhawk" => "Звёздный Ястреб", "Dryhten Ealdor" => "Старшее Зло", "Steel Punisher" => "Стальной Каратель",
 	# common equipment + uniques' names
 		# armors
-	"Quilted Armor" => "Стёганые Доспехи", "The War Cloak" => "Военный Плащ", "Cloak of Flames" => "Плащ Огней", "Haraigami" => "Бог Исцеления", "" => ,
-	"(?<! )Leather Armor" => "Кожаные Доспехи", "Acidblood" => "Кислотная Кровь", "Runeflesh" => "Рунная Плоть", "Belly of the Beast" => "Звериное Брюхо", "" => ,
-	"Hard Leather Armor" => "Доспехи из Жёсткой Кожи", "Leather of Aut" => "Кожа Аута", "Wyand's Fervor" => "Рвение Ваянда", "Maggotspawn Shell" => "Панцирь Личиночного Отродья", "" => ,
-	"Studded Leather" => "Доспехи из Шипованной Кожи", "Carmen Arvale" => "Арвальский Гимн", "Razorspine" => "Острый Хребет", "Spellbreaker" => "Сокруштиель Заклинаний", "" => ,
-	"Ring Mail" => "Лёгкая Кольчуга", "Sharkbaiter" => "Преследователь Акул", "Hratli's Craft" => "Ремесло Хратли", "Medivh's Cameo" => "Камея Медивха", "" => ,
-	"Scale Mail" => "Чешуйчатая Кольчуга", "Robe of Leaves" => "Мантия Листьев", "Crystalshroud" => "Хрустальный Саван", "Scale of Justice" => "Чешуйка Справедливости", "" => ,
-	"Chain Mail" => "Кольчуга", "Albrecht's Revenge" => "Месть Альбрехта", "Hepsheeba's Mantle" => "Накидка Хепшибы", "The Chained Mail" => "Сцеплённая Чешуя", "" => ,
-	"Breast Plate" => "Нагрудник", "Werecat" => "Человек-Кошка", "Light's Widow" => "Вдова Света", "Highwayman's Friend" => "Разбойничий Дружок", "" => ,
-	"Splint Mail" => "Шинная Кольчуга", "Jitan's Kamon" => "Камон Житана", "Candlewake" => "Пробуждение Свечи", "Splinter Mail" => "Расколотая Кольчуга", "" => ,
-	"(?<! )Plate Mail" => "Пластинчатая Кольчуга", "Iceshell" => "Ледяной Панцирь", "Arreat's Heart" => "Сердце Арреат", "Skin of Kabraxis" => "Кожа Кабраксиса", "" => ,
-	"Field Plate" => "Полевые Пластины", "Fauztin's Visage" => "Облик Фаузтина", "Icetomb" => "Ледяная Гробница", "Itherael's Splendor" => "Величие Итераэля", "" => ,
-	"Light Plate(?= )" => "Лёгкие Пластины", "Dragon's Blood" => "Кровь Дракона", "Huo Zhi Wang" => "Король Огня", "Hellbourne Disciple" => "Последователь Ада", "" => ,
-	"Gothic Plate" => "Готические Пластины", "Steel Golem" => "Стальной Голем", "Scales of the Serpent" => "Чешуя Змея", "Goetia Plate" => "Пластины Гоетии", "" => ,
-	"Full Plate Mail" => "Цельная Пластинчатая Кольчуга", "Shroud Royal" => "Королевский Саван", "Robe of Steel" => "Мантия Стали", "Sankekur's Faulds" => "Латная Юбка Санкекура", "" => ,
-	"Ancient Armor" => "Античные Доспехи", "Queen of Glass" => "Королева Хрупкости", "Torn Flesh of Gods" => "Разодранная Плоть Богов", "Khazra Plate" => "Пластины Хазров", "" => ,
+	"Quilted Armor" => "Стёганые Доспехи", "The War Cloak" => "Военный Плащ", "Cloak of Flames" => "Плащ Огней", "Haraigami" => "Бог Исцеления", "Screen of Viz-Jaq'Taar" => "Завеса Виз-Джак'Таара",
+	"(?<! )Leather Armor" => "Кожаные Доспехи", "Acidblood" => "Кислотная Кровь", "Runeflesh" => "Рунная Плоть", "Belly of the Beast" => "Звериное Брюхо", "Warrior's Robe" => "Мантия Воителя",
+	"Hard Leather Armor" => "Доспехи из Жёсткой Кожи", "Leather of Aut" => "Кожа Аута", "Wyand's Fervor" => "Рвение Ваянда", "Maggotspawn Shell" => "Панцирь Личиночного Отродья", "Coat of Darkness" => "Покрывало Мрака",
+	"Studded Leather" => "Доспехи из Шипованной Кожи", "Carmen Arvale" => "Арвальский Гимн", "Razorspine" => "Острый Хребет", "Spellbreaker" => "Сокруштиель Заклинаний", "Shedding Skin" => "Сброшенная Шкура",
+	"Ring Mail" => "Лёгкая Кольчуга", "Sharkbaiter" => "Преследователь Акул", "Hratli's Craft" => "Ремесло Хратли", "Medivh's Cameo" => "Камея Медивха", "Scales of the Drake" => "Чешуя Селезня",
+	"Scale Mail" => "Чешуйчатая Кольчуга", "Robe of Leaves" => "Мантия Листьев", "Crystalshroud" => "Хрустальный Саван", "Scale of Justice" => "Чешуйка Справедливости", "Sahuagin Skin" => "Кожа Сахуагина",
+	"Chain Mail" => "Кольчуга", "Albrecht's Revenge" => "Месть Альбрехта", "Hepsheeba's Mantle" => "Накидка Хепшибы", "The Chained Mail" => "Сцеплённая Чешуя", "Hide of the Basilisk" => "Тайник Василиска",
+	"Breast Plate" => "Нагрудник", "Werecat" => "Человек-Кошка", "Light's Widow" => "Вдова Света", "Highwayman's Friend" => "Разбойничий Дружок", "Kerrigan's Chest" => "Крест Керригана",
+	"Splint Mail" => "Шинная Кольчуга", "Jitan's Kamon" => "Камон Житана", "Candlewake" => "Пробуждение Свечи", "Splinter Mail" => "Расколотая Кольчуга", "Mage's Denial" => "Отречение Мага",
+	"(?<! )Plate Mail" => "Пластинчатая Кольчуга", "Iceshell" => "Ледяной Панцирь", "Arreat's Heart" => "Сердце Арреат", "Skin of Kabraxis" => "Кожа Кабраксиса", "Wolverine Skin" => "Кожа Росомахи",
+	"Field Plate" => "Полевые Пластины", "Fauztin's Visage" => "Облик Фаузтина", "Icetomb" => "Ледяная Гробница", "Itherael's Splendor" => "Величие Итераэля", "Segnitia" => "Медлительность",
+	"Light Plate(?= )" => "Лёгкие Пластины", "Dragon's Blood" => "Кровь Дракона", "Huo Zhi Wang" => "Король Огня", "Hellbourne Disciple" => "Последователь Ада", "Auriel's Robe" => "Мантия Ауриэля",
+	"Gothic Plate" => "Готические Пластины", "Steel Golem" => "Стальной Голем", "Scales of the Serpent" => "Чешуя Змея", "Goetia Plate" => "Пластины Гоетии", "Strength Beyond Strength" => "Сила По Ту Сторону Силы",
+	"Full Plate Mail" => "Цельная Пластинчатая Кольчуга", "Shroud Royal" => "Королевский Саван", "Robe of Steel" => "Мантия Стали", "Sankekur's Faulds" => "Латная Юбка Санкекура", "Vizjerei's Ritual" => "Ритуал Визжири",
+	"Ancient Armor" => "Античные Доспехи", "Queen of Glass" => "Королева Хрупкости", "Torn Flesh of Gods" => "Разодранная Плоть Богов", "Khazra Plate" => "Пластины Хазров", "Mercenary Bomb" => "Бомба Наёмника",
 		# helms
-	"(?<! )Cap" => "Шляпа", "The Jester" => "Шут", "The Wanderer's Hood" => "Капюшон Странника", "Beanie Sidhe" => "Баншишка", "" => ,
-	"Skull Cap" => "Ермолка", "Topspin" => "Топ-Спин", "Thinking Cap" => "Мыслящая Шляпа", "Lacuni Cowl" => "Капюшон Лакуни", "" => ,
-	"(?<! )Helm(?! o)" => "Шлем", "Lavadome" => "Купол Лавы", "Brainburst" => "Разрыв Моска", "Portal Kombat" => "Портал Комбат", "" => ,
-	"Full Helm" => "Полный Шлем", "Farnham's Flowerpot" => "Цветочный Горшок Фарнама", "Ironhood" => "Железный Колпак", "Headbanger" => "Неформал", "" => ,
-	"Great Helm" => "Огромный Шлем", "Lanterne Rouge" => "Красный Фонарь", "The Prophet's Veil" => "Маска Пророка", "Metalhead" => "Металлюга", "" => ,
-	"Crown(?= [(])" => "Корона", "Glowskull" => "Светящийся Череп", "Gotterdammerung" => "Гибель Богов", "Aiden's Lament" => "Плач Эйдена", "" => ,
+	"(?<! )Cap" => "Шляпа", "The Jester" => "Шут", "The Wanderer's Hood" => "Капюшон Странника", "Beanie Sidhe" => "Баншишка", "Pestilence" => "Эпидемия",
+	"Skull Cap" => "Ермолка", "Topspin" => "Топ-Спин", "Thinking Cap" => "Мыслящая Шляпа", "Lacuni Cowl" => "Капюшон Лакуни", "Goblin's Skull" => "Череп Гоблина",
+	"(?<! )Helm(?! o)" => "Шлем", "Lavadome" => "Купол Лавы", "Brainburst" => "Разрыв Моска", "Portal Kombat" => "Портал Комбат", "Cat's Pounce" => "Наскок Кошки",
+	"Full Helm" => "Полный Шлем", "Farnham's Flowerpot" => "Цветочный Горшок Фарнама", "Ironhood" => "Железный Колпак", "Headbanger" => "Неформал", "Gehenna" => "Геенна",
+	"Great Helm" => "Огромный Шлем", "Lanterne Rouge" => "Красный Фонарь", "The Prophet's Veil" => "Маска Пророка", "Metalhead" => "Металлюга", "Naga's Reign" => "Власть Наги",
+	"Crown(?= [(])" => "Корона", "Glowskull" => "Светящийся Череп", "Gotterdammerung" => "Гибель Богов", "Aiden's Lament" => "Плач Эйдена", "Sepultura" => "Могила",
 			# circlets
-	"Circlet(?!s)" => "Ободок", "The Celestial Crown" => "Небесная Корона", "(?<!– )Helm of Sprits" => "Шлем Ду́хов", "Eyes of Septumos" => "Глаза Септумоса", "" => ,
-	"Coronet" => "Венец", "The Allseeing Eye" => "Всевидящее Око", "Dark Star(?! D)" => "Тёмная Звезда", "Breathstealer" => "Крадущий Дыхание", "" => ,
-	"Tiara" => "Тиара", "Auriel's Halo" => "Ореол Ауриэля", "Royal Circlet" => "Королевский Ободок", "Maiden Mother Crown" => "Корона Королевы-Матери", "" => ,
-	"Diadem" => "Диадема", "Haareis" => "Ледяные Волосы", "Tennousuuhai" => "Поклонение Императору", "Crown of the Black Rose" => "Корона Чёрной Розы", "" => ,
+	"Circlet(?!s)" => "Ободок", "The Celestial Crown" => "Небесная Корона", "(?<!– )Helm of Sprits" => "Шлем Ду́хов", "Eyes of Septumos" => "Глаза Септумоса", "Arcane Protection" => "Мистическое Покровительство",
+	"Coronet" => "Венец", "The Allseeing Eye" => "Всевидящее Око", "Dark Star(?! D)" => "Тёмная Звезда", "Breathstealer" => "Крадущий Дыхание", "Warlock's Brilliance" => "Великолепие Колдуна",
+	"Tiara" => "Тиара", "Auriel's Halo" => "Ореол Ауриэля", "Royal Circlet" => "Королевский Ободок", "Maiden Mother Crown" => "Корона Королевы-Матери", "Rathma's Phantom" => "Иллюзия Ратмы",
+	"Diadem" => "Диадема", "Haareis" => "Ледяные Волосы", "Tennousuuhai" => "Поклонение Императору", "Crown of the Black Rose" => "Корона Чёрной Розы", "Rogue's Miracle" => "Чудо Мошенника",
 			# special helms
-	"(?<! )Mask" => "Маска", "Umbaru's Jinx" => "Сглаз Умбару", "Trang-Oul's Breath" => "Дыхание Транг-Ула", "Idol of Rygnar" => "Идол Ригнара", "" => ,
-	"Bone Helm" => "Костяной Шлем", "Stillwater" => "Стоячая Вода", "Trollface" => "Троллфейс", "The Veil of Magic" => "Вуаль Магии", "" => ,
+	"(?<! )Mask" => "Маска", "Umbaru's Jinx" => "Сглаз Умбару", "Trang-Oul's Breath" => "Дыхание Транг-Ула", "Idol of Rygnar" => "Идол Ригнара", "Gematria" => "Гематрия",
+	"Bone Helm" => "Костяной Шлем", "Stillwater" => "Стоячая Вода", "Trollface" => "Троллфейс", "The Veil of Magic" => "Вуаль Магии", "Trollskull" => "Череп Тролля",
 		# shields
-	"Buckler" => "Баклер", "Razordisk" => "Острый Диск", "Event Horizon" => "Горизонт Событий", "Ogden's Sign" => "Вывеска Огдена", "" => ,
-	"Small Shield" => "Малый Щит", "Destroying Angel" => "Уничтожающий Ангел", "Witch Drum" => "Ведьмин Барабан", "The Flying Saucer" => "Летающее Блюдце", "" => ,
-	"Large Shield" => "Большой Щит", "Wheel of Fortune" => "Колесо Фортуны", "Chalice of Horrors" => "Чаша Ужасов", "Dryadbark" => "Кора Дриады", "" => ,
-	"Kite Shield" => "Каплевидный Щит", "Banner of Duncraig" => "Знамя Данкрэйга", "Lightforge" => "Кузница Света", "Stormflyer" => "Летун Бури", "" => ,
-	"Tower Shield" => "Башенный Щит", "The Ivory Tower" => "Башня Слоновой Кости", "Shield of a Thousand Stars" => "Щит Тысячи Звёзд", "Judge's Sin" => "Грех Судьи", "" => ,
-	"Gothic Shield" => "Готический Щит", "Doomfall" => "Закат Судьбы", "Dragon's Breach" => "Брешь Дракона", "Shield of Hakan II" => "Щит Хакана II", "" => ,
+	"Buckler" => "Баклер", "Razordisk" => "Острый Диск", "Event Horizon" => "Горизонт Событий", "Ogden's Sign" => "Вывеска Огдена", "Polar Breath" => "Полярное Дыхание",
+	"Small Shield" => "Малый Щит", "Destroying Angel" => "Уничтожающий Ангел", "Witch Drum" => "Ведьмин Барабан", "The Flying Saucer" => "Летающее Блюдце", "Stone Guardian" => "Каменный Страж",
+	"Large Shield" => "Большой Щит", "Wheel of Fortune" => "Колесо Фортуны", "Chalice of Horrors" => "Чаша Ужасов", "Dryadbark" => "Кора Дриады", "Wizard's Wall" => "Преграда Волшебника",
+	"Kite Shield" => "Каплевидный Щит", "Banner of Duncraig" => "Знамя Данкрэйга", "Lightforge" => "Кузница Света", "Stormflyer" => "Летун Бури", "Linarian's Legacy" => "Наследие Линариана",
+	"Tower Shield" => "Башенный Щит", "The Ivory Tower" => "Башня Слоновой Кости", "Shield of a Thousand Stars" => "Щит Тысячи Звёзд", "Judge's Sin" => "Грех Судьи", "Mountain King" => "Царь Горы",
+	"Gothic Shield" => "Готический Щит", "Doomfall" => "Закат Судьбы", "Dragon's Breach" => "Брешь Дракона", "Shield of Hakan II" => "Щит Хакана II", "Ward of Ransim" => "Опека Рансима",
 			# special shields
-	"Bone Shield" => "Костяной Щит", "The Wailing Wall" => "Стена Плача", "Shadowhymn" => "Гимн Тени", "Boneyard Scourge" => "Плеть Вирмятника", "" => ,
-	"Spiked Shield" => "Шипованный Щит", "Cloudladder" => "Лестница в Облака", "Akarat's Crucifix" => "Распятие Акарата", "Wheel of the Seasons" => "Колесо Времён Года", "" => ,
+	"Bone Shield" => "Костяной Щит", "The Wailing Wall" => "Стена Плача", "Shadowhymn" => "Гимн Тени", "Boneyard Scourge" => "Плеть Вирмятника", "Rainbow Fury" => "Радужная Ярость",
+	"Spiked Shield" => "Шипованный Щит", "Cloudladder" => "Лестница в Облака", "Akarat's Crucifix" => "Распятие Акарата", "Wheel of the Seasons" => "Колесо Времён Года", "Grim Icon" => "Зловещая Икона",
 		# belts
-	"Sash(?! o)" => "Кушак", "Moonwrap" => "Лунный Покров", "Sash of Shadows" => "Пояс Теней", "Cliffhanger" => "Магнит", "" => ,
-	"Light Belt" => "Лёгкий Пояс", "Wormtongue" => "Червеуст", "The Endless Loop" => "Бесконечная Петля", "Tldr" => "Многа Букаф", "" => ,
-	"(?<! )Belt(?= )" => "Пояс", "Aerin Orbiter" => "Челнок Аэрина", "Ashaera's Armor" => "Броня Ашеары", "Manafire" => "Огонь Маны", "" => ,
-	"Heavy Belt" => "Тяжёлый Пояс", "Deadfall" => "Западня", "Nor Tiraj's Wisdom" => "Мудрость Нор Тиража", "Edgewulf's Girdle" => "Ремень Эджвульфа", "" => ,
-	"Plated Belt" => "Пластинчатый Пояс", "Dragon Tail" => "Драконий Хвост", "The Asteroid Belt" => "Пояс Астероидов", "Lilith's Temptation" => "Искушение Лилит", "" => ,
+	"Sash(?! o)" => "Кушак", "Moonwrap" => "Лунный Покров", "Sash of Shadows" => "Пояс Теней", "Cliffhanger" => "Магнит", "Lightning Enchanted" => "Зачарованный Молнией",
+	"Light Belt" => "Лёгкий Пояс", "Wormtongue" => "Червеуст", "The Endless Loop" => "Бесконечная Петля", "Tldr" => "Многа Букаф", "Lunar Eclipse" => "Лунное Затмение",
+	"(?<! )Belt(?= )" => "Пояс", "Aerin Orbiter" => "Челнок Аэрина", "Ashaera's Armor" => "Броня Ашеары", "Manafire" => "Огонь Маны", "Dementia" => "Слабоумие",
+	"Heavy Belt" => "Тяжёлый Пояс", "Deadfall" => "Западня", "Nor Tiraj's Wisdom" => "Мудрость Нор Тиража", "Edgewulf's Girdle" => "Ремень Эджвульфа", "Black Void" => "Чёрная Пустота",
+	"Plated Belt" => "Пластинчатый Пояс", "Dragon Tail" => "Драконий Хвост", "The Asteroid Belt" => "Пояс Астероидов", "Lilith's Temptation" => "Искушение Лилит", "Champion of the Truine" => "Победитель Триединства",
 		# gloves
-	"Leather Gloves" => "Кожаные Перчатки", "Vilehand" => "Мерзкая Рука", "Geglash's Dusters" => "Пыльники Геглаша", "Blackjade's Legacy" => "Наследие Блэкджейда", "" => ,
-	"Heavy Gloves" => "Тяжёлые Перчатки", "Toorc's Gift" => "Дар Турка", "Hammerfist" => "Кулак-Молот", "Ironbound Impact Tome" => "Книга в Железном Переплёте", "" => ,
-	"Chain Gloves" => "Кольчужные Перчатки", "Featherclaw" => "Пернатый Кулак", "Deadman's Hand" => "Рука Мертвеца", "Facebreaker" => "Мордобойщик", "" => ,
-	"Light Gauntlets" => "Лёгкие Латные Рукавицы", "Visegrip" => "Крепкая Хватка", "Lorekeeper" => "Хранитель Знаний", "Baron Sludge's Bonecrushers" => "Крушитель Костей Илового Барона", "" => ,
-	"(?<! )Gauntlets" => "Латные Рукавицы", "Pollice Verso" => "Добей Его", "Glor-An-Fhaidha's Firebark" => "Огненная Кора Глор-ан-Фхайдха", "Lamha Na Draoithe" => "Руки Друидов", "" => ,
+	"Leather Gloves" => "Кожаные Перчатки", "Vilehand" => "Мерзкая Рука", "Geglash's Dusters" => "Пыльники Геглаша", "Blackjade's Legacy" => "Наследие Блэкджейда", "Demonic Touch" => "Демоническое Касание",
+	"Heavy Gloves" => "Тяжёлые Перчатки", "Toorc's Gift" => "Дар Турка", "Hammerfist" => "Кулак-Молот", "Ironbound Impact Tome" => "Книга в Железном Переплёте", "Gulag's Frenzy" => "Безумие Гулага",
+	"Chain Gloves" => "Кольчужные Перчатки", "Featherclaw" => "Пернатый Кулак", "Deadman's Hand" => "Рука Мертвеца", "Facebreaker" => "Мордобойщик", "Conqueror's Mercy" => "Милосердие Завоевателя",
+	"Light Gauntlets" => "Лёгкие Латные Рукавицы", "Visegrip" => "Крепкая Хватка", "Lorekeeper" => "Хранитель Знаний", "Baron Sludge's Bonecrushers" => "Крушитель Костей Илового Барона", "Blind Anger" => "Слепая Ярость",
+	"(?<! )Gauntlets" => "Латные Рукавицы", "Pollice Verso" => "Добей Его", "Glor-An-Fhaidha's Firebark" => "Огненная Кора Глор-ан-Фхайдха", "Lamha Na Draoithe" => "Руки Друидов", "Centuria Insectorum" => "Центурия Насекомых",
 		# boots
-	"(?<! )Boots" => "Ботинки", "Rabbit's Foot" => "Кроличья Лапка", "Everchase" => "Вечная Погоня", "Hooves of the Thunderhorse" => "Копыта Громовой Лошади", "" => ,
-	"Heavy Boots" => "Тяжёлые Ботинки", "Death Spur" => "Смертельные Шпоры", "Spirit Walker" => "Скороходы Духов", "Lifecrusher" => "Уничтожитель Жизни", "" => ,
-	"Chain Boots" => "Кольчужные Ботинки", "Lionpaw" => "Львиная Лапа", "Toesie Warmer" => "Согреватель Пальчиков", "Clawfeet" => "Когтистые Ноги", "" => ,
-	"Light Plated Boots" => "Ботинки из Лёгких Пластин", "Zealot Rush" => "Бросок Фанатика", "Akarat's Trek" => "Путешествие Акарата", "Earthbender" => "Земные Щипцы", "" => ,
-	"Greaves" => "Наголенники", "Wake of Destruction" => "Поступь Разрушения", "Slippers of Yaerius" => "Тапочки Яериуса", "Rodeo's Tramplers" => "Топот Родео", "" => ,
+	"(?<! )Boots" => "Ботинки", "Rabbit's Foot" => "Кроличья Лапка", "Everchase" => "Вечная Погоня", "Hooves of the Thunderhorse" => "Копыта Громовой Лошади", "Wizard's Path" => "Путь Чародея",
+	"Heavy Boots" => "Тяжёлые Ботинки", "Death Spur" => "Смертельные Шпоры", "Spirit Walker" => "Скороходы Духов", "Lifecrusher" => "Уничтожитель Жизни", "Titan's Steps" => "Шаги Титана",
+	"Chain Boots" => "Кольчужные Ботинки", "Lionpaw" => "Львиная Лапа", "Toesie Warmer" => "Согреватель Пальчиков", "Clawfeet" => "Когтистые Ноги", "Angel's Wrath" => "Ярость Ангела",
+	"Light Plated Boots" => "Ботинки из Лёгких Пластин", "Zealot Rush" => "Бросок Фанатика", "Akarat's Trek" => "Путешествие Акарата", "Earthbender" => "Земные Щипцы", "Steel Terror" => "Жестокий Ужас",
+	"Greaves" => "Наголенники", "Wake of Destruction" => "Поступь Разрушения", "Slippers of Yaerius" => "Тапочки Яериуса", "Rodeo's Tramplers" => "Топот Родео", "Knight's Grace" => "Грация Рыцаря",
 	# class-specific equipment + uniques' names
 		# Amazon
 			# helms
-	"Morion" => "Морион", "Zerae's Veil" => "Вуаль Зере", "Crown of the Rakkas" => "Корона Раккаса", "Lionblood Crest" => "Шлем Львиной Крови", "" => ,
-	"Cervelliere" => "Цервельер", "Snakehair" => "Волосы из Змей", "Crest of Arnazeus" => "Шлем Арназеуса", "Kharos' Bloodskull" => "Кровавый Череп Хароса", "" => ,
-	"Einherjar Helm" => "Шлем Эйнхериев", "Wildhunt" => "Дикая Охота", "Kethryes' Warband" => "Отряд Кетраес", "Ylfe Ban" => "Эльфийская Кость", "" => ,
-	"Spangenhelm" => "Каркасный Шлем", "Titan's Burden" => "Бремя Титана", "Helepolis" => "Элеполис", "Asgardsreia" => "Асгардсрейя", "" => ,
+	"Morion" => "Морион", "Zerae's Veil" => "Вуаль Зере", "Crown of the Rakkas" => "Корона Раккаса", "Lionblood Crest" => "Шлем Львиной Крови", "Skull of Lioness" => "Череп Львицы",
+	"Cervelliere" => "Цервельер", "Snakehair" => "Волосы из Змей", "Crest of Arnazeus" => "Шлем Арназеуса", "Kharos' Bloodskull" => "Кровавый Череп Хароса", "Rainbow Maiden" => "Радужная Дева",
+	"Einherjar Helm" => "Шлем Эйнхериев", "Wildhunt" => "Дикая Охота", "Kethryes' Warband" => "Отряд Кетраес", "Ylfe Ban" => "Эльфийская Кость", "Corona Aureola" => "Сияющая Корона",
+	"Spangenhelm" => "Каркасный Шлем", "Titan's Burden" => "Бремя Титана", "Helepolis" => "Элеполис", "Asgardsreia" => "Асгардсрейя", "Devastator" => "Разрушитель",
 			# shields
-	"Athulua's Hand" => "Защита Атулуа", "The Sightless Eye" => "Незрячее Око", "Danmaku" => "Данмаку", "Vision of the Furies" => "Видение Фурий", "" => ,
-	"Phoenix Shield" => "Щит Феникса", "Dragonfire" => "Драконий Огонь", "The Tannr Scutum" => "Скутум Таннра", "Phoenix Down" => "Падение Феникса", "" => ,
-	"Setzschild" => "Стоячий Щит", "Chargebreaker" => "Непробиваемый", "Rozsochac" => "Противотанковый Ёж", "Panzerkeil" => "Панцеркайль", "" => ,
+	"Athulua's Hand" => "Защита Атулуа", "The Sightless Eye" => "Незрячее Око", "Danmaku" => "Данмаку", "Vision of the Furies" => "Видение Фурий", "Disc of Blood" => "Диск Крови",
+	"Phoenix Shield" => "Щит Феникса", "Dragonfire" => "Драконий Огонь", "The Tannr Scutum" => "Скутум Таннра", "Phoenix Down" => "Падение Феникса", "Sunbeam" => "Солнечный Луч",
+	"Setzschild" => "Стоячий Щит", "Chargebreaker" => "Непробиваемый", "Rozsochac" => "Противотанковый Ёж", "Panzerkeil" => "Панцеркайль", "Golden Chariot" => "Золотая Колесница",
 		# Assassin
 			# shields
-	"Parma" => "Парма", "Astrogha's Eye" => "Глаз Астроги", "Norrec's Targe" => "Тарч Норрека", "Digitron Disk" => "Диджитроновый Диск", "" => ,
-	"Aspis" => "Аспис", "Bathos" => "Бездна", "Cloudwhirl" => "Кружение Облаков", "The Doom Gong of Xiansai" => "Роковой Гонг Ксянсая", "" => ,
-	"Totem Shield" => "Тотемный Щит", "Black Sheep Wall" => "Стена Паршивых Овец", "Hexward" => "Оберег", "Fiddlesticks" => "Ерунда", "" => ,
-	"Bladed Shield" => "Щит с Лезвиями", "Leoric's Legion" => "Легион Леорика", "(?:The )?Gauntlet(?!s)" => "Рукавица", "The Ion Maiden" => "Ионная Дева", "" => ,
+	"Parma" => "Парма", "Astrogha's Eye" => "Глаз Астроги", "Norrec's Targe" => "Тарч Норрека", "Digitron Disk" => "Диджитроновый Диск", "Silver Scorpion" => "Серебряный Скорпион",
+	"Aspis" => "Аспис", "Bathos" => "Бездна", "Cloudwhirl" => "Кружение Облаков", "The Doom Gong of Xiansai" => "Роковой Гонг Ксянсая", "Soul Harvest" => "Жатва Душ",
+	"Totem Shield" => "Тотемный Щит", "Black Sheep Wall" => "Стена Паршивых Овец", "Hexward" => "Оберег", "Fiddlesticks" => "Ерунда", "Eternal Bodyguard" => "Вечный Телохранитель",
+	"Bladed Shield" => "Щит с Лезвиями", "Leoric's Legion" => "Легион Леорика", "(?:The )?Gauntlet(?!s)" => "Рукавица", "The Ion Maiden" => "Ионная Дева", "Zayl's Temptation" => "Влечение Зейля",
 		# Barbarian
 			# shields
-	"Bull Shield" => "Бычий Щит", "Golden Fleece" => "Золотое Руно", "Uldyssian's Awakening" => "Пробуждение Ульдиссиана", "Pawnstorm" => "Буря Пешек", "" => ,
-	"Bronze Shield" => "Бронзовый Щит", "The Breaking Wheel" => "Колесование", "Rota Solaris" => "Солнечная Колесница", "Canis Venator" => "Канис Венатор", "" => ,
-	"Gilded Shield" => "Позолоченный Щит", "Invictus" => "Инвиктус", "Toraja's Champion" => "Чемпион Тораджи", "The Ancients' Legacy" => "Наследие Древних", "" => ,
+	"Bull Shield" => "Бычий Щит", "Golden Fleece" => "Золотое Руно", "Uldyssian's Awakening" => "Пробуждение Ульдиссиана", "Pawnstorm" => "Буря Пешек", "Gathering Storm" => "Собирающаяся Буря",
+	"Bronze Shield" => "Бронзовый Щит", "The Breaking Wheel" => "Колесование", "Rota Solaris" => "Солнечная Колесница", "Canis Venator" => "Канис Венатор", "Shaman's Grace" => "Грация Шамана",
+	"Gilded Shield" => "Позолоченный Щит", "Invictus" => "Инвиктус", "Toraja's Champion" => "Чемпион Тораджи", "The Ancients' Legacy" => "Наследие Древних", "Satan's Dark Delight" => "Тёмное Наслаждение Сатаны",
 			# helms
-	"Jawbone Cap" => "Шлем из Челюстной Кости", "Slimedrool" => "Поток Слизи", "Larzuk's Contraption" => "Хитрое Изобретение Ларзука", "Boarfrost" => "Морозный Хряк", "" => ,
-	"Fanged Helm" => "Клыкастый Шлем", "Bonechewer" => "Костожеватель", "Hellmaw" => "Адская Пасть", "Shadowtwin" => "Теневой Двойник", "" => ,
-	"Horned Helm" => "Рогатый Шлем", "Cornucopia" => "Рог Изобилия", "Demonhorn" => "Рог Демона", "Stella Matutina" => "Стелла Матутина", "" => ,
-	"Assault Helmet" => "Штурмовой Шлем", "Thunderdome" => "Свод Грома", "Morlu's Friend" => "Друг Морлу", "Wandelkoning" => "Странствующий Король", "" => ,
-	"Avenger Guard" => "Страж Мстителя", "Spirit Teacher's Headdress" => "Головной Убор Духовного Наставника", "Bul Kathos' Voice" => "Голос Бул Катоса", "Arreat's Snowcap" => "Снежная Шапка Арреат", "" => ,
+	"Jawbone Cap" => "Шлем из Челюстной Кости", "Slimedrool" => "Поток Слизи", "Larzuk's Contraption" => "Хитрое Изобретение Ларзука", "Boarfrost" => "Морозный Хряк", "Bear Grin" => "Медвежий Оскал",
+	"Fanged Helm" => "Клыкастый Шлем", "Bonechewer" => "Костожеватель", "Hellmaw" => "Адская Пасть", "Shadowtwin" => "Теневой Двойник", "Wolf Teeth" => "Вольчи Зубы",
+	"Horned Helm" => "Рогатый Шлем", "Cornucopia" => "Рог Изобилия", "Demonhorn" => "Рог Демона", "Stella Matutina" => "Стелла Матутина", "Shaggy Beast" => "Косматый Зверь",
+	"Assault Helmet" => "Штурмовой Шлем", "Thunderdome" => "Свод Грома", "Morlu's Friend" => "Друг Морлу", "Wandelkoning" => "Странствующий Король", "Albrecht's Slumber" => "Сон Альбрехта",
+	"Avenger Guard" => "Страж Мстителя", "Spirit Teacher's Headdress" => "Головной Убор Духовного Наставника", "Bul Kathos' Voice" => "Голос Бул Катоса", "Arreat's Snowcap" => "Снежная Шапка Арреат", "Lilith's Legion" => "Легион Лилит",
 		# Druid
 			# helms
-	"Wolf Head" => "Голова Волка", "Big Bad" => "Большая Плохая", "Coldhunger" => "Холодный Голод", "Linarian's Furs" => "Меха Линариана", "" => ,
-	"Hawk Helm" => "Шлем Ястреба", "Earth Song" => "Земная Песнь", "Augur's Pelt" => "Кожа Предсказателя", "Peacebringer" => "Мироносец", "" => ,
-	"Antlers" => "Оленьи Рога", "Nymph's Grace" => "Грация Нимфы", "Goatlord" => "Повелитель Козлов", "Ramcharge" => "Таран", "" => ,
-	"Falcon Mask" => "Маска Сокола", "Skyguard" => "Небесный Страж", "Skythrone" => "Небесный Трон", "Windsinger" => "Певец Ветра", "" => ,
-	"Spirit Mask" => "Маска Духа", "Grimspirit" => "Беспощадный Дух", "Nature's Orphan" => "Сирота Природы", "Yee Naaldlooshii" => "Перевёртыш", "" => ,
+	"Wolf Head" => "Голова Волка", "Big Bad" => "Большая Плохая", "Coldhunger" => "Холодный Голод", "Linarian's Furs" => "Меха Линариана", "Predator's Trophy" => "Трофей Хищника",
+	"Hawk Helm" => "Шлем Ястреба", "Earth Song" => "Земная Песнь", "Augur's Pelt" => "Кожа Предсказателя", "Peacebringer" => "Мироносец", "Wisdom of Scosglen" => "Мудрость Скосглена",
+	"Antlers" => "Оленьи Рога", "Nymph's Grace" => "Грация Нимфы", "Goatlord" => "Повелитель Козлов", "Ramcharge" => "Таран", "Forest Defender" => "Защитник Леса",
+	"Falcon Mask" => "Маска Сокола", "Skyguard" => "Небесный Страж", "Skythrone" => "Небесный Трон", "Windsinger" => "Певец Ветра", "Sky Spirit" => "Небесный Дух",
+	"Spirit Mask" => "Маска Духа", "Grimspirit" => "Беспощадный Дух", "Nature's Orphan" => "Сирота Природы", "Yee Naaldlooshii" => "Перевёртыш", "Ranger's Disguise" => "Маскировка Рейнджера",
 		# Necromancer
 			# shields
-	"Preserved Head" => "Сохранённая Голова", "Albrecht's Heirloom" => "Фамильная Ценность Альбрехта", "Trollskull" => "Череп Тролля", "The Stillborn" => "Мертворождённый", "" => ,
-	"Zombie Head" => "Голова Зомби", "Shadowchild" => "Дитя Теней", "Demonlure" => "Демоническая Приманка", "Gregus Mazi's Nkisi" => "Священная Медицина Грегуса Маци", "" => ,
-	"Unraveller Head" => "Голова Разоблачителя", "Darkflesh" => "Тёмная Плоть", "Feardrinker" => "Испивающая Страх", "Mudpool" => "Грязевой Бассейн", "" => ,
-	"Gargoyle Head" => "Голова Горгульи", "Graven Image" => "Истукан", "Hero's Fang" => "Клык Героя", "The Sentinel's Sorrow" => "Скорбь Часового", "" => ,
-	"Demon Head" => "Голова Демона", "Hellspeak" => "Адский Говор", "Sinwar" => "Греховная Война", "Satanskind" => "Сатанинская Доброта", "" => ,
+	"Preserved Head" => "Сохранённая Голова", "Albrecht's Heirloom" => "Фамильная Ценность Альбрехта", "Trollskull" => "Череп Тролля", "The Stillborn" => "Мертворождённый", "Eerie Flash" => "Жуткая Вспышка",
+	"Zombie Head" => "Голова Зомби", "Shadowchild" => "Дитя Теней", "Demonlure" => "Демоническая Приманка", "Gregus Mazi's Nkisi" => "Священная Медицина Грегуса Маци", "Dark Guardian" => "Тёмный Страж",
+	"Unraveller Head" => "Голова Разоблачителя", "Darkflesh" => "Тёмная Плоть", "Feardrinker" => "Испивающая Страх", "Mudpool" => "Грязевой Бассейн", "Sentry of Death" => "Часовой Смерти",
+	"Gargoyle Head" => "Голова Горгульи", "Graven Image" => "Истукан", "Hero's Fang" => "Клык Героя", "The Sentinel's Sorrow" => "Скорбь Часового", "Deadmaster" => "Хозяин Смерти",
+	"Demon Head" => "Голова Демона", "Hellspeak" => "Адский Говор", "Sinwar" => "Греховная Война", "Satanskind" => "Сатанинская Доброта", "Grim Silhouette" => "Мрачный Силуэт",
 		# Paladin
 			# helms
-	"Hundsgugel" => "Хундсгугель", "Godhead" => "Божественность", "Khalim's Gloriole" => "Ореол Халима", "Barghest's Howl" => "Вой Баргеста", "" => ,
-	"Blackguard Helm" => "Чёрный Страж", "Skull Lord" => "Повелитель Черепов", "Hivemind" => "Коллективный Разум", "Veil of the Tainted Sun" => "Вуаль Испорченного Солнца", "" => ,
+	"Hundsgugel" => "Хундсгугель", "Godhead" => "Божественность", "Khalim's Gloriole" => "Ореол Халима", "Barghest's Howl" => "Вой Баргеста", "Blessed Wrath" => "Благословенный Гнев",
+	"Blackguard Helm" => "Чёрный Страж", "Skull Lord" => "Повелитель Черепов", "Hivemind" => "Коллективный Разум", "Veil of the Tainted Sun" => "Вуаль Испорченного Солнца", "Fauztin's Shadow" => "Тень Фаузтина",
 			# shields
-	"(?<! )Targe(?!t)" => "Тарч", "Grail of Tears" => "Грааль Слёз", "Bullseye" => "Бычий Глаз", "The Book of Kalen" => "Книга Калена", "" => ,
-	"Rondache" => "Рондаш", "Oreichalcos" => "Орихалк", "Hypnodisk" => "Гипнодиск", "Vizjun's Commdish" => "Спутниковая Тарелка Виз-Джуна", "" => ,
-	"Heraldic Shield" => "Геральдический Щит", "Thunderhead" => "Грозовой Фронт", "Argentek's Tide" => "Прилив Аргентека", "Peckin's Order" => "Порядок Клевания", "" => ,
-	"Aerin Shield" => "Щит Аэрина", "Catechumen" => "Новообращённый", "Astreon's Citadel" => "Цитадель Астреона", "Tobio's Key" => "Ключ Тобио", "" => ,
-	"Crown Shield" => "Щит Короны", "Shadowmoon" => "Теневая Луна", "Deathforce" => "Смертельная Сила", "Angelhost" => "Ангельское Войско", "" => ,
+	"(?<! )Targe(?!t)" => "Тарч", "Grail of Tears" => "Грааль Слёз", "Bullseye" => "Бычий Глаз", "The Book of Kalen" => "Книга Калена", "Mark of the Que-Hegan" => "Метка Ку-Хегана",
+	"Rondache" => "Рондаш", "Oreichalcos" => "Орихалк", "Hypnodisk" => "Гипнодиск", "Vizjun's Commdish" => "Спутниковая Тарелка Виз-Джуна", "Phoenix Ash" => "Пепел Феникса",
+	"Heraldic Shield" => "Геральдический Щит", "Thunderhead" => "Грозовой Фронт", "Argentek's Tide" => "Прилив Аргентека", "Peckin's Order" => "Порядок Клевания", "Holy Saviour" => "Священный Спаситель",
+	"Aerin Shield" => "Щит Аэрина", "Catechumen" => "Новообращённый", "Astreon's Citadel" => "Цитадель Астреона", "Tobio's Key" => "Ключ Тобио", "The Vanquisher" => "Покоритель",
+	"Crown Shield" => "Щит Короны", "Shadowmoon" => "Теневая Луна", "Deathforce" => "Смертельная Сила", "Angelhost" => "Ангельское Войско", "Sculptor of Pain" => "Скульптор Боли",
 		# Sorceress
 			# armor
-	"Gambeson" => "Стёганка", "Serenthia's Disguise" => "Маскировка Серентии", "Cloak of the Vasan Queen" => "Плащ Васанской Королевы", "Rag Queen" => "Королева Лохмотьев", "" => ,
-	"Kazarghand" => "Казарханд", "Ennead's Bane" => "Погибель Эннеады", "Nor Tiraj's Turinash" => "Туринаш Нор Тиража", "Dervish of Aranoch" => "Дервиш Араноха", "" => ,
-	"Lamellar Armor" => "Ламеллярные Доспехи", "Nightscape" => "Ночной Побег", "Bartuc's Curse" => "Проклятие Бартука", "Zharesh Robes" => "Одежды Жареша", "" => ,
-	"Banded Plate" => "Окаймлённые Пластины", "Wisdom's Wrap" => "Покров Мудрости", "Demonspike Coat" => "Пальто Демонического Шипа", "Lachdanan's Visage" => "Облик Лакданана", "" => ,
-	"Ceremonial Armor" => "Церемониальные Доспехи", "Wedding Dress of the Zann" => "Свадебное Платье Занн", "Armor of the Old Religion" => "Доспехи Старой Религии", "Hijab of the Skymother" => "Хиджаб Небесной Матери", "" => ,
+	"Gambeson" => "Стёганка", "Serenthia's Disguise" => "Маскировка Серентии", "Cloak of the Vasan Queen" => "Плащ Васанской Королевы", "Rag Queen" => "Королева Лохмотьев", "Wizard's Cloak" => "Мантия Чародея",
+	"Kazarghand" => "Казарханд", "Ennead's Bane" => "Погибель Эннеады", "Nor Tiraj's Turinash" => "Туринаш Нор Тиража", "Dervish of Aranoch" => "Дервиш Араноха", "Adamantine Guard" => "Несокрушимая Стража",
+	"Lamellar Armor" => "Ламеллярные Доспехи", "Nightscape" => "Ночной Побег", "Bartuc's Curse" => "Проклятие Бартука", "Zharesh Robes" => "Одежды Жареша", "Frozen Heart" => "Замёрзшее Сердце",
+	"Banded Plate" => "Окаймлённые Пластины", "Wisdom's Wrap" => "Покров Мудрости", "Demonspike Coat" => "Пальто Демонического Шипа", "Lachdanan's Visage" => "Облик Лакданана", "Mage's Whirlpool" => "Водоворот Мага",
+	"Ceremonial Armor" => "Церемониальные Доспехи", "Wedding Dress of the Zann" => "Свадебное Платье Занн", "Armor of the Old Religion" => "Доспехи Старой Религии", "Hijab of the Skymother" => "Хиджаб Небесной Матери", "Atanna Khan's Dress" => "Платье Атанны Кхан",
 	# unique jewellery
 		# amulets
 			# regular
@@ -428,6 +427,10 @@ my %phrases = (
 	"Klaatu Barada Nikto" => "Клаату Барада Никто",
 	"Black Dwarf" => "Чёрный Гном",
 	"Gallowlaugh" => "Смешок Висельника",
+	"Vizjerei's Necklace" => "Ожерелье Визжири",
+	"Dyers Eve" => "Канун Смертников",
+	"In For The Kill" => "Вслед За Убийством",
+	"Quov Tsin's Talisman" => "Талисман Куов Цина",
 		# rings
 			# regular
 	"Ring of Disengagement" => "Кольцо Освобождения",
@@ -452,6 +455,10 @@ my %phrases = (
 	"Seal of the Nephalem Kings" => "Печать Королей Нефалема",
 	"Ouroboros" => "Уроборос",
 	"Der Nebelring" => "Кольцо Нибелунга",
+	"Ballantine's 1827" => "Баллантайнс 1827 года",
+	"Adrenaline Rush" => "Прилив Адреналина",
+	"Elemental Band" => "Элементальная Тесьма",
+	"Witchcraft" => "Ведьмовское Искусство",
 		# jewels
 			# regular
 	"The Boulder" => "Булыжник",
@@ -470,6 +477,9 @@ my %phrases = (
 	"Arkenstone" => "Аркенстон",
 	"Xepera Xeper Xeperu" => "Ксепера Ксепер Ксеперу",
 	"Cornerstone of the World" => "Краеугольный Камень Мира",
+	"Zann Esu's Stone" => "Камень Занн Эзу",
+	"Inarius' Rock" => "Скала Инариуса",
+	"Suicide Note" => "Записка Самоубийцы",
 	# unique arrows
 		# arrow quivers
 			# regular
@@ -480,6 +490,7 @@ my %phrases = (
 			# uber
 	"Bag of Tricks" => "Набор Хитрых Приёмов",
 	"Kingsport's Signals" => "Сигналы Кингспорта",
+	"Arrowsider" => "Боковой Стрелок",
 		# bolt quivers
 			# regular
 	"Test Tube" => "Пробирка",
@@ -489,6 +500,7 @@ my %phrases = (
 			# uber
 	"Lammergeier" => "Ягнятник",
 	"Hammerspace" => "Пространство Молота",
+	"Devil's Dance" => "Devil's Dance",
 
 	# RW
 		# runes
