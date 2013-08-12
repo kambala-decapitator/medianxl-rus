@@ -18,7 +18,7 @@ for my $filename (@ARGV)
 	{
 		for my $failedLang (keys %failsHash)
 		{
-			print "$failedLang: $_\n" if /$failsHash{$failedLang}/ and !/\[IMAGE\]/
+			print "$failedLang: $_\n" if /$failsHash{$failedLang}/ and !/\[IMAGE\]/ and !/\dx/
 		}
 	}
 }
