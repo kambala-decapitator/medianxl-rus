@@ -278,6 +278,68 @@ table.craftpoints {
 	border-spacing: 0px;
 	width: 550px;
 	}
+/* for the tokens on heroic\athulua */
+table.token
+{
+	padding-left:1em;
+}
+table.token tr td:first-child
+{
+	vertical-align: top;
+}
+/* character orb page table */
+table.char_orb
+{
+	text-align:center;
+	border-spacing: 0;
+	border-collapse:collapse;
+	border-bottom: 2px solid black;
+	white-space:nowrap;
+}
+
+table.char_orb tr > th
+{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+table.char_orb thead > tr > th
+{
+	font-size:120%;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+table.char_orb tbody > tr > td
+{
+	padding-right:5px;
+}
+
+table.char_orb tbody > tr > td:not(:first-child)
+{
+	color: #555570; /* same as .magic */
+}
+
+table.char_orb tbody > tr > td:first-child
+{
+	text-align:right;
+}
+
+table.char_orb thead > tr > th:last-child
+{
+	padding-left:5px; /* too close otherwise */
+}
+
+table.char_orb tbody > tr > th:first-child
+{
+	text-align:left;
+	padding-left: 1em;
+}
+
+table.char_orb #grs
+{
+	border-top: 1px solid black;
+}
 
 /* -------------------- FONT STYLES -------------------- */
 
@@ -357,6 +419,9 @@ table.craftpoints {
 	}
 .orange {
 	color: #706033;
+	}
+.darkred {
+	color: darkred;
 	}
 .red {
 	color: #705050;
@@ -664,10 +729,92 @@ img.item {
 	padding: 10px;
 	}
 
+/* the inventory pictures of items on the TU/SU pages */
+img.item2 {
+	padding: 6px;
+	}
+
+/* charm pics + text on the right (div div img /div div text /div /div) */
+div.charms {
+	/* text-align:center; */ /* >>for everything centered<< */
+	margin-bottom:1em;
+	}
+
+div.charms img {
+	padding: 7px;
+	float:right; /* >>for everything tabled<< */
+	}
+
+div.charms div {
+	display: inline-block;
+	vertical-align:middle;
+	text-align:center;
+	}
+
+div.charms  > :nth-child(1) {
+	/* margin-right: 1em; */
+	margin-left:66px; /* >>for everything tabled<< */
+	width:72px; /* >>for everything tabled<< */
+	}
+
+div.charms  > :nth-child(2) {
+	width:375px; /* >>for everything tabled<< */
+	}
+
+
 /* -------------------- LIST STYLES -------------------- */
 
 ul {
 	margin-left: 25px;
+}
+
+/* -------------------- NEW ITEM STYLES -------------------- */
+table.item_table
+{
+   border: 1px solid black;
+   width: 1030px;
+   border-spacing: 0;
+   border-collapse: collapse;
+   font-size: 8pt;
+}
+
+table.item_table th
+{
+	padding: 2px;
+	text-align: center;
+}
+
+table.item_table td
+{
+	padding: 2px;
+}
+
+table.item_table tr:nth-child(2) td:first-child
+{
+   border-left: 1px solid black;
+   border-top: 1px solid gray;
+   text-align: center;
+   vertical-align: middle;
+   width: 70px;
+}
+
+table.item_table td:not(:first-child), table.item_table tr:nth-child(3) td:first-child
+{
+   vertical-align: top;
+   width: 320px;
+   border-left: 1px solid gray;
+   border-top: 1px solid gray;
+}
+
+table.item_table div
+{
+   margin:2px 0px 5px 2px;
+   font-weight: bold;
+}
+
+table.item_table img
+{
+   padding: 6px;
 }
 
 /* -------------------- EOF -------------------- */

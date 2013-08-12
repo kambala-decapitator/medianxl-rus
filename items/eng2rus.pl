@@ -115,7 +115,7 @@ my %phrases = (
 			# one-handed
 	"Short Sword" => "Короткий Меч", "Grim Fang" => "Беспощадный Клык", "The Xiphos" => "Ксифос", "Hellforge Edge" => "Клинок Адской Кузницы", "The Eviscerator" => "Потрошильщик",
 	"Scimitar" => "Ятаган", "Al Nath" => "Эль-Нат", "Al Nair" => "Альнаир", "Kraken's Cutlass" => "Сабля Кракена", "Sherazade" => "Шахерезада",
-	'Saber(?=(?: [(])|<)' => "Сабля", "Wardance" => "Военный Танец", "Infernolash" => "Адский Хлыст", "Saber of the Stormsail" => "Сабля Плаванья в Шторм", "Ice Shank" => "Ледяной Черенок",
+	"Wardance" => "Военный Танец", "Infernolash" => "Адский Хлыст", "Saber of the Stormsail" => "Сабля Плаванья в Шторм", "Ice Shank" => "Ледяной Черенок",
 	"Falchion" => "Фальшион", "Finis Terra" => "Финистерра", "Bone Gasher" => "Разрезатель Костей", "Falx Chthon" => "Серп Хтона", "Shadowhawk" => "Теневой Ястреб",
 	"Broad Sword" => "Широкий Меч", "Raptor Beak" => "Клюв Хищника", "Plaguemourn" => "Чумная Скорбь", "Sarandeshi Hellcaller" => "Адский Зов Сарандеши", "Holy Avenger" => "Святой Мститель",
 	"Long Sword" => "Длинный Меч", "Herr Donner" => "Повелитель Бурь", "Warwind" => "Ветер Войны", "Demacian Justice" => "Демасийское Правосудие", "Excalibur" => "Экскалибур",
@@ -131,7 +131,7 @@ my %phrases = (
 		# axes
 			# one-handed
 	"Hand Axe" => "Ручной Топор", "Brainhack" => "Мозгоруб", "Wererat's Bite" => "Укус Человека-Крысы", "Flintstone Axe" => "Топор Флинстоуна", "Headsman" => "Палач",
-	"(?<! )Axe(?=[ <])" => "Топор", "The Lumberjack" => "Лесоруб", "Throatseeker" => "Горлоискатель", "Lavasurge" => "Волна Лавы", "Frigid Chopper" => "Холодный Тесак",
+	"The Lumberjack" => "Лесоруб", "Throatseeker" => "Горлоискатель", "Lavasurge" => "Волна Лавы", "Frigid Chopper" => "Холодный Тесак",
 	"Double Axe" => "Двойной Топор", "Anthem De Frost" => "Гимн Морозу", "Moonbender's Wing" => "Крыло Изгибателя Луны", "Doublecross" => "Надувательство", "Bloodslayer" => "Кровавый Убийца",
 	"Military Pick" => "Военная Кирка", "The Prospector's Pick" => "Кирка Золотоискателя", "Snowhammer" => "Снежный Молот", "Klonk" => "Бумс", "Heaven's Bite" => "Укус Небес",
 	"War Axe" => "Военный Топор", "Rainbowcleave" => "Радужный Раскол", "Nimmenjuushin" => "Людской Зверь", "Fleshmender" => "Починщик Плоти", "Cranebeak" => "Крепкий Клюв",
@@ -158,7 +158,7 @@ my %phrases = (
 	"Grand Scepter" => "Большой Скипетр", "Voidstream" => "Поток Пустоты", "Pagan's Geis" => "Гейс Язычника", "Dead Lake's Lady" => "Госпожа Мёртвого Озера", "The Redeemer" => "Искупитель",
 	"War Scepter" => "Военный Скипетр", "Dreamswayer" => "Властитель Снов", "Thunderbane" => "Громобой", "Firequeen" => "Огненная Королева", "Chaosphere" => "Хаосфера",
 		# javelins
-	"(?<!n )Javelin (?!N)" => "Дротик ", "Devil's Flight" => "Полёт Дьявола", "Raindance" => "Танец Дождя", "Magelock" => "Магический Замо́к", "Wraith Flight" => "Полет Призрака",
+	"Devil's Flight" => "Полёт Дьявола", "Raindance" => "Танец Дождя", "Magelock" => "Магический Замо́к", "Wraith Flight" => "Полет Призрака",
 	"Pilum" => "Пилум", "Shadowstrike" => "Теневой Удар", "Phantom Flight" => "Полёт Фантома", "Screaming Serpent" => "Кричащий Змей", "Spire of Honor" => "Остриё Чести",
 	"Short Spear" => "Короткое Копьё", "Icepick" => "Ледолом", "Emberstorm" => "Буря Угольков", "Fjordwind" => "Ветер Фьорда", "Demon's Arch" => "Арка Демона",
 	"Glaive" => "Глефа", "Sudis Murale" => "Настенное Копьё", "Ashenwind" => "Пепельный Ветер", "Moonfang" => "Лунный Клык", "Night's Embrace" => "Объятия Ночи",
@@ -175,7 +175,7 @@ my %phrases = (
 	"(?<! )Dagger(?!s)" => "Кинжал", "The Shanker" => "Стержень", "Dusk Shard" => "Сумеречный Осколок", "Jalal's Soulstealer" => "Вор Души Джалала", "Dragonglass Dagger" => "Из Драконьего Стекла",
 	"Dirk" => "Кортик", "Quov Tsin's Fall" => "Падение Куов Цина", "Gryphon's Claw" => "Коготь Грифона", "Helgrotha's Fang" => "Клык Хелгроты", "Gonnagal's Dirk" => "Гоннагалов",
 	"Kriss" => "Крис", "Acidburn" => "Кислотный Ожог", "Frostneedle" => "Морозная Игла", "Plunderbird" => "Птица-Опустошитель", "Black Razor" => "Чёрная Бритва",
-	'(?<! )Blade(?= [(])' => "Клинок", "Clawscratch" => "Расцарапывалка", "Drow Valor" => "Бесстрашие Дроу", "Eko Azarak" => "Эко Азарак", "Wizardspike" => "Чародейский Шип",
+	"Clawscratch" => "Расцарапывалка", "Drow Valor" => "Бесстрашие Дроу", "Eko Azarak" => "Эко Азарак", "Wizardspike" => "Чародейский Шип",
 		# throwing knives
 	"Throwing Knife" => "Метательный Нож", "Death Touch" => "Прикосновение Смерти", "Meshif's Iron Parrot" => "Железный Попугай Мешифа", "Starmaiden" => "Звёздная Дева", "Dark Nemesis" => "Тёмная Немезида",
 	"Flying Knife" => "Летающий Нож", "Icebird" => "Ледяная Птица", "Angler's Hook" => "Крюк Рыбака", "Piranha Swarm" => "Стая Пираний", "Warshrike" => "Военный Сорокопут",
@@ -201,7 +201,7 @@ my %phrases = (
 	"Long War Bow" => "Длинный Военный Лук", "The Black Dame" => "Чёрная Дама", "Harp of Vengeance" => "Арфа Мести", "Hammerfall" => "Падение Молота", "Heart Of The Swarm" => "Сердце Роя",
 		# crossbows
 	"Light Crossbow" => "Лёгкий Арбалет", "Runeshatter" => "Уничтожитель Рун", "Razorjack" => "Потрошитель", "Al Hazir's Quillholder" => "Держатель Пера Аль-Хазира", "Plague Bolter" => "Просеиватель Чумы",
-	"Crossbow(?!s)" => "Арбалет", "The Barracuda" => "Барракуда", "The Needler" => "Игольник", "Boss Crow" => "Главный Ворон", "Dreadful Arch" => "Чудовищная Арка",
+	"The Barracuda" => "Барракуда", "The Needler" => "Игольник", "Boss Crow" => "Главный Ворон", "Dreadful Arch" => "Чудовищная Арка",
 	"Heavy Crossbow" => "Тяжёлый Арбалет", "Fallentooth" => "Зуб Падшего", "Thunder Machine" => "Громовая Машина", "Ratbane" => "Крысобой", "Ballista" => "Баллиста",
 	"Repeating Crossbow" => "Самовзводной Арбалет", "Embershot" => "Выстрел Углями", "Larzuk's Bombard" => "Бомбарда Ларзука", "Mons Meg" => "Монс Мег", "Demonstring" => "Демоническая Тетива",
 	# class-specific weapons + uniques' names
@@ -299,7 +299,7 @@ my %phrases = (
 	"Splint Mail" => "Шинная Кольчуга", "Jitan's Kamon" => "Камон Житана", "Candlewake" => "Пробуждение Свечи", "Splinter Mail" => "Расколотая Кольчуга", "Mage's Denial" => "Отречение Мага",
 	"(?<! )Plate Mail" => "Пластинчатая Кольчуга", "Iceshell" => "Ледяной Панцирь", "Arreat's Heart" => "Сердце Арреат", "Skin of Kabraxis" => "Кожа Кабраксиса", "Wolverine Skin" => "Кожа Росомахи",
 	"Field Plate" => "Полевые Пластины", "Fauztin's Visage" => "Облик Фаузтина", "Icetomb" => "Ледяная Гробница", "Itherael's Splendor" => "Величие Итераэля", "Segnitia" => "Медлительность",
-	"Light Plate(?= )" => "Лёгкие Пластины", "Dragon's Blood" => "Кровь Дракона", "Huo Zhi Wang" => "Король Огня", "Hellbourne Disciple" => "Последователь Ада", "Auriel's Robe" => "Мантия Ауриэля",
+	"Dragon's Blood" => "Кровь Дракона", "Huo Zhi Wang" => "Король Огня", "Hellbourne Disciple" => "Последователь Ада", "Auriel's Robe" => "Мантия Ауриэля",
 	"Gothic Plate" => "Готические Пластины", "Steel Golem" => "Стальной Голем", "Scales of the Serpent" => "Чешуя Змея", "Goetia Plate" => "Пластины Гоетии", "Strength Beyond Strength" => "Сила По Ту Сторону Силы",
 	"Full Plate Mail" => "Цельная Пластинчатая Кольчуга", "Shroud Royal" => "Королевский Саван", "Robe of Steel" => "Мантия Стали", "Sankekur's Faulds" => "Латная Юбка Санкекура", "Vizjerei's Ritual" => "Ритуал Визжири",
 	"Ancient Armor" => "Античные Доспехи", "Queen of Glass" => "Королева Хрупкости", "Torn Flesh of Gods" => "Разодранная Плоть Богов", "Khazra Plate" => "Пластины Хазров", "Mercenary Bomb" => "Бомба Наёмника",
@@ -309,7 +309,7 @@ my %phrases = (
 	"(?<! )Helm(?! o)" => "Шлем", "Lavadome" => "Купол Лавы", "Brainburst" => "Разрыв Моска", "Portal Kombat" => "Портал Комбат", "Cat's Pounce" => "Наскок Кошки",
 	"Full Helm" => "Полный Шлем", "Farnham's Flowerpot" => "Цветочный Горшок Фарнама", "Ironhood" => "Железный Колпак", "Headbanger" => "Неформал", "Gehenna" => "Геенна",
 	"Great Helm" => "Огромный Шлем", "Lanterne Rouge" => "Красный Фонарь", "The Prophet's Veil" => "Маска Пророка", "Metalhead" => "Металлюга", "Naga's Reign" => "Власть Наги",
-	"Crown(?= [(])" => "Корона", "Glowskull" => "Светящийся Череп", "Gotterdammerung" => "Гибель Богов", "Aiden's Lament" => "Плач Эйдена", "Sepultura" => "Могила",
+	"Glowskull" => "Светящийся Череп", "Gotterdammerung" => "Гибель Богов", "Aiden's Lament" => "Плач Эйдена", "Sepultura" => "Могила",
 			# circlets
 	"Circlet(?!s)" => "Ободок", "The Celestial Crown" => "Небесная Корона", "(?<!– )Helm of Sprits" => "Шлем Ду́хов", "Eyes of Septumos" => "Глаза Септумоса", "Arcane Protection" => "Мистическое Покровительство",
 	"Coronet" => "Венец", "The Allseeing Eye" => "Всевидящее Око", "Dark Star(?! D)" => "Тёмная Звезда", "Breathstealer" => "Крадущий Дыхание", "Warlock's Brilliance" => "Великолепие Колдуна",
@@ -331,7 +331,7 @@ my %phrases = (
 		# belts
 	"Sash(?! o)" => "Кушак", "Moonwrap" => "Лунный Покров", "Sash of Shadows" => "Пояс Теней", "Cliffhanger" => "Магнит", "Lightning Enchanted" => "Зачарованный Молнией",
 	"Light Belt" => "Лёгкий Пояс", "Wormtongue" => "Червеуст", "The Endless Loop" => "Бесконечная Петля", "Tldr" => "Многа Букаф", "Lunar Eclipse" => "Лунное Затмение",
-	"(?<! )Belt(?= )" => "Пояс", "Aerin Orbiter" => "Челнок Аэрина", "Ashaera's Armor" => "Броня Ашеары", "Manafire" => "Огонь Маны", "Dementia" => "Слабоумие",
+	"Aerin Orbiter" => "Челнок Аэрина", "Ashaera's Armor" => "Броня Ашеары", "Manafire" => "Огонь Маны", "(?!e )Dementia" => "Слабоумие",
 	"Heavy Belt" => "Тяжёлый Пояс", "Deadfall" => "Западня", "Nor Tiraj's Wisdom" => "Мудрость Нор Тиража", "Edgewulf's Girdle" => "Ремень Эджвульфа", "Black Void" => "Чёрная Пустота",
 	"Plated Belt" => "Пластинчатый Пояс", "Dragon Tail" => "Драконий Хвост", "The Asteroid Belt" => "Пояс Астероидов", "Lilith's Temptation" => "Искушение Лилит", "Champion of the Truine" => "Победитель Триединства",
 		# gloves
@@ -345,7 +345,7 @@ my %phrases = (
 	"Heavy Boots" => "Тяжёлые Ботинки", "Death Spur" => "Смертельные Шпоры", "Spirit Walker" => "Скороходы Духов", "Lifecrusher" => "Уничтожитель Жизни", "Titan's Steps" => "Шаги Титана",
 	"Chain Boots" => "Кольчужные Ботинки", "Lionpaw" => "Львиная Лапа", "Toesie Warmer" => "Согреватель Пальчиков", "Clawfeet" => "Когтистые Ноги", "Angel's Wrath" => "Ярость Ангела",
 	"Light Plated Boots" => "Ботинки из Лёгких Пластин", "Zealot Rush" => "Бросок Фанатика", "Akarat's Trek" => "Путешествие Акарата", "Earthbender" => "Земные Щипцы", "Steel Terror" => "Жестокий Ужас",
-	"Greaves" => "Наголенники", "Wake of Destruction" => "Поступь Разрушения", "Slippers of Yaerius" => "Тапочки Яериуса", "Rodeo's Tramplers" => "Топот Родео", "Knight's Grace" => "Грация Рыцаря",
+	"(?<!s )Greaves" => "Наголенники", "Wake of Destruction" => "Поступь Разрушения", "Slippers of Yaerius" => "Тапочки Яериуса", "Rodeo's Tramplers" => "Топот Родео", "Knight's Grace" => "Грация Рыцаря",
 	# class-specific equipment + uniques' names
 		# Amazon
 			# helms
@@ -554,12 +554,17 @@ my %phrases = (
 	"Nih<br>" => "Них<br>",
 	"Lai<br>" => "Лаи<br>",
 	"On<br>" => "Он<br>",
-	"Taha<br>" => "Таха<br>",
-	"Ghal<br>" => "Гал<br>",
-	"Qor<br>" => "Куор<br>",
-	"Krys<br>" => "Крис<br>",
-	"Auhe<br>" => "Аухе<br>",
-	"Sha'ad<br>" => "Ша'ад<br>",
+	"Taha" => "Таха",
+	"Ghal" => "Гал",
+	"Qor" => "Куор",
+	"Krys" => "Крис",
+	"Auhe" => "Аухе",
+	"Sha'?ad" => "Ша'ад",
+	"Ice<br>" => "Лёд<br>",
+	"Light<br>" => "Молния<br>",
+	"Magic<br>" => "Магия<br>",
+	"Poison<br>" => "Яд<br>",
+	"Kabraxis' Stone" => "Камень Кабраксиса",
 		# Weapons
 	"(?<=>)Dawn(?=<)" => "Рассвет",
 	"Shark" => "Акула",
@@ -650,7 +655,7 @@ my %phrases = (
 	"Hastin" => "Хастин",
 	"Thriller" => "Триллер",
 		# Throwing Knives
-	"Patriot" => "Патриот",
+	"Patriot(?! S)" => "Патриот",
 	"Chrysopelea" => "Летающая Змея",
 	"Dajjal" => "Даджаль",
 	"Quantum" => "Квант",
@@ -723,8 +728,10 @@ my %phrases = (
 	"Lahmu" => "Лахму",
 	"Kahless" => "Кахлесс",
 	"Gilgamesh" => "Гильгамеш",
-	"Wolfsangel" => "Вольфсангель",
 	"Angry Again" => "И Снова Злой",
+			# 2h axes
+	"Wolfsangel" => "Вольфсангель",
+	"Unintended" => "Непреднамеренный",
 		# Druid Bows
 	"Peacock" => "Павлин",
 	"Lynx" => "Рысь",
@@ -878,7 +885,7 @@ my %phrases = (
 	"Citizen Erased" => "Стёртый Гражданин",
 		# Gloves
 	"Iblis" => "Иблис",
-	"Mercy" => "Милость",
+	"(?<!s )Mercy" => "Милость",
 	"Brawl" => "Гул",
 	"Kali" => "Кали",
 	"Aiwass" => "Айвас",
@@ -1004,9 +1011,9 @@ my %phrases = (
 	"Amazon Bow Set" => "Лучный Комплект Амазонки",
 	"Pantheon" => "Пантеон",
 	"(?<=>)Frost(?=<)" => "Мороз",
-	"Water" => "Вода",
+	"Water(?!c)" => "Вода",
 	"(?<=>)Earth(?=<)" => "Земля",
-	"Heaven" => "Рай",
+	"(?!of )Heaven(?! I)" => "Рай",
 	"(?<=>)Fire(?=<)" => "Огонь",
 			# spear
 	"Amazon Spear Set" => "Копейный Комплект Амазонки",
@@ -1096,7 +1103,7 @@ my %phrases = (
 	"Barbarian Shaman Set" => "Шаманский Комплект Варвара",
 	"Spirits of the Nephalem" => "Духи Нефалема",
 	"The Defender" => "Защитник",
-	"(?:The )?Protector" => "Покровитель",
+	"(?:The )?Protector(?! S)" => "Покровитель",
 	"The Guardian" => "Страж",
 	"Destiny" => "Участь",
 	"Sacred Charge" => "Священная Забота",
@@ -1250,7 +1257,7 @@ my %phrases = (
 		# multiplayer
 	"SECRET MULTIPLAYER-ONLY SET" => "СЕКРЕТНЫЙ СЕРВЕРНЫЙ КОМПЛЕКТ",
 			# crossbow
-	"Crossbow Set" => "Арбалетный Комплект",
+	"(?<!r )Crossbow Set" => "Арбалетный Комплект",
 	"Testament of the Apes" => "Завещание Обезьян",
 	"Apefoot" => "Обезьянья Нога",
 	"Apehand" => "Обезьянья Рука",
@@ -1273,11 +1280,12 @@ my %phrases = (
 	"Tanya, the Sorceress" => "Таня, Колдунья",
 	"Zoology, the Amazon" => "Зоология, Амазонка",
 	"MISSINGNO, the Paladin" => "Несуществующий, Паладин",
-	"Fearless, the Barbarian" => "Бесстрашный, Варвар",
+	"[Ff]earless, the Barbarian" => "Бесстрашный, Варвар",
 	"Natasha, the Assassin" => "Наташа, Ассассин",
 			# Community
 	"Community Tribute Set" => "Комплект-Посвящение Сообществу",
-	"rad's Guerrilla Warfare " => "Партизанская Борьба rad82",
+	"All Is One" => "Все Как Один",
+	"rad's Guerrilla Warfare" => "Партизанская Борьба rad82",
 	"Segolia's Fenrir's Mercy" => "Фенрирово Милосердие Segolia",
 	"Greg's Silent Scream" => "Безмолвный Крик Greg'а",
 	"Stealthmaster's Triumph" => "Триумф Stealthmaster'а",
@@ -1292,6 +1300,8 @@ my %phrases = (
 	"Nor Tiraj's Safeguard" => "Конвой Нор Тиража",
 	#"Valthek's Blade" => "Клинок Валтека", # it's in %ambigious
 	"Horazon's Guard" => "Страж Хоразона",
+	"Mystic Sword" => "Мистичечкий Меч",
+	"Fast Attack Speed" => "Быстрая Скорость Атаки",
 			# minions
 	"Yshari Minions' Set" => "Комплект Миньонов Ишари",
 	"Brotherhood of the Horadrim" => "Братство Хорадримов",
@@ -1340,7 +1350,7 @@ my %phrases = (
 	"to Lightning Spell Damage" => "к Урону Заклинаний Молнии",
 	"to Physical/Magic Spell Damage" => "к Физическому/Магическому Урону Заклинаний",
 	"to Poison Spell Damage" => "к Урону Заклинаний Яда",
-	"to Spell Damage" => "к Урону Заклинаний",
+	"to Spell [Dd]amage" => "к Урону Заклинаний",
 	"Bonus to Poison Skill Duration" => "к Длительности Навыков Яда",
 	"Bonus to Energy Factor" => "к Фактору Энергии",
 	"(?<!o )Energy Factor" => "Фактора Энергии",
@@ -1350,16 +1360,17 @@ my %phrases = (
 	"to Maximum Fire Damage" => "к Максимальному Урону Огнём",
 	"to Maximum Cold Damage" => "к Максимальному Урону Холодом",
 	"to Maximum Lightning Damage" => "к Максимальному Урону Молнией",
-	"(?<!m )magic damage" => "Магического Урона",
+	"(?<!m )[Mm]agic [Dd]amage (?! [Rr])" => "Магического Урона",
 	"(?<!m )[Ff]ire [Dd]amage" => "Урона Огнём",
-	"(?<!m )cold damage" => "Урона Холодом",
-	"(?<!m )lightning damage" => "Урона Молнией",
-	"(?<!m )poison damage over" => "Урона Ядом в Течение",
+	"(?<!m )[Cc]old [Dd]amage" => "Урона Холодом",
+	"(?<!m )[Ll]ightning [Dd]amage" => "Урона Молнией",
+	"(?<!m )[Pp]oison [Dd]amage over" => "Урона Ядом в Течение",
 	"[sS]econds" => "Секунд",
 	# absorbs
 	"Fire Absorb" => "Поглощение Огня",
 	"Cold Absorb" => "Поглощение Холода",
 	"Lightning Absorb" => "Поглощение Молнии",
+	"Magic Absorb" => "Поглощение Магии",
 	# +resists
 	"to Maximum Fire Resist" => "к Максимальному Сопротивлению Огню",
 	"to Maximum Cold Resist" => "к Максимальному Сопротивлению Холоду",
@@ -1418,6 +1429,27 @@ my %phrases = (
 	"(?:Fast|Slow)er Block Rate" => "к Скорости Блокирования",
 	"(?:Fast|Slow)er Run/Walk" => "к Скорости Бега/Ходьбы",
 	"Random Walk/Run Speed" => "Случайная Скорость Бега/Ходьбы",
+	# ctc
+	"Chance to [Cc]ast [Ll]evel|CtC lvl" => "Шанс использовать навык уровня",
+	"when you [kK]ill an [eE]nemy" => "при Убийстве Врага",
+	"when you Die" => "при Смерти",
+	"when you Level-Up" => "при получении Нового Уровня",
+	"(?<= )on [aA]ttack" => "при Атаке",
+	"(?<!Life |Mana )on [sS]triking" => "при Попадании",
+	"when [sS]truck(?! )" => "после Попадания по вам",
+	"when Struck by a Missile" => "при Попадании Снаряда по вам",
+	"when you Take Damage" => "при Получении Урона",
+	"when Attacked" => "когда вас Атакуют",
+	"when your Enemy is Slain" => "когда Враг Умирает",
+	# +skills
+	"to Amazon Skill (?:Levels|lvls)" => "к Навыкам Амазонки",
+	"to Assassin Skill (?:Levels|lvls)" => "к Навыкам Ассассина",
+	"to Barbarian Skill (?:Levels|lvls)" => "к Навыкам Варвара",
+	"to Druid Skill (?:Levels|lvls)" => "к Навыкам Друида",
+	"to Necromancer Skill (?:Levels|lvls)" => "к Навыкам Некроманта",
+	"to Paladin Skill (?:Levels|lvls)" => "к Навыкам Паладина",
+	"to Sorceress Skill (?:Levels|lvls)" => "к Навыкам Колдуньи",
+	"to All Skills" => "ко Всем Навыкам",
 	# other modifiers
 	"Target Takes Additional Damage of" => "Цель Получает Дополнительный Урон",
 	"Attacker Takes Fire Damage of" => "Атакующему Наносится Урон Огнём",
@@ -1433,12 +1465,11 @@ my %phrases = (
 	"(?:(?:Better|Worse) Chance of Getting Magic Items)|(?:Magic Find)" => "к Шансу Нахождения Магических Вещей",
 	"Stun Attack" => "Оглушение",
 	"Chance of Uninterruptable Attack" => "Шанс Непрерываемой Атаки",
-	"to Experience Gained" => "к Получаемому Опыту",
-	"(?<! )Level" => "Уровень",
+	"(?:to )?Experience Gained" => "к Получаемому Опыту",
 	"Charges" => "Зарядов",
 	"(?:Increas|Reduc)ed Healing Rate from Apples" => "к Скорости Лечения от Яблок",
 	"(?:Replenish|Regenerate) Life" => "Восстановление Жизни",
-	"Regenerate Mana" => "Восстановление Маны",
+	"Regenerate [Mm]ana" => "Восстановление Маны",
 	"Reanimate as" => "Возродить как",
 	"Damage Reflected" => "Отражённый Урон",
 	"Decrease Maximum Durability" => "Уменьшение Максимальной Прочности на",
@@ -1453,8 +1484,8 @@ my %phrases = (
 	"Bonus to Miasma Haunt Duration" => "Бонус Длительности Мучения Миазм",
 	"Curse Length Reduction" => "Сокращение Длительности Проклятий",
 	"to Light Radius" => "к Радиусу Освещения",
-	"per(?: skill)? level" => "за уровень",
-	"Based on (?:Character Level)|Clvl" => "Основано на Уровне Персонажа",
+	"per(?: skill)? (?:level|lvl)" => "за уровень",
+	"Based on (?:Character Level|Clvl)" => "Основано на Уровне Персонажа",
 	"Enhanced Stance Radius" => "к Радиусу Стоек",
 	"Attacker Flees after Striking" => "Атакующий Убежит после Удара",
 	"Hit Causes Monster to Flee" => "Обращает Цель в Бегство при Попадании",
@@ -1475,7 +1506,7 @@ my %phrases = (
 	"Prevent Monster Heal" => "Монстры Не Могут Лечиться",
 	#"Bonus to Vitality when using an Apple" => "к Живучести при использовании Яблока", # is composed from 2 strings
 	"Velocity Bonus to Sacred Armor" => "Бонус Скорости Священной Броне",
-	"Based on Blessed Life Skill Level|lvl" => "Основано на Уровне Навыка Благословенная Жизнь",
+	"Based on Blessed Life Skill (?:Level|lvl)" => "Основано на Уровне Навыка Благословенная Жизнь",
 	"Extra Magic Missiles Bolts" => "Дополнительных Магических Снарядов",
 	"Deadly Strike" => "Смертельный Удар",
 	"per strength" => "за единицу Силы",
@@ -1510,28 +1541,6 @@ my %phrases = (
 	"of Poison Spell Damage Items to Vitality" => "к Живучести от Суммарного Бонуса Урону Заклинаний Яда", # "Hive Adds" is composed from 2 words
 	"Orb Effects Applied to this Item are Doubled" => "Эффект от Мистических Сфер Удваивается при Применении",
 	"Slain Monsters Rest in Peace" => "Убитые Монстры Не Оставляют Трупов",
-	# ctc
-	"(?:Chance to cast level)|(?:CtC lvl)" => "Шанс использовать навык уровня",
-	"when you [kK]ill an [eE]nemy" => "при Убийстве Врага",
-	"when you Die" => "при Смерти",
-	"when you Level-Up" => "при получении Нового Уровня",
-	"(?<= )on [aA]ttack" => "при Атаке",
-	"(?<!Life |Mana )on [sS]triking" => "при Попадании",
-	"when [sS]truck(?! )" => "после Попадания по вам",
-	"when Struck by a Missile" => "при Попадании Снаряда по вам",
-	"when you Take Damage" => "при Получении Урона",
-	"when Attacked" => "когда вас Атакуют",
-	"when your Enemy is Slain" => "когда Враг Умирает",
-	# +skills
-	"to Amazon Skill (?:Levels)|(?:lvls)" => "к Навыкам Амазонки",
-	"to Assassin Skill (?:Levels)|(?:lvls)" => "к Навыкам Ассассина",
-	"to Barbarian Skill (?:Levels)|(?:lvls)" => "к Навыкам Варвара",
-	"to Druid Skill (?:Levels)|(?:lvls)" => "к Навыкам Друида",
-	"to Necromancer Skill (?:Levels)|(?:lvls)" => "к Навыкам Некроманта",
-	"to Paladin Skill (?:Levels)|(?:lvls)" => "к Навыкам Паладина",
-	"to Sorceress Skill (?:Levels)|(?:lvls)" => "к Навыкам Колдуньи",
-	"to All Skills" => "ко Всем Навыкам",
-	#"to \(random active character skill\)" => "к (случайному непассивному навыку одного из персонажей)",
 	# monster names (reanimates)
 	"Infernal Lord" => "Адский Лорд",
 	": Zombie" => ": Зомби",
@@ -1658,7 +1667,7 @@ my %phrases = (
 	"Juris Khan, King of Ureh" => "Джарис Хан, Король Уреха",
 	"(?<=>)Venom(?=<)" => "Яд",
 	"Minion of Terror" => "Существо Ужаса",
-	"Void Archon" => "Архонт Пустоты",
+	"(?<!n )Void Archon" => "Архонт Пустоты",
 	"Landmass" => "Пустошь",
 	"(?<=>)Stone(?=<)" => "Камень",
 	"(?<=>)Snow(?=<)" => "Снег",
@@ -1667,6 +1676,9 @@ my %phrases = (
 	"Ghost of Kabraxis" => "Призрак Кабраксиса",
 	"Sasquatch" => "Саскуотч",
 	"Abomination" => "Мерзость",
+	"Stone Hammer Demon" => "Каменный Молот",
+	"Monkey King" => "Король Обезьян",
+	"Shock Monkey" => "Шоковая Обезьяна",
 	# skill names (ctc/charges)
 	"(?<![:o] )Blink" => "Скачок",
 	"Shower of Rocks" => "Камнепад",
@@ -1873,6 +1885,15 @@ my %phrases = (
 	"(?<![sog] )Tempest" => "Буря",
 	"Slicer Blade" => "Режущий Клинок",
 	"Black Lotus Strike" => "Удар Чёрного Лотоса",
+	"(?<!o )Shadow Blade" => "Теневой Клинок",
+	"(?<!o )Screaming Eagle" => "Кричащий Орёл",
+	"(?<!o )Frigid Sphere" => "Холодная Сфера",
+	"(?<!o )Whirlpool" => "Ледоворот",
+	"Quill Spike" => "Шип",
+	"(?<!o )Electrofield Sentry" => "Часовой Электрополя",
+	"(?<!o )Fireball Sentry" => "Часовой Огненных Шаров",
+	"(?<!o )Powder Keg" => "Пороховая Бочка",
+	"Patriot Sentry" => "Часовой-Пэтриот",
 	# oskills
 	"to Hamstring" => "к Подрезке",
 	"to Forked Lightning" => "к Зигзагообразной Молнии",
@@ -1956,7 +1977,8 @@ my %phrases = (
 	"to Punisher" => "к Карателю",
 	"to Rathma's Chosen" => "к Избраннику Ратмы",
 	"to Pentagram" => "к Пентаграмме",
-	"to Summon Veil King" => "к Призыву Сокрытого Короля",
+	"to Summon Veil King(?!s)" => "к Призыву Сокрытого Короля",
+	"to Summon Veil Kings" => "к Призыву Сокрытых Королей",
 	"to Summon Lamia" => "к Призыву Ламии",
 	"to Unholy Armor" => "к Нечестивой Броне",
 	"to Magic Missiles" => "к Магическим Снарядам",
@@ -2106,6 +2128,16 @@ my %phrases = (
 	"to Lightning Arena" => "к Арене Молний",
 	"to Wild and Free" => "к Свободе Дикой Природы",
 	"to Bacchanalia" => "к Вакханалии",
+	"to Takedown" => "к Подавлению",
+	"to Fairy Ring" => "к Сказочному Кольцу",
+	"to Brimstone" => "к Сере",
+	"to Disco Inferno" => "к Аццкому Диско",
+	"to Ancient Blood" => "к Древней Крови",
+	"to Ultimative" => "к Ultimative",
+	"to Plague(?! A)" => "к Чуме",
+	"to Iron Shield" => "к Железному Щиту",
+	"to Arcane Blast" => "к Магическому Взрыву",
+	"to Holybolt" => "к Святой Стреле",
 	# other strings
 	"=630" => "=700", # html table width in uniques
 	"=380" => "=450", # html table width in sets
@@ -2132,8 +2164,9 @@ my %phrases = (
 	'This is an oskill and therefore usable by any class' => "Это оскилл, а значит этот навык может использовать любой персонаж",
 	'The appearance of this affix is a bug and the affix does nothing' => "Этот аффикс ничего не даёт и появляется из-за бага, просто не обращайте внимание",
 	"(?<=>)NOTE" => "ПРИМЕЧАНИЕ",
-	"Every item in this set, except Valthek's Blade," => "Все предметы этого комплекта за исключением Клинка Валтека",
+	'Every item in this set, except <span class="set">Valthek\'s Blade</span>,' => 'Все предметы этого комплекта за исключением <span class="set">Клинка Валтека</span>',
 	"can be drilled for sockets" => "могут иметь гнёзда",
+	'Values for the bonuses of the set items are approximate' => 'Значения свойств предметов являются приблизительными',
 );
 
 my %ambigious = (
@@ -2142,13 +2175,23 @@ my %ambigious = (
 
 	"[Dd]efense" => "к Защите",
 	"[Dd]amage" => "к Урону",
-	
+
+	"Saber" => "Сабля",
+	"Axe" => "Топор",
+	"Javelin" => "Дротик",
+	'Blade' => "Клинок",
+	"Crossbow" => "Арбалет",
+	"Light Plate" => "Лёгкие Пластины",
+	"Crown" => "Корона",
+	"Belt" => "Пояс",
+
 	"Шлемs" => "Шлемы", # yeah, I'm lazy :)
 	"to Mana" => "к Мане", # for "to Mana (BoCL)"
+	"Level" => "Уровень",
 
 	"Shields" => "Щиты", # for RW
 	"Staves" => "Посохи", # same here
-	
+
 	"gives" => "даёт", # 'Ultimative' skill explanation in RW
 	"Elemental Set" => "Элементальный Комплект", # Ultimative set
 	"Fire Set" => "Огненный Комплект", # same here

@@ -12,13 +12,13 @@ my %failsHash = (
 );
 for my $filename (@ARGV)
 {
-	my $string = HTML::FormatText->format_file($filename, leftmargin => 0, rightmargin => 50);
+	my $string = HTML::FormatText->format_file($filename, leftmargin => 0, rightmargin => 70);
 	print "\n-----$filename-----\n";
 	for (split /\n/, $string)
 	{
 		for my $failedLang (keys %failsHash)
 		{
-			print "$failedLang: $_\n" if $_ =~ /$failsHash{$failedLang}/ and $_ ne '[IMAGE]'
+			print "$failedLang: $_\n" if /$failsHash{$failedLang}/ and !/\[IMAGE\]/
 		}
 	}
 }
