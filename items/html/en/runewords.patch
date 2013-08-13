@@ -1,0 +1,79 @@
+--- old/runewords.html	Tue Aug 13 09:02:54 2013
++++ new/runewords.html	Mon Aug 12 22:25:37 2013
+@@ -19,7 +19,7 @@
+ 
+ 		<p class="genbig">LIST OF RUNEWORDS</p>
+-		
++
+ 		<hr />
+-		
++
+ 
+ <table border=0 cellpadding=5 cellspacing=0 width=840><tr>
+@@ -147,5 +147,5 @@
+ <tr><td width=150><div class="cenflat" align="center"><b><span class="unique">Archangel<br>
+ Level 100</span></b><br /></div></td><td width=140><table border=0 cellpadding=0 cellspacing=0><tr><td width=70><div align="right"><img class="aic" src="images/runes/r-d-11.gif" width="28" height="28" border="0"><br><img class="aic" src="images/runes/r-d-11.gif" width="28" height="28" border="0"></td><td width = 35><div class="cenflat" align="center">0-4 Jewels<br />+ 2x <b><span class="holy">Qor<br>
+-</b></td></tr></table></div></td><td width=120><div class="cenflat" align="center">Weapon<br>
++</b></td></tr></table></div></td><td width=120><div class="cenflat" align="center">Weapons<br>
+ </div></td><td width=500><div class="cenflat" align="center"><span class="magic">+(201 to 250)% Enhanced Damage<br>
+ Adds 50-200 Damage<br>
+@@ -1498,5 +1498,5 @@
+ <tr><td width=150><div class="cenflat" align="center"><b><span class="unique">Lithium<br>
+ Level 100</span></b><br /></div></td><td width=140><table border=0 cellpadding=0 cellspacing=0><tr><td width=70><div align="right"><img class="aic" src="images/runes/r_magic.png" width="28" height="28" border="0"><img class="aic" src="images/runes/r_magic.png" width="28" height="28" border="0"><img class="aic" src="images/runes/r_magic.png" width="28" height="28" border="0"><img class="aic" src="images/runes/r_magic.png" width="28" height="28" border="0"><img class="aic" src="images/runes/r_magic.png" width="28" height="28" border="0"><img class="aic" src="images/runes/r_magic.png" width="28" height="28" border="0"></td><td width = 35><font size="-1"><div class="cenflat" align="center">6x <br><b><span class="holy">Magic<br>
+-</b></td></tr></table></div></td><td width=120><div class="cenflat" align="center">Assasin Naginata<br>
++</b></td></tr></table></div></td><td width=120><div class="cenflat" align="center">Assassin Naginata<br>
+ </div></td><td width=500><div class="cenflat" align="center" id="asn_nagi"><span class="magic">2% Chance to cast level 22 Pagan Rites when you Kill an Enemy<br>
+ +(0 to 7) to Assassin Skill Levels<br>
+@@ -2714,5 +2714,5 @@
+ +10 Energy Factor to Spell Damage<br>
+ <tr><td width=150><div class="cenflat" align="center"><b><span class="unique">Eternal<br>
+-Level 100</span></b><br /></div></td><td width=140><table border=0 cellpadding=0 cellspacing=0><tr><td width=70><div align="right"><img class="aic" src="images/runes/r-d-02.gif" width="28" height="28" border="0"><img class="aic" src="images/runes/r-d-05.gif" width="28" height="28" border="0"><br><img class="aic" src="images/runes/r-d-11.gif" width="28" height="28" border="0"><img class="aic" src="images/runes/r-d-07.gif" width="28" height="28" border="0"><br><img class="aic" src="images/runes/r-d-04.gif" width="28" height="28" border="0"><img class="aic" src="images/runes/r-d-12.gif" width="28" height="28" border="0"></td><td width = 35><div class="cenflat" align="center"><b><span class="holy">Taha Ghal Qor Krys Auhe Shaad<br>
++Level 100</span></b><br /></div></td><td width=140><table border=0 cellpadding=0 cellspacing=0><tr><td width=70><div align="right"><img class="aic" src="images/runes/r-d-02.gif" width="28" height="28" border="0"><img class="aic" src="images/runes/r-d-05.gif" width="28" height="28" border="0"><br><img class="aic" src="images/runes/r-d-11.gif" width="28" height="28" border="0"><img class="aic" src="images/runes/r-d-07.gif" width="28" height="28" border="0"><br><img class="aic" src="images/runes/r-d-04.gif" width="28" height="28" border="0"><img class="aic" src="images/runes/r-d-12.gif" width="28" height="28" border="0"></td><td width = 35><div class="cenflat" align="center"><b><span class="holy">Taha Ghal Qor Krys Auhe Sha'ad<br>
+ </b></span></b></td></tr></table></div></td><td width=120><div class="cenflat" align="center">Body Armors<br>
+ </div></td><td width=500><div class="cenflat" align="center"><span class="magic">+4 to All Skills<br>
+@@ -2733,5 +2733,5 @@
+ Damage Reduced by 10%<br>
+ <tr><td width=150><div class="cenflat" align="center"><b><span class="unique"><font color="#ff0000">Natasha's Legacy</font><br>
+-Level 120</span></b><br /></div></td><td width=140><table border=0 cellpadding=0 cellspacing=0><tr><td width=70><div align="right"><img class="aic" src="images/runes/r_kab.png" width="28" height="28" border="0"><img class="aic" src="images/runes/r_kab.png" width="28" height="28" border="0"><img class="aic" src="images/runes/r_kab.png" width="28" height="28" border="0"><img class="aic" src="images/runes/r_kab.png" width="28" height="28" border="0"><img class="aic" src="images/runes/r_kab.png" width="28" height="28" border="0"><img class="aic" src="images/runes/r_kab.png" width="28" height="28" border="0"></td><td width = 35><div class="cenflat" align="center">6<br><b><span class="holy">Kabraxis' Stone<br></b></td></tr></table></div></td><td width=120><div class="cenflat" align="center">Body Armors<br>
++Level 120</span></b><br /></div></td><td width=140><table border=0 cellpadding=0 cellspacing=0><tr><td width=70><div align="right"><img class="aic" src="images/runes/r_kab.png" width="28" height="28" border="0"><img class="aic" src="images/runes/r_kab.png" width="28" height="28" border="0"><img class="aic" src="images/runes/r_kab.png" width="28" height="28" border="0"><img class="aic" src="images/runes/r_kab.png" width="28" height="28" border="0"><img class="aic" src="images/runes/r_kab.png" width="28" height="28" border="0"><img class="aic" src="images/runes/r_kab.png" width="28" height="28" border="0"></td><td width = 35><div class="cenflat" align="center">6x <br><b><span class="holy">Kabraxis' Stone<br></b></td></tr></table></div></td><td width=120><div class="cenflat" align="center">Body Armors<br>
+ </div></td><td width=500><div class="cenflat" align="center" id="armors"><span class="magic">+(0 to 4) to All Skills<br>
+ 50% Faster Run/Walk<br>
+@@ -2837,6 +2837,6 @@
+ Adds 25-75 Damage<br>
+ +(31 to 40) to Strength<br>
+-2% Chance to Cast level 20 Dark Power when you Kill an Enemy<br>
+-2% Chance to Cast level 20 Bloodlust when you Kill an Enemy<br>
++2% Chance to cast level 20 Dark Power when you Kill an Enemy<br>
++2% Chance to cast level 20 Bloodlust when you Kill an Enemy<br>
+ Regenerate mana +10%<br>
+ <tr><td width=150><div class="cenflat" align="center"><b><span class="unique">Genesis<br>
+@@ -3007,6 +3007,6 @@
+ Adds 25-75 Damage<br>
+ +(31 to 40) to Strength<br>
+-2% Chance to Cast level 20 Dark Power when you Kill an Enemy<br>
+-2% Chance to Cast level 20 Bloodlust when you Kill an Enemy<br>
++2% Chance to cast level 20 Dark Power when you Kill an Enemy<br>
++2% Chance to cast level 20 Bloodlust when you Kill an Enemy<br>
+ Regenerate mana +10%<br>
+ <tr><td width=150><div class="cenflat" align="center"><b><span class="unique">Encoder<br>
+@@ -3574,5 +3574,5 @@
+ <tr><td width=150><div class="cenflat" align="center"><b><span class="unique">The Lukewarm<br>
+ Level 100</span></b><br /></div></td><td width=140><table border=0 cellpadding=0 cellspacing=0><tr><td width=70><div align="right"><img class="aic" src="images/runes/r_magic.png" width="28" height="28" border="0"><img class="aic" src="images/runes/r_magic.png" width="28" height="28" border="0"><img class="aic" src="images/runes/r_magic.png" width="28" height="28" border="0"><img class="aic" src="images/runes/r_magic.png" width="28" height="28" border="0"><img class="aic" src="images/runes/r_magic.png" width="28" height="28" border="0"><img class="aic" src="images/runes/r_magic.png" width="28" height="28" border="0"></td><td width = 35><font size="-1"><div class="cenflat" align="center">6x <br><b><span class="holy">Magic<br>
+-</b></td></tr></table></div></td><td width=120><div class="cenflat" align="center">Assasin Shields<br>
++</b></td></tr></table></div></td><td width=120><div class="cenflat" align="center">Assassin Shields<br>
+ </div></td><td width=500><div class="cenflat" align="center" id="asn_shields"><span class="magic">+(0 to 2) to Assassin Skill Levels<br>
+ 40% Faster Block Rate<br>
+@@ -3995,5 +3995,5 @@
+ <tr><td width=150><div class="cenflat" align="center"><b><span class="unique">Juicebox<br>
+ Level 100</span></b><br /></div></td><td width=140><table border=0 cellpadding=0 cellspacing=0><tr><td width=70><div align="right"><img class="aic" src="images/runes/r_stone.png" width="28" height="28" border="0"><img class="aic" src="images/runes/r_stone.png" width="28" height="28" border="0"><img class="aic" src="images/runes/r_stone.png" width="28" height="28" border="0"><img class="aic" src="images/runes/r_stone.png" width="28" height="28" border="0"></td><td width = 35><font size="-1"><div class="cenflat" align="center">4x <br><b><span class="holy">Stone<br>
+-</b></td></tr></table></div></td><td width=120><div class="cenflat" align="center">Paladin Helmets<br>
++</b></td></tr></table></div></td><td width=120><div class="cenflat" align="center">Paladin Helms<br>
+ </div></td><td width=500><div class="cenflat" align="center" id="pal_helms"><span class="magic">+(0 to 1) to Paladin Skill Levels<br>
+ 25% Increased Attack Speed<br>
+@@ -4056,5 +4056,5 @@
+ +(51 to 75)% Bonus to Summoned Minion Life<br>
+ All Resists +100%<br>
+-25% Reanimate as: Darksister<br>
++25% Reanimate as: <font color="#20b020">Darksister</font><br>
+ <tr><td width=150><div class="cenflat" align="center"><b><span class="unique">Myrrhbearer<br>
+ Level 100</span></b><br /></div></td><td width=140><table border=0 cellpadding=0 cellspacing=0><tr><td width=70><div align="right"><img class="aic" src="images/runes/r-d-04.gif" width="28" height="28" border="0"></td><td width = 35><div class="cenflat" align="center">0-3 Jewels<br />+<b><span class="holy">Auhe<br>
