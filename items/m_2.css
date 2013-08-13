@@ -384,9 +384,6 @@ table.char_orb #grs
 	color: #727272;
 	}
 /* special text colour spans to draw attention, display item grades etc */
-.unique {
-	color: #706033;
-	}
 .magic {
 	color: #555570;
 	}
@@ -772,7 +769,7 @@ ul {
 table.item_table
 {
    border: 1px solid black;
-   width: 1030px;
+   width: 1400px;
    border-spacing: 0;
    border-collapse: collapse;
    font-size: 8pt;
@@ -801,7 +798,7 @@ table.item_table tr:nth-child(2) td:first-child
 table.item_table td:not(:first-child), table.item_table tr:nth-child(3) td:first-child
 {
    vertical-align: top;
-   width: 320px;
+   width: 450px;
    border-left: 1px solid gray;
    border-top: 1px solid gray;
 }
