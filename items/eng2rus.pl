@@ -1204,7 +1204,7 @@ my %phrases = (
     "Malthael's Halo" => "Ореол Малтаэля",
     "Malthael's Crown" => "Корона Малтаэля",
     "Malthael's Wrath" => "Гнев Малтаэля",
-            # unhol caster
+            # unholy caster
     "Paladin Unholy Caster Set" => "Нечестивый Колдовской Комплект Паладина",
     "Imperius' Edict" => "Указ Империуса",
     "Imperius' Winged Feet" => "Крылатые Сандалии Империуса",
@@ -1267,7 +1267,7 @@ my %phrases = (
         # tribute
     "TRIBUTE SETS" => "КОМПЛЕКТЫ-ПОСВЯЩЕНИЯ",
             # BrotherLaz
-    #"Necromancer Summoner Set" => "", # already present
+    #"Necromancer Summoner Set" => "Necromancer Summoner Set", # already present
     "Archbishop Lazarus" => "Архиепископ Лазарус",
     "BrotherLaz Tribute Set" => "Комплект-Посвящение BrotherLaz'у",
     "Laz's Lamen" => "Ламен Лаза",
