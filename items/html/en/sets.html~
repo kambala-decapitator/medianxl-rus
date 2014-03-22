@@ -1,26 +1,26 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 			"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<title>Sets</title>
+		<title>Комплекты (Сеты)</title>
 		<link rel="shortcut icon" href="images/favicon.ico">
 		<link rel="stylesheet" type="text/css" href="m_2.css" />
 	</head>
 	<body id="sets2" class="content">
 	<hr />
 	<div class="text_on_the_left">
-		<p class="genbig">SETS</p>
-		
-		<p class="content">There are 33+2 sets in Median XL: Ultimative, containing 164+10 set items. (29 Median XL: Ultimative and 1 Secret Ape set, 3+2 Ultimative sets)</p>
-		<hr />
-		<p class="content"><b>Sacred Sets Only!</b><br />
-There are no low level sets. All set items are sacred and drop only in some uber areas of the Terror difficulty and anywhere in Destruction difficulty - with the exception of some items from the 2 Yashrii Uberquest sets, which drop only there (bosses and guards). Sets in Median XL: Ultimative are advanced equipment for high level heroes.</p>
+        <p class="genbig">КОМПЛЕКТЫ (СЕТЫ)</p>
 
-		<p class="content"><b>Sockets</b><br />
-All set items come with the maximum allowed number of sockets for the item type.</p>
-		<p class="content"><b>Oskills</b><br />
-If a set item has a skill bonus with no character class requirement (eg. <span class="magic">+3-6 to Summon Shadows</span>), then the bonus is an 'oskill', giving this skill to any class for free.</p>
+        <p class="content">В Median XL: Ultimative есть 33+2 комплектов, содержащие в общей сложности 164+10 вещей. (29 Median XL и 1 Секретный Обезьяний комплект, 3+2 Ultimative комплектов)</p>
+        <hr />
+        <p class="content"><b>Только Священные Комплекты!</b><br />
+В моде отсутствуют низкоуровневые комплекты. Все вещи комплектов священные и могут выпасть только в некоторых уберах на второй сложности (Ужас) и в любом месте последней сложности (Разрушение), за исключением некоторых вещей из двух комплектов Ишари, которые падают только в этой убер локации (с боссов и охранников). Комплекты в Median XL: Ultimative – это мощная экипировка для персонажей высокого уровня.</p>
+
+        <p class="content"><b>Гнёзда</b><br />
+            Все комплектные вещи содержат максимальное количество гнёзд для данного типа вещи.</p>
+        <p class="content"><b>Оскиллы</b><br />
+            Если вещь комплекта (или сам комплект) даёт навык без указания класса персонажа (например <span class="magic">+3-6 к Призыву Теней</span>), тогда такой навык является &laquo;оскиллом&raquo;, т.е. любой класс может им пользоваться.</p>
 		<hr />
 
 		<p class="genbig" id="ama">AMAZON SETS</p>
@@ -3408,10 +3408,7 @@ Damage Reduced by 10%<br>
 Socketed: 6<br>
 </span></td></tr></table></span>
 
-		<hr />
-		<p class="genbig" id="yshari">YSHARI SETS</p>
-		<p>See <a href="levelubers.html#yshari">THIS PAGE</a> for more information about these sets and their use.</p>
-		<hr />
+<hr />
 
 <span align="center" class="unique" id="yshari_boss">Yshari Bosses' Set<br>Brotherhood of the Vizjerei</span><br />
 <span align="center" class="set">Mana Belt<br>

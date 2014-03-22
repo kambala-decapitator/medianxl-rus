@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 		"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -6,7 +6,7 @@
 	<meta name="generator" content="HTML Tidy for HTML5 (experimental) for Windows https://github.com/w3c/tidy-html5/tree/c63cc39" />
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-	<title>Regular Uniques</title>
+	<title>Ранговые Уники</title>
 	<link rel="shortcut icon" href="images/favicon.ico">
 	<link rel="stylesheet" type="text/css" href="m_2.css" />
 </head>
@@ -15,18 +15,16 @@
 	<hr />
 
 	<div class="text_on_the_left">
-		<p class="genbig">TIERED UNIQUES</p>
-		
-		<p class="content">The unique versions of tiered items can drop anywhere in the game. Their stats and level are affected by the
-		item tier. See the <a href="baseitems.html" target="_self">BASE ITEMS</a> page for details on item tiers.</p>
+		<p class="genbig">РАНГОВЫЕ УНИКИ</p>
+
+		<p class="content">Уникальные версии ранговых предметов могут выпасть в любой локации игры. Их свойства и требования зависят от ранга.</p>
 		<hr />
 
-		<p class="content"><b>Sockets</b><br />
-		All unique items come with the maximum allowed number of sockets for the item type.</p>
+		<p class="content"><b>Гнёзда</b><br />
+		Все уники содержат максимальное количество гнёзд для данного типа вещи.</p>
 
-		<p class="content"><b>Oskills</b><br />
-		If a unique has a skill bonus with no character class requirement (eg. <span class="magic">+3-6 to Summon Shadows</span>), then
-		the bonus is an &#39;oskill&#39;, giving this skill to any class for free.</p>
+		<p class="content"><b>Оскиллы</b><br />
+		Если уник даёт навык без указания класса персонажа (например <span class="magic">+3-6 к Призыву Теней</span>), тогда такой навык является &laquo;оскиллом&raquo;, т.е. любой класс может им пользоваться.</p>
 		<hr />
 
 		<p class="genbig" id="one_handed_swords"><b>One-Handed Swords</b></p>
@@ -527,8 +525,7 @@
 					Required Level: 6<br /></span>
 					<span class="magic">
 					<!-- Current Strength Damage Bonus: (0.19921875 per strength)% -->
-					25% CtC lvl 3 Time Strike when Struck by a
-					Missile<br />
+					25% CtC lvl 3 Time Strike when Struck by a Missile<br />
 					+(41 to 70)% Enhanced damage<br />
 					5% Increased Attack Speed<br />
 					+(11 to 15) to Vitality<br />
@@ -547,8 +544,7 @@
 					Required Level: 15<br /></span>
 					<span class="magic">
 					<!-- Current Strength Damage Bonus: (0.19921875 per strength)% -->
-					30% CtC lvl 6 Time Strike when Struck by a
-					Missile<br />
+					30% CtC lvl 6 Time Strike when Struck by a Missile<br />
 					+(71 to 100)% Enhanced damage<br />
 					10% Increased Attack Speed<br />
 					+(16 to 20) to Vitality<br />
@@ -567,8 +563,7 @@
 					Required Level: 25<br /></span>
 					<span class="magic">
 					<!-- Current Strength Damage Bonus: (0.19921875 per strength)% -->
-					35% CtC lvl 9 Time Strike when Struck by a
-					Missile<br />
+					35% CtC lvl 9 Time Strike when Struck by a Missile<br />
 					+(101 to 130)% Enhanced damage<br />
 					15% Increased Attack Speed<br />
 					+(21 to 25) to Vitality<br />
@@ -589,8 +584,7 @@
 					Required Level: 34<br /></span>
 					<span class="magic">
 					<!-- Current Strength Damage Bonus: (0.19921875 per strength)% -->
-					40% CtC lvl 12 Time Strike when Struck by a
-					Missile<br />
+					40% CtC lvl 12 Time Strike when Struck by a Missile<br />
 					+(131 to 160)% Enhanced damage<br />
 					20% Increased Attack Speed<br />
 					+(26 to 30) to Vitality<br />
@@ -609,8 +603,7 @@
 					Required Level: 44<br /></span>
 					<span class="magic">
 					<!-- Current Strength Damage Bonus: (0.19921875 per strength)% -->
-					45% CtC lvl 15 Time Strike when Struck by a
-					Missile<br />
+					45% CtC lvl 15 Time Strike when Struck by a Missile<br />
 					+(161 to 190)% Enhanced damage<br />
 					25% Increased Attack Speed<br />
 					+(31 to 35) to Vitality<br />
@@ -629,8 +622,7 @@
 					Required Level: 53<br /></span>
 					<span class="magic">
 					<!-- Current Strength Damage Bonus: (0.19921875 per strength)% -->
-					50% CtC lvl 18 Time Strike when Struck by a
-					Missile<br />
+					50% CtC lvl 18 Time Strike when Struck by a Missile<br />
 					+(191 to 220)% Enhanced damage<br />
 					30% Increased Attack Speed<br />
 					+(36 to 40) to Vitality<br />
@@ -2045,7 +2037,7 @@
 			</tr>
 		</table>
 		<sup style="color:black">*</sup> This monster is hostile.<br />
-		
+
 		<br />
 
 		<table class='item_table'>
@@ -4117,8 +4109,7 @@
 					Required Level: 1<br /></span>
 					<span class="magic">
 					<!-- Current Dexterity Damage Bonus: (0.19921875 per dexterity)% -->
-					5% CtC lvl 2 Gift of Vanquishing when
-					Struck<br />
+					5% CtC lvl 2 Gift of Vanquishing when Struck<br />
 					+1 to Amazon Skill Levels<br />
 					5% Faster Cast Rate<br />
 					-(3 to 5)% to Enemy Fire Resistance<br />
@@ -4137,8 +4128,7 @@
 					Required Level: 9<br /></span>
 					<span class="magic">
 					<!-- Current Dexterity Damage Bonus: (0.19921875 per dexterity)% -->
-					7% CtC lvl 5 Gift of Vanquishing when
-					Struck<br />
+					7% CtC lvl 5 Gift of Vanquishing when Struck<br />
 					+1 to Amazon Skill Levels<br />
 					10% Faster Cast Rate<br />
 					-(6 to 8)% to Enemy Fire Resistance<br />
@@ -4157,8 +4147,7 @@
 					Required Level: 18<br /></span>
 					<span class="magic">
 					<!-- Current Dexterity Damage Bonus: (0.19921875 per dexterity)% -->
-					9% CtC lvl 8 Gift of Vanquishing when
-					Struck<br />
+					9% CtC lvl 8 Gift of Vanquishing when Struck<br />
 					+(1 to 2) to Amazon Skill Levels<br />
 					15% Faster Cast Rate<br />
 					-(9 to 11)% to Enemy Fire Resistance<br />
@@ -4179,8 +4168,7 @@
 					Required Level: 27<br /></span>
 					<span class="magic">
 					<!-- Current Dexterity Damage Bonus: (0.19921875 per dexterity)% -->
-					11% CtC lvl 11 Gift of Vanquishing when
-					Struck<br />
+					11% CtC lvl 11 Gift of Vanquishing when Struck<br />
 					+(1 to 2) to Amazon Skill Levels<br />
 					20% Faster Cast Rate<br />
 					-(12 to 14)% to Enemy Fire Resistance<br />
@@ -4199,8 +4187,7 @@
 					Required Level: 37<br /></span>
 					<span class="magic">
 					<!-- Current Dexterity Damage Bonus: (0.19921875 per dexterity)% -->
-					13% CtC lvl 14 Gift of Vanquishing when
-					Struck<br />
+					13% CtC lvl 14 Gift of Vanquishing when Struck<br />
 					+(1 to 3) to Amazon Skill Levels<br />
 					25% Faster Cast Rate<br />
 					-(15 to 17)% to Enemy Fire Resistance<br />
@@ -4219,8 +4206,7 @@
 					Required Level: 46<br /></span>
 					<span class="magic">
 					<!-- Current Dexterity Damage Bonus: (0.19921875 per dexterity)% -->
-					15% CtC lvl 17 Gift of Vanquishing when
-					Struck<br />
+					15% CtC lvl 17 Gift of Vanquishing when Struck<br />
 					+(2 to 3) to Amazon Skill Levels<br />
 					30% Faster Cast Rate<br />
 					-(18 to 20)% to Enemy Fire Resistance<br />
@@ -4522,8 +4508,7 @@
 					<div>
 						Tier 1
 					</div><span>Throw Damage: <span class="magic">(2-3) to (13-16)</span><br />
-					One-Hand Damage: <span class="magic">(9-12) to
-					(14-18)</span><br />
+					One-Hand Damage: <span class="magic">(9-12) to (14-18)</span><br />
 					Durability: 32<br />
 					Required Level: 1<br /></span>
 					<span class="magic">
@@ -4541,8 +4526,7 @@
 					<div>
 						Tier 2
 					</div><span>Throw Damage: <span class="magic">(12-14) to (18-21)</span><br />
-					One-Hand Damage: <span class="magic">(15-18)
-					to (18-21)</span><br />
+					One-Hand Damage: <span class="magic">(15-18) to (18-21)</span><br />
 					Durability: 32<br />
 					Required Dexterity: 11<br />
 					Required Level: 9<br /></span>
@@ -4561,8 +4545,7 @@
 					<div>
 						Tier 3
 					</div><span>Throw Damage: <span class="magic">(27-31) to (38-44)</span><br />
-					One-Hand Damage: <span class="magic">(25-29)
-					to (30-35)</span><br />
+					One-Hand Damage: <span class="magic">(25-29) to (30-35)</span><br />
 					Durability: 32<br />
 					Required Dexterity: 25<br />
 					Required Level: 18<br /></span>
@@ -4583,8 +4566,7 @@
 					<div>
 						Tier 4
 					</div><span>Throw Damage: <span class="magic">(50-57) to (63-72)</span><br />
-					One-Hand Damage: <span class="magic">(37-43)
-					to (44-50)</span><br />
+					One-Hand Damage: <span class="magic">(37-43) to (44-50)</span><br />
 					Durability: 32<br />
 					Required Dexterity: 44<br />
 					Required Level: 27<br /></span>
@@ -4651,15 +4633,13 @@
 					<div>
 						Tier 1
 					</div><span>Throw Damage: <span class="magic">(8-10) to (35-48)</span><br />
-					One-Hand Damage: <span class="magic">(14-17)
-					to (34-47)</span><br />
+					One-Hand Damage: <span class="magic">(14-17) to (34-47)</span><br />
 					Durability: 56<br />
 					Required Dexterity: 29<br />
 					Required Level: 3<br /></span>
 					<span class="magic">
 					<!-- Current Dexterity Damage Bonus: (0.19921875 per dexterity)% -->
-					100% CtC lvl 11 Dark Power when you
-					Level-Up<br />
+					100% CtC lvl 11 Dark Power when you Level-Up<br />
 					15% CtC lvl 5 Punisher when you Kill an Enemy<br />
 					+(41 to 70)% Enhanced damage<br />
 					+(16 to 25) to Maximum Damage<br />
@@ -4673,15 +4653,13 @@
 					<div>
 						Tier 2
 					</div><span>Throw Damage: <span class="magic">(22-26) to (65-81)</span><br />
-					One-Hand Damage: <span class="magic">(22-26)
-					to (55-69)</span><br />
+					One-Hand Damage: <span class="magic">(22-26) to (55-69)</span><br />
 					Durability: 56<br />
 					Required Dexterity: 49<br />
 					Required Level: 12<br /></span>
 					<span class="magic">
 					<!-- Current Dexterity Damage Bonus: (0.19921875 per dexterity)% -->
-					100% CtC lvl 19 Dark Power when you
-					Level-Up<br />
+					100% CtC lvl 19 Dark Power when you Level-Up<br />
 					20% CtC lvl 11 Punisher when you Kill an Enemy<br />
 					+(71 to 100)% Enhanced damage<br />
 					+(26 to 35) to Maximum Damage<br />
@@ -4701,8 +4679,7 @@
 					Required Level: 21<br /></span>
 					<span class="magic">
 					<!-- Current Dexterity Damage Bonus: (0.19921875 per dexterity)% -->
-					100% CtC lvl 27 Dark Power when you
-					Level-Up<br />
+					100% CtC lvl 27 Dark Power when you Level-Up<br />
 					25% CtC lvl 17 Punisher when you Kill an Enemy<br />
 					+(101 to 130)% Enhanced damage<br />
 					+(36 to 45) to Maximum Damage<br />
@@ -4724,8 +4701,7 @@
 					Required Level: 30<br /></span>
 					<span class="magic">
 					<!-- Current Dexterity Damage Bonus: (0.19921875 per dexterity)% -->
-					100% CtC lvl 35 Dark Power when you
-					Level-Up<br />
+					100% CtC lvl 35 Dark Power when you Level-Up<br />
 					30% CtC lvl 23 Punisher when you Kill an Enemy<br />
 					+(131 to 160)% Enhanced damage<br />
 					+(46 to 55) to Maximum Damage<br />
@@ -4745,8 +4721,7 @@
 					Required Level: 40<br /></span>
 					<span class="magic">
 					<!-- Current Dexterity Damage Bonus: (0.19921875 per dexterity)% -->
-					100% CtC lvl 43 Dark Power when you
-					Level-Up<br />
+					100% CtC lvl 43 Dark Power when you Level-Up<br />
 					35% CtC lvl 29 Punisher when you Kill an Enemy<br />
 					+(161 to 190)% Enhanced damage<br />
 					+(56 to 65) to Maximum Damage<br />
@@ -4766,8 +4741,7 @@
 					Required Level: 49<br /></span>
 					<span class="magic">
 					<!-- Current Dexterity Damage Bonus: (0.19921875 per dexterity)% -->
-					100% CtC lvl 51 Dark Power when you
-					Level-Up<br />
+					100% CtC lvl 51 Dark Power when you Level-Up<br />
 					40% CtC lvl 35 Punisher when you Kill an Enemy<br />
 					+(191 to 220)% Enhanced damage<br />
 					+(66 to 75) to Maximum Damage<br />
@@ -4791,15 +4765,13 @@
 					<div>
 						Tier 1
 					</div><span>Throw Damage: <span class="magic">(13-15) to (34-53)</span><br />
-					One-Hand Damage: <span class="magic">(14-16)
-					to (28-45)</span><br />
+					One-Hand Damage: <span class="magic">(14-16) to (28-45)</span><br />
 					Durability: 80<br />
 					Required Dexterity: 47<br />
 					Required Level: 5<br /></span>
 					<span class="magic">
 					<!-- Current Dexterity Damage Bonus: (0.19921875 per dexterity)% -->
-					5% CtC lvl 6 Shatter the Flesh when you Kill
-					an Enemy<br />
+					5% CtC lvl 6 Shatter the Flesh when you Kill an Enemy<br />
 					+1 to Amazon Skill Levels<br />
 					+(31 to 50)% Enhanced damage<br />
 					15% Faster Hit Recovery<br />
@@ -4813,15 +4785,13 @@
 					<div>
 						Tier 2
 					</div><span>Throw Damage: <span class="magic">(27-30) to (72-92)</span><br />
-					One-Hand Damage: <span class="magic">(22-25)
-					to (55-74)</span><br />
+					One-Hand Damage: <span class="magic">(22-25) to (55-74)</span><br />
 					Durability: 80<br />
 					Required Dexterity: 73<br />
 					Required Level: 14<br /></span>
 					<span class="magic">
 					<!-- Current Dexterity Damage Bonus: (0.19921875 per dexterity)% -->
-					7% CtC lvl 11 Shatter the Flesh when you Kill
-					an Enemy<br />
+					7% CtC lvl 11 Shatter the Flesh when you Kill an Enemy<br />
 					+1 to Amazon Skill Levels<br />
 					+(51 to 70)% Enhanced damage<br />
 					20% Faster Hit Recovery<br />
@@ -4841,8 +4811,7 @@
 					Required Level: 23<br /></span>
 					<span class="magic">
 					<!-- Current Dexterity Damage Bonus: (0.19921875 per dexterity)% -->
-					9% CtC lvl 16 Shatter the Flesh when you Kill
-					an Enemy<br />
+					9% CtC lvl 16 Shatter the Flesh when you Kill an Enemy<br />
 					+(1 to 2) to Amazon Skill Levels<br />
 					+(71 to 90)% Enhanced damage<br />
 					25% Faster Hit Recovery<br />
@@ -4864,8 +4833,7 @@
 					Required Level: 33<br /></span>
 					<span class="magic">
 					<!-- Current Dexterity Damage Bonus: (0.19921875 per dexterity)% -->
-					11% CtC lvl 21 Shatter the Flesh when you Kill
-					an Enemy<br />
+					11% CtC lvl 21 Shatter the Flesh when you Kill an Enemy<br />
 					+(1 to 2) to Amazon Skill Levels<br />
 					+(91 to 110)% Enhanced damage<br />
 					30% Faster Hit Recovery<br />
@@ -4885,8 +4853,7 @@
 					Required Level: 42<br /></span>
 					<span class="magic">
 					<!-- Current Dexterity Damage Bonus: (0.19921875 per dexterity)% -->
-					13% CtC lvl 26 Shatter the Flesh when you Kill
-					an Enemy<br />
+					13% CtC lvl 26 Shatter the Flesh when you Kill an Enemy<br />
 					+(1 to 3) to Amazon Skill Levels<br />
 					+(111 to 130)% Enhanced damage<br />
 					35% Faster Hit Recovery<br />
@@ -4906,8 +4873,7 @@
 					Required Level: 51<br /></span>
 					<span class="magic">
 					<!-- Current Dexterity Damage Bonus: (0.19921875 per dexterity)% -->
-					15% CtC lvl 31 Shatter the Flesh when you Kill
-					an Enemy<br />
+					15% CtC lvl 31 Shatter the Flesh when you Kill an Enemy<br />
 					+(2 to 3) to Amazon Skill Levels<br />
 					+(131 to 150)% Enhanced damage<br />
 					40% Faster Hit Recovery<br />
@@ -6615,8 +6581,7 @@
 					<div>
 						Tier 1
 					</div><span>Throw Damage: <span class="magic">(15-20) to (18-23)</span><br />
-					One-Hand Damage: <span class="magic">(15-20)
-					to (17-22)</span><br />
+					One-Hand Damage: <span class="magic">(15-20) to (17-22)</span><br />
 					Durability: 12<br />
 					Required Dexterity: 53<br />
 					Required Level: 4<br /></span>
@@ -6635,8 +6600,7 @@
 					<div>
 						Tier 2
 					</div><span>Throw Damage: <span class="magic">(34-42) to (41-50)</span><br />
-					One-Hand Damage: <span class="magic">(27-33)
-					to (30-37)</span><br />
+					One-Hand Damage: <span class="magic">(27-33) to (30-37)</span><br />
 					Durability: 12<br />
 					Required Dexterity: 82<br />
 					Required Level: 13<br /></span>
@@ -6655,8 +6619,7 @@
 					<div>
 						Tier 3
 					</div><span>Throw Damage: <span class="magic">(65-77) to (73-87)</span><br />
-					One-Hand Damage: <span class="magic">(46-55)
-					to (50-60)</span><br />
+					One-Hand Damage: <span class="magic">(46-55) to (50-60)</span><br />
 					Durability: 12<br />
 					Required Dexterity: 120<br />
 					Required Level: 23<br /></span>
@@ -8805,8 +8768,7 @@
 					Required Level: 57<br /></span>
 					<span class="magic">
 					<!-- Current Dexterity Damage Bonus: (0.19921875 per dexterity)% -->
-					10% CtC lvl 17 Hunting Banshee when you Kill
-					an Enemy<br />
+					10% CtC lvl 17 Hunting Banshee when you Kill an Enemy<br />
 					+(261 to 300)% Enhanced damage<br />
 					75% Increased Attack Speed<br />
 					+(131 to 150) to Maximum Damage<br />
@@ -13544,8 +13506,7 @@
 					Required Level: 11<br /></span>
 					<span class="magic">
 					<!-- Current Strength Damage Bonus: (0.09765625 per strength)% -->
-					2% CtC lvl 5 Spike Nova when Struck by a
-					Missile<br />
+					2% CtC lvl 5 Spike Nova when Struck by a Missile<br />
 					+1 to Necromancer Skill Levels<br />
 					30% Faster Cast Rate<br />
 					Hit Causes Monster to Flee +3%<br />
@@ -13567,8 +13528,7 @@
 					Required Level: 20<br /></span>
 					<span class="magic">
 					<!-- Current Strength Damage Bonus: (0.09765625 per strength)% -->
-					3% CtC lvl 7 Spike Nova when Struck by a
-					Missile<br />
+					3% CtC lvl 7 Spike Nova when Struck by a Missile<br />
 					+(1 to 2) to Necromancer Skill Levels<br />
 					40% Faster Cast Rate<br />
 					Hit Causes Monster to Flee +(4 to 5)%<br />
@@ -13590,8 +13550,7 @@
 					Required Level: 31<br /></span>
 					<span class="magic">
 					<!-- Current Strength Damage Bonus: (0.09765625 per strength)% -->
-					4% CtC lvl 9 Spike Nova when Struck by a
-					Missile<br />
+					4% CtC lvl 9 Spike Nova when Struck by a Missile<br />
 					+(2 to 3) to Necromancer Skill Levels<br />
 					50% Faster Cast Rate<br />
 					Hit Causes Monster to Flee +(6 to 7)%<br />
@@ -13615,8 +13574,7 @@
 					Required Level: 41<br /></span>
 					<span class="magic">
 					<!-- Current Strength Damage Bonus: (0.09765625 per strength)% -->
-					5% CtC lvl 11 Spike Nova when Struck by a
-					Missile<br />
+					5% CtC lvl 11 Spike Nova when Struck by a Missile<br />
 					+(2 to 4) to Necromancer Skill Levels<br />
 					60% Faster Cast Rate<br />
 					Hit Causes Monster to Flee +(7 to 8)%<br />
@@ -13638,8 +13596,7 @@
 					Required Level: 51<br /></span>
 					<span class="magic">
 					<!-- Current Strength Damage Bonus: (0.09765625 per strength)% -->
-					6% CtC lvl 13 Spike Nova when Struck by a
-					Missile<br />
+					6% CtC lvl 13 Spike Nova when Struck by a Missile<br />
 					+(3 to 5) to Necromancer Skill Levels<br />
 					70% Faster Cast Rate<br />
 					Hit Causes Monster to Flee +(9 to 10)%<br />
@@ -13661,8 +13618,7 @@
 					Required Level: 59<br /></span>
 					<span class="magic">
 					<!-- Current Strength Damage Bonus: (0.09765625 per strength)% -->
-					7% CtC lvl 15 Spike Nova when Struck by a
-					Missile<br />
+					7% CtC lvl 15 Spike Nova when Struck by a Missile<br />
 					+(3 to 6) to Necromancer Skill Levels<br />
 					80% Faster Cast Rate<br />
 					Hit Causes Monster to Flee +(10 to 11)%<br />
@@ -14586,8 +14542,7 @@
 					Required Level: 3<br /></span>
 					<span class="magic">
 					<!-- Current Dexterity Damage Bonus: (0.09765625 per dexterity)% -->
-					1% CtC lvl 4 Flamefront when you Take
-					Damage<br />
+					1% CtC lvl 4 Flamefront when you Take Damage<br />
 					+1 to Necromancer Skill Levels<br />
 					+(3 to 5)% to Fire Spell Damage<br />
 					+(3 to 5)% to Cold Spell Damage<br />
@@ -14607,8 +14562,7 @@
 					Required Level: 12<br /></span>
 					<span class="magic">
 					<!-- Current Dexterity Damage Bonus: (0.09765625 per dexterity)% -->
-					1% CtC lvl 7 Flamefront when you Take
-					Damage<br />
+					1% CtC lvl 7 Flamefront when you Take Damage<br />
 					+(1 to 2) to Necromancer Skill Levels<br />
 					+(6 to 8)% to Fire Spell Damage<br />
 					+(6 to 8)% to Cold Spell Damage<br />
@@ -14628,8 +14582,7 @@
 					Required Level: 21<br /></span>
 					<span class="magic">
 					<!-- Current Dexterity Damage Bonus: (0.09765625 per dexterity)% -->
-					1% CtC lvl 10 Flamefront when you Take
-					Damage<br />
+					1% CtC lvl 10 Flamefront when you Take Damage<br />
 					+(1 to 2) to Necromancer Skill Levels<br />
 					+(9 to 11)% to Fire Spell Damage<br />
 					+(9 to 11)% to Cold Spell Damage<br />
@@ -14651,8 +14604,7 @@
 					Required Level: 31<br /></span>
 					<span class="magic">
 					<!-- Current Dexterity Damage Bonus: (0.09765625 per dexterity)% -->
-					1% CtC lvl 13 Flamefront when you Take
-					Damage<br />
+					1% CtC lvl 13 Flamefront when you Take Damage<br />
 					+(1 to 3) to Necromancer Skill Levels<br />
 					+(12 to 14)% to Fire Spell Damage<br />
 					+(12 to 14)% to Cold Spell Damage<br />
@@ -14672,8 +14624,7 @@
 					Required Level: 40<br /></span>
 					<span class="magic">
 					<!-- Current Dexterity Damage Bonus: (0.09765625 per dexterity)% -->
-					1% CtC lvl 16 Flamefront when you Take
-					Damage<br />
+					1% CtC lvl 16 Flamefront when you Take Damage<br />
 					+(2 to 3) to Necromancer Skill Levels<br />
 					+(15 to 17)% to Fire Spell Damage<br />
 					+(15 to 17)% to Cold Spell Damage<br />
@@ -14693,8 +14644,7 @@
 					Required Level: 49<br /></span>
 					<span class="magic">
 					<!-- Current Dexterity Damage Bonus: (0.09765625 per dexterity)% -->
-					1% CtC lvl 19 Flamefront when you Take
-					Damage<br />
+					1% CtC lvl 19 Flamefront when you Take Damage<br />
 					+(2 to 4) to Necromancer Skill Levels<br />
 					+(18 to 20)% to Fire Spell Damage<br />
 					+(18 to 20)% to Cold Spell Damage<br />
@@ -14724,8 +14674,7 @@
 					Required Level: 5<br /></span>
 					<span class="magic">
 					<!-- Current Dexterity Damage Bonus: (0.09765625 per dexterity)% -->
-					100% CtC lvl 7 Hunting Banshee when you
-					Die<br />
+					100% CtC lvl 7 Hunting Banshee when you Die<br />
 					15% CtC lvl 6 Frozen Soul when Struck<br />
 					10% Faster Cast Rate<br />
 					+1 to Maximum Necromancer Minions<br />
@@ -14745,8 +14694,7 @@
 					Required Level: 14<br /></span>
 					<span class="magic">
 					<!-- Current Dexterity Damage Bonus: (0.09765625 per dexterity)% -->
-					100% CtC lvl 14 Hunting Banshee when you
-					Die<br />
+					100% CtC lvl 14 Hunting Banshee when you Die<br />
 					18% CtC lvl 12 Frozen Soul when Struck<br />
 					15% Faster Cast Rate<br />
 					+2 to Maximum Necromancer Minions<br />
@@ -14766,8 +14714,7 @@
 					Required Level: 23<br /></span>
 					<span class="magic">
 					<!-- Current Dexterity Damage Bonus: (0.09765625 per dexterity)% -->
-					100% CtC lvl 21 Hunting Banshee when you
-					Die<br />
+					100% CtC lvl 21 Hunting Banshee when you Die<br />
 					21% CtC lvl 18 Frozen Soul when Struck<br />
 					20% Faster Cast Rate<br />
 					+3 to Maximum Necromancer Minions<br />
@@ -14789,8 +14736,7 @@
 					Required Level: 33<br /></span>
 					<span class="magic">
 					<!-- Current Dexterity Damage Bonus: (0.09765625 per dexterity)% -->
-					100% CtC lvl 28 Hunting Banshee when you
-					Die<br />
+					100% CtC lvl 28 Hunting Banshee when you Die<br />
 					24% CtC lvl 24 Frozen Soul when Struck<br />
 					25% Faster Cast Rate<br />
 					+4 to Maximum Necromancer Minions<br />
@@ -14810,8 +14756,7 @@
 					Required Level: 42<br /></span>
 					<span class="magic">
 					<!-- Current Dexterity Damage Bonus: (0.09765625 per dexterity)% -->
-					100% CtC lvl 35 Hunting Banshee when you
-					Die<br />
+					100% CtC lvl 35 Hunting Banshee when you Die<br />
 					27% CtC lvl 30 Frozen Soul when Struck<br />
 					30% Faster Cast Rate<br />
 					+5 to Maximum Necromancer Minions<br />
@@ -14831,8 +14776,7 @@
 					Required Level: 51<br /></span>
 					<span class="magic">
 					<!-- Current Dexterity Damage Bonus: (0.09765625 per dexterity)% -->
-					100% CtC lvl 42 Hunting Banshee when you
-					Die<br />
+					100% CtC lvl 42 Hunting Banshee when you Die<br />
 					30% CtC lvl 36 Frozen Soul when Struck<br />
 					35% Faster Cast Rate<br />
 					+6 to Maximum Necromancer Minions<br />
@@ -14862,8 +14806,7 @@
 					Required Level: 11<br /></span>
 					<span class="magic">
 					<!-- Current Dexterity Damage Bonus: (0.09765625 per dexterity)% -->
-					1% CtC lvl 3 Gift of Inner Fire when
-					Attacked<br />
+					1% CtC lvl 3 Gift of Inner Fire when Attacked<br />
 					+1 to Necromancer Skill Levels<br />
 					15% Faster Cast Rate<br />
 					15% Faster Hit Recovery<br />
@@ -14885,8 +14828,7 @@
 					Required Level: 20<br /></span>
 					<span class="magic">
 					<!-- Current Dexterity Damage Bonus: (0.09765625 per dexterity)% -->
-					1% CtC lvl 6 Gift of Inner Fire when
-					Attacked<br />
+					1% CtC lvl 6 Gift of Inner Fire when Attacked<br />
 					+(1 to 2) to Necromancer Skill Levels<br />
 					20% Faster Cast Rate<br />
 					20% Faster Hit Recovery<br />
@@ -14908,8 +14850,7 @@
 					Required Level: 29<br /></span>
 					<span class="magic">
 					<!-- Current Dexterity Damage Bonus: (0.09765625 per dexterity)% -->
-					1% CtC lvl 9 Gift of Inner Fire when
-					Attacked<br />
+					1% CtC lvl 9 Gift of Inner Fire when Attacked<br />
 					+(1 to 2) to Necromancer Skill Levels<br />
 					25% Faster Cast Rate<br />
 					25% Faster Hit Recovery<br />
@@ -14933,8 +14874,7 @@
 					Required Level: 38<br /></span>
 					<span class="magic">
 					<!-- Current Dexterity Damage Bonus: (0.09765625 per dexterity)% -->
-					1% CtC lvl 12 Gift of Inner Fire when
-					Attacked<br />
+					1% CtC lvl 12 Gift of Inner Fire when Attacked<br />
 					+(1 to 3) to Necromancer Skill Levels<br />
 					30% Faster Cast Rate<br />
 					30% Faster Hit Recovery<br />
@@ -14956,8 +14896,7 @@
 					Required Level: 47<br /></span>
 					<span class="magic">
 					<!-- Current Dexterity Damage Bonus: (0.09765625 per dexterity)% -->
-					1% CtC lvl 15 Gift of Inner Fire when
-					Attacked<br />
+					1% CtC lvl 15 Gift of Inner Fire when Attacked<br />
 					+(2 to 3) to Necromancer Skill Levels<br />
 					35% Faster Cast Rate<br />
 					35% Faster Hit Recovery<br />
@@ -14979,8 +14918,7 @@
 					Required Level: 55<br /></span>
 					<span class="magic">
 					<!-- Current Dexterity Damage Bonus: (0.09765625 per dexterity)% -->
-					1% CtC lvl 18 Gift of Inner Fire when
-					Attacked<br />
+					1% CtC lvl 18 Gift of Inner Fire when Attacked<br />
 					+(2 to 4) to Necromancer Skill Levels<br />
 					40% Faster Cast Rate<br />
 					40% Faster Hit Recovery<br />
@@ -27190,7 +27128,7 @@
 					+50 to Life<br />
 					5% Reanimate as: Magma Demon<br /></span>
 				</td>
-				
+
 				<td style='vertical-align:top;' width='320'>
 					<div class='unique' style='text-align:center;font-weight:bold;'>
 						Fren Slairea
@@ -27226,7 +27164,7 @@
 					Adds 15-30 damage<br />
 					+25% to Spell Damage<br /></span>
 				</td>
-				
+
 				<td style='vertical-align:top;' width='320'>
 					<div class='unique' style='text-align:center;font-weight:bold;'>
 						Athulua&#39;s Oracle
@@ -27265,7 +27203,7 @@
 					50% Chance of Uninterruptable Attack<br />
 					+25% to Experience Gained<br /></span>
 				</td>
-				
+
 				<td style='vertical-align:top;' width='320'>
 					<div class='unique' style='text-align:center;font-weight:bold;'>
 						The Dreamcatcher
@@ -27338,7 +27276,7 @@
 					Slows Attacker by (3 to 5)%<br />
 					+2 to Light Radius<br /></span>
 				</td>
-				
+
 				<td style='vertical-align:top;' width='320'>
 					<div class='unique' style='text-align:center;font-weight:bold;'>
 						Myokai&#39;s Path
@@ -27371,7 +27309,7 @@
 					Regenerate Life +40<br />
 					+5% to Experience Gained<br /></span>
 				</td>
-				
+
 				<td style='vertical-align:top;' width='320'>
 					<div class='unique' style='text-align:center;font-weight:bold;'>
 						Ripstar
@@ -27389,9 +27327,9 @@
 					<div class='unique' style='text-align:center;font-weight:bold;'>
 						The Idiot Ball
 					</div><span>Required Level: 60<br /></span>
-					<span class="magic">5% CtC lvl 13 Call Blood Golem when Struck<sup style="color:black">*</sup><br />
-					2% CtC lvl 13 Call Henchman when you Take Damage<sup style="color:black">*</sup><br />
-					5% CtC lvl 13 Call Necrobot when you Take Damage<sup style="color:black">*</sup><br />
+					<span class="magic">5% CtC lvl 13 Call Blood Golem when Struck<br />
+					2% CtC lvl 13 Call Henchman when you Take Damage<br />
+					5% CtC lvl 13 Call Necrobot when you Take Damage<br />
 					-50 to Strength<br />
 					-50 to Vitality<br />
 					Damage Reduction Decreased by -33%<br />
@@ -27409,7 +27347,7 @@
 					+(11 to 15)% Bonus to Summoned Minion Life<br />
 					Drains 2% Life per Second<br /></span>
 				</td>
-				
+
 				<td style='vertical-align:top;' width='320'>
 					<div class='unique' style='text-align:center;font-weight:bold;'>
 						Xorine&#39;s Ring
@@ -27439,7 +27377,6 @@
 				<td width='320'></td>
 			</tr>
 		</table>
-		<sup>*</sup> These are all hostile monsters.
 
 		<p class="genbig" id="arrow_quivers"><b>Arrow Quivers</b></p>
 
@@ -27579,7 +27516,7 @@
 					2% Chance of Uninterruptable Attack<br />
 					Replenish Life +5</span><br />
 				</td>
-				
+
 				<td style='vertical-align:top;' width='320'>
 					<div class='unique' style='text-align:center;font-weight:bold;'>
 						The Boulder

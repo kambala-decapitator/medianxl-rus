@@ -1,0 +1,458 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<title>Unique Mystic Orbs (UMO)</title>
+		<link rel="shortcut icon" href="images/favicon.ico">
+		<!--<link rel="stylesheet" type="text/css" href="m_2.css" />-->
+		<style type="text/css">
+			body {
+				background-color: #CCCCCC; /*AAABBB*/
+				color: #222222;
+				margin: 7px 5px 0px 5px;
+				font-family: Arial, sans-serif;
+				font-size: 8pt;
+				/*width:100%;*/
+				}
+			body.content {
+				background: #CCCCCC;
+				text-align:left;
+				vertical-align: top;
+				float:none;
+				}
+			.genbig {
+				font-family: Arial, sans-serif;
+				font-size: 12pt;
+				font-weight: bold;
+				color: #626262; /* used to be 626270*/
+				}
+			p {
+				margin-bottom: 1em;
+				}
+			.content {
+				width: 600px;
+				margin-left:50px;
+			}
+			hr {
+				height: 1px;
+				border: 0px; /* overcomes hr color bug in FF */
+				border-top: 1px solid #444444; /* upper border only so the thickness can go below 2px */
+				/* from .content hr */
+				width: 250px;
+				margin-left: 0px;
+				text-align: left;
+				/* from .content */
+				margin-left:50px;
+			}
+			/* width of the regular content pages */
+
+			.content hr {
+
+			}
+			/* the horizontal lines on regular content pages */
+
+			.magic {
+				color: #555570;
+				}
+			.rare {
+				color: #909000;
+				}
+			.orange {
+				color: #b7741c; /* #d08420; from ingame */ /* #706033; old bright one*/
+				}
+			.reagent {
+				color: #884400;
+				margin:0px 0px 0px 65px;
+				/*border: 1px solid #665500;
+				padding: 2px;*/
+				}
+			.set {
+				color: #117011;
+				}
+
+			/* -------------------- LINK STYLES -------------------- */
+
+			/* the links in the regular text; this appears to be ignored? I suspect it conflicts with something else, like images */
+			a {
+				color: #333333; /* used to be 333342 */
+				font-family: Arial, sans-serif;
+				font-size: 8pt;
+				text-decoration: none;
+				}
+			/* all unvisited links */
+			a:link  {
+				color: #333333;
+				text-decoration: none;
+				}
+			/* visited links */
+			a:visited  {
+				color: #333333;
+				text-decoration: none;
+				}
+			/* selected links */
+			a:active  {
+				color: #EEEEFF;
+				text-decoration: none;
+				}
+			/* links being hovered on */
+			a:hover  {
+				color: #EEEEFF;
+				text-decoration: none;
+				}
+			img {
+				border: 1px solid #000000;
+				border-color: #000000;
+				}
+			/* charm pics + text on the right (div div img /div div text /div /div) */
+			div.charms {
+				/* text-align:center; */ /* for everything centered */
+				margin-bottom:1em;
+				}
+			div.charms img {
+				padding: 7px;
+				float:right; /* for everything tabled */
+				}
+			div.charms div {
+				display: inline-block;
+				vertical-align:middle;
+				text-align:center;
+				}
+			div.charms  > :nth-child(1) {
+				/* margin-right: 1em; */
+				margin-left:66px; /* for everything tabled */
+				width:72px; /* for everything tabled */
+				}
+			div.charms  > :nth-child(2) {
+				width:350px; /* for everything tabled */
+				}
+			#mo
+			{
+				border-collapse:collapse;
+			}
+			#mo td
+			{
+				vertical-align:top;
+			}
+		</style>
+	</head>
+	<body>
+		<hr />
+		<p class="genbig content">Unique Mystic Orbs</p>
+		<p class="content">As normal <span class="orange">Mystic Orbs</span>, <span class="orange">Unique Mystic Orb</span> can be applied to proper items, but they add <span class="magic">+10 Required Level</span> to the item instead of <span class="magic">+2 Required Level</span>. They
+			cannot be bought, however, and must be found. Unlike normal ones, <span class="orange">Unique Mystic Orbs</span> each have a different name - making them easy to spot on the ground and tell them apart from each other and normal orbs.</p>
+			
+		<p>
+			<div class="reagent" style="max-width: 750px">Any non-ethereal equippable item + Unique Mystic Orb &rarr; add orb bonus and +10 required level</div>
+		</p>
+		
+		<p class="content"><i>You can only apply up to 15 of the same Unique Mystic Orb to your item.<br />Any Mystic Orb effects applied on a runeword are lost upon unsocketing, but the effects applied to the base item stay.</i></p>
+		
+		<p class="content"><i><b>Warning!</b> The level requirement penalty is applied after taking into account both the base item reqired level and the level of any socket fillers. This means for example if you have a belt with required level 20, add one unique orb (level penalty +10) and socket a Rha rune (required level 100), you get a belt with required level 100+10 = 110. For that reason, to avoid going over required level 120 on accident, always add the socket fillers before adding orbs.</i></p>
+		
+		<p class="content">On Destruction difficulty, Heroic Boss Bull Prince Rodeo has 2% chance to drop an <span class="orange">Unique Mystic Orb</span> on death. They are also slightly more likely to drop from monsters on Hatred difficulty because of the reduced variety and amount of item drops compared to higher difficulties.</P>
+		
+		<p class="content">See <a href="mo.html" target="_self">THIS PAGE</a> for more information about the <span class="orange">Mystic Orbs</span>.<br />
+		
+		See <a href="heroiclevels.html#bpr" target="_self">THIS PAGE</a> for more information about the Heroic Boss Bull Prince Rodeo.</p>
+			 
+		<table id="mo">
+		<tr>
+		<td>
+		<hr />
+		<p id="weapon"><b class="content">Any Weapon - Unique Mystic Orbs</b>
+		</p>
+		<div class="charms">
+			<div>
+				<img src="images/baseitems/mo_blue.png" alt="Larzuk's Round Shot Unique Mystic Orb" title="Larzuk's Round Shot Unique Mystic Orb" />
+			</div>
+			<div><span class="orange">Larzuk's Round Shot<br />Mystic Orb</span>
+				<br />Cube with Any Weapon to Add Bonus
+				<br /><span class="magic">2% Chance of Crushing Blow<br />Adds Strength Damage Bonus: (4/256 per Strength)%<br />+10 to Strength<br />+25% Enhanced Damage<br />+10 Required Level</span>
+			</div>
+		</div>
+		<div class="charms">
+			<div>
+				<img src="images/baseitems/mo_blue.png" alt="Vizjun's Ball Bearing Unique Mystic Orb" title="Vizjun's Ball Bearing Unique Mystic Orb" />
+			</div>
+			<div><span class="orange">Vizjun's Ball Bearing<br />Mystic Orb</span>
+				<br />Cube with Any Weapon to Add Bonus
+				<br /><span class="magic">+50 Maximum Stamina<br />+5 to Dexterity<br />3% Deadly Strike<br />10% Faster Run/Walk<br />+10 Required Level</span>
+			</div>
+		</div>
+		<div class="charms">
+			<div>
+				<img src="images/baseitems/mo_blue.png" alt="Nor Tiraj's Flaming Sphere Unique Mystic Orb" title="Nor Tiraj's Flaming Sphere Unique Mystic Orb" />
+			</div>
+			<div><span class="orange">Nor Tiraj's Flaming Sphere<br />Mystic Orb</span>
+				<br />Cube with Any Weapon to Add Bonus
+				<br /><span class="magic">Fire Resist +10%<br />+5% to Fire Spell Damage<br />Adds 25-50 Fire Damage<br />1% Chance to cast level 30 Flamefront when Attacked <br />+10 Required Level</span>
+			</div>
+		</div>
+		<div class="charms">
+			<div>
+				<img src="images/baseitems/mo_blue.png" alt="The Demon Core Unique Mystic Orb" title="The Demon Core Unique Mystic Orb" />
+			</div>
+			<div><span class="orange">The Demon Core<br />Mystic Orb</span>
+				<br />Cube with Any Weapon to Add Bonus
+				<br /><span class="magic">+4% to Poison Spell Damage<br />+4% to Fire Spell Damage<br />1% Chance to cast level 17 Gamma Field when you Kill an Enemy<br />1% Chance to cast level 17 Apocalypse when you Kill an Enemy<br />+10 Required Level</span>
+			</div>
+		</div>
+		<div class="charms">
+			<div>
+				<img src="images/baseitems/mo_blue.png" alt="Uldyssian's Spirit Unique Mystic Orb" title="Uldyssian's Spirit Unique Mystic Orb" />
+			</div>
+			<div><span class="orange">Uldyssian's Spirit<br />Mystic Orb</span>
+				<br />Cube with Any Weapon to Add Bonus
+				<br /><span class="magic">+2% to Spell Damage<br />+25% Damage to Demons<br />+5 Energy Factor to Spell Damage<br />+5 Strength Factor to Spell Damage<br />+10 Required Level</span>
+			</div>
+		</div>
+		<div class="charms">
+			<div>
+				<img src="images/baseitems/mo_blue.png" alt="Orb of Annihilation Unique Mystic Orb" title="Orb of Annihilation Unique Mystic Orb" />
+			</div>
+			<div><span class="orange">Orb of Annihilation<br />Mystic Orb</span>
+				<br />Cube with Any Weapon to Add Bonus
+				<br /><span class="magic">2% Bonus to Energy<br />+5% to Physical/Magic Spell Damage<br />5% Chance to cast level 1 Detonate on Attack<br />+10 Required Level</span>
+			</div>
+		</div>
+		<div class="charms">
+			<div>
+				<img src="images/baseitems/mo_blue.png" alt="Warbringer Unique Mystic Orb" title="Warbringer Unique Mystic Orb" />
+			</div>
+			<div><span class="orange">Warbringer<br />Mystic Orb</span>
+				<br />Cube with Any Weapon to Add Bonus
+				<br /><span class="magic">+10 Maximum Damage<br />1% Chance to cast level 5 Arrow on Striking<br />+10 Required Level</span>
+			</div>
+		</div>
+		<div class="charms">
+			<div>
+				<img src="images/baseitems/mo_blue.png" alt="Ten Pin Striker Unique Mystic Orb" title="Ten Pin Striker Unique Mystic Orb" />
+			</div>
+			<div><span class="orange">Ten Pin Striker<br />Mystic Orb</span>
+				<br />Cube with Any Weapon to Add Bonus
+				<br /><span class="magic">Target Takes Additional Damage of 15<br />15% Bonus to Attack Rating<br />5% Faster Run/Walk<br />+10 Required Level</span>
+			</div>
+		</div>
+		<div class="charms">
+			<div>
+				<img src="images/baseitems/mo_blue.png" alt="Wrathspirit Unique Mystic Orb" title="Wrathspirit Unique Mystic Orb" />
+			</div>
+			<div><span class="orange">Wrathspirit<br />Mystic Orb</span>
+				<br />Cube with Any Weapon to Add Bonus
+				<br /><span class="magic">+10 Life after each Kill<br />+3% to Spell Damage<br />1% Chance to cast level 8 Punisher when Struck<br />+10 Required Level</span>
+			</div>
+		</div>
+		</td>
+		<td>
+		<hr />
+		<p id="armor"><b class="content">Any Armor - Unique Mystic Orbs</b>
+		</p>
+		<div class="charms">
+			<div>
+				<img src="images/baseitems/mo_orange.png" alt="Idol of Stars Unique Mystic Orb" title="Idol of Stars Unique Mystic Orb" />
+			</div>
+			<div><span class="orange">Idol of Stars<br />Mystic Orb</span>
+				<br />Cube with Any Armor to Add Bonus
+				<br /><span class="magic">+3 to Energy<br />+3 to Vitality<br />+4 to Dexterity<br />+4 to Strength<br />+10 Required Level</span>
+			</div>
+		</div>
+		<div class="charms">
+			<div>
+				<img src="images/baseitems/mo_orange.png" alt="Nagapearl Unique Mystic Orb" title="Nagapearl Unique Mystic Orb" />
+			</div>
+			<div><span class="orange">Nagapearl<br />Mystic Orb</span>
+				<br />Cube with Any Armor to Add Bonus
+				<br /><span class="magic">10% Better Chance of Getting Magic Items<br />40% Extra Gold from Monsters<br />Stun Attack<br />+10 Required Level</span>
+			</div>
+		</div>
+		<div class="charms">
+			<div>
+				<img src="images/baseitems/mo_orange.png" alt="The Moon Crystal Unique Mystic Orb" title="The Moon Crystal Unique Mystic Orb" />
+			</div>
+			<div><span class="orange">The Moon Crystal<br />Mystic Orb</span>
+				<br />Cube with Any Armor to Add Bonus
+				<br /><span class="magic">Regenerate Mana +10%<br />Lightning Resist +5%<br />Cold Resist +5%<br />5% Faster Cast Rate<br />+10 Required Level</span>
+			</div>
+		</div>
+		<div class="charms">
+			<div>
+				<img src="images/baseitems/mo_orange.png" alt="Auriel's Focus Unique Mystic Orb" title="Auriel's Focus Unique Mystic Orb" />
+			</div>
+			<div><span class="orange">Auriel's Focus<br />Mystic Orb</span>
+				<br />Cube with Any Armor to Add Bonus
+				<br /><span class="magic">Poison Length Reduced by 2%<br />+10 to Energy<br />+25% Enhanced Defense<br />2% Bonus to Energy Factor<br />+10 Required Level</span>
+			</div>
+		</div>
+		<div class="charms">
+			<div>
+				<img src="images/baseitems/mo_orange.png" alt="Solitude Unique Mystic Orb" title="Solitude Unique Mystic Orb" />
+			</div>
+			<div><span class="orange">Solitude<br />Mystic Orb</span>
+				<br />Cube with Any Armor to Add Bonus
+				<br /><span class="magic">+5% Bonus to Buff/Debuff/Cold Skill Duration<br />1% Bonus to all Attributes<br />1% Chance to cast level 4 Banish when Struck<br />+40 Crafting Points<br />+10 Required Level</span>
+			</div>
+		</div>
+		<div class="charms">
+			<div>
+				<img src="images/baseitems/mo_orange.png" alt="Crystal of Tears Unique Mystic Orb" title="Crystal of Tears Unique Mystic Orb" />
+			</div>
+			<div><span class="orange">Crystal of Tears<br />Mystic Orb</span>
+				<br />Cube with Any Armor to Add Bonus
+				<br /><span class="magic">-20 to Life<br />Adds 5-15 Damage<br />+10 Required Level</span>
+			</div>
+		</div>
+		<div class="charms">
+			<div>
+				<img src="images/baseitems/mo_orange.png" alt="Essence of Itherael Unique Mystic Orb" title="Essence of Itherael Unique Mystic Orb" />
+			</div>
+			<div><span class="orange">Essence of Itherael<br />Mystic Orb</span>
+				<br />Cube with Any Armor to Add Bonus
+				<br /><span class="magic">Total Character Defense Plus 5%<br />Enhanced Weapon Damage +15%<br />+10 Required Level</span>
+			</div>
+		</div>
+		<div class="charms">
+			<div>
+				<img src="images/baseitems/mo_orange.png" alt="Periapt of Life Unique Mystic Orb" title="Periapt of Life Unique Mystic Orb" />
+			</div>
+			<div><span class="orange">Periapt of Life<br />Mystic Orb</span>
+				<br />Cube with Any Armor to Add Bonus
+				<br /><span class="magic">+4% Increased Healing Rate from Apples<br />Regenerate Life +50<br />2% Bonus to Vitality<br />+10 Required Level</span>
+			</div>
+		</div>
+		<div class="charms">
+			<div>
+				<img src="images/baseitems/mo_orange.png" alt="Lodestone Unique Mystic Orb" title="Lodestone Unique Mystic Orb" />
+			</div>
+			<div><span class="orange">Lodestone<br />Mystic Orb</span>
+				<br />Cube with Any Armor to Add Bonus
+				<br /><span class="magic">Requirements +10%<br />+4% to Spell Damage<br />+10 Required Level</span>
+			</div>
+		</div>
+		</td>
+		</tr>
+		<tr>
+		<td>
+		<hr />
+		<p id="ring_amu"><b class="content">Ring/Amulet - Unique Mystic Orbs</b>
+		</p>
+		<div class="charms">
+			<div>
+				<img src="images/baseitems/mo_green.png" alt="Kara's Trinket Unique Mystic Orb" title="Kara's Trinket Unique Mystic Orb" />
+			</div>
+			<div><span class="orange">Kara's Trinket<br />Mystic Orb</span>
+				<br />Cube with Ring/Amulet to Add Bonus
+				<br /><span class="magic">+5% Bonus to Summoned Minion Life<br />+5% Bonus to Summoned Minion Attack Rating<br />+10% Bonus to Summoned Minion Damage<br />3% Faster Cast Rate<br />+10 Required Level</span>
+			</div>
+		</div>
+		<div class="charms">
+			<div>
+				<img src="images/baseitems/mo_green.png" alt="Monsterball Unique Mystic Orb" title="Monsterball Unique Mystic Orb" />
+			</div>
+			<div><span class="orange">Monsterball<br />Mystic Orb</span>
+				<br />Cube with Ring/Amulet to Add Bonus
+				<br /><span class="magic">+1 to Summon Shock Beast<br />+2% Bonus to Summoned Minion Resistances<br />+5% Bonus to Summoned Minion Life<br />+5% Bonus to Summoned Minion Damage <br />+10 Required Level</span>
+			</div>
+		</div>
+		<div class="charms">
+			<div>
+				<img src="images/baseitems/mo_green.png" alt="Heart of Frost Unique Mystic Orb" title="Heart of Frost Unique Mystic Orb" />
+			</div>
+			<div><span class="orange">Heart of Frost<br />Mystic Orb</span>
+				<br />Cube with Ring/Amulet to Add Bonus
+				<br /><span class="magic">+5% to Cold Spell Damage<br />+3% Bonus to Summoned Minion Damage<br />Enhanced Weapon Damage +10%<br />+10 Required Level</span>
+			</div>
+		</div>
+		<div class="charms">
+			<div>
+				<img src="images/baseitems/mo_green.png" alt="Relic of Yaerius Unique Mystic Orb" title="Relic of Yaerius Unique Mystic Orb" />
+			</div>
+			<div><span class="orange">Relic of Yaerius<br />Mystic Orb</span>
+				<br />Cube with Ring/Amulet to Add Bonus
+				<br /><span class="magic">+5 Life after Each Kill<br />Regenerate Life +10<br />+10 to Maximum Damage<br />+15% Damage to Undead<br />+10 Required Level</span>
+			</div>
+		</div>
+		<div class="charms">
+			<div>
+				<img src="images/baseitems/mo_green.png" alt="The Endless Light Unique Mystic Orb" title="The Endless Light Unique Mystic Orb" />
+			</div>
+			<div><span class="orange">The Endless Light<br />Mystic Orb</span>
+				<br />Cube with Ring/Amulet to Add Bonus
+				<br /><span class="magic">+100 Defense<br />Total Character Defense Plus 3%<br />-3% to All Enemy Resistances <br />+10 Required Level</span>
+			</div>
+		</div>
+		<div class="charms">
+			<div>
+				<img src="images/baseitems/mo_green.png" alt="Explorer's Globe Mystic Orb" title="Explorer's Globe Mystic Orb" />
+			</div>
+			<div><span class="orange">Explorer's Globe<br />Mystic Orb</span>
+				<br />Cube with Ring/Amulet to Add Bonus
+				<br /><span class="magic">(-1 to 2)% Bonus to Energy<br />(-1 to 2)% Bonus to Vitality<br />(-1 to 2)% Bonus to Dexterity<br />(-1 to 2)% Bonus to Strength<br />+10 Required Level</span>
+			</div>
+		</div>
+		<div class="charms">
+			<div>
+				<img src="images/baseitems/mo_green.png" alt="The Perfect Sphere Mystic Orb" title="The Perfect Sphere Mystic Orb" />
+			</div>
+			<div><span class="orange">The Perfect Sphere
+				<br />Mystic Orb</span>
+				<br />Cube with Ring/Amulet to Add Bonus
+				<br /><span class="magic">+1% to Maximum Lightning Resist<br />+1% to Maximum Cold Resist<br />+1% to Maximum Fire Resist<br />+10 Required Level</span>
+			</div>
+		</div>
+		</td>
+		<td>
+		<hr />
+		<p id="item"><b class="content">Item - Unique Mystic Orbs</b>
+		</p>
+		<div class="charms">
+			<div>
+				<img src="images/baseitems/mo_white.png" alt="Marksman's Eye Unique Mystic Orb" title="Marksman's Eye Unique Mystic Orb" />
+			</div>
+			<div><span class="orange">Marksman's Eye<br />Mystic Orb</span>
+				<br />Cube with Item to Add Bonus
+				<br /><span class="magic">2% Bonus to Dexterity<br />10% Bonus to Attack Rating<br />+5 to Minimum Damage<br />5% Increased Attack Speed<br />+10 Required Level</span>
+			</div>
+		</div>
+		<div class="charms">
+			<div>
+				<img src="images/baseitems/mo_white.png" alt="Zayl's Soul Orb Unique Mystic Orb" title="Zayl's Soul Orb Unique Mystic Orb" />
+			</div>
+			<div><span class="orange">Zayl's Soul Orb<br />Mystic Orb</span>
+				<br />Cube with Item to Add Bonus
+				<br /><span class="magic">Half Freeze Duration<br />+25 to Mana<br />1% Reanimate As: Flying Scimitar<br />+10 Required Level</span>
+			</div>
+		</div>
+		<div class="charms">
+			<div>
+				<img src="images/baseitems/mo_white.png" alt="Farnham's Lost Marble Unique Mystic Orb" title="Farnham's Lost Marble Unique Mystic Orb" />
+			</div>
+			<div><span class="orange">Farnham's Lost Marble<br />Mystic Orb</span>
+				<br />Cube with Item to Add Bonus
+				<br /><span class="magic">Random Run/Walk Speed<br />+10 Mana on Striking in Melee<br />+10 Life on Striking in Melee <br />+10 Required Level</span>
+			</div>
+		</div>
+		<div class="charms">
+			<div>
+				<img src="images/baseitems/mo_white.png" alt="Eye of Malic Unique Mystic Orb" title="Eye of Malic Unique Mystic Orb" />
+			</div>
+			<div><span class="orange">Eye of Malic<br />Mystic Orb</span>
+				<br />Cube with Item to Add Bonus
+				<br /><span class="magic">Adds 15-30 Cold Damage<br />Adds 15-30 Fire Damage<br />1% Chance to cast level 14 Frozen Soul on Attack<br />1% Chance to cast level 14 Bloodstar on Attack<br />+10 Required Level</span>
+			</div>
+		</div>
+		<div class="charms">
+			<div>
+				<img src="images/baseitems/mo_white.png" alt="Apple of Discord Unique Mystic Orb" title="Apple of Discord Unique Mystic Orb" />
+			</div>
+			<div><span class="orange">Apple of Discord<br />Mystic Orb</span>
+				<br />Cube with Item to Add Bonus
+				<br /><span class="magic">+20 to Mana<br />+20 to Life<br />1% Chance to cast level 13 Dire Charm on Attack<br />+10 Required Level</span>
+			</div>
+		</div>
+		</td>
+		</tr>
+		</table>
+		<hr />
+	</body>
+
+</html>

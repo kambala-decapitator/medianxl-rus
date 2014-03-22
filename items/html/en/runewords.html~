@@ -1,27 +1,27 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 			"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<title>Runewords</title>
+		<title>Рунные Слова</title>
 		<link rel="shortcut icon" href="images/favicon.ico">
 		<link rel="stylesheet" type="text/css" href="m_2.css" />
 	</head>
 	<body id="runewords" class="content">
 	<hr />
 	<div class="text_on_the_left">
-		<p class="genbig">RUNEWORDS</p>
-		
-		<p class="content">Median XL: Ultimative contains 387 all-new runewords.</p>
-		<p class="content"><b>Single rune runewords</b><br />
-			Each runeword contains only one rune (except the end-game ones), but you can fill up the sockets <u>before</u> the rune with jewels. To make a runeword in an item with 4 sockets, for example, you need to insert 3 jewels + 1 rune.</p>
-		<p class="content"><b>Grey items only!</b><br />
-			Some people do not seem to know this. You can only make runewords in nonmagical socketed (grey) items!</p>
-			
-		<p class="content"><b>NOTE</b>: Keep in mind that <span class="red"><b>Kabraxis' Stone</b></span> rune cannot be unsocketed from items, and with that, from runewords as well.</p>
+		<p class="genbig">РУННЫЕ СЛОВА</p>
+
+		<p class="content">Median XL: Ultimative содержит 387 рунных слова (РС).</p>
+		<p class="content"><b>Однобуквенные РС</b><br />
+			Каждое РС содержит лишь одну руну (за исключением некоторых топовых), а остальные гнёзда предмета заполняются Драгоценными Камнями (Джевелами) <u>до</u> вставки руны.<br/>Пускай в вещи X гнезд, тогда сначала в неё вставляется X-1 Драгоценных Камней в любом порядке, а <b>последней</b> вставляется необходимая руна. Так, если в вещи лишь 1 гнездо, то сразу же вставляется руна.</p>
+		<p class="content"><b>Только серые вещи!</b><br />
+			РС собираются только в &laquo;серых&raquo; вещах (название вещи должно быть серым)!</p>
+
+		<p class="content"><b>ВНИМАНИЕ</b>: Не забывайте, что руну <span class="red"><b>Камень Кабраксиса</b></span> нельзя извлечь из вещи, соответственно и разобрать РС с ней не получится.</p>
 		<hr />
 
-		<p class="genbig">LIST OF RUNEWORDS</p>
+		<p class="genbig">СПИСОК РУННЫХ СЛОВ</p>
 
 		<hr />
 
@@ -2749,7 +2749,7 @@ Increase Maximum Life %<br>
 Level 120</span></b><br /></div></td><td width=140><table border=0 cellpadding=0 cellspacing=0><tr><td width=70><div align="right"><img class="aic" src="images/runes/r_kab.png" width="28" height="28" border="0"><img class="aic" src="images/runes/r_kab.png" width="28" height="28" border="0"><img class="aic" src="images/runes/r_kab.png" width="28" height="28" border="0"><img class="aic" src="images/runes/r_kab.png" width="28" height="28" border="0"><img class="aic" src="images/runes/r_kab.png" width="28" height="28" border="0"><img class="aic" src="images/runes/r_kab.png" width="28" height="28" border="0"></td><td width = 35><div class="cenflat" align="center">6x <br><b><span class="red">Kabraxis' Stone</span><sup>*</sup></b></td></tr></table></div></td><td width=120><div class="cenflat" align="center">Body Armors<br>
 </div></td><td width=500><div class="cenflat" align="center" id="armors"><span class="magic">+(0 to 4) to All Skills<br>
 50% Faster Run/Walk<br>
--(1 to 50)% to Enemy Resistances<br>
+-(1 to 50)% to All Enemy Resistances<br>
 +1 to <span class="red">Ultimative</span><sup style="color:black;">&Dagger;</sup><br>
 +350% Enhanced Defense<br>
 +(0 to 5)% to All Maximum Resistances<br>

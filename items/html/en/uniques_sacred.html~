@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 		"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -6,7 +6,7 @@
 	<meta name="generator" content="HTML Tidy for HTML5 (experimental) for Windows https://github.com/w3c/tidy-html5/tree/c63cc39" />
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-	<title>Sacred Uniques</title>
+	<title>Священные Уники</title>
 	<link rel="shortcut icon" href="images/favicon.ico">
 	<link rel="stylesheet" type="text/css" href="m_2.css" />
 </head>
@@ -14,20 +14,15 @@
 	<hr />
 
 	<div class="text_on_the_left">
-		<p class="genbig">SACRED UNIQUES</p>
-		
-		<p class="content">This category includes the unique tiers of Sacred items and some specifically marked amulets, rings,
-		quivers and jewels. See the <a href="baseitems.html" target="_self">BASE ITEMS</a> page for details on base Sacred items. Sacred uniques drop only in Destruction difficulty.</p>
-		
-		<p class="content">Each tier of Sacred items is progressively more rare to find &ndash; the items in the right column being hardest to find.</p>
-		<hr />
+		<p class="genbig">СВЯЩЕННЫЕ УНИКИ</p>
 
-		<p class="content"><b>Sockets</b><br />
-		All unique items come with the maximum allowed number of sockets for the item type.</p>
+		<p class="content">Данная категория содержит уникальные версии Священных вещей и некоторые амулеты, кольца, драгоценные камни и стрелы. Священные уники могут выпасть начиная со второй сложности (Ужас).</p>
 
-		<p class="content"><b>Oskills</b><br />
-		If a unique has a skill bonus with no character class requirement (eg. <span class="magic">+3-6 to Summon Shadows</span>), then
-		the bonus is an &#39;oskill&#39;, giving this skill to any class for free.</p>
+		<p class="content"><b>Гнёзда</b><br />
+		Все уники содержат максимальное количество гнёзд для данного типа вещи.</p>
+
+		<p class="content"><b>Оскиллы</b><br />
+		Если уник даёт навык без указания класса персонажа (например <span class="magic">+3-6 к Призыву Теней</span>), тогда такой навык является &laquo;оскиллом&raquo;, т.е. любой класс может им пользоваться.</p>
 		<hr />
 
 		<p class="genbig" id="sacred_one_handed_swords"><b>Sacred One-Handed Swords</b></p>
@@ -497,8 +492,7 @@
 					Required Level: 100<br /></span>
 					<span class="magic">
 					<!-- Current Strength Damage Bonus: (0.19921875 per strength)% -->
-					100% CtC lvl 55 Carpet of Spiders when you
-					Die<br />
+					100% CtC lvl 55 Carpet of Spiders when you Die<br />
 					+(301 to 350)% Enhanced damage<br />
 					40% Increased Attack Speed<br />
 					40% Faster Cast Rate<br />
@@ -2420,8 +2414,7 @@
 					Required Level: 100<br /></span>
 					<span class="magic">
 					<!-- Current Dexterity Damage Bonus: (0.19921875 per dexterity)% -->
-					(21 to 25)% Velocity Bonus to Sacred
-					Armor<br />
+					(21 to 25)% Velocity Bonus to Sacred Armor<br />
 					+(3 to 4) to Paladin Skill lvls<br />
 					+(21 to 25)% to Searing Glow Dazzle Duration<br />
 					40% Faster Cast Rate<br />
@@ -2543,8 +2536,7 @@
 					Required Level: 100<br /></span>
 					<span class="magic">
 					<!-- Current Dexterity Damage Bonus: (0.19921875 per dexterity)% -->
-					5% CtC lvl 36 Lava Pit when your Enemy is
-					Slain<br />
+					5% CtC lvl 36 Lava Pit when your Enemy is Slain<br />
 					+15% Bonus to Energy Factor<br />
 					+(3 to 4) to Amazon Skill lvls<br />
 					25% Faster Cast Rate<br />
@@ -2653,8 +2645,7 @@
 					Required Level: 100<br /></span>
 					<span class="magic">
 					<!-- Current Dexterity Damage Bonus: (0.19921875 per dexterity)% -->
-					25% CtC lvl 29 Shower of Rocks when you Kill
-					an Enemy<br />
+					25% CtC lvl 29 Shower of Rocks when you Kill an Enemy<br />
 					+(251 to 300)% Enhanced damage<br />
 					40% Faster Run/Walk<br />
 					50% Increased Attack Speed<br />
@@ -2731,8 +2722,7 @@
 					Required Level: 100<br /></span>
 					<span class="magic">
 					<!-- Current Dexterity Damage Bonus: (0.19921875 per dexterity)% -->
-					50% CtC lvl 29 Hunting Banshee when you Kill
-					an Enemy<br />
+					50% CtC lvl 29 Hunting Banshee when you Kill an Enemy<br />
 					5% CtC lvl 33 Pagan Rites when you Kill an Enemy<br />
 					+(3 to 5) to Amazon Skill lvls<br />
 					+(251 to 300)% Enhanced damage<br />
@@ -2755,8 +2745,7 @@
 					Required Level: 100<br /></span>
 					<span class="magic">
 					<!-- Current Dexterity Damage Bonus: (0.19921875 per dexterity)% -->
-					10% CtC lvl 6 Flurry of Javelins when you Kill
-					an Enemy<br />
+					10% CtC lvl 6 Flurry of Javelins when you Kill an Enemy<br />
 					+(301 to 350)% Enhanced damage<br />
 					40% Increased Attack Speed<br />
 					Adds 200-400 damage<br />
@@ -2914,8 +2903,7 @@
 					Required Level: 100<br /></span>
 					<span class="magic">
 					<!-- Current Dexterity Damage Bonus: (0.19921875 per dexterity)% -->
-					10% CtC lvl 56 Shatter the Flesh when you Kill
-					an Enemy<br />
+					10% CtC lvl 56 Shatter the Flesh when you Kill an Enemy<br />
 					+(301 to 350)% Enhanced damage<br />
 					Adds 100-400 damage<br />
 					Adds 500-1500 cold damage<br />
@@ -3015,8 +3003,7 @@
 					Required Level: 100<br /></span>
 					<span class="magic">
 					<!-- Current Dexterity Damage Bonus: (0.19921875 per dexterity)% -->
-					1% CtC lvl 15 Uldyssian&#39;s Time Freeze when
-					Struck<br />
+					1% CtC lvl 15 Uldyssian&#39;s Time Freeze when Struck<br />
 					2% CtC lvl 31 Punisher on Striking<br />
 					+100% Bonus Damage to Bloodlust<br />
 					+(251 to 300)% Enhanced damage<br />
@@ -3741,8 +3728,7 @@
 					Required Level: 100<br /></span>
 					<span class="magic">
 					<!-- Current Dexterity Damage Bonus: (0.19921875 per dexterity)% -->
-					15% CtC lvl 37 Carpet of Spiders when you Kill
-					an Enemy<br />
+					15% CtC lvl 37 Carpet of Spiders when you Kill an Enemy<br />
 					+(4 to 5) to All Skills<br />
 					+(251 to 300)% Enhanced damage<br />
 					40% Increased Attack Speed<br />
@@ -3785,8 +3771,7 @@
 					Required Level: 100<br /></span>
 					<span class="magic">
 					<!-- Current Dexterity Damage Bonus: (0.19921875 per dexterity)% -->
-					15% CtC lvl 43 Death Blossom when your Enemy is
-					Slain<br />
+					15% CtC lvl 43 Death Blossom when your Enemy is Slain<br />
 					+(4 to 7) to Druid Skill lvls<br />
 					+(301 to 350)% Enhanced damage<br />
 					100% Faster Hit Recovery<br />
@@ -3974,8 +3959,7 @@
 					Required Level: 100<br /></span>
 					<span class="magic">
 					<!-- Current Dexterity Damage Bonus: (0.19921875 per dexterity)% -->
-					100% CtC lvl 48 Scorpion Blade when you Kill
-					an Enemy<br />
+					100% CtC lvl 48 Scorpion Blade when you Kill an Enemy<br />
 					+(31 to 50)% Bonus to Poison Skill Duration<br />
 					+(201 to 300)% Enhanced damage<br />
 					20% Faster Run/Walk<br />
@@ -4054,8 +4038,7 @@
 					Required Level: 100<br /></span>
 					<span class="magic">
 					<!-- Current Strength Damage Bonus: (0.19921875 per strength)% -->
-					10% CtC lvl 24 Forked Lightning when
-					Attacked<br />
+					10% CtC lvl 24 Forked Lightning when Attacked<br />
 					+(251 to 300)% Enhanced damage<br />
 					Adds (101 to 150)-(201 to 250) damage<br />
 					Adds 1-1000 lightning damage<br />
@@ -4233,8 +4216,7 @@
 					Required Level: 100<br /></span>
 					<span class="magic">
 					<!-- Current Dexterity Damage Bonus: (0.09765625 per dexterity)% -->
-					5% CtC lvl 39 Death Blossom when Struck by a
-					Missile<br />
+					5% CtC lvl 39 Death Blossom when Struck by a Missile<br />
 					+(10 to 12) to All Skills<br />
 					+(41 to 50)% to Cold Spell Damage<br />
 					+(71 to 100)% to Poison Spell Damage<br />
@@ -4336,8 +4318,7 @@
 					Required Level: 100<br /></span>
 					<span class="magic">
 					<!-- Current Dexterity Damage Bonus: (0.09765625 per dexterity)% -->
-					1% CtC lvl 47 Supernova when your Enemy is
-					Slain<br />
+					1% CtC lvl 47 Supernova when your Enemy is Slain<br />
 					1% CtC lvl 47 Glacial Nova when your Enemy is Slain<br />
 					1% CtC lvl 47 Cataclysm when your Enemy is Slain<br />
 					+(5 to 7) to All Skills<br />
@@ -5173,7 +5154,7 @@
 				</td>
 			</tr>
 		</table><br />
-		
+
 		<table class='item_table'>
 			<tr>
 				<th colspan="4">Sacred Bow</th>
@@ -5187,7 +5168,7 @@
 						Valkayrie&#39;s Prime<sup style="color:black;">*</sup>
 					</div><span>Two-Hand Damage: <span class="magic">850 to 1540</span><br />
 					Required Dexterity: 666<br />
-					Required Strenght: 666<br />
+					Required Strength: 666<br />
 					Required Level: 120<br />
 					<!--Bow Class - Very Fast Attack Speed<br />
 					Adds Strenght Damage Bonus: (0.3984375 per Strength)%<br />
@@ -5204,7 +5185,7 @@
 					Adds 111-666 Cold Damage<br />
 					+10 to Sky Siege<br /></span>
 				</td>
-				
+
 				<td>
 				</td>
 				<td>
@@ -5213,8 +5194,7 @@
 		</table>
 		<sup style="color:black;">*</sup> <span class="red">Valkayrie&#39;s Prime</span> cannot be socketed, but is	otherwise like a fairly normal sacred unique bow. It can only be obtained by assembling it from powerful artifacts.<br />
 		<br />
-		See <a href="heroiclevels.html#athulua" target="_self">THIS PAGE</a> for more information on how to find the artifacts and assemble <span class="red">Valkayrie&#39;s Prime</span>.<br />
-		
+
 		<p class="genbig" id="sacred_crossbows"><b>Sacred Crossbows</b></p>
 
 		<table class='item_table'>
@@ -5273,8 +5253,7 @@
 					100<br /></span>
 					<span class="magic">
 					<!-- Current Strength Damage Bonus: (0.19921875 per strength)% -->
-					+(201 to
-					250)% Enhanced damage<br />
+					+(201 to 250)% Enhanced damage<br />
 					50% Faster Run/Walk<br />
 					20% Increased Attack Speed<br />
 					Adds 200-600 damage<br />
@@ -5837,8 +5816,7 @@ You can see it on the left if you hover your mouse over this cell.' onmouseover=
 					Required Level: 100<br /></span>
 					<span class="magic">
 					<!-- Current Dexterity Damage Bonus: (0.296875 per dexterity)% -->
-					15% CtC lvl 8 Flurry of Javelins when you Kill
-					an Enemy<br />
+					15% CtC lvl 8 Flurry of Javelins when you Kill an Enemy<br />
 					+(251 to 300)% Enhanced damage<br />
 					60% Increased Attack Speed<br />
 					Adds 250-450 damage<br />
@@ -5922,8 +5900,7 @@ You can see it on the left if you hover your mouse over this cell.' onmouseover=
 					Required Level: 100<br /></span>
 					<span class="magic">
 					<!-- Current Dexterity Damage Bonus: (0.296875 per dexterity)% -->
-					25% CtC lvl 37 Carpet of Spiders when you Kill
-					an Enemy<br />
+					25% CtC lvl 37 Carpet of Spiders when you Kill an Enemy<br />
 					50% CtC lvl 26 Poison Flash on Attack<br />
 					+(201 to 250)% Enhanced damage<br />
 					+(101 to 200) to Maximum Damage<br />
@@ -5945,8 +5922,7 @@ You can see it on the left if you hover your mouse over this cell.' onmouseover=
 					Required Level: 100<br /></span>
 					<span class="magic">
 					<!-- Current Dexterity Damage Bonus: (0.296875 per dexterity)% -->
-					2% CtC lvl 12 Superbeast when you Take
-					Damage<br />
+					2% CtC lvl 12 Superbeast when you Take Damage<br />
 					+3 to Assassin Skill lvls<br />
 					50% Increased Attack Speed<br />
 					+(51 to 70)% to Physical/Magic Spell Damage<br />
@@ -6655,8 +6631,7 @@ You can see it on the left if you hover your mouse over this cell.' onmouseover=
 					Required Level: 100<br /></span>
 					<span class="magic">
 					<!-- Current Strength Damage Bonus: (0.296875 per strength)% -->
-					1% CtC lvl 2 Gift of Inner Fire when you Take
-					Damage<br />
+					1% CtC lvl 2 Gift of Inner Fire when you Take Damage<br />
 					+(2 to 3) to All Skills<br />
 					+(300 to 350)% Enhanced damage<br />
 					+(50 to 100)% Bonus Damage to Bloodlust<br />
@@ -7123,8 +7098,8 @@ You can see it on the left if you hover your mouse over this cell.' onmouseover=
 					Required Level: 100<br /></span>
 					<span class="magic">
 					<!-- Current Strength Damage Bonus: (0.3984375 per strength)% -->
-					<span class="orange">Thunderfury<br /></span>20% CtC
-					lvl 26 Shower of Rocks when you Kill an Enemy<br />
+					<span class="orange">Thunderfury<br /></span>
+					20% CtC lvl 26 Shower of Rocks when you Kill an Enemy<br />
 					+(300 to 350)% Enhanced damage<br />
 					50% Increased Attack Speed<br />
 					Adds 500-750 damage<br />
@@ -7202,8 +7177,8 @@ You can see it on the left if you hover your mouse over this cell.' onmouseover=
 					Required Level: 100<br /></span>
 					<span class="magic">
 					<!-- Current Strength Damage Bonus: (0.3984375 per strength)% -->
-					<span class="orange">Thunderfury<br /></span>5% CtC
-					lvl 26 Trinity Nova when you Kill an Enemy<br />
+					<span class="orange">Thunderfury<br /></span>
+					5% CtC lvl 26 Trinity Nova when you Kill an Enemy<br />
 					+(4 to 6) to Barbarian Skill lvls<br />
 					60% Increased Attack Speed<br />
 					-50% to Enemy Fire Resistance<br />
@@ -7315,8 +7290,7 @@ You can see it on the left if you hover your mouse over this cell.' onmouseover=
 					Required Level: 100<br /></span>
 					<span class="magic">
 					<!-- Current Strength Damage Bonus: (0.296875 per strength)% -->
-					10% CtC lvl 19 Flamefront when you Take
-					Damage<br />
+					10% CtC lvl 19 Flamefront when you Take Damage<br />
 					+(2 to 3) to Druid Skill lvls<br />
 					+(201 to 250)% Enhanced damage<br />
 					60% Faster Run/Walk<br />
@@ -7901,8 +7875,8 @@ You can see it on the left if you hover your mouse over this cell.' onmouseover=
 					Required Level: 100<br /></span>
 					<span class="magic">
 					<!-- Current Strength Damage Bonus: (0.3984375 per strength)% -->
-					<span class="orange">Mega Impact<br /></span>10% CtC
-					lvl 19 Ice Lance on Striking<br />
+					<span class="orange">Mega Impact<br /></span>
+					10% CtC lvl 19 Ice Lance on Striking<br />
 					+(300 to 350)% Enhanced damage<br />
 					(50 to 70)% Increased Attack Speed<br />
 					Adds 500-750 damage<br />
@@ -8207,8 +8181,7 @@ You can see it on the left if you hover your mouse over this cell.' onmouseover=
 					<div class="unique">
 						The Mangling Sting
 					</div><span class="basic">Two-Hand Damage: <span class="magic">(627-694) to (734-802)</span><br />
-					(Necromancer
-					Only)<br />
+					(Necromancer Only)<br />
 					Required Strength: 244<br />
 					Required Level: 100<br /></span>
 					<span class="magic">
@@ -8281,8 +8254,7 @@ You can see it on the left if you hover your mouse over this cell.' onmouseover=
 					<div class="unique">
 						Advent of Hatred
 					</div><span class="basic">Two-Hand Damage: <span class="magic">(648-718) to (751-822)</span><br />
-					(Necromancer
-					Only)<br />
+					(Necromancer Only)<br />
 					Required Strength: 252<br />
 					Required Level: 100<br /></span>
 					<span class="magic">
@@ -8430,8 +8402,7 @@ You can see it on the left if you hover your mouse over this cell.' onmouseover=
 					<div class="unique">
 						Phoenix Feather
 					</div><span class="basic">Two-Hand Damage: <span class="magic">(1040-1120) to (1276-1360)</span><br />
-					(Necromancer
-					Only)<br />
+					(Necromancer Only)<br />
 					Required Strength: 262<br />
 					Required Level: 100<br /></span>
 					<span class="magic">
@@ -9192,7 +9163,7 @@ You can see it on the left if you hover your mouse over this cell.' onmouseover=
 					Required Level: 100<br /></span>
 					<span class="magic">
 					<!-- Current Strength Damage Bonus: (0.3984375 per strength)% -->
-					
+
 					 <span class="orange">Amazing Grace</span><br />
 					+(151 to 200) Energy Factor to Spell Damage<br />
 					5% CtC lvl 29 Singularity on Attack<br />
@@ -9240,8 +9211,7 @@ You can see it on the left if you hover your mouse over this cell.' onmouseover=
 					Required Level: 100<br /></span>
 					<span class="magic">
 					<!-- Current Strength Damage Bonus: (0.3984375 per strength)% -->
-					<span class="orange">Amazing Grace<br /></span>+(300
-					to 350)% Enhanced damage<br />
+					<span class="orange">Amazing Grace<br /></span>+(300 to 350)% Enhanced damage<br />
 					Adds 500-750 damage<br />
 					250% Bonus to Attack Rating<br />
 					Adds 500-750 fire damage<br />
@@ -9497,8 +9467,7 @@ You can see it on the left if you hover your mouse over this cell.' onmouseover=
 					Required Level: 100<br /></span>
 					<span class="magic">
 					<!-- Current Dexterity Damage Bonus: (0.19921875 per dexterity)% -->
-					100% CtC lvl 35 Summon Ice Elementals when you
-					Kill an Enemy<br />
+					100% CtC lvl 35 Summon Ice Elementals when you Kill an Enemy<br />
 					+(2 to 3) to Sorceress Skill lvls<br />
 					+(51 to 70)% Bonus to Poison Skill Duration<br />
 					(31 to 50)% Bonus to Buff/Debuff/Cold Skill Duration<br />
@@ -9604,8 +9573,8 @@ You can see it on the left if you hover your mouse over this cell.' onmouseover=
 					+(21 to 25)% to Spell Damage<br />
 					+(9 to 12) to Magic Missiles<br />
 					Increase Maximum Mana 15%<br />
-					5% Reanimate as: Random non-elite monster<sup style="color:black;">*</sup><br />
-					5% Reanimate as: Random non-elite monster<sup style="color:black;">*</sup><br />
+					5% Reanimate as: Random non-elite monster<br />
+					5% Reanimate as: Random non-elite monster<br />
 					+(101 to 150) Life after each Kill<br />
 					+5 to Light Radius<br />
 					Socketed: 3<br /></span>
@@ -9635,9 +9604,7 @@ You can see it on the left if you hover your mouse over this cell.' onmouseover=
 				</td>
 			</tr>
 		</table>
-		
-		<sup>*</sup> See <a href="grig/monster_skills.html" target="_self">THIS PAGE</a> for the list of reanimates.<br />
-		
+
 		<br />
 
 		<table class='item_table'>
@@ -10773,10 +10740,10 @@ You can see it on the left if you hover your mouse over this cell.' onmouseover=
 					Level 1 Demon Blood Aura when Equipped<br />
 					+100% Damage to Demons<br />
 					+(301 to 350)% Enhanced Defense<br />
-					15% Chance of Crushing Blow<br />	
+					15% Chance of Crushing Blow<br />
 					25% Bonus to Strength<br />
 					25% Bonus to Vitality<br />
-					Damage Reduced by 10%<br />				
+					Damage Reduced by 10%<br />
 					10% Deadly Strike<br />
 					Requirements +200%<br />
 					Socketed: 6<br /></span>
@@ -12528,7 +12495,7 @@ You can see it on the left if you hover your mouse over this cell.' onmouseover=
 					(21 to 30)% Magic Find<br />
 					Socketed: 2<br /></span>
 				</td>
-				
+
 				<td title='This item has a special graphic.
 You can see it on the left if you hover your mouse over this cell.' onmouseover='this.parentNode.getElementsByTagName("td")[0].getElementsByTagName("img")[0].src="images/baseitems/invblt.jpg"' onmouseout='this.parentNode.getElementsByTagName("td")[0].getElementsByTagName("img")[0].src="images/baseitems/invhbl.jpg"'>
 					<div class="unique">
@@ -14324,7 +14291,7 @@ You can see it on the left if you hover your mouse over this cell.' onmouseover=
 			</tr>
 		</table><sup>*</sup> Hellgate summons a group of hostile monsters.<br />
 		<br />
-		
+
 		<table class='item_table'>
 			<tr>
 				<th colspan="4">Jawbone Cap</th>
@@ -16780,7 +16747,7 @@ You can see it on the left if you hover your mouse over this cell.' style='verti
 						Ring of Pride<sup style='color:black;'>**</sup>
 					</div>
 				</td>
-				
+
 				<td style='vertical-align:top;' width='320'>
 					<div class='unique' style='text-align:center;font-weight:bold;'>
 						Sigil of the 7 Deadly Sins<sup style='color:black;'>**</sup>
@@ -16797,13 +16764,9 @@ You can see it on the left if you hover your mouse over this cell.' style='verti
 			</tr>
 
 		</table>
-		
+
 		<sup>*</sup> <span class="unique">Ring of the Five</span> and <span class="unique">Assur&#39;s Bane</span> are related to and can only be obtained by doing the Duncraig uberquest. They cannot be cubed for (More) Lucky or Lottery recipe, as well as any Mystic Orbs.<br />
 		<sup>**</sup> <span class="unique">Ring of Pride</span> and <span class="unique">Sigil of the 7 Deadly Sins</span> are related to, and can only be obtained by doing the The Void uberquest.<br />
-		
-		<br />
-		See <a href="levelubers.html#dunc" target="_self">THIS PAGE</a> for more information about Duncraig.<br />
-		See <a href="dungeonubers.html#void" target="_self">THIS PAGE</a> for more information about The Void.<br />
 
 		<p class="genbig" id="arrow_quivers"><b>Arrow Quivers</b></p>
 
