@@ -10791,7 +10791,7 @@
 "DescEuE"	"+2% к Физ\Маг Урону за Уровень"
 "HpPet"	"Гоплит"
 "Mon_SavageWolf"	"\orange;Дикий Волк"
-"TwinSeaPirate"	"\orange;Пират Двух Морей"
+"TwinSeaPirate"	"\orange;Пират Двойных Морей"
 "cubeicesun"	"\red;(Требуется 60 уровень или ниже)\n\orange;Смешайте с Янтарем Стихий"
 "cubefiresun"	"\red;(Требуется 70 уровень или ниже)\n\orange;Смешайте с Янтарем Стихий"
 "cubelightsun"	"\red;(Требуется 50 уровень или ниже)\n\orange;Смешайте с Янтарем Стихий"
