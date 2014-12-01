@@ -10945,5 +10945,4 @@
 "DescObliteration"	"(total damage depends on relative position)\nMassively Hits"
 "DescIFailedAtModding"	"Deals more damage in crowded areas\n"
 "DescWolfFormLAK"	"Werewolf Form: "
-"Sewer Rat
-"	"Sewer Rat"
+"Sewer Rat"	"Sewer Rat"
