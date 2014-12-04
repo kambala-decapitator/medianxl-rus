@@ -10547,7 +10547,7 @@
 "StopAskingForSigma"	"\gold;(               MarcoNecroX (Секретный Босс)               )"
 "lawl"	"Хранилище Душ\nПоздравляю!"
 "Soulkeep"	"Хранилище Душ"
-"To The Chrysaor Sewers Level 1"	"\red;Бесформенные Земли"
+"To The Chrysaor Sewers Level 1"	"\red;Бесформенная Земля"
 "To The Chrysaor Sewers Level 2"	"\red;Скрытая Крепость"
 "NewStartingCharm2"	"\red;Добро пожаловать в Median XL: Ultimative XVc\blue;"
 "Primus' Messenger"	"\gold;Посланник Примуса"
