@@ -6078,7 +6078,7 @@
 "DescFAbs"	"Fire Absorb: "
 "DescPctOfLife"	" percent of life lost"
 "SkillsdApoc2"	"nearby enemies explode, taking damage based on your life lost"
-"Citizen"	"\orange;Житель"
+"Citizen"	"\orange;Житель\blue;"
 "BloodTurret"	"Blood Turret"
 "OblivionTurret"	"Oblivion Turret"
 "Roach"	"\orange;Roach"

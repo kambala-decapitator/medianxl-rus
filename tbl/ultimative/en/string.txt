@@ -3310,7 +3310,7 @@
 "sarcophagus"	"Sarcophagus"
 "dead villager"	"Dead Villager"
 "sewer lever"	"Sewer Lever"
-"sewer stairs"	"Sewer Stairs"
+"sewer stairs"	"\red;Sewer Stairs"
 "magic shrine"	"Magic Shrine"
 "wirt's body"	"Wirt's body"
 "stash"	"Stash"
