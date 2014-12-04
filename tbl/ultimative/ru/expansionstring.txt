@@ -1880,7 +1880,7 @@
 "McAuley's Folly"	"Прихоть Сандера"
 "x"	"Диск расширения"
 "qstsa5q62b"	"Убейте миньонов Баала."
-"x"	"Автор мода Median XL - Brother Laz, модификации Ultimative - MarcoNecroX, перевода - kambala."
+"x"	"Автор мода Median XL - Brother Laz, модификации Ultimative - MarcoNecroX, перевода - kambala, Zelgadiss"
 "of the Plague"	"Чумы"
 "Go South"	"вернуться в ад"
 "ItemExpansiveChancX"	"%d%% Шанс использовать навык уровня %d %s при Рукопашной Атаке"
