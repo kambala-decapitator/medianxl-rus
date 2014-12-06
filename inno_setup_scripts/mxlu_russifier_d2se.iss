@@ -1,9 +1,9 @@
 [Setup]
-AppName=Русификатор Median XL Ultimative (D2SE-версия)
+AppName=Русификатор Median XL Ultimative (D2SE)
 AppVersion=XVc
 VersionInfoVersion=1.0.0.0
 DefaultDirName={reg:HKCU\Software\Blizzard Entertainment\Diablo II,InstallPath|{pf}\Diablo II}\MODS\Median XL - Ultimative
-DefaultGroupName=Русификатор Median XL Ultimative (D2SE-версия)
+DefaultGroupName=Русификатор Median XL Ultimative (D2SE)
 Compression=lzma2/ultra64
 SolidCompression=yes
 OutputDir=D:\MXLU_Russifier    
@@ -25,8 +25,8 @@ Source: "PlugY.dll"; DestDir: "{app}\Language_RUS"; Components: plugy
 [Languages]
 Name: "ru"; MessagesFile: "compiler:Languages\Russian.isl"
 
-[Run]
-Filename: "{reg:HKCU\Software\Blizzard Entertainment\Diablo II,InstallPath|{pf}\Diablo II}\D2SE.exe"; Description: "Запустить D2SE"; Flags: postinstall
-
 [INI]
-Filename: "{reg:HKCU\Software\Blizzard Entertainment\Diablo II,InstallPath|{pf}\Diablo II}\MODS\Median XL - Ultimative\D2SE_SETUP.ini"; Section: "USERSETTINGS"; Key:Language; String: "RUS"
+Filename: "{app}\D2SE_SETUP.ini"; Section: "USERSETTINGS"; Key:Language; String: "RUS"
+
+[Run]
+Filename: "{reg:HKCU\Software\Blizzard Entertainment\Diablo II,InstallPath|{pf}\Diablo II}\D2SE.exe"; Flags: postinstall unchecked; Description: "Запустить D2SE"

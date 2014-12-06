@@ -19,13 +19,15 @@ Name: "plugy"; Description: "PlugY.dll (только для 10й версии PlugY)"; Types: fu
 
 [Files]
 Source: "D2Win.dll"; DestDir: "{app}"; Components: program
-Source: "files\*"; DestDir: "{app}\Mod PlugY"; Components: program; Flags: recursesubdirs; Check: MyDirCheck(ExpandConstant('{app}\Mod PlugY')); BeforeInstall: DeleteGemsBinAndLevelsBin(ExpandConstant('{app}\Mod PlugY'))
 Source: "files\*"; DestDir: "{app}\ModPlugY"; Components: program; Flags: recursesubdirs; Check: MyDirCheck(ExpandConstant('{app}\ModPlugY')); BeforeInstall: DeleteGemsBinAndLevelsBin(ExpandConstant('{app}\ModPlugY'))
+Source: "files\*"; DestDir: "{app}\Mod PlugY"; Components: program; Flags: recursesubdirs; BeforeInstall: DeleteGemsBinAndLevelsBin(ExpandConstant('{app}\Mod PlugY'))
 Source: "PlugY.dll"; DestDir: "{app}"; Components: plugy
-Source: "mxlrus.bat"; DestDir: "{app}"; Components: program
-Source: "mxlrus_plugy.bat"; DestDir: "{app}"; Components: program
-Source: "mxlrus_plugy.bat"; DestDir: "{app}\Mod PlugY"; Components: program; Check: MyDirCheck(ExpandConstant('{app}\Mod PlugY'))
-Source: "mxlrus_plugy.bat"; DestDir: "{app}\ModPlugY"; Components: program; Check: MyDirCheck(ExpandConstant('{app}\ModPlugY'))
+Source: "mxlrus_1.bat"; DestName: "mxlrus.bat"; DestDir: "{app}"; Components: program; Check: MyDirCheck(ExpandConstant('{app}\ModPlugY'))
+Source: "mxlrus_2.bat"; DestName: "mxlrus.bat"; DestDir: "{app}"; Components: program
+Source: "mxlrus_plugy_1.bat"; DestName: "mxlrus_plugy.bat"; DestDir: "{app}"; Components: program; Check: MyDirCheck(ExpandConstant('{app}\ModPlugY'))
+Source: "mxlrus_plugy_2.bat"; DestName: "mxlrus_plugy.bat"; DestDir: "{app}"; Components: program
+Source: "mxlrus_plugy_dir.bat"; DestName: "mxlrus_plugy.bat"; DestDir: "{app}\ModPlugY"; Components: program; Check: MyDirCheck(ExpandConstant('{app}\ModPlugY'))
+Source: "mxlrus_plugy_dir.bat"; DestName: "mxlrus_plugy.bat"; DestDir: "{app}\Mod PlugY"; Components: program
 
 [Languages]
 Name: "ru"; MessagesFile: "compiler:Languages\Russian.isl"
@@ -41,7 +43,3 @@ begin
   DeleteFile(DirName + '\data\global\excel\levels.bin')
   DeleteFile(DirName + '\data\global\excel\gems.bin')
 end; 
-
-[Run]  
-Filename: "{app}\mxlrus_plugy.bat"; Description: "Запустить игру с PlugY"; Flags: postinstall shellexec 
-Filename: "{app}\mxlrus.bat"; Description: "Запустить игру без PlugY"; Flags: postinstall shellexec unchecked

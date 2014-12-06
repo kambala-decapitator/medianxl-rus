@@ -1,9 +1,9 @@
 [Setup]
-AppName=Русификатор Median XL Ultimative (MPQ-версия)
+AppName=Русификатор Median XL Ultimative (MPQ)
 AppVersion=XVc
 VersionInfoVersion=1.0.0.0
 DefaultDirName={reg:HKCU\Software\Blizzard Entertainment\Diablo II,InstallPath|{pf}\Diablo II}
-DefaultGroupName=Русификатор Median XL Ultimative (MPQ-версия)      
+DefaultGroupName=Русификатор Median XL Ultimative (MPQ)      
 Compression=none
 SolidCompression=yes
 OutputDir=D:\MXLU_Russifier
@@ -19,14 +19,8 @@ Name: "plugy"; Description: "PlugY.dll (только для 10й версии PlugY)"; Types: fu
 
 [Files]
 Source: "D2Win.dll"; DestDir: "{app}"; Components: program
-Source: "patch_d2.mpq"; DestDir: "{app}"; Components: program; Flags: external
-Source: "MpqLangChanger.exe"; DestDir: "{app}"; Components: program
+Source: "{src}\patch_d2.mpq"; DestDir: "{app}"; Components: program; Flags: external
 Source: "PlugY.dll"; DestDir: "{app}"; Components: plugy
 
 [Languages]
 Name: "ru"; MessagesFile: "compiler:Languages\Russian.isl"
-
-[Run]
-Filename: "{reg:HKCU\Software\Blizzard Entertainment\Diablo II,InstallPath|{pf}\Diablo II}\MpqLangChanger.exe"; Parameters: "-l=RUS patch_d2.mpq"; Description: "Переключить на русскую версию"; Flags: postinstall
-Filename: "{reg:HKCU\Software\Blizzard Entertainment\Diablo II,InstallPath|{pf}\Diablo II}\MpqLangChanger.exe"; Parameters: "-l=ENG patch_d2.mpq"; Description: "Переключить на английскую версию"; Flags: postinstall unchecked
-Filename: "{reg:HKCU\Software\Blizzard Entertainment\Diablo II,InstallPath|{pf}\Diablo II}\Game.exe"; Description: "Запустить игру"; Flags: postinstall
