@@ -1,22 +1,22 @@
-[Setup]
-AppName=Русификатор Median XL Ultimative
+п»ї[Setup]
+AppName=Р СѓСЃРёС„РёРєР°С‚РѕСЂ Median XL Ultimative
 AppVersion=XVc
 VersionInfoVersion=1.0.0.0
 DefaultDirName={reg:HKCU\Software\Blizzard Entertainment\Diablo II,InstallPath|{pf}\Diablo II}
-DefaultGroupName=Русификатор Median XL Ultimative
+DefaultGroupName=Р СѓСЃРёС„РёРєР°С‚РѕСЂ Median XL Ultimative
 Compression=lzma2/ultra64
 SolidCompression=yes
 OutputDir=D:\MXLU_Russifier   
 OutputBaseFilename=mxlu_russifier_archive
 
 [Types]
-Name: "full"; Description: "Полная"
-Name: "custom"; Description: "Выборочная"; Flags: iscustom
+Name: "full"; Description: "РџРѕР»РЅР°СЏ"
+Name: "custom"; Description: "Р’С‹Р±РѕСЂРѕС‡РЅР°СЏ"; Flags: iscustom
 
 [Components]
-Name: "program"; Description: "Файлы русификации"; Types: full custom; Flags: fixed
-Name: "plugy"; Description: "PlugY.dll (только для 10й версии PlugY)"; Types: full      
-Name: "d2win"; Description: "D2Win.dll (только для 1.13c патча)"; Types: full      
+Name: "program"; Description: "Р¤Р°Р№Р»С‹ СЂСѓСЃРёС„РёРєР°С†РёРё"; Types: full custom; Flags: fixed
+Name: "plugy"; Description: "PlugY.dll (С‚РѕР»СЊРєРѕ РґР»СЏ 10Р№ РІРµСЂСЃРёРё PlugY)"; Types: full      
+Name: "d2win"; Description: "D2Win.dll (С‚РѕР»СЊРєРѕ РґР»СЏ 1.13c РїР°С‚С‡Р°)"; Types: full      
 
 [Files]
 Source: "D2Win.dll"; DestDir: "{app}"; Components: d2win
