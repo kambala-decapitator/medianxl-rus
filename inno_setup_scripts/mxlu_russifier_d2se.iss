@@ -16,9 +16,10 @@ Name: "custom"; Description: "Выборочная"; Flags: iscustom
 [Components]
 Name: "program"; Description: "Файлы русификации"; Types: full custom; Flags: fixed
 Name: "plugy"; Description: "PlugY.dll (только для 10й версии PlugY)"; Types: full      
+Name: "d2win"; Description: "D2Win.dll (только для 1.13c патча)"; Types: full  
 
 [Files]
-Source: "D2Win.dll"; DestDir: "{app}\Language_RUS"; Components: program
+Source: "D2Win.dll"; DestDir: "{app}\Language_RUS"; Components: d2win
 Source: "RUS.mpq"; DestDir: "{app}\Language_RUS"; Components: program
 Source: "PlugY.dll"; DestDir: "{app}\Language_RUS"; Components: plugy
 
@@ -29,4 +30,4 @@ Name: "ru"; MessagesFile: "compiler:Languages\Russian.isl"
 Filename: "{app}\D2SE_SETUP.ini"; Section: "USERSETTINGS"; Key:Language; String: "RUS"
 
 [Run]
-Filename: "{reg:HKCU\Software\Blizzard Entertainment\Diablo II,InstallPath|{pf}\Diablo II}\D2SE.exe"; Flags: postinstall unchecked; Description: "Запустить D2SE"
+Filename: "{app}\..\..\D2SE.exe"; Flags: postinstall unchecked nowait; Description: "Запустить D2SE"

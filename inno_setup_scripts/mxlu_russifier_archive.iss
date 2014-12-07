@@ -16,9 +16,10 @@ Name: "custom"; Description: "Выборочная"; Flags: iscustom
 [Components]
 Name: "program"; Description: "Файлы русификации"; Types: full custom; Flags: fixed
 Name: "plugy"; Description: "PlugY.dll (только для 10й версии PlugY)"; Types: full      
+Name: "d2win"; Description: "D2Win.dll (только для 1.13c патча)"; Types: full      
 
 [Files]
-Source: "D2Win.dll"; DestDir: "{app}"; Components: program
+Source: "D2Win.dll"; DestDir: "{app}"; Components: d2win
 Source: "files\*"; DestDir: "{app}\ModPlugY"; Components: program; Flags: recursesubdirs; Check: MyDirCheck(ExpandConstant('{app}\ModPlugY')); BeforeInstall: DeleteGemsBinAndLevelsBin(ExpandConstant('{app}\ModPlugY'))
 Source: "files\*"; DestDir: "{app}\Mod PlugY"; Components: program; Flags: recursesubdirs; BeforeInstall: DeleteGemsBinAndLevelsBin(ExpandConstant('{app}\Mod PlugY'))
 Source: "PlugY.dll"; DestDir: "{app}"; Components: plugy
