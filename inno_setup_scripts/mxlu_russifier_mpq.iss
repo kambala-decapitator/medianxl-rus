@@ -37,3 +37,8 @@ procedure BackupD2WinDll;
 begin
   RenameFile(ExpandConstant('{app}\D2Win.dll'), ExpandConstant('{app}\D2Win.dll.bak'))
 end;
+
+procedure CurUninstallStepChanged(CurUninstallStep: TUninstallStep);
+begin
+  if CurUninstallStep = usPostUninstall then RenameFile(ExpandConstant('{app}\D2Win.dll.bak'), ExpandConstant('{app}\D2Win.dll'))
+end;

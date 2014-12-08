@@ -73,3 +73,8 @@ begin
   SaveStringToFile(ExpandConstant('{app}\mxlrus_plugy.bat'), Format('cd "%s" && start plugy.exe -direct', [plugyFolder]), False)
   SaveStringToFile(_GetPlugyFolder + '\mxlrus_plugy.bat', 'start plugy.exe -direct', False)
 end;
+
+procedure CurUninstallStepChanged(CurUninstallStep: TUninstallStep);
+begin
+  if CurUninstallStep = usPostUninstall then RenameFile(ExpandConstant('{app}\D2Win.dll.bak'), ExpandConstant('{app}\D2Win.dll'))
+end;
