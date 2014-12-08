@@ -1,12 +1,15 @@
 ﻿[Setup]
 AppName=Русификатор Median XL Ultimative
 AppVersion=XVc
+AppPublisher=kambala & Zelgadiss
+AppReadmeFile=http://worldofplayers.ru/threads/32519/
 VersionInfoVersion=1.0.0.0
 DefaultDirName={reg:HKCU\Software\Blizzard Entertainment\Diablo II,InstallPath|{pf}\Diablo II}
 DefaultGroupName=Русификатор Median XL Ultimative
 Compression=lzma2/ultra64
 SolidCompression=yes
-OutputDir=D:\MXLU_Russifier   
+LZMAUseSeparateProcess=yes
+OutputDir=.   
 OutputBaseFilename=mxlu_russifier_archive
 
 [Types]
@@ -15,32 +18,58 @@ Name: "custom"; Description: "Выборочная"; Flags: iscustom
 
 [Components]
 Name: "program"; Description: "Файлы русификации"; Types: full custom; Flags: fixed
-Name: "plugy"; Description: "PlugY.dll (только для 10й версии PlugY)"; Types: full      
+Name: "plugy"; Description: "PlugY.dll (только для 10-й версии PlugY)"; Types: full      
 Name: "d2win"; Description: "D2Win.dll (только для 1.13c патча)"; Types: full      
 
-[Files]
-Source: "D2Win.dll"; DestDir: "{app}"; Components: d2win
-Source: "files\*"; DestDir: "{app}\ModPlugY"; Components: program; Flags: recursesubdirs; Check: MyDirCheck(ExpandConstant('{app}\ModPlugY')); BeforeInstall: DeleteGemsBinAndLevelsBin(ExpandConstant('{app}\ModPlugY'))
-Source: "files\*"; DestDir: "{app}\Mod PlugY"; Components: program; Flags: recursesubdirs; BeforeInstall: DeleteGemsBinAndLevelsBin(ExpandConstant('{app}\Mod PlugY'))
-Source: "PlugY.dll"; DestDir: "{app}"; Components: plugy
-Source: "mxlrus_1.bat"; DestName: "mxlrus.bat"; DestDir: "{app}"; Components: program; Check: MyDirCheck(ExpandConstant('{app}\ModPlugY'))
-Source: "mxlrus_2.bat"; DestName: "mxlrus.bat"; DestDir: "{app}"; Components: program
-Source: "mxlrus_plugy_1.bat"; DestName: "mxlrus_plugy.bat"; DestDir: "{app}"; Components: program; Check: MyDirCheck(ExpandConstant('{app}\ModPlugY'))
-Source: "mxlrus_plugy_2.bat"; DestName: "mxlrus_plugy.bat"; DestDir: "{app}"; Components: program
-Source: "mxlrus_plugy_dir.bat"; DestName: "mxlrus_plugy.bat"; DestDir: "{app}\ModPlugY"; Components: program; Check: MyDirCheck(ExpandConstant('{app}\ModPlugY'))
-Source: "mxlrus_plugy_dir.bat"; DestName: "mxlrus_plugy.bat"; DestDir: "{app}\Mod PlugY"; Components: program
+[Files]                                                                  
+Source: "PlugY.dll"; DestDir: "{app}"; Components: plugy; Flags: replacesameversion            
+Source: "D2Win.dll"; DestDir: "{app}"; Components: d2win; BeforeInstall: BackupD2WinDll
+Source: "files\*"; DestDir: "{code:GetPlugyFolder}"; Components: program; Flags: recursesubdirs; BeforeInstall: RemoveLegacyFiles; AfterInstall: CreateBatchFiles
 
 [Languages]
 Name: "ru"; MessagesFile: "compiler:Languages\Russian.isl"
 
-[Code]
-function MyDirCheck(DirName: String): Boolean;
+[UninstallDelete]
+Type: files; Name: "{app}\mxlrus*.bat"   
+Type: files; Name: "{code:GetPlugyFolder}\mxlrus_plugy.bat"
+
+[Code] 
+procedure BackupD2WinDll;
 begin
-  Result := DirExists(DirName);
+  RenameFile(ExpandConstant('{app}\D2Win.dll'), ExpandConstant('{app}\D2Win.dll.bak'))
 end;
 
-procedure DeleteGemsBinAndLevelsBin (DirName: String);
+var
+plugyFolder: String;  
+
+procedure SetPlugyFolder;
 begin
-  DeleteFile(DirName + '\data\global\excel\levels.bin')
-  DeleteFile(DirName + '\data\global\excel\gems.bin')
-end; 
+  if DirExists(ExpandConstant('{app}\ModPlugY')) then
+    plugyFolder := 'ModPlugY'
+  else
+    plugyFolder := 'Mod PlugY'
+end;
+
+function GetPlugyFolder(foo: String) : String;
+begin
+  if Length(plugyFolder) = 0 then SetPlugyFolder;
+  Result := ExpandConstant('{app}\' + plugyFolder)
+end;
+
+function _GetPlugyFolder : String;
+begin
+  Result := GetPlugyFolder('')
+end;
+
+procedure RemoveLegacyFiles;
+begin      
+  DeleteFile(_GetPlugyFolder + '\data\global\excel\levels.bin');
+  DeleteFile(_GetPlugyFolder + '\data\global\excel\gems.bin')
+end;
+
+procedure CreateBatchFiles;
+begin   
+  SaveStringToFile(ExpandConstant('{app}\mxlrus.bat'),       Format('cd "%s" && start ..\game.exe -direct', [plugyFolder]), False);  
+  SaveStringToFile(ExpandConstant('{app}\mxlrus_plugy.bat'), Format('cd "%s" && start plugy.exe -direct', [plugyFolder]), False)  
+  SaveStringToFile(_GetPlugyFolder + '\mxlrus_plugy.bat', 'start plugy.exe -direct', False)
+end;
