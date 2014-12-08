@@ -19,7 +19,7 @@ Name: "custom"; Description: "Выборочная"; Flags: iscustom
 [Components]
 Name: "program"; Description: "Файлы русификации"; Types: full custom; Flags: fixed
 Name: "plugy"; Description: "PlugY.dll (только для 10-й версии PlugY)"; Types: full; Flags: replacesameversion              
-Name: "d2win"; Description: "D2Win.dll (только для 1.13c патча)"; Types: full; BeforeInstall: BackupD2WinDll  
+Name: "d2win"; Description: "D2Win.dll (только для 1.13c патча)"; Types: full
 
 [Files]
 Source: "D2Win.dll"; DestDir: "{app}\Language_RUS"; Components: d2win
@@ -34,9 +34,3 @@ Filename: "{app}\D2SE_SETUP.ini"; Section: "USERSETTINGS"; Key:Language; String:
 
 [Run]
 Filename: "{app}\..\..\D2SE.exe"; Flags: postinstall unchecked nowait; Description: "Запустить D2SE"
-
-[Code] 
-procedure BackupD2WinDll;
-begin
-  RenameFile(ExpandConstant('{app}\Language_RUS\D2Win.dll'), ExpandConstant('{app}\Language_RUS\D2Win.dll.bak'))
-end;
