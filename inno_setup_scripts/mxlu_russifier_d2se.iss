@@ -30,7 +30,7 @@ Source: "PlugY.dll"; DestDir: "{app}\Language_RUS"; Components: plugy; Flags: re
 Name: "ru"; MessagesFile: "compiler:Languages\Russian.isl"
 
 [INI]
-Filename: "{app}\D2SE_SETUP.ini"; Section: "USERSETTINGS"; Key:Language; String: "RUS"
+Filename: "{app}\D2SE_SETUP.ini"; Section: "USERSETTINGS"; Key: "Language"; String: "RUS"; Flags: uninsdeleteentry
 
 [Run]
 Filename: "{app}\..\..\D2SE.exe"; Flags: postinstall unchecked nowait; Description: "Запустить D2SE"
