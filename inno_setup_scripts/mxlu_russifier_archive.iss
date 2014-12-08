@@ -9,7 +9,7 @@ DefaultGroupName=Русификатор Median XL Ultimative
 Compression=lzma2/ultra64
 SolidCompression=yes
 LZMAUseSeparateProcess=yes
-OutputDir=.   
+OutputDir=.
 OutputBaseFilename=mxlu_russifier_archive
 
 [Types]
@@ -18,11 +18,11 @@ Name: "custom"; Description: "Выборочная"; Flags: iscustom
 
 [Components]
 Name: "program"; Description: "Файлы русификации"; Types: full custom; Flags: fixed
-Name: "plugy"; Description: "PlugY.dll (только для 10-й версии PlugY)"; Types: full      
-Name: "d2win"; Description: "D2Win.dll (только для 1.13c патча)"; Types: full      
+Name: "plugy"; Description: "PlugY.dll (только для 10-й версии PlugY)"; Types: full
+Name: "d2win"; Description: "D2Win.dll (только для 1.13c патча)"; Types: full
 
-[Files]                                                                  
-Source: "PlugY.dll"; DestDir: "{app}"; Components: plugy; Flags: replacesameversion            
+[Files]
+Source: "PlugY.dll"; DestDir: "{app}"; Components: plugy; Flags: replacesameversion
 Source: "D2Win.dll"; DestDir: "{app}"; Components: d2win; BeforeInstall: BackupD2WinDll
 Source: "files\*"; DestDir: "{code:GetPlugyFolder}"; Components: program; Flags: recursesubdirs; BeforeInstall: RemoveLegacyFiles; AfterInstall: CreateBatchFiles
 
@@ -30,7 +30,7 @@ Source: "files\*"; DestDir: "{code:GetPlugyFolder}"; Components: program; Flags:
 Name: "ru"; MessagesFile: "compiler:Languages\Russian.isl"
 
 [UninstallDelete]
-Type: files; Name: "{app}\mxlrus*.bat"   
+Type: files; Name: "{app}\mxlrus*.bat"
 Type: files; Name: "{code:GetPlugyFolder}\mxlrus_plugy.bat"
 
 [Code] 
@@ -69,7 +69,7 @@ end;
 
 procedure CreateBatchFiles;
 begin   
-  SaveStringToFile(ExpandConstant('{app}\mxlrus.bat'),       Format('cd "%s" && start ..\game.exe -direct', [plugyFolder]), False);  
-  SaveStringToFile(ExpandConstant('{app}\mxlrus_plugy.bat'), Format('cd "%s" && start plugy.exe -direct', [plugyFolder]), False)  
+  SaveStringToFile(ExpandConstant('{app}\mxlrus.bat'),       Format('cd "%s" && start ..\game.exe -direct', [plugyFolder]), False);
+  SaveStringToFile(ExpandConstant('{app}\mxlrus_plugy.bat'), Format('cd "%s" && start plugy.exe -direct', [plugyFolder]), False)
   SaveStringToFile(_GetPlugyFolder + '\mxlrus_plugy.bat', 'start plugy.exe -direct', False)
 end;

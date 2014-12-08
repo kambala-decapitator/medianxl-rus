@@ -18,13 +18,13 @@ Name: "custom"; Description: "Выборочная"; Flags: iscustom
 
 [Components]
 Name: "program"; Description: "Файлы русификации"; Types: full custom; Flags: fixed
-Name: "plugy"; Description: "PlugY.dll (только для 10-й версии PlugY)"; Types: full; Flags: replacesameversion              
+Name: "plugy"; Description: "PlugY.dll (только для 10-й версии PlugY)"; Types: full
 Name: "d2win"; Description: "D2Win.dll (только для 1.13c патча)"; Types: full
 
 [Files]
 Source: "D2Win.dll"; DestDir: "{app}\Language_RUS"; Components: d2win
 Source: "RUS.mpq"; DestDir: "{app}\Language_RUS"; Components: program
-Source: "PlugY.dll"; DestDir: "{app}\Language_RUS"; Components: plugy
+Source: "PlugY.dll"; DestDir: "{app}\Language_RUS"; Components: plugy; Flags: replacesameversion
 
 [Languages]
 Name: "ru"; MessagesFile: "compiler:Languages\Russian.isl"

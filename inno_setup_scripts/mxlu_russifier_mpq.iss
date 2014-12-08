@@ -5,7 +5,7 @@ AppPublisher=kambala & Zelgadiss
 AppReadmeFile=http://worldofplayers.ru/threads/32519/
 VersionInfoVersion=1.0.0.0
 DefaultDirName={reg:HKCU\Software\Blizzard Entertainment\Diablo II,InstallPath|{pf}\Diablo II}
-DefaultGroupName=Русификатор Median XL Ultimative (MPQ)      
+DefaultGroupName=Русификатор Median XL Ultimative (MPQ)
 Compression=lzma2/ultra64
 SolidCompression=yes
 LZMAUseSeparateProcess=yes
@@ -32,7 +32,7 @@ Source: "patch2*.bat"; DestDir: "{app}"; Components: mpqlang
 [Languages]
 Name: "ru"; MessagesFile: "compiler:Languages\Russian.isl"
 
-[Code] 
+[Code]
 procedure BackupD2WinDll;
 begin
   RenameFile(ExpandConstant('{app}\D2Win.dll'), ExpandConstant('{app}\D2Win.dll.bak'))
