@@ -24,7 +24,7 @@ Name: "d2win"; Description: "D2Win.dll (только для 1.13c патча)"; 
 [Files]
 Source: "PlugY.dll"; DestDir: "{app}"; Components: plugy; Flags: replacesameversion
 Source: "D2Win.dll"; DestDir: "{app}"; Components: d2win; BeforeInstall: BackupD2WinDll
-Source: "files\*"; DestDir: "{code:GetPlugyFolder}"; Components: program; Flags: recursesubdirs; BeforeInstall: RemoveLegacyFiles; AfterInstall: CreateBatchFiles
+Source: "data\*"; DestDir: "{code:GetPlugyFolder}\data"; Components: program; Flags: recursesubdirs; BeforeInstall: RemoveLegacyFiles; AfterInstall: CreateBatchFiles
 
 [Languages]
 Name: "ru"; MessagesFile: "compiler:Languages\Russian.isl"
