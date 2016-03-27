@@ -1,6 +1,6 @@
 ﻿[Setup]
 AppName=Русификатор Median XL Ultimative
-AppVersion=XVc
+AppVersion=XVI
 AppPublisher=kambala & Zelgadiss
 AppReadmeFile=http://worldofplayers.ru/threads/32519/
 VersionInfoVersion=1.0.0.0
