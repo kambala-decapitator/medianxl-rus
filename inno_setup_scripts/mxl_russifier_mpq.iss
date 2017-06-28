@@ -24,6 +24,9 @@ Name: "mpqlang"; Description: "MpqLangChanger (смена языка MPQ)"; Type
 
 [Files]
 Source: "{src}\patch_d2.mpq"; DestDir: "{app}"; Components: program; Flags: external
+Source: "mod\Fog.dll"; DestDir: "{app}"; Components: program; Flags: replacesameversion
+Source: "mod\msvcr110.dll"; DestDir: "{app}"; Components: program; Flags: replacesameversion
+Source: "mod\MXL.dll"; DestDir: "{app}"; Components: program; Flags: replacesameversion
 Source: "D2Win.dll"; DestDir: "{app}"; Components: d2win; BeforeInstall: BackupD2WinDll
 Source: "PlugY.dll"; DestDir: "{app}"; Components: plugy; Flags: replacesameversion
 Source: "MpqLangChanger.exe"; DestDir: "{app}"; Components: mpqlang
