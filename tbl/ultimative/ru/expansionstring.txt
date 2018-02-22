@@ -3322,7 +3322,7 @@
 "Devourer"	"Пожиратель"
 "DiamondBeetle"	"Алмазный Жук"
 "Dominator"	"Доминатор"
-"Doom Guard"	"Doom Guard"
+"Doom Guard"	"Роковой Страж"
 "Centaur2"	"Роковой Охотник"
 "SkillnameDragonOath"	"Клятва Дракона"
 "Deathwing1"	"Грозное Крыло"
