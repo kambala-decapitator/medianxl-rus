@@ -1142,7 +1142,7 @@
 "DAvenger Guard (Sacred)"	""
 "DBanded Plate (Grade 1)"	""
 "DBanded Plate (Grade 2)"	"Если не играть персонажем, его срок действия кончится через 6 месяцев с момента последнего использования."
-"DBanded Plate (Grade 3)"	"Просроченные"
+"DBanded Plate (Grade 3)"	"'Просроченные' персонажи удаляются с сервера."
 "DBanded Plate (Grade 4)"	"Вашему персонажу '%s' уделяли недостаточно внимания, и он умер."
 "DBanded Plate (Grade 5)"	"\red;Devouring Banded Plate"
 "DBanded Plate (Grade 6)"	"\red;Devouring Banded Plate"
