@@ -5744,3 +5744,4 @@
 "DescVP1"	"Damage Reduced: "
 "Broken Spaces"	"Edge of Nothingness"
 "To The Broken Spaces"	"\red;Edge of Nothingness"
+"EmpyreanBandZ"	"Empyrean Band"
