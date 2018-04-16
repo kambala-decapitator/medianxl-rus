@@ -1,6 +1,6 @@
 ﻿[Setup]
 AppName=Русификатор Median XL (MPQ)
-AppVersion=2017-1.3
+AppVersion=2017-1.3.1
 AppPublisher=kambala & Zelgadiss
 AppReadmeFile=http://worldofplayers.ru/threads/32519/
 VersionInfoVersion=1.0.0.0
@@ -24,9 +24,7 @@ Name: "mpqlang"; Description: "MpqLangChanger (смена языка MPQ)"; Type
 
 [Files]
 Source: "{src}\patch_d2.mpq"; DestDir: "{app}"; Components: program; Flags: external
-Source: "mod\Fog.dll"; DestDir: "{app}"; Components: program; Flags: replacesameversion
-Source: "mod\msvcr110.dll"; DestDir: "{app}"; Components: program; Flags: replacesameversion
-Source: "mod\MXL.dll"; DestDir: "{app}"; Components: program; Flags: replacesameversion
+Source: "mod\*"; DestDir: "{app}"; Components: program; Flags: replacesameversion
 Source: "D2Win.dll"; DestDir: "{app}"; Components: d2win; BeforeInstall: BackupD2WinDll
 Source: "PlugY.dll"; DestDir: "{app}"; Components: plugy; Flags: replacesameversion
 Source: "MpqLangChanger.exe"; DestDir: "{app}"; Components: mpqlang
