@@ -1,6 +1,6 @@
 ﻿[Setup]
 AppName=Русификатор Median XL (D2SE)
-AppVersion=2017-1.3.1
+AppVersion=2017-1.3.2
 AppPublisher=kambala & Zelgadiss
 AppReadmeFile=http://worldofplayers.ru/threads/32519/
 VersionInfoVersion=1.0.0.0

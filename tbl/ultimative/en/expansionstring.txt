@@ -5109,7 +5109,7 @@
 "DescCryoWarning"	"\red;(50 000 Reflected Damage)\nDo not hit Phased Enemies with a Weapon"
 "DescScattered"	"\red;Initial Target Takes no Damage"
 "vksummdesc2"	"\red;Warning: when killed, they turn hostile and attack you\n\grey;Reanimate as Veil Terror: 100 percent\n20% Chance to cast a lethal poison attack\nArea Effect Attack\nDamage Reduced by 75%\n\n\red;Veil Kings: 2\grey;"
-"DescBlankVeilKing"	"\red;Warning: when killed, turns hostile and attacks you\n\grey;Reanimate as Veil Terror: 100%\n5% Chance to cast a lethal poison attack\nArea Effect Attack\n"
+"DescBlankVeilKing"	"\red;Warning: when killed, turns hostile and attacks you\n\grey;Reanimate as Veil Terror: 50%\n5% Chance to cast a lethal poison attack\nArea Effect Attack\n"
 "TreeStats5"	"\white;Not affected by minion enhancing items\grey;\nUses Level 5 Pummel\nCrushing Blow: 50 percent\nAll Resistances: 75 percent\n\white;(Based on Area Level)\grey;\nLife: 1500% of Average Monster Life\nDamage: 1000% of Average Monster Damage"
 "DescLeperStatsB"	"\white;Not affected by minion enhancing items\n(Based on Area Level - Terror and Destruction Difficulty)\grey;\nLife: 1000% of Average Monster Life\n\white;(Hatred difficulty)\grey;\nLife: 1000\n\nDamage: 5"
 "DescRatStats"	"\white;Not affected by minion enhancing items\n(Based on Area Level - Terror and Destruction Difficulty)\grey;\nLife: 50% of Average Monster Life\nDamage: 25% of Average Monster Damage\n\white;(Hatred difficulty)\grey;\nLife: 15\nDamage: 2"
@@ -5745,3 +5745,4 @@
 "Broken Spaces"	"Edge of Nothingness"
 "To The Broken Spaces"	"\red;Edge of Nothingness"
 "EmpyreanBandZ"	"Empyrean Band"
+"DescMoarAz"	" axes per Base Level"
