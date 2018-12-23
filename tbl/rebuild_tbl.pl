@@ -4,26 +4,28 @@ use warnings;
 use strict;
 use File::Path qw/make_path/;
 
-my $tblDir = $ARGV[0] or die 'tbl path not specified';
+die 'tbl path(s) not specified' if @ARGV == 0;
+my ($enTblDir, $ruTblDir) = @ARGV == 1 ? ("$ARGV[0]/en", "$ARGV[0]/ru") : @ARGV;
+
 my @tbls = qw/string expansionstring patchstring/;
 my $tblLineRegex = qr/^(.+?)\t(.+)$/;
 
 # ru tbls -> hash
 my %ruStrings;
 for my $tbl (@tbls) {
-    open my $tblHandle, "<", "$tblDir/ru/$tbl.txt";
+    open my $tblHandle, "<", "$ruTblDir/$tbl.txt";
     for (<$tblHandle>) {
         $ruStrings{$1} = $2 if /$tblLineRegex/
     }
     close $tblHandle
 }
 
-my $ruOutDir = "$tblDir/ru_new";
+my $ruOutDir = $ARGV[2] // "$ruTblDir/../ru_new";
 make_path $ruOutDir;
 
 # rebuild ru tbls line by line based on en tbls
 for my $tbl (@tbls) {
-    open my $tblHandle, "<", "$tblDir/en/$tbl.txt";
+    open my $tblHandle, "<", "$enTblDir/$tbl.txt";
     open my $ruOutTblHandle, ">", "$ruOutDir/$tbl.txt";
     for (<$tblHandle>) {
         next unless /$tblLineRegex/;
