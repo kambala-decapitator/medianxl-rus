@@ -1412,3 +1412,5 @@
 "11411"	"+50% Total Exorcism Damage"
 "11412"	"You Have Bloodbath"
 "11413"	"(Max: 1 minute from each other)\nCube after Killing Rathma and Mendeln"
+"StrCfgAutomapMode"	"Small automap"
+"StrCfgTextOnlyNotif"	"Text only notifications"
