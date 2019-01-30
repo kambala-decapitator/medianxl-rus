@@ -1414,3 +1414,4 @@
 "11413"	"(Max: 1 minute from each other)\nCube after Killing Rathma and Mendeln"
 "StrCfgAutomapMode"	"Small automap"
 "StrCfgTextOnlyNotif"	"Text only notifications"
+"StrCfgDebugUi"	"Enable Debug Interface"
