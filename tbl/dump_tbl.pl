@@ -25,9 +25,7 @@ while (my $stringKey = <$tbl>) {
 }
 close $tbl;
 
-$longestKeyLength += 2; # account for surrounding quotes
 for (pairs @strings) {
     my ($stringKey, $stringValue) = @$_;
-    $stringKey = "\"$stringKey\"";
-    printf "%-*s|\"%s\"\n", $longestKeyLength, $stringKey, $stringValue
+    printf "%-*s %s\n", $longestKeyLength, $stringKey, $stringValue
 }
