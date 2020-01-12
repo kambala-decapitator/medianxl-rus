@@ -1236,7 +1236,7 @@
 "StrCfgTabVideoSound"	"Настройки\nВидео и Звук"
 "StrDisplayAlvl"	"Уровень Локации (alvl): "
 "x"	"Warp Blade"
-"CfgNoPickup"	"Включить/выключить автоподбор предметов"
+"CfgNoPickup"	"Вкл/выкл подбор предметов"
 "CfpMapReveal"	"Открыть карту"
 "CfgNotifNewArea"	"Входим в новую локацию"
 "CfgNotifDurability"	"Уровень долговечности снаряжения"
