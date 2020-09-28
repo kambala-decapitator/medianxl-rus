@@ -5850,7 +5850,7 @@
 "Corral of Corruption"	"Corral of Corruption"
 "To The Corral of Corruption"	"\grey;Сложность: \yellow;Средняя\n\n\orange;+ Bull Prince Rodeo +\n\n\grey;Подземный квест\n\gold;Corral of Corruption"
 "ModItemNoDisenchant"	"\dgrey;Не может быть расщеплено\blue;"
-"ModItemNoUnsocket"	"\dgrey;Не может быть извлечено из гнёзд\blue;"
+"ModItemNoUnsocket"	"\dgrey;Нельзя Извлечь Содержимое Гнёзд\blue;"
 "SkillnameArcaneSwarm"	"Arcane Swarm"
 "SkillsdArcaneSwarm"	"\red;требуется лук или арбалет\white;\nзаклинание - уничтожает врагов с помощью перекрещивающихся магических стрел"
 "DescArcaneSwarm"	"\orange;Яда, Физического/Магического урона заклинаний\nУрон навыка увеличивается от Огня, Молнии, Холода"
