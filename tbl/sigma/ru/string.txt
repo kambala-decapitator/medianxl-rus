@@ -9330,7 +9330,7 @@
 "DescCritDmg"	"Урон Критического Удара: "
 "DescWarCryDmg"	"Урон от War Cry: +"
 "DescWarCryLeech"	"Кража Жизни за попадание: "
-"DescWarCrySyn"	"\grey;+2% к Базовому Шансу Критического Удара за БУН в Wolf Companion\n+5% к Урону War Cry за БУН в Mountain King\n+8% к Критическому Урону за БУН в Blood Hatred\n\gold;Синергии\n"
+"DescWarCrySyn"	"\grey;+2% к Базовому Шансу Критического Удара за БУН в Wolf Companion\n+3% к Урону War Cry за БУН в Mountain King\n+8% к Критическому Урону за БУН в Blood Hatred\n\gold;Синергии\n"
 "SkillnameWarCry"	"War Cry"
 "SkillsdWarCry"	"направить их крики в разрушительные ударные волны\nзаклинание - легенды рассказывают о старших шаманах, которые могли"
 "SkillnameBearClawN"	"\tan;Bear Claw Nova"
