@@ -9330,7 +9330,7 @@
 "DescCritDmg"	"Critical Strike Damage: "
 "DescWarCryDmg"	"War Cry Damage: +"
 "DescWarCryLeech"	"Life Leeched per Hit: "
-"DescWarCrySyn"	"\grey;+2% Base Critical Chance per Wolf Companion Base Level\n+5% War Cry Damage per Mountain King Base Level\n+8% Critical Damage per Blood Hatred Base Level\n\gold;Synergies\n"
+"DescWarCrySyn"	"\grey;+2% Base Critical Chance per Wolf Companion Base Level\n+3% War Cry Total Damage per Mountain King Base Level\n+8% Critical Damage per Blood Hatred Base Level\n\gold;Synergies\n"
 "SkillnameWarCry"	"War Cry"
 "SkillsdWarCry"	"to channel their shouts into devastating shockwaves\nspell - legends tell of elder shamans who were able"
 "SkillnameBearClawN"	"\tan;Bear Claw Nova"
