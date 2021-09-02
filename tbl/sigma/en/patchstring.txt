@@ -1789,7 +1789,7 @@
 "11788"	"7% Chance to cast Level 5 Lifespark on Death Blow when Below 50% Life"
 "11789"	"Abyss Knights have 8% Chance to cast Level 13 Widowmaker on Kill"
 "11790"	"\grey;(you cannot dual wield)\n\orange;Melee Elemental Base Required"
-"11791"	"\dgrey;Dirge Chance to cast Increased by 10%\n\orange;When Soulchain is Active:"
+"11791"	"\dgrey;Dirge Chances to cast Increased by 10%\n\orange;When Soulchain is Active:"
 "11792"	"\dgrey;Stormeye Totem has 6% Chance to cast Level 44 Stormclash on Death Blow\n\dgrey;Fireheart Totem has 6% Chance to cast Level 44 Cataclysm on Death Blow\n\dgrey;Frostclaw Totem has 6% Chance to cast Level 44 Blizzard on Death Blow\n\orange;When Soulchain is Active:"
 "11793"	"Earthshaker Skills Have Their Cooldowns Reduced by 20%"
 "11794"	"+3 to all Attributes\n\gold;Weapons, Armor:\n"

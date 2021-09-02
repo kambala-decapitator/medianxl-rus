@@ -9460,7 +9460,7 @@
 "rx17"	"\grey;Enchanted Rune (17)\n\purple;Lux Rune"
 "rx18"	"\grey;Enchanted Rune (18)\n\purple;Ka Rune"
 "rx19"	"\grey;Enchanted Rune (19)\n\purple;Fel Rune"
-"rx20"	"\grey;Enchanted Rune (20)\n\purple;Lim Rune"
+"rx20"	"\grey;Enchanted Rune (20)\n\purple;Lew Rune"
 "rx21"	"\grey;Enchanted Rune (21)\n\purple;Phul Rune"
 "rx22"	"\grey;Enchanted Rune (22)\n\purple;Un Rune"
 "rx23"	"\grey;Enchanted Rune (23)\n\purple;Mhal Rune"
@@ -9936,3 +9936,4 @@
 "DiseasedRegrowth"	"Regrows after death"
 "The Chamber of Offering"	"The Chamber of Offering"
 "To The Chamber of Offering"	"\grey;Difficulty: \green;Easy\n\n\orange;+ Inquisitor of the Triune +\n\n\grey;Dungeon Quest\n\gold;Chamber of Offering"
+"RiftStorm"	"Rift Storm"
