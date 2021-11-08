@@ -6126,7 +6126,7 @@
 "UnstableAnomaly"	"Unstable Anomaly"
 "UnstableAnomalyStr"	"\gold;Выпадает Sacred Уник"
 "Caldeum Library"	"Caldeum Library"
-"To Caldeum Library"	"To Caldeum Library"
+"To Caldeum Library"	"В Caldeum Library"
 "ThePhoboss"	"Phoboss, Nephalem's Bane"
 "PhobossStr"	"\gold;Выпадают Реагенты для Крафта Уников"
 "TheNavigator"	"Navigator"
