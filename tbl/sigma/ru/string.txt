@@ -7913,7 +7913,7 @@
 "Razorspine"	"Razorspine"
 "Reapers"	"Reapers"
 "ReapersHand"	"Reaper's Hand"
-"BookOfTriune2"	"\grey;Quest Item\n\gold;Tome of Possession"
+"BookOfTriune2"	"\grey;Квестовый Предмет\n\gold;Tome of Possession"
 "Rei Di Gelo"	"Rei Di Gelo"
 "FlailSU3"	"Requiem For The Lost Ones"
 "RingOfDisengage"	"Ring of Disengagement"
