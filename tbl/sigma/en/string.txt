@@ -9943,3 +9943,5 @@
 "irX70"	"Transmute three Whispers to receive the Call of the Damned"
 "irX75"	"\red;Works only on Hell difficulty\n\grey;Right click to answer the call of the Damned"
 "ir76"	"Bone Chimes"
+"Court of the Damned"	"Court of the Damned"
+"To The Court of the Damned"	"\grey;Difficulty: \yellow;Moderate\n\n\orange;+ Legion +\n\n\grey;Dungeon Quest\n\gold;Court of the Damned"

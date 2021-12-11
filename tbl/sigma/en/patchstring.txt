@@ -1330,7 +1330,7 @@
 "11329"	"Mana Pulse: +50% Duration"
 "11330"	"Adds 200% of Crushing Blow as Fire and Cold Spell Damage"
 "11331"	"+100% Bonus Magic Damage to Spiral Dance"
-"11332"	"Lightning Shield: +(15 to 25) Lightning Damage to Weapon per Skill Level\nThundergod Nova Deals 5000 Lightning Damage\nStormblast: +1 Projectile"
+"11332"	"Lightning Shield: +(18 to 30) Lightning Damage to Weapon per Skill Level\nThundergod Nova Deals 5000 Lightning Damage\nStormblast: +1 Projectile"
 "11333"	"Vessel of Judgement: +3 Targets"
 "11334"	"+1% Deadly Strike per 6% Fire Spell Damage\nTotal Defense Reduced by 25%"
 "11335"	"Death Shards: +50% Life Leech"
