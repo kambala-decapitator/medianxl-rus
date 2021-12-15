@@ -1560,7 +1560,7 @@
 "11559"	"+3 Queen of Blades Projectiles"
 "11560"	"Spark of Hope Duration Increased by 15 seconds"
 "11561"	"+10 Rebound Projectiles"
-"11562"	"Split Spear: +5 Projectiles"
+"11562"	"Eviscerate: +2 Projectiles"
 "11563"	"+2 Rock Shock Projectiles"
 "11564"	"+1 Extra Scourge"
 "11565"	"Screaming Eagle Duration Increased by 3 seconds"

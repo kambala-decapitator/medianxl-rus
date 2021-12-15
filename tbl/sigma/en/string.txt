@@ -7154,7 +7154,7 @@
 "txt#15"	"\blue;30% Magic Find\n\grey;Cube with the Corrupted Wormhole to Add Bonus\n"
 "txt#01"	"\blue;Enhanced Weapon Damage +20%\n\grey;Cube with the Book of Lies to Add Bonus\n"
 "txt#10"	"\blue;+10% to Spell Damage\n\grey;Cube with the Silver Seal of Ureh to Add Bonus\n"
-"txt#16"	"\blue;2% Reanimate as: Random Monster\n\grey;Cube with the Soul of Kabraxis to Add Bonus\n"
+"txt#16"	"\blue;Adds 5-10 Damage\n\grey;Cube with the Soul of Kabraxis to Add Bonus\n"
 "txt#07"	"\blue;Slow Target 4%\n\grey;Cube with Xazax's Illusion to Add Bonus\n"
 "txt#09"	"\blue;Physical Resist 5%\n\grey;Cube with the Sunstone of the Gods to Add Bonus\n"
 "txt#04"	"\blue;Maximum Mana: +5%\nMaximum Life: +2%\n\grey;Cube with the Ancient Repositories to Add Bonus\n"
