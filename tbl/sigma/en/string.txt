@@ -3330,7 +3330,7 @@
 "cost"	"Cost: "
 "Repair"	"Repair cost: "
 "Sell"	"Sell value: "
-"Identify"	"Identify cost: "
+"StrInvSort"	"sort items in containers"
 "priceless"	"Item cannot be traded here."
 "NPCMenuTradeRepair"	"trade/repair"
 "NPCPurchaseItems"	"Buy"
