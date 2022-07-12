@@ -1,5 +1,15 @@
-# Median XL Σ installer
+# Утилиты для [торрент раздачи](https://rutracker.org/forum/viewtopic.php?t=5686364) Median XL Σ
 
-[Inno Setup](https://jrsoftware.org/isinfo.php) installer for [my game + mod distribution](https://rutracker.org/forum/viewtopic.php?t=5686364). Compile example:
+## Установщик [Inno Setup](https://jrsoftware.org/isinfo.php)
 
-    iscc /O. /F"MXL_Sigma_setup" <path to this repo>\torrent-setup\setup.iss
+Пример компиляции:
+
+    iscc /O. /F"MXL_Sigma_setup" <путь к репозиторию>\torrent-setup\setup.iss
+
+## Настройка параметров запуска Diablo II
+
+PowerShell скрипт-программа, позволяющая выбрать нужные ключи запуска Diablo II. Ключи сохраняются в файл `cmd_args.txt` в папке запуска скрипта. Этот файл читается батниками запуска игры, включёнными в раздачу.
+
+Bat файл создан чисто ради запуска скрипта двойным кликом, т.к. по умолчанию PowerShell скрипты можно запускать лишь вручную из терминала.
+
+Тестировалось на Windows 8.1 с PowerShell версии 5.1.
