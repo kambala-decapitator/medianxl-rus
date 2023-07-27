@@ -7127,7 +7127,7 @@
 "DescOilRenewal"	"80\nThe Oil of Renewal can be used to roll\nany other quality to superior, \nto prepare them for runeword bases.\n\nOil + Non-Superior Item\n--> Superior Item\n"
 "DescCatalystDestruction"	"deprecated"
 "DescSecretToken"	"\yellow;very rare Emblems that drop from Monsters\nRecipes for this Item are Unknown, but said to use\n"
-"CubeInfusionMark"	"\yellow;which receive Double Bonuses from Mystic Orbs\nHonorifics are Blank Items with Maximum Sockets\n\grey;Cube with Magic Weapon/Armor to create Honorific Item\n"
+"CubeInfusionMark"	"\yellow;which receive Double Bonuses from Mystic Orbs\nHonorifics are Blank Items with Maximum Sockets\n\grey;Cube with Magic or Rare Weapon/Armor to create Honorific Item\n"
 "PotExpDesc"	"+100% Experience for 30 seconds"
 "PotOfExpReloadedDesc"	"+150% Experience for 60 seconds"
 "PotMagDesc"	"+150% Magic Find for 30 seconds"
