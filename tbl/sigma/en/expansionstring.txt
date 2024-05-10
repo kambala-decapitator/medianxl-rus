@@ -8168,5 +8168,5 @@
 "MasteryFreedomSyn"	"+10% Block Speed per Base Level\n+5% Hit Recovery per Base Level"
 "SkillAftermath1"	"Increased by your Weapon Physical Damage Bonuses"
 "SkillAftermath2"	" Magic Damage)"
-"SkillTectonicsX"	"140 Power: 2 Shower of Rocks waves on Earthquake\n60 Power: 1 Shower of Rocks waves on Earthquake"
+"SkillTectonicsX"	"200 Power: 3 Shower of Rocks waves on Earthquake\n140 Power: 2 Shower of Rocks waves on Earthquake\n60 Power: 1 Shower of Rocks waves on Earthquake"
 "SkilltectonicsXX"	"(Current Power: "
