@@ -8168,5 +8168,5 @@
 "MasteryFreedomSyn"	"+10% к Скорости Блокирования за БУН\n+5% к Скорости Восстановления После Удара за БУН"
 "SkillAftermath1"	"Увеличивается от ваших Бонусов Физическому Урону Оружия"
 "SkillAftermath2"	" Магического Урона)"
-"SkillTectonicsX"	"140 Мощи: 2 волны Shower of Rocks от Earthquake\n60 Мощи: 1 волна Shower of Rocks от Earthquake"
+"SkillTectonicsX"	"200 Мощи: 3 волны Shower of Rocks от Earthquake\n140 Мощи: 2 волны Shower of Rocks от Earthquake\n60 Мощи: 1 волна Shower of Rocks от Earthquake"
 "SkilltectonicsXX"	"(Текущая Мощь: "
