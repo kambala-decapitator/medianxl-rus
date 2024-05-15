@@ -1286,7 +1286,7 @@
 "x"	"Flamefront: +3 Maximum Projectiles"
 "x"	"+2% Deadly Strike Per Firedance Base Level"
 "x"	"Idol of Scosglen has no Cooldown"
-"1288"	"Ember Spirit: +15% Total Damage"
+"1288"	"Ember Spirit: +25% Total Damage"
 "1289"	"Ember Spirit: +10% Total Damage"
 "x"	"Mana Sweep: +15% Total Damage, Leeches no Mana"
 "x"	"Fortress: +50% Pierce Chance"
