@@ -2,3 +2,4 @@ legacy/items/html/** linguist-vendored
 legacy/skillpointplanner/** linguist-vendored
 
 *.tbl	diff=tbl
+*.yml	diff=yaml
