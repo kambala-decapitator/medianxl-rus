@@ -25859,7 +25859,7 @@
  k: |-1
   ModStr2t
  v: |-1
-  Elemental/Magic Damage Reduced by
+  Elemental/Magic Damage Taken Reduced by
 
 - # 3520
  k: |-1
@@ -26003,7 +26003,7 @@
  k: |-1
   ModStr3r
  v: |-1
-  Poison Length Reduced by
+  Poison Length Reduction
 
 - # 3544
  k: |-1
@@ -26621,67 +26621,67 @@
  k: |-1
   sysmsg1
  v: |-1
-  's carrier pigeon connection was eaten by a hawk.
+  %s connection was interrupted
 
 - # 3641
  k: |-1
   sysmsg2
  v: |-1
-   dropped due to errors. Total failure! Total failure!
+  %s connection was interrupted
 
 - # 3642
  k: |-1
   sysmsg3
  v: |-1
-  %s joined our world. Woot!
+  %s joined the game
 
 - # 3643
  k: |-1
   sysmsg4
  v: |-1
-  %s left our world. Damn.
+  %s left the game
 
 - # 3644
  k: |-1
   sysmsg3a
  v: |-1
-  %s(%s) joined our world. Woot!
+  %s(%s) joined the game
 
 - # 3645
  k: |-1
   sysmsg4a
  v: |-1
-  %s(%s) left our world. Damn.
+  %s(%s) left the game
 
 - # 3646
  k: |-1
   sysmsg5
  v: |-1
-   is not in the game.
+  %s is not in the game
 
 - # 3647
  k: |-1
   sysmsg6
  v: |-1
-   is not logged in.
+  %s is not logged in
 
 - # 3648
  k: |-1
   sysmsg7
  v: |-1
-   was slain by 
+  %s was slain by %s
 
 - # 3649
  k: |-1
   sysmsg8
  v: |-1
-   was slain by 
+  %s was slain by %s
 
 - # 3650
  k: |-1
   sysmsg9
  v: |-1
-   was slain.
+  %s was slain
 
 - # 3651
  k: |-1
@@ -28999,9 +28999,10 @@
 
 - # 4036
  k: |-1
-  strMsgLog
+  strMsgLogScrollPaused
  v: |-1
-  Random Chatter Log
+  Click to scroll to bottom
+  Scrolling paused
 
 - # 4037
  k: |-1
@@ -47401,9 +47402,9 @@
 
 - # 7031
  k: |-1
-  mec
+  8o@
  v: |-1
-  unused
+  \orange;Oil of Lesser Alchemy
 
 - # 7032
  k: |-1
@@ -47423,7 +47424,7 @@
   --> Crafted Amulet
   with +1 to All Skills
   
-  Add one affix at random:
+  Adds one affix at random:
   ------------------------------
   20% Movement Speed
   +200 Life regenerated per Second
@@ -47433,8 +47434,8 @@
   -10% Enemy Elemental Resistances
   +10% Physical Resist
   +50% Weapon Physical Damage
-  Poison Length Reduced by 40%
-  Curse Length Reduced by 40%
+  Poison Length Reduction +40%
+  Curse Length Reduction +40%
   
 
 - # 7034
@@ -47481,9 +47482,10 @@
 
 - # 7040
  k: |-1
-  vib
+  4p[
  v: |-1
-  unused
+  Cube Reagent
+  \orange;Oil of Reflection
 
 - # 7041
  k: |-1
@@ -47500,9 +47502,15 @@
 
 - # 7043
  k: |-1
-  abu
+  DescReflectionOil
  v: |-1
-  unused
+  70
+  Cube with a Rare or Crafted Jewel
+  to duplicate it
+  
+  Both Jewels become Mirrored
+  (can no longer be duplicated)
+  
 
 - # 7044
  k: |-1
@@ -47544,7 +47552,7 @@
  k: |-1
   0u1
  v: |-1
-  Hammer of the Taan Judges
+  Paragon's Hammer
 
 - # 7051
  k: |-1
@@ -48018,6 +48026,9 @@
   Oil + Rune (up to Zod)
   --> Rune Container (1)
   
+  Oil + Enchanted Rune (up to Zod)
+  --> Enchanted Rune Container (1)
+  
   Oil + Perfect Gem
   --> Gem Cluster (1)
   
@@ -48142,15 +48153,15 @@
   Arcane Crystals let you create and
   upgrade Tiered (#) Uniques:
   
-  2 Crystals + Tiered Item + Oil of Ench.
+  2 Crystals + Tiered Item + Oil of Ench
   --> Tiered Unique Item
   
   1 Crystal + Tiered Unique
   --> Increased Tier
   
   Shrine Blessing:
-  You can bless Sacred Crafted, Honorific 
-  and Rare Items for extra bonuses.
+  You can bless Sacred Crafted and
+  Honorific Items for extra bonuses
   
   2 Crystals + Item + Shrine
   --> Item with Added Bonuses
@@ -51427,7 +51438,7 @@
  k: |-1
   HotTJ
  v: |-1
-  Hammer of the Taan Judges
+  Paragon's Hammer
 
 - # 7636
  k: |-1
@@ -51905,9 +51916,9 @@
 
 - # 7715
  k: |-1
-  JaguarsGrasp
+  InariusTestament
  v: |-1
-  Jaguar's Grasp
+  Inarius' Testament
 
 - # 7716
  k: |-1
@@ -59819,9 +59830,9 @@
 
 - # 9024
  k: |-1
-  ModitemCursedCurse
+  ModitemMirrored
  v: |-1
-  Curse Length Reduction
+  \green;Mirrored
 
 - # 9025
  k: |-1
@@ -61054,7 +61065,7 @@
  k: |-1
   ModStr2uu
  v: |-1
-  Physical Damage Reduced by
+  Physical Damage Taken Reduced by
 
 - # 9216
  k: |-1
@@ -61254,7 +61265,7 @@
  k: |-1
   SkillsdLexTalionis
  v: |-1
-  buff - enemies near you trigger retaliate novas
+  Buff - enemies near you trigger special retaliate novas that multi-hit
 
 - # 9247
  k: |-1
@@ -61612,8 +61623,7 @@
  k: |-1
   david22
  v: |-1
-  \blue;+16 Required Level
-  -5 to All Attributes
+  \blue;+15 Required Level
   +1 to Amazon Skill Levels
   \grey;Cube With Corrupted Wormhole to Add Bonus
   
@@ -61623,8 +61633,7 @@
  k: |-1
   david23
  v: |-1
-  \blue;+16 Required Level
-  -5 to All Attributes
+  \blue;+15 Required Level
   +1 to Assassin Skill Levels
   \grey;Cube With Corrupted Wormhole to Add Bonus
   
@@ -61634,8 +61643,7 @@
  k: |-1
   david24
  v: |-1
-  \blue;+16 Required Level
-  -5 to All Attributes
+  \blue;+15 Required Level
   +1 to Barbarian Skill Levels
   \grey;Cube With Corrupted Wormhole to Add Bonus
   
@@ -61645,8 +61653,7 @@
  k: |-1
   david25
  v: |-1
-  \blue;+16 Required Level
-  -5 to All Attributes
+  \blue;+15 Required Level
   +1 to Druid Skill Levels
   \grey;Cube With Corrupted Wormhole to Add Bonus
   
@@ -61656,8 +61663,7 @@
  k: |-1
   david26
  v: |-1
-  \blue;+16 Required Level
-  -5 to All Attributes
+  \blue;+15 Required Level
   +1 to Necromancer Skill Levels
   \grey;Cube With Corrupted Wormhole to Add Bonus
   
@@ -61667,8 +61673,7 @@
  k: |-1
   david27
  v: |-1
-  \blue;+16 Required Level
-  -5 to All Attributes
+  \blue;+15 Required Level
   +1 to Sorceress Skill Levels
   \grey;Cube With Corrupted Wormhole to Add Bonus
   
@@ -61678,8 +61683,7 @@
  k: |-1
   david28
  v: |-1
-  \blue;+16 Required Level
-  -5 to All Attributes
+  \blue;+15 Required Level
   +1 to Paladin Skill Levels
   \grey;Cube With Corrupted Wormhole to Add Bonus
   
@@ -62119,7 +62123,7 @@
  k: |-1
   ir81x
  v: |-1
-  \blue;+10 Required Level
+  \blue;+5 Required Level
   Set Movement Speed to 40%
   \grey;Cube with Boots to Add Bonus
   
@@ -62464,7 +62468,7 @@
  v: |-1
   \blue;+25 Required Level
   Item can be blessed Again
-  \grey;Cube with a Blessed Crafted/Rare Weapon/Armor to Add Bonus
+  \grey;Cube with a Blessed Crafted Weapon/Armor to Add Bonus
   
   Cube Reagent
 
@@ -66452,13 +66456,13 @@
  v: |-1
   90
   The Oil of Lesser Alchemy
-  allows you to craft amulets:
+  allows you to craft (or recraft) amulets:
   
-  Oil + Set Amulet
+  Oil + Set Amulet or Crafted Amulet
   --> Crafted Amulet
   with +1 to All Skills
   
-  Add one affix at random:
+  Adds one affix at random:
   ------------------------------
   10% Movement Speed
   +100 Life regenerated per Second
@@ -66468,8 +66472,8 @@
   -5% Enemy Elemental Resistances
   +5% Physical Resist
   +25% Weapon Physical Damage
-  Poison Length Reduced by 20%
-  Curse Length Reduced by 20%
+  Poison Length Reduction +20%
+  Curse Length Reduction +20%
   
 
 - # 9964
@@ -66611,7 +66615,9 @@
   
   Cube Xazax's Illusion within 10 seconds
   Grants
-  Slow target 4%
+  Adds 75-125 Fire Damage
+  Adds 75-125 Lightning Damage
+  Adds 75-125 Cold Damage
   Locked to current character class
   
 

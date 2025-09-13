@@ -28646,7 +28646,7 @@
  k: |-1
   SkillsdBladestorm
  v: |-1
-  \red;requires a staff, orb or crystal sword\grey;
+  \red;requires a staff, an orb or a sword\grey;
   attack - unleash magical homing blades
 
 - # 4483
@@ -28844,6 +28844,8 @@
  k: |-1
   SkillsdBurnInHellz
  v: |-1
+  gains half of your energy as base attack rating
+  
   \red;requires a melee target
   requires a melee weapon\grey;
   melee attack that inflicts heavenly flames that spread to others
@@ -29406,7 +29408,7 @@
  k: |-1
   SkillsdFlash
  v: |-1
-  \grey;spell - short ranged radius blast that electrocutes nearby enemies
+  \grey;spell - electrocutes and blinds nearby enemies
 
 - # 4601
  k: |-1
@@ -29444,7 +29446,7 @@
   SkillsdFrigidSphere
  v: |-1
   \red;requires a scepter or an orb
-  \grey;spell - emit a wave of creeping frozen doom
+  \grey;melee spell - emit a wave of creeping frozen doom
 
 - # 4607
  k: |-1
@@ -29673,14 +29675,16 @@
  k: |-1
   SkillsdHyenaStrike
  v: |-1
+  10% of poison damage to weapon added as total damage multiplier
+  
   \red;requires a spear
-  \grey;attack - poisonous strike
+  \grey;attack - infectious strike that spreads damage to nearby enemies
 
 - # 4643
  k: |-1
   SkillsdIceBitch
  v: |-1
-  \grey;passive - crystalline skin increases defense and health
+  \grey;passive - block chance based on energy and damage to class spells
 
 - # 4644
  k: |-1
@@ -29692,7 +29696,7 @@
  k: |-1
   SkillsdIceburst
  v: |-1
-  \red;requires an axe
+  \red;requires a melee weapon
   \grey;attack - unleashes a chilling blast of arctic death
 
 - # 4646
@@ -30001,8 +30005,15 @@
  k: |-1
   SkillsdMedusa
  v: |-1
-  \red;requires a scythe\grey;
-  melee attack that calls up powerful water serpents
+  100 bonus attack rating per 1% minion attack rating
+  -3 attack rating per 1 strength
+  -5 attack rating per 1 dexterity
+  While attacking:
+  
+  200% minion damage for 5 serpents, 400% minion damage for 6
+  
+  \red;requires a scythe or spear\grey;
+  Melee Attack: command powerful water serpents to attack your enemies
 
 - # 4693
  k: |-1
@@ -30246,6 +30257,11 @@
  k: |-1
   SkillsdPatriot
  v: |-1
+  per fire and lightning pierce, up to 199
+  Every 5 skill levels: gains 1 extra fire damage 
+  
+  Converts 60% of physical weapon damage to fire
+  
   \grey;sentry that fires a barrage of rockets at multiple targets
 
 - # 4732
@@ -30504,7 +30520,7 @@
   SkillsdSAval
  v: |-1
   \red;Cannot Summon if you can summon Sinners or Glowing Funguses
-  \grey;summon - bend a powerful cold demon to your will
+  \grey;Exodia summon - bend a powerful cold demon to your will
 
 - # 4771
  k: |-1
@@ -30591,7 +30607,7 @@
   SkillsdSGlowing
  v: |-1
   \red;Cannot Summon if you can summon Frostwalkers or Sinners
-  \grey;summon - bend a powerful lightning demon to your will
+  \grey;Exodia summon - bend a powerful lightning demon to your will
 
 - # 4785
  k: |-1
@@ -30862,7 +30878,7 @@
   SkillsdSRam
  v: |-1
   \red;Cannot Summon if you can summon Frostwalkers or Glowing Funguses
-  \grey;summon - bend a powerful fire demon to your will
+  \grey;Exodia summon - bend a powerful fire demon to your will
 
 - # 4827
  k: |-1
@@ -30875,7 +30891,7 @@
   SkillsdSSinner
  v: |-1
   \red;Cannot Summon if you can summon Frostwalkers or Glowing Funguses
-  \grey;summon - bend a powerful fire demon to your will
+  \grey;Exodia summon - bend a powerful fire demon to your will
 
 - # 4829
  k: |-1
@@ -30907,7 +30923,7 @@
  k: |-1
   SkillsdStormblast
  v: |-1
-  \red;requires a sword
+  \red;requires a melee weapon
   \grey;attack - unleashes a thundering blast of lightning
 
 - # 4834
@@ -31308,7 +31324,7 @@
  k: |-1
   SkillsdWouldYouKindly
  v: |-1
-  \grey;spell -  revive target corpses as powerful holy revenants
+  \grey;spell -  revive target corpses as powerful holy Revenants
 
 - # 4894
  k: |-1
@@ -31601,7 +31617,7 @@
  k: |-1
   DescLtngDmg
  v: |-1
-   lightning damage
+   Bonus Lightning Damage
 
 - # 4942
  k: |-1
@@ -32450,6 +32466,7 @@
  k: |-1
   DescWhileCloaked
  v: |-1
+  2% avoid per 5 base levels
   \orange;While Backstabbing:
   
 
@@ -32907,7 +32924,7 @@
  k: |-1
   DescLorenadoProj
  v: |-1
-  +1 Lorenado per 10 Skill Levels (Max 6)
+  +1 Lorenado per 12 Skill Levels (Max 6)
 
 - # 5142
  k: |-1
@@ -33066,7 +33083,8 @@
  k: |-1
   DescBladeSpiritsSyn
  v: |-1
-  \orange;Inherits your % Weapon Physical Damage
+  
+  \blue;Blade Spirits inherit your % Weapon Physical Damage, Deadly Strike and Crushing Blow
   
 
 - # 5168
@@ -33206,7 +33224,7 @@
  k: |-1
   DescCastsGOIF
  v: |-1
-  20% Chance to cast level 3/13/23 Fire Cannonade on Death
+  25% Chance to cast level 3/13/23 Fire Cannonade on Death
   5% Chance to cast level 2 Inner Fire on Attack
 
 - # 5189
@@ -33220,7 +33238,7 @@
  k: |-1
   DescBlankTheLions
  v: |-1
-  25% of Base Strength or Dexterity added to Vitality
+  33% of Base Strength or Dexterity added to Vitality
 
 - # 5191
  k: |-1
@@ -33275,7 +33293,9 @@
  k: |-1
   DescScimitar
  v: |-1
-  20% Chance to cast Level 50 Bladestorm
+  40% Chance to cast Level 50 Bladestorm on Death
+  20% Chance to cast Level 50 Bladestorm on Melee Attack
+  
 
 - # 5199
  k: |-1
@@ -33683,7 +33703,7 @@
  k: |-1
   DescBladeSpirits
  v: |-1
-  Blade Spirits: 
+  Maximum Blade Spirits: 
 
 - # 5264
  k: |-1
@@ -33965,6 +33985,7 @@
  k: |-1
   DescStormBlastFlat
  v: |-1
+  Hits Multiple Times
   Converts 100% Physical Damage to Lightning
 
 - # 5309
@@ -34058,8 +34079,7 @@
  k: |-1
   DescSplatConv
  v: |-1
-  Converts 75% Physical Damage to Magic Damage
-  25% Weapon Damage
+  Converts 85% Physical Damage to Magic Damage
   
 
 - # 5322
@@ -34426,7 +34446,6 @@
  v: |-1
   Duration: 5 seconds
   Enemy Movement Speed and Damage: -25%
-  Enemy Physical Resistance: -10%
   Enemy Defense: -50%
   \orange;Are you not entertained?
 
@@ -34562,7 +34581,8 @@
   Enemy Movement Speed: -50%
   \orange;Shell shock
   
-  \grey;Converts 100% Physical Damage to Cold
+  \grey;Hits Multiple Times
+  Converts 100% Physical Damage to Cold
   35% Weapon Damage
 
 - # 5400
@@ -34614,6 +34634,7 @@
  k: |-1
   DescWayCollection
  v: |-1
+  2% reduced conversion to magic per base level
   +20% Bonus Magic Damage per Base Level
 
 - # 5408
@@ -34810,15 +34831,18 @@
   DescBlank4Hits
  v: |-1
   
-  Gains 10% Total Damage per 1% Max Lightning Resist (Max 150%)
-  Hits 4 times
+  \dgrey;+1 to radius of Blinding Effect per 2 Light Radius
+  \dgrey;Reduces enemy attack rating by 30% for 3 seconds
+  \orange;Blinding Effect
   
+  \grey;Hits 4 times
+  Gains 10% Total Damage per 1% Max Lightning Resist (Max 150%)
 
 - # 5440
  k: |-1
   Desc5PS
  v: |-1
-  Hits 5 times per second
+  Hits 12 times per second
 
 - # 5441
  k: |-1
@@ -35180,8 +35204,7 @@
  k: |-1
   DescBlankMaxRev
  v: |-1
-  Maximum Minions: 3
-  
+  Maximum Revenants: 
 
 - # 5500
  k: |-1
@@ -35494,7 +35517,7 @@
   Punisher Attack Rate: EPIC
   Physical Resist +25%
   Movement Speed -50%
-  
+  \green;Duration of Liche Form scales with Poison Skill Duration
 
 - # 5549
  k: |-1
@@ -35824,14 +35847,14 @@
  k: |-1
   DescBlankTimer2
  v: |-1
-  Spell Timer: 2 seconds
+  Cooldown: 2 seconds
   
 
 - # 5600
  k: |-1
   DescBlankMSD
  v: |-1
-  Spell Timer: 5 seconds
+  Cooldown: 5 seconds
   
 
 - # 5601
@@ -36055,7 +36078,8 @@
  k: |-1
   DescBlankHyenaFury
  v: |-1
-  \orange;Fury: Poison Duration Efficiency Increased by 20% per Fury Charge
+  \orange;Fury: -1 second duration per charge (minimum 5 seconds)
+  \orange;Fury: additional 10% of weapon poison damage as multiplier per fury charge
 
 - # 5635
  k: |-1
@@ -36141,9 +36165,9 @@
 
 - # 5647
  k: |-1
-  DescWallDuration
+  DescDurCD
  v: |-1
-  Wall Duration and Cooldown: 
+  Duration and Cooldown: 
 
 - # 5648
  k: |-1
@@ -36653,7 +36677,7 @@
  k: |-1
   CarnageConverse
  v: |-1
-  Converts 25% Physical damage to Fire
+  Converts 20% Physical damage to Fire
 
 - # 5722
  k: |-1
@@ -37098,13 +37122,17 @@
  k: |-1
   DescHammerino
  v: |-1
-  20 Hammers per Cast
+  Hammers per cast: 
 
 - # 5791
  k: |-1
   SkillsdHammertime
  v: |-1
-  projectile - bombards nearby enemies with flying ethereal mallets
+  \dgrey;(active while current mana is between 40 and 60% of maximum mana)
+  \blue;Mana Equilibrium: \grey;Hammer seek range increased by 50%
+  
+  \red;requires a mace, hammer or scepter
+  \grey;projectile - bombards nearby enemies with flying ethereal mallets
 
 - # 5792
  k: |-1
@@ -38722,7 +38750,7 @@
  v: |-1
   \red;You can only bless an item once. Ethereal items cannot be blessed
   \grey;The blessing will add the craftable stats to the item
-  Cube with Sacred Rare or Crafted Weapon/Armor and 2 Arcane Crystals to Bless
+  Cube with Sacred Crafted Weapon/Armor and 2 Arcane Crystals to Bless
   
   \blue;+x to Strength
   x% to Strength
@@ -38737,7 +38765,7 @@
  v: |-1
   \red;You can only bless an item once. Ethereal items cannot be blessed
   \grey;The blessing will add the craftable stats to the item
-  Cube with Sacred Rare or Crafted Weapon/Armor and 2 Arcane Crystals to Bless
+  Cube with Sacred Crafted Weapon/Armor and 2 Arcane Crystals to Bless
   
   \blue;+x to Dexterity
   x% to Dexterity
@@ -38752,7 +38780,7 @@
  v: |-1
   \red;You can only bless an item once. Ethereal items cannot be blessed
   \grey;The blessing will add the craftable stats to the item
-  Cube with Sacred Rare or Crafted Weapon/Armor and 2 Arcane Crystals to Bless
+  Cube with Sacred Crafted Weapon/Armor and 2 Arcane Crystals to Bless
   
   \blue;+x to Vitality
   x% to Vitality
@@ -38767,7 +38795,7 @@
  v: |-1
   \red;You can only bless an item once. Ethereal items cannot be blessed
   \grey;The blessing will add the craftable stats to the item
-  Cube with Sacred Rare or Crafted Weapon/Armor and 2 Arcane Crystals to Bless
+  Cube with Sacred Crafted Weapon/Armor and 2 Arcane Crystals to Bless
   
   \blue;+x to Energy
   x% to Energy
@@ -38782,7 +38810,7 @@
  v: |-1
   \red;You can only bless an item once. Ethereal items cannot be blessed
   \grey;The blessing will add the craftable stats to the item
-  Cube with Sacred Rare or Crafted Weapon/Armor and 2 Arcane Crystals to Bless
+  Cube with Sacred Crafted Weapon/Armor and 2 Arcane Crystals to Bless
   
   \blue;Adds x-y damage
   +x% Enhanced Damage
@@ -38796,7 +38824,7 @@
  v: |-1
   \red;You can only bless an item once. Ethereal items cannot be blessed
   \grey;The blessing will add the craftable stats to the item
-  Cube with Sacred Rare or Crafted Weapon/Armor and 2 Arcane Crystals to Bless
+  Cube with Sacred Crafted Weapon/Armor and 2 Arcane Crystals to Bless
   
   \dgrey;(Armor)
   \blue;Physical Resist +x%
@@ -38816,7 +38844,7 @@
  v: |-1
   \red;You can only bless an item once. Ethereal items cannot be blessed
   \grey;The blessing will add the craftable stats to the item
-  Cube with Sacred Rare or Crafted Weapon/Armor and 2 Arcane Crystals to Bless
+  Cube with Sacred or Crafted Weapon/Armor and 2 Arcane Crystals to Bless
   
   \blue;+x% to Summoned Minion Damage
   +x% to Summoned Minion Attack Rating
@@ -38830,7 +38858,7 @@
  v: |-1
   \red;You can only bless an item once. Ethereal items cannot be blessed
   \grey;The blessing will add the craftable stats to the item
-  Cube with Sacred Rare or Crafted Weapon/Armor and 2 Arcane Crystals to Bless
+  Cube with Sacred Crafted Weapon/Armor and 2 Arcane Crystals to Bless
   
   \blue;+x% to Fire Spell Damage
   -x% to Enemy Fire Resistance
@@ -38844,7 +38872,7 @@
  v: |-1
   \red;You can only bless an item once. Ethereal items cannot be blessed
   \grey;The blessing will add the craftable stats to the item
-  Cube with Sacred Rare or Crafted Weapon/Armor and 2 Arcane Crystals to Bless
+  Cube with Sacred Crafted Weapon/Armor and 2 Arcane Crystals to Bless
   
   \blue;+x% to Lightning Spell Damage
   -x% to Enemy Lightning Resistance
@@ -38858,7 +38886,7 @@
  v: |-1
   \red;You can only bless an item once. Ethereal items cannot be blessed
   \grey;The blessing will add the craftable stats to the item
-  Cube with Sacred Rare or Crafted Weapon/Armor and 2 Arcane Crystals to Bless
+  Cube with Sacred Crafted Weapon/Armor and 2 Arcane Crystals to Bless
   
   \blue;+x% to Cold Spell Damage
   -x% to Enemy Cold Resistance
@@ -38872,7 +38900,7 @@
  v: |-1
   \red;You can only bless an item once. Ethereal items cannot be blessed
   \grey;The blessing will add the craftable stats to the item
-  Cube with Sacred Rare or Crafted Weapon/Armor and 2 Arcane Crystals to Bless
+  Cube with Sacred Crafted Weapon/Armor and 2 Arcane Crystals to Bless
   
   \blue;+x% to Poison Spell Damage
   -x% to Enemy Poison Resistance
@@ -38886,7 +38914,7 @@
  v: |-1
   \red;You can only bless an item once. Ethereal items cannot be blessed
   \grey;The blessing will add the craftable stats to the item
-  Cube with Sacred Rare or Crafted Weapon/Armor and 2 Arcane Crystals to Bless
+  Cube with Sacred Crafted Weapon/Armor and 2 Arcane Crystals to Bless
   
   \blue;+x% Cast Speed
   Maximum Mana +x%
@@ -38901,7 +38929,7 @@
  v: |-1
   \red;You can only bless an item once. Ethereal items cannot be blessed
   \grey;The blessing will add the craftable stats to the item
-  Cube with Sacred Rare or Crafted Weapon/Armor and 2 Arcane Crystals to Bless
+  Cube with Sacred Crafted Weapon/Armor and 2 Arcane Crystals to Bless
   
   \blue;+x% to Summoned Minion Life
   +x% to Summoned Minion Resistances
@@ -38915,7 +38943,7 @@
  v: |-1
   \red;You can only bless an item once. Ethereal items cannot be blessed
   \grey;The blessing will add the craftable stats to the item
-  Cube with Sacred Rare or Crafted Weapon/Armor and 2 Arcane Crystals to Bless
+  Cube with Sacred Crafted Weapon/Armor and 2 Arcane Crystals to Bless
   
   \blue;Magic Resist +x%
   +x% to Physical/Magic Spell Damage
@@ -38929,7 +38957,7 @@
  v: |-1
   \red;You can only bless an item once. Ethereal items cannot be blessed
   \grey;The blessing will add the craftable stats to the item
-  Cube with Sacred Rare or Crafted Weapon/Armor and 2 Arcane Crystals to Bless
+  Cube with Sacred Crafted Weapon/Armor and 2 Arcane Crystals to Bless
   
   \blue;1% Reanimate as: Random Monster
   1% Reanimate as: Random Monster
@@ -38943,7 +38971,7 @@
  v: |-1
   \red;You can only bless an item once. Ethereal items cannot be blessed
   \grey;The blessing will add the craftable stats to the item
-  Cube with Sacred Rare or Crafted Weapon/Armor and 2 Arcane Crystals to Bless
+  Cube with Sacred Crafted Weapon/Armor and 2 Arcane Crystals to Bless
   
   \blue;+x to All Attributes
   +x% to Innate Elemental Damage
@@ -40431,7 +40459,7 @@
  k: |-1
   DescArtificer5
  v: |-1
-  % Chance to Block per Base Level
+  % Chain Reaction Effect
 
 - # 6240
  k: |-1
@@ -41994,7 +42022,7 @@
   DescDisintegrateSpecial
  v: |-1
   
-  1 second Lower Cooldown per 13 Skill Levels
+  \grey;Cooldown lowers with magic resistance: \orange;25% \grey;for no cooldown
   
 
 - # 6497
@@ -42794,7 +42822,7 @@
  k: |-1
   ItemBlock
  v: |-1
-  %d%% Chance to cast level %d %s when Blocking
+  %d%% Chance to cast level %d %s on Block
 
 - # 6618
  k: |-1
@@ -42992,13 +43020,13 @@
  k: |-1
   SkillsdConsecration
  v: |-1
-  \grey;passive - increases physical weapon damage to Demons and Undead
+  \grey;passive - Turn from holy flames and embrace the realm of the physical
 
 - # 6651
  k: |-1
   DescConsecration1
  v: |-1
-  Holy Fire damage halved
+  \red;You deal no fire damage
 
 - # 6652
  k: |-1
@@ -43010,7 +43038,8 @@
  k: |-1
   DescHolyFire1
  v: |-1
-  You Cannot Deal Poison Damage
+  \grey;maximum level increases every 2 character levels (maximum 25)
+  You Deal No Poison Damage
 
 - # 6654
  k: |-1
@@ -43022,7 +43051,7 @@
  k: |-1
   PoisLenRes
  v: |-1
-  Poison Length Reduced by 
+  Poison Length Reduction 
 
 - # 6656
  k: |-1
@@ -43284,6 +43313,7 @@
  k: |-1
   DescDragonboneSyn
  v: |-1
+  (Maximum absorb 77 000 damage)
   +1% Absorption per 10% Physical Spell Damage
   +8% Absorption per Base Level
   Up to 24 000 Mana
@@ -43415,7 +43445,7 @@
  k: |-1
   SkillsdApexpredator
  v: |-1
-  \grey;upgrade - Dragon Jaws and your weapon attacks leech life
+  \grey;upgrade - Command holy servants and sap the life from your enemies
 
 - # 6719
  k: |-1
@@ -43427,8 +43457,9 @@
  k: |-1
   DescApexpredatorSyn
  v: |-1
+  24% minion attack rating per base level
+  6% minion resistances per base level
   Improved Fire Spell Damage Scaling per Base Level
-  +5% Life Leech per Base Level
 
 - # 6721
  k: |-1
@@ -43464,7 +43495,7 @@
  k: |-1
   DescIncarnation3
  v: |-1
-  % of Current Life Added as Attack Rating
+  % of Maximum Life Added as Attack Rating
 
 - # 6727
  k: |-1
@@ -43500,15 +43531,14 @@
  k: |-1
   MasterySdMelee
  v: |-1
-  \blue;WARNING: disables non-melee and summon skills
+  \purple;WARNING: disables most non-melee and summon skills
   \grey;passive - a melee exclusive layer of damage protection
 
 - # 6733
  k: |-1
   MasteryMelee1
  v: |-1
-  (this protection is multiplicative with all other defences)
-  20% Damage Reduction from All Sources
+  Grit Gained from Strength is Doubled
 
 - # 6734
  k: |-1
@@ -43556,7 +43586,7 @@
  k: |-1
   MasteryPurity1
  v: |-1
-  Curse Length Reduced by 
+  Curse Length Reduction 
 
 - # 6742
  k: |-1
@@ -43586,13 +43616,13 @@
  k: |-1
   MasteryChemistry2
  v: |-1
-  % Mana Regeneration From Potions
+  % Mana Restored From Potions
 
 - # 6747
  k: |-1
   MasteryChemistrySyn
  v: |-1
-  +8% Mana Regeneration From Potions per Base Level
+  +8% Mana Restored From Potions per Base Level
   +4% Healing From Potions per Base Level
 
 - # 6748
@@ -45202,14 +45232,14 @@
  v: |-1
   
   \green;Shuriken Flurry: 0.4% Total Damage per Cognition
-  Pisonic Storm: 0.4% Total Damage per Cognition
+  Psionic Storm: 0.4% Total Damage per Cognition
 
 - # 7010
  k: |-1
   DescCog75B
  v: |-1
-  
-  \grey;Shuriken Flurry: 0.4% Total Damage per Cognition
+  \grey;Psionic Storm: 0.4% Total Damage per Cognition
+  Shuriken Flurry: 0.4% Total Damage per Cognition
   \orange;Reach 75 Cognition
   
 
@@ -47001,7 +47031,8 @@
  k: |-1
   SkillsdFrostborn
  v: |-1
-  \red;you cannot learn this skill if you have points in Mana Sweep
+  \red;only allows the use of melee, summoning and buff/debuff skills
+  you cannot learn this skill if you have points in Mana Sweep
   \gold;cold proficiency - requires 50 points in other cold tree skills
   \grey;passive - empowers your cold tree spells
 
@@ -47525,14 +47556,14 @@
  k: |-1
   SkillnameParadigmShift
  v: |-1
-  Primordial Might
+  \orange;Primordial Might
 
 - # 7377
  k: |-1
   SkillsdParadigmShift
  v: |-1
   \blue;only allows the use of melee, summoning and buff/debuff skills
-  \grey;passive - Mooncall increases elemental power instead of physical
+  \grey;upgrade - Mooncall increases elemental power instead of physical
 
 - # 7378
  k: |-1
@@ -47551,13 +47582,13 @@
   SkillsdColdBlooded
  v: |-1
   \red;does not work with Warp Blades
-  \grey;upgrade - using Bladestorm with a crystal sword triggers a Glacial Volley
+  \grey;upgrade - using Bladestorm with a crystal sword triggers a Glacial Burst
 
 - # 7381
  k: |-1
   SkillColdBlooded1
  v: |-1
-  % chance to cast Glacial Volley on Bladestorm
+  % chance to cast Glacial Burst on Bladestorm
 
 - # 7382
  k: |-1
@@ -47642,8 +47673,8 @@
  k: |-1
   SkillArcaneFury3
  v: |-1
-  80% less mana drained when hit
-  95% Damage Reduction
+  73% less mana drained when hit
+  92% Damage Reduction
   \green;Mana Shield:
   
 
@@ -47950,6 +47981,7 @@
  k: |-1
   DescBlankFend
  v: |-1
+  Grit: +10%
   
   Cooldown: 20 Seconds
   
@@ -48109,7 +48141,7 @@
   Storm: +50 to Maximum Life per Base Level
   Spear: +1% Deadly Strike per 2 Base Levels
   Javelin: +5% Attack Speed per Base Level
-  Bow: +3 Life after each Kill per Base Level
+  Bow: +1 Life and Mana on Striking when maxed
 
 - # 7468
  k: |-1
@@ -49039,6 +49071,7 @@
   DescAmbushX
  v: |-1
   
+  \red; +1 second to Bat Strike Cooldown
   \yellow;(available for a short period after using Blink)
   \green;Batstrike -> Summon Familiar
 
@@ -49056,6 +49089,7 @@
   
   200% Weapon Damage
   
+  \red; +1 second to Bat Strike Cooldown
   \yellow;(available while Vampiric Icon is present)
   \green;Batstrike -> Vampiric Strike
 
@@ -49373,13 +49407,13 @@
  k: |-1
   DescJustTestedOnMyWeapon
  v: |-1
-  30% Chance to add Nothing
-  30% Chance to add +100 Required Level
-  40% Chance to add Random Bonus Stat
+  25% Chance to add Nothing
+  25% Chance to add +100 Required Level
+  50% Chance to add Random Bonus Stat
   
   Ring / Amulet
   Sacred Runeword, or
-  Sacred (Magical or higher) Item, or
+  Sacred/Angelic (Magical or higher) Item, or
   \red;Cube with Item to Corrupt
   
 
@@ -49387,10 +49421,10 @@
  k: |-1
   SkillApocalypse1
  v: |-1
+  Total Apocalypse damage increased by the percentage difference between them (up to 100%)
+  \orange;While your Maximum Mana is higher than Maximum Life:
   
-  If your Current Mana is greater than your Maximum Life deal 50% more total damage
-  Damage does not increase with Skill Levels
-  
+  \red;Damage does not increase with Skill Levels
   \red;Cannot be cast if Skill Level is lower than 62
 
 - # 7663
@@ -49662,7 +49696,7 @@
   SkillSinner1
  v: |-1
   
-  Summon an extra Sinner at character levels 130, 140 and 148
+  Summon an extra Sinner at character levels 120, 135 and 150
   Minion Fire pierce is increased by your own
   Gains 75% of your Minion Damage as Fire Spell Damage
   Gains 10 Spell Focus and 30 Energy per Skill Level
@@ -49672,7 +49706,7 @@
   SkillGF1
  v: |-1
   
-  Summon an extra Fungus at character levels 130, 140 and 148
+  Summon an extra Fungus at character levels 120, 135 and 150
   Minion Lightning pierce is increased by your own
   Gains 50% of your Minion Damage as Lightning Spell Damage
   Gains 3 Spell Focus and 5 Energy per 1% Cast Speed
@@ -49682,7 +49716,7 @@
   SkillFrostwalker1
  v: |-1
   
-  Summon an extra Frostwalker at character levels 130, 140 and 148
+  Summon an extra Frostwalker at character levels 120, 135 and 150
   Minion Cold pierce is increased by your own
   Gains 75% of your Minion Damage as Cold Spell Damage
   Gains 1.5 Spell Focus and 4 Energy per 1% Minion Life
@@ -49836,7 +49870,7 @@
  k: |-1
   SkillGalvanism1
  v: |-1
-  Iron Spiral: Max Base Level increases by 1 per each 3 character levels above 90
+  Iron Spiral: Max Base Level increases by 2 per each 5 character levels above 90
   
   Thunderstorm: inherits Iron Spiral's bonus lightning damage
 
@@ -49856,7 +49890,7 @@
  k: |-1
   SkillsdAncestralEndurance
  v: |-1
-  \red;requires 20 points in Shaman tree skills
+  \red;requires 45 points in Shaman tree skills
   \grey;upgrade - increases your damage mitigation after using Spirit Reave
 
 - # 7731
@@ -49990,7 +50024,7 @@
  k: |-1
   SkillStampede5
  v: |-1
-  +20% Bonus Damage per Base Level
+  +10% Bonus Damage per Base Level
   
 
 - # 7752
@@ -50169,6 +50203,7 @@
  k: |-1
   DescResistance
  v: |-1
+  +10% to Grit (Hammer Path)
   +30% Block Speed
 
 - # 7781
@@ -50941,7 +50976,7 @@
   DescBackstabHit
  v: |-1
   200% Weapon Damage
-  4 Hits per Attack
+  7-8 Hits per Attack
 
 - # 7902
  k: |-1
@@ -50953,6 +50988,7 @@
  k: |-1
   SkillPrimordia1
  v: |-1
+  Disables Mooncall Physical Damage Bonus
   
   \gold; Elemental Damage Specialization
 
@@ -50962,8 +50998,7 @@
  v: |-1
   Deals damage equal to 75% of your total Cold weapon damage
   Converts your Fire and Lightning weapon damage to Cold
-  3 Piercing Projectiles
-  \green;Glacial Volley
+  \green;Glacial Burst
   
 
 - # 7905
@@ -51006,6 +51041,7 @@
  k: |-1
   vrx1
  v: |-1
+  \dgrey;Difficulty Level: 125
   \gold;Horror Under Tristram (Heroic)
 
 - # 7912
@@ -51473,6 +51509,7 @@
  k: |-1
   vrx2
  v: |-1
+  \dgrey;Difficulty Level: 125
   \gold;Death Projector (Heroic)
 
 - # 7983
@@ -51573,24 +51610,24 @@
  k: |-1
   DescLifeFromDeathSynBonus
  v: |-1
-  \white;1 Life on Striking per 10 Base LEvels
+  \grey;1 Life on Striking per 10 Base LEvels
   \green;Alchemist Path
   
-  \white;1% Physical Resistance per 2 Base Levels
+  \grey;1% Physical Resistance per 2 Base Levels
   \green;Voodoo Path
 
 - # 7998
  k: |-1
   DescVoodooPath
  v: |-1
-  % To Physical Resistance
+  \grey;% To Physical Resistance
   \green;Voodoo Path\dgrey;
 
 - # 7999
  k: |-1
   DescAlchemistPath
  v: |-1
-  % Increased Healing From Potions
+  \grey;% Increased Healing From Potions
   \green;Alchemist Path\dgrey;
 
 - # 8000
@@ -51865,11 +51902,11 @@
  k: |-1
   DescLifeFromDeathSynBonusTemp
  v: |-1
-  \white;2.5% Increased Healing from Potions per Base Level
+  \grey;2.5% Increased Healing from Potions per Base Level
   Healing Potions Last 2 Additional Seconds per 5 Base Levels
   \green;Alchemist Path
   
-  \white;1% Physical Resistance per 2 Base Levels
+  \grey;1% Physical Resistance per 2 Base Levels
   \green;Voodoo Path
 
 - # 8043
@@ -51937,6 +51974,7 @@
  k: |-1
   vrx3
  v: |-1
+  \dgrey;Difficulty Level: 125
   \gold;Infernal Machine (Heroic)
 
 - # 8053
@@ -52308,10 +52346,9 @@
 
 - # 8111
  k: |-1
-  Library of Fate 125
+  Heroic Library of Fate
  v: |-1
-  Heroic 125
-  Library of Fate
+  Heroic Library of Fate
   
 
 - # 8112
@@ -52446,6 +52483,8 @@
   Cube with Soulforge to craft items
   
   \green;Cube with an Oil of Enhancement to create a Soulforge
+  
+  \orange;Cube 5 together to create a Mark of Fate
 
 - # 8133
  k: |-1
@@ -52528,10 +52567,9 @@
 
 - # 8146
  k: |-1
-  AGInfo
+  ohnoitspoison
  v: |-1
-  \gold;Weak to Physical
-  \white;War Spirit
+  \green;High Poison Absorb
 
 - # 8147
  k: |-1
@@ -52547,32 +52585,30 @@
 
 - # 8149
  k: |-1
-  IVinfo
+  ohnoitslightning
  v: |-1
-  \green;Weak to Poison
-  \white;Nearby allies take less damage
+  \yellow;High Lightning Absorb
 
 - # 8150
  k: |-1
-  MAinfo
+  ohnoitsfire
  v: |-1
-  \orange;Weak to Magic
-  \white;Elemental Pierce -50%%
+  \red;High Fire Absorb
 
 - # 8151
  k: |-1
-  IWinfo
+  ohnoitscold
  v: |-1
-  \blue;Weak to Cold
-  \white;Cannot take Deadly Strikes
+  \blue;High Cold Absorb
 
 - # 8152
  k: |-1
-  Library of Fate 130
+  vrx6
  v: |-1
-  Heroic 130
-  Library of Fate
+  \green;+50% Angelic Item drops
   
+  \gold;Area Level: 133
+  Library of Fate (Heroic)
 
 - # 8153
  k: |-1
@@ -52595,12 +52631,6 @@
  k: |-1
   vrx5
  v: |-1
-  \dgrey;+50% Leech Resist
-  +25% Magic Resist
-  +20% Movement Speed
-  +10% Density
-  \blue;Monster modifiers:
-  
   \green;+25% Angelic Item drops
   
   \gold;Area Level: 130
@@ -53284,7 +53314,7 @@
   Weapon Damage increases to 95% with 85% Deadly and Critical Strike Chance OR 110% Innate Elemental Damage
   Weapon Damage increases to 75% with 55% Deadly and Critical Strike Chance OR 55% Innate Elemental Damage
   
-  Radius increases by 33% with 200, 500, 900 Base Dexterity (Max +100%)
+  Radius increases by 27% with 200, 500, 900 Base Dexterity (Max +81%)
   
   \blue;item granted skill
 
@@ -53504,3 +53534,855 @@
   itemcls_shield
  v: |-1
   Shield
+
+- # 8298
+ k: |-1
+  ec01
+ v: |-1
+  \orange;Ol Container (01)
+
+- # 8299
+ k: |-1
+  ec02
+ v: |-1
+  \orange;Elq Container (02)
+
+- # 8300
+ k: |-1
+  ec03
+ v: |-1
+  \orange;Tyr Container (03)
+
+- # 8301
+ k: |-1
+  ec04
+ v: |-1
+  \orange;Nif Container (04)
+
+- # 8302
+ k: |-1
+  ec05
+ v: |-1
+  \orange;Xeth Container (05)
+
+- # 8303
+ k: |-1
+  ec06
+ v: |-1
+  \orange;Xith Container (06)
+
+- # 8304
+ k: |-1
+  ec07
+ v: |-1
+  \orange;Thal Container (07)
+
+- # 8305
+ k: |-1
+  ec08
+ v: |-1
+  \orange;Rhal Container (08)
+
+- # 8306
+ k: |-1
+  ec09
+ v: |-1
+  \orange;Urt Container (09)
+
+- # 8307
+ k: |-1
+  ec10
+ v: |-1
+  \orange;Tuul Container (10)
+
+- # 8308
+ k: |-1
+  ec11
+ v: |-1
+  \orange;Ahmn Container (11)
+
+- # 8309
+ k: |-1
+  ec12
+ v: |-1
+  \orange;Zol Container (12)
+
+- # 8310
+ k: |-1
+  ec13
+ v: |-1
+  \orange;Shaen Container (13)
+
+- # 8311
+ k: |-1
+  ec14
+ v: |-1
+  \orange;Doj Container (14)
+
+- # 8312
+ k: |-1
+  ec15
+ v: |-1
+  \orange;Hem Container (15)
+
+- # 8313
+ k: |-1
+  ec16
+ v: |-1
+  \orange;Iu Container (16)
+
+- # 8314
+ k: |-1
+  ec17
+ v: |-1
+  \orange;Lux Container (17)
+
+- # 8315
+ k: |-1
+  ec18
+ v: |-1
+  \orange;Ka Container (18)
+
+- # 8316
+ k: |-1
+  ec19
+ v: |-1
+  \orange;Fel Container (19)
+
+- # 8317
+ k: |-1
+  ec20
+ v: |-1
+  \orange;Lucy Lew Container (20)
+
+- # 8318
+ k: |-1
+  ec21
+ v: |-1
+  \orange;Phul Container (21)
+
+- # 8319
+ k: |-1
+  ec22
+ v: |-1
+  \orange;Un Container (22)
+
+- # 8320
+ k: |-1
+  ec23
+ v: |-1
+  \orange;Mhal Container (23)
+
+- # 8321
+ k: |-1
+  ec24
+ v: |-1
+  \orange;Yst Container (24)
+
+- # 8322
+ k: |-1
+  ec25
+ v: |-1
+  \orange;Gur Container (25)
+
+- # 8323
+ k: |-1
+  ec26
+ v: |-1
+  \orange;Vez Container (26)
+
+- # 8324
+ k: |-1
+  ec27
+ v: |-1
+  \orange;Ohn Container (27)
+
+- # 8325
+ k: |-1
+  ec28
+ v: |-1
+  \orange;Loz Container (28)
+
+- # 8326
+ k: |-1
+  ec29
+ v: |-1
+  \orange;Zur Container (29)
+
+- # 8327
+ k: |-1
+  ec30
+ v: |-1
+  \orange;Bur Container (30)
+
+- # 8328
+ k: |-1
+  ec31
+ v: |-1
+  \orange;Iah Container (31)
+
+- # 8329
+ k: |-1
+  ec32
+ v: |-1
+  \orange;Yham Container (32)
+
+- # 8330
+ k: |-1
+  ec33
+ v: |-1
+  \orange;Xod Container (33)
+
+- # 8331
+ k: |-1
+  sic1
+ v: |-1
+  \orange;Container of Knowledge
+
+- # 8332
+ k: |-1
+  vry1
+ v: |-1
+  \green;Cost: 1 charge
+  \blue;+2 to All Attributes per Character Level above 130
+  +3% Magic Find per Character Level above 130
+  \red;Effects cannot be duplicated
+  \white;Transmute with Paragon's Hammer to add bonus
+  \gold;Horror Under Tristram (Heroic)
+
+- # 8333
+ k: |-1
+  vry2
+ v: |-1
+  \green;Cost: 1 charge
+  \blue;Regenerate Mana +2% per Character Level above 130
+  +1% Maximum Mana per Character Level above 130
+  \red;Effects cannot be duplicated
+  \white;Transmute with Paragon's Hammer to add bonus
+  \gold;Death Projector (Heroic)
+
+- # 8334
+ k: |-1
+  vry3
+ v: |-1
+  \green;Cost: 1 charge
+  \blue;+2% Summoned Minion Resistances per Character Level above 130
+  +3% to Elemental Resists per Character Level above 130
+  \red;Effects cannot be duplicated
+  \white;Transmute with Paragon's Hammer to add bonus
+  \gold;Infernal Machine (Heroic)
+
+- # 8335
+ k: |-1
+  MasteryNameFaith
+ v: |-1
+  Paragon of Fate
+
+- # 8336
+ k: |-1
+  MasterySdFaith
+ v: |-1
+  \grey;passive - high level bonuses tied to Heroic Library of Fate progression
+
+- # 8337
+ k: |-1
+  MasteryFaithUnlock
+ v: |-1
+  
+  \yellow;Upgrade Paragon's Hammer with a Mark of Fate
+  \orange;Unlockable Skill
+  \red;
+
+- # 8338
+ k: |-1
+  MasteryFaith1
+ v: |-1
+  \gold;Level 139: \grey;Find Soulforged Mystic Orbs in Library of Fate 133+
+  
+  \dgrey;+1% to Maximum Elemental Resists
+  +10% Physical Resist
+  \gold;Level 135: \grey;While in the Heroic Library of Fate
+  
+  \gold;Level 133: \grey;Increased drop rate of Angelic items in Library of Fate 133+
+  
+  \gold;Level 130: \grey;Drop rate of Heavenly Souls greatly increased
+
+- # 8339
+ k: |-1
+  MarkofFaith
+ v: |-1
+  Mark of Fate
+
+- # 8340
+ k: |-1
+  Liberty
+ v: |-1
+  Liberty
+
+- # 8341
+ k: |-1
+  DocParFate
+ v: |-1
+  Pearl of Wisdom: Paragon of Fate
+
+- # 8342
+ k: |-1
+  MarkFateDesc
+ v: |-1
+  \green;Cost: 3 charges
+  \grey;Unlocks Mastery Skill: Paragon of Fate
+  
+  \dgrey;Transmute with Paragon's Hammer to add bonus
+  \gold;Library of Faith (Heroic)
+
+- # 8343
+ k: |-1
+  Cain's Marble
+ v: |-1
+  Cain's Marble
+
+- # 8344
+ k: |-1
+  Hellrush
+ v: |-1
+  Hellrush
+
+- # 8345
+ k: |-1
+  Weight Shift
+ v: |-1
+  Weight Shift
+
+- # 8346
+ k: |-1
+  Hunger
+ v: |-1
+  Hunger
+
+- # 8347
+ k: |-1
+  The Grubber
+ v: |-1
+  The Grubber
+
+- # 8348
+ k: |-1
+  Rainbow Prism
+ v: |-1
+  Rainbow Prism
+
+- # 8349
+ k: |-1
+  Arcane Focus
+ v: |-1
+  Arcane Focus
+
+- # 8350
+ k: |-1
+  Glass Shard
+ v: |-1
+  Glass Shard
+
+- # 8351
+ k: |-1
+  1++
+ v: |-1
+  \orange;Soulforged Mystic Orb
+
+- # 8352
+ k: |-1
+  Body of the Forbidden One
+ v: |-1
+  Body of the Forbidden One
+
+- # 8353
+ k: |-1
+  ModitemMaxExoMin
+ v: |-1
+  to Maximum Exodia Minions
+
+- # 8354
+ k: |-1
+  ModitemMaxPalaMin
+ v: |-1
+  to Maximum Paladin Minions
+
+- # 8355
+ k: |-1
+  MarkAngiris
+ v: |-1
+  Mark of the Angiris
+
+- # 8356
+ k: |-1
+  Stoneharpe
+ v: |-1
+  Stoneharpe
+
+- # 8357
+ k: |-1
+  To The Library of Fate 133
+ v: |-1
+  \grey;Difficulty: \red;Very Hard
+  
+  \grey;Area Level: 133
+  Heroic Rift
+  \gold;Library of Fate
+
+- # 8358
+ k: |-1
+  To The Library of Fate 136
+ v: |-1
+  \grey;Difficulty: \dgrey;Extreme
+  
+  \grey;Area Level: 136
+  Heroic Rift
+  \gold;Library of Fate
+
+- # 8359
+ k: |-1
+  To The Library of Fate 139
+ v: |-1
+  \grey;Difficulty: \dgrey;Extreme
+  
+  \grey;Area Level: 139
+  Heroic Rift
+  \gold;Library of Fate
+
+- # 8360
+ k: |-1
+  vrx7
+ v: |-1
+  \green;+75% Angelic Item drops
+  
+  \gold;Area Level: 136
+  Library of Fate (Heroic)
+
+- # 8361
+ k: |-1
+  vrx8
+ v: |-1
+  \green;+110% Angelic Item drops
+  
+  \gold;Area Level: 139
+  Library of Fate (Heroic)
+
+- # 8362
+ k: |-1
+  ohnoitsmagic
+ v: |-1
+  \orange;High Magic Absorb
+
+- # 8363
+ k: |-1
+  ohnoitsphysical
+ v: |-1
+  \gold;High Physical Resist
+
+- # 8364
+ k: |-1
+  &97
+ v: |-1
+  \orange;Mystic Orb
+  Weight of Talent
+
+- # 8365
+ k: |-1
+  TyraelDesolator
+ v: |-1
+  Tyrael's Desolator
+
+- # 8366
+ k: |-1
+  poisonmult
+ v: |-1
+  Weapon poison damage added as damage multiplier
+
+- # 8367
+ k: |-1
+  &98
+ v: |-1
+  \orange;Mystic Orb
+  Imperfect Sphere
+
+- # 8368
+ k: |-1
+  MasteryFate2
+ v: |-1
+  \gold;Level 147: \grey;Invitations to the Trial of the Angiris can drop in Library of Fate 139+
+  
+  \blue;-5% Enemy Magic Resistance
+  Maximum Life +5%
+  \gold;Level 145
+  
+  \gold;Level 143: \grey;Mark of the Angiris chase item can drop in Library of Fate 139+
+  
+  \gold;Level 141: \grey;Transmute Heavenly Soul + Angelic item to reroll affixes
+  
+
+- # 8369
+ k: |-1
+  RareGavin
+ v: |-1
+  \yellow;Rare items only
+  \grey;Right-Click to Apply
+
+- # 8370
+ k: |-1
+  Descconsec
+ v: |-1
+  Sanctity
+  Consecration
+
+- # 8371
+ k: |-1
+  Descconsecsyn
+ v: |-1
+  1% weapon life leech per Divine Judgement Base Level (max 25%)
+  6% increased physical damage per Divine Judgement Base Level
+
+- # 8372
+ k: |-1
+  vrx9
+ v: |-1
+  \dgrey;33% chance to gain the Light of the Angiris aura
+  Defeat the Justicar within 7 minutes to upgrade the Paragon's Hammer
+  Find the red portal within 4 minutes to enter the Gauntlet
+  Range of warps and warp strike skills greatly reduced
+  \green;+110% Angelic Item drops
+  
+  \gold;Area Level: 140
+  Trial of the Angiris
+
+- # 8373
+ k: |-1
+  Skillsdgoboglee
+ v: |-1
+  spell - grants big boost to your Magic Find for a few seconds
+
+- # 8374
+ k: |-1
+  basd
+ v: |-1
+  \gold;Insignia of the Based
+
+- # 8375
+ k: |-1
+  basdx
+ v: |-1
+  \dgrey;(Automatically grants all stat points needed to reach the cap)\grey;
+  Right-click to consume and set the maximum signet cap for this character to 450
+  
+  \dgreen;Congratulations! You are Based.
+
+- # 8376
+ k: |-1
+  crucisyn
+ v: |-1
+  Bonus magic damage increased by 4% per character level
+  60% more spikes while wielding a two-handed weapon at base level 10
+
+- # 8377
+ k: |-1
+  TheJusticar
+ v: |-1
+  The Justicar
+
+- # 8378
+ k: |-1
+  stat_grit
+ v: |-1
+  Grit
+
+- # 8379
+ k: |-1
+  statExplanation grit
+ v: |-1
+  Global damage reduction based on total strength, multiplicative with other sources
+
+- # 8380
+ k: |-1
+  Drought
+ v: |-1
+  Drought
+
+- # 8381
+ k: |-1
+  GritDesc
+ v: |-1
+  Grit: 
+
+- # 8382
+ k: |-1
+  RingofWoe
+ v: |-1
+  Ring of Woe
+
+- # 8383
+ k: |-1
+  SkillsdBlizzard
+ v: |-1
+  Summons an ice storm to rain cold death onto your enemies
+
+- # 8384
+ k: |-1
+  barriersyn
+ v: |-1
+  \green;Enhancement 2: \grey;ring of blades density +75% at character level 130
+  \green;Enhancement 1: \grey;gains additional ring of blades at character level 90
+
+- # 8385
+ k: |-1
+  To The Library of Fate 140
+ v: |-1
+  \grey;Difficulty: \dgrey;Extreme
+  
+  \grey;Area Level: 140
+  Heroic Rift
+  \gold;Trial of the Angiris
+
+- # 8386
+ k: |-1
+  DescUsedWithMeleeDevo
+ v: |-1
+  \blue;Can be used with Melee Devotion
+
+- # 8387
+ k: |-1
+  Chargedstrikesyn3
+ v: |-1
+  \yellow; 7% increased lightning damage per 1% innate elemental damage
+
+- # 8388
+ k: |-1
+  batsyn
+ v: |-1
+  \green;Enhancement 2: \grey;-0.5 seconds to cooldown at character level 125
+  \green;Enhancement 1: \grey;-0.5 seconds to cooldown at character level 90
+
+- # 8389
+ k: |-1
+  Descsancsyn
+ v: |-1
+  1 life on striking per 10 Divine Judgement Base Levels
+  1.2% innate elemental damage per Divine Judgement Base Level
+
+- # 8390
+ k: |-1
+  SkillLionheartsyn
+ v: |-1
+   Strength required for deadly strike per base level
+
+- # 8391
+ k: |-1
+  lionsohmy1
+ v: |-1
+  2% deadly strike per 
+
+- # 8392
+ k: |-1
+  SkillnameSanctity
+ v: |-1
+  Sanctity
+
+- # 8393
+ k: |-1
+  SkillsdSanctity
+ v: |-1
+  Passive - abandon the physical to increase elemental prowess
+
+- # 8394
+ k: |-1
+  skilldisconsec
+ v: |-1
+  \grey;maximum level increases every 5 character levels (maximum 5)
+  \red;-666% to weapon physical damage
+  \red;Disables Consecration
+
+- # 8395
+ k: |-1
+  skilldissanct
+ v: |-1
+  \grey;maximum level increases every 5 character levels (maximum 5)
+  \red;You deal no fire damage
+  \red;Disables Sanctity
+
+- # 8396
+ k: |-1
+  Justthetwo
+ v: |-1
+  % Damage to Demons and Undead
+
+- # 8397
+ k: |-1
+  DescRunemasterSyn
+ v: |-1
+  +1% to Maximum Fire/Cold/Lightning Resistances per 6 Base Levels
+
+- # 8398
+ k: |-1
+  DescIcequeen1
+ v: |-1
+  +10% Maximum Block chance at 300, 800, and 1600 Energy
+
+- # 8399
+ k: |-1
+  DescIceQueen2
+ v: |-1
+  % total damage to Sorceress elemental spells
+
+- # 8400
+ k: |-1
+  DescIceQueenSyn
+ v: |-1
+  % total damage to Sorceress elemental spells per Base Level
+
+- # 8401
+ k: |-1
+  SkillNameLMSH
+ v: |-1
+  \red;LET ME SOLO HIM
+
+- # 8402
+ k: |-1
+  SkillsdLMSH
+ v: |-1
+  \orange;Slain Monsters Rest in Peace
+  
+  \grey;+8% Grit if your army has at least 25 Ancient Spirits
+  \orange;Ancestral Endurance:
+  
+  \grey;Cooldown and duration set to 8 seconds
+  +12% Total Damage for each Ancient Spirit in your army
+  \orange;Spirit Reave:
+  
+  \red;Unsummons and disables all your minions for 60 seconds
+  
+  \grey;Buff - withdraw your army to empower yourself
+
+- # 8403
+ k: |-1
+  DescIceQueen3
+ v: |-1
+  % Maximum Block Chance (depends on character level)
+
+- # 8404
+ k: |-1
+  DescBockSpeedX
+ v: |-1
+  % Block Speed
+
+- # 8405
+ k: |-1
+  JusticarInfo
+ v: |-1
+  Poison to pause regen
+
+- # 8406
+ k: |-1
+  StampedeConv
+ v: |-1
+  Converts 50% Physical Damage to Magic
+  
+
+- # 8407
+ k: |-1
+  itemcls_bow
+ v: |-1
+  Weapon Type Bow
+
+- # 8408
+ k: |-1
+  itemcls_crossbow
+ v: |-1
+  Weapon Type Crossbow
+
+- # 8409
+ k: |-1
+  itemcls_javelin
+ v: |-1
+  Weapon Type Javelin
+
+- # 8410
+ k: |-1
+  itemcls_spear
+ v: |-1
+  Weapon Type Spear
+
+- # 8411
+ k: |-1
+  itemcls_hammer
+ v: |-1
+  Weapon Type Hammer
+
+- # 8412
+ k: |-1
+  itemcls_mace
+ v: |-1
+  Weapon Type Mace
+
+- # 8413
+ k: |-1
+  itemcls_scepter
+ v: |-1
+  Weapon Type Scepter
+
+- # 8414
+ k: |-1
+  itemcls_throwingknife
+ v: |-1
+  Weapon Type Throwing Knife
+
+- # 8415
+ k: |-1
+  itemcls_throwingaxe
+ v: |-1
+  Weapon Type Throwing Axe
+
+- # 8416
+ k: |-1
+  itemcls_claws
+ v: |-1
+  Weapon Type Claw
+
+- # 8417
+ k: |-1
+  itemcls_naginata
+ v: |-1
+  Weapon Type Naginata
+
+- # 8418
+ k: |-1
+  itemcls_scythe
+ v: |-1
+  Weapon Type Scythe
+
+- # 8419
+ k: |-1
+  itemcls_dagger
+ v: |-1
+  Weapon Type Dagger
+
+- # 8420
+ k: |-1
+  itemcls_staff
+ v: |-1
+  Weapon Type Staff
+
+- # 8421
+ k: |-1
+  itemcls_crystalsword
+ v: |-1
+  Weapon Type Crystal Sword
+
+- # 8422
+ k: |-1
+  itemcls_axe
+ v: |-1
+  Weapon Type Axe
+
+- # 8423
+ k: |-1
+  itemcls_sword
+ v: |-1
+  Weapon Type Sword

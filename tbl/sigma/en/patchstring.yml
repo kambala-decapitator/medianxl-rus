@@ -7804,7 +7804,8 @@
  k: |-1
   x
  v: |-1
-  Fortress: +50% Pierce Chance
+  Dual wield: No cooldown until skill level 16
+  Fortress: 50% Pierce Chance
 
 - # 1293
  k: |-1
@@ -8200,7 +8201,7 @@
  k: |-1
   11349
  v: |-1
-  Crucify: +30% Magic Damage per Base Level
+  Crucify: total number of projectiles increased by 25%
 
 - # 1351
  k: |-1
@@ -8294,7 +8295,7 @@
  k: |-1
   11363
  v: |-1
-  +1% Attack Speed per 20 Strength
+  +1% Attack Speed and Attack Rating per 20 Strength
 
 - # 1365
  k: |-1
@@ -8346,8 +8347,8 @@
   11371
  v: |-1
   Deal No Crushing Blows
-  40% of Minion Life Increases Added as Bonus to Defense
-  12% of Minion Damage Increases Added as Deadly Strike
+  65% of Minion Life Increases Added as Bonus to Defense
+  10% of Minion Damage Increases Added as Deadly Strike
 
 - # 1373
  k: |-1
@@ -8547,8 +8548,8 @@
   11402
  v: |-1
   \dgrey;Adds 100-200 Cold Damage
-  -10% to Enemy Cold Resist
-  Adds 10-15 Damage
+  -7% to Enemy Cold Resist
+  Adds 10% Weapon Physical Damage
   \grey;(Bonus for each Socketed Great/Elemental Rune)
   \orange;Gematria
 
@@ -8556,7 +8557,7 @@
  k: |-1
   11403
  v: |-1
-  Adds (80 to 110)% of Dexerity as Magic Damage to Weapon
+  Adds (80 to 110)% of Dexterity as Magic Damage to Weapon
 
 - # 1405
  k: |-1
@@ -8609,7 +8610,10 @@
  k: |-1
   11411
  v: |-1
-  Exorcism: +50% Total Damage
+  \dgrey; 1% reduced duration (to a minimum of 6.6 seconds)
+  \dgrey; 1% increased damage (up to 100%)
+  \orange;Per 5% damage to demons:
+  \orange;Exorcism: 
 
 - # 1413
  k: |-1
@@ -8812,7 +8816,8 @@
  k: |-1
   11440
  v: |-1
-  ATMG Sentry: +20 Magic Damage per Level
+  Patriot Sentry: +20 Fire Damage per Level
+  ATMG Sentry: +10 Lightning Damage per Level
 
 - # 1442
  k: |-1
@@ -8845,7 +8850,7 @@
  k: |-1
   11444
  v: |-1
-  Tantrum: 20% of Vitality added as Cold Damage
+  Ice Lance fires one additional projectile
 
 - # 1446
  k: |-1
@@ -8863,15 +8868,13 @@
  k: |-1
   11447
  v: |-1
-  \orange;Ignis Fatuus: bonuses increased by 50%
+  \orange;Ignis Fatuus: Effects Increased by 100%
 
 - # 1449
  k: |-1
   11448
  v: |-1
-  \dgrey;+3% Hit Recovery (per Base Level)
-  +3% to Cold Spell Damage (per Base Level)
-  \orange;After using Mana Sweep: 
+  \orange;Blizzard and Frozen Orb: +1% Total Damage per 7% Magic Find
 
 - # 1450
  k: |-1
@@ -9428,7 +9431,7 @@
  k: |-1
   11531
  v: |-1
-  \dgrey;+1 to All Skills
+  \dgrey;+2 to All Skills
   +20% to Elemental Spell Damage
   +25 Spell Focus
   \grey;(Bonus for each equipped Hidden Craft Item)
@@ -9606,7 +9609,7 @@
  k: |-1
   11560
  v: |-1
-  Spark of Hope Duration Increased by 15 seconds
+  Spark of Hope Duration Increased by 50 seconds
 
 - # 1562
  k: |-1
@@ -9979,19 +9982,19 @@
  k: |-1
   11621
  v: |-1
-  +1% Attack Speed per 25 Dexterity
+  +1% Attack Speed per 25 Strength
 
 - # 1623
  k: |-1
   11622
  v: |-1
-  +5% Innate Elemental Damage per Character Level above 137
+  +4% Innate Elemental Damage per Character Level above 137
 
 - # 1624
  k: |-1
   11623
  v: |-1
-  +10% Innate Elemental Damage per Character level above 137
+  +8% Innate Elemental Damage per Character level above 137
 
 - # 1625
  k: |-1
@@ -9999,7 +10002,7 @@
  v: |-1
   Transmute in the Horadric Cube to Upgrade
   Survive the Edge of Nothingness battle for 11 minutes
-  Must have at least 3000 Dexterity
+  Must have at least 3000 Strength
   Hunter Only Upgrade:
   
 
@@ -10766,8 +10769,7 @@
  k: |-1
   11750
  v: |-1
-  Carnage Conversion is Reduced by 1% per Base Level
-  Your Fire Damage Is Nullified
+  Mega Impact: Greatly Increased Radius, Duration, and Effect
 
 - # 1752
  k: |-1
@@ -10871,6 +10873,19 @@
  k: |-1
   11766
  v: |-1
+  \gold;(pick one)
+  Paragon Skill
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   (pick one)
   Ultimate Skill
 
@@ -11006,7 +11021,9 @@
  k: |-1
   11787
  v: |-1
-  If Colosseum has 20 Base Levels: +5% Avoid
+  \dgrey;-5% enemy physical resistance to colosseum debuff
+  +10% Chance to avoid damage
+  \orange;If Colosseum has 20 Base Levels: 
 
 - # 1789
  k: |-1
@@ -12434,7 +12451,7 @@
   11988
  v: |-1
   Gold Cost: 5000
-  \orange;+(1 to 3)% Magic Find
+  \orange;+(2 to 3)% Magic Find
   
 
 - # 1990
@@ -12442,7 +12459,7 @@
   11989
  v: |-1
   Gold Cost: 5000
-  \orange;Requirements -(2 to 4)%
+  \orange;Requirements -(3 to 5)%
   
 
 - # 1991
@@ -12491,8 +12508,8 @@
   11995
  v: |-1
   Gold Cost: 15000
-  \orange;+(1 to 4) Mana on Melee Attack
-  +(2 to 8) Life on Melee Attack
+  \orange;+(2 to 4) Mana on Melee Attack
+  +(4 to 8) Life on Melee Attack
   
 
 - # 1997
@@ -12500,7 +12517,7 @@
   11996
  v: |-1
   Gold Cost: 15000
-  \orange;+(1 to 3)% to Summoned Minion Damage
+  \orange;+(2 to 3)% to Summoned Minion Damage
   
 
 - # 1998
@@ -12988,7 +13005,7 @@
  k: |-1
   12074
  v: |-1
-  Maelstrom MkI: 20% Chance to Trigger Additional Projectile during Wychwind Vulnerability
+  +5% physical resistance during wychwind vulnerability
 
 - # 2076
  k: |-1
@@ -13056,12 +13073,12 @@
   \dgrey;Transmute charm after boss death
   Defeat Deimoss the Fleshweaver in the Labyrinth depths
   \gold;End the Invasion
+  
 
 - # 2085
  k: |-1
   12084
  v: |-1
-  
   \dgrey;(these items are rare drops from Labyrinth mini bosses)
   Transmute charm once with each Star Chart piece and Dream Fragment
   Defeat the monster Heroes, Champions and Sovereigns roaming the Labyrinth
@@ -13090,6 +13107,7 @@
  k: |-1
   12087
  v: |-1
+  
   \dgrey;Returns charm and a random Relic
   Transmute charm with a Depleted Riftstone (6)
   \gold;Dimensional Alchemy Unlocked
@@ -13164,7 +13182,7 @@
  k: |-1
   12097
  v: |-1
-  Conductivity: +1% Chance to Trigger Stormcall on Hit
+  Conductivity: +1% Chance to Cast Askari Lightning on Hit
 
 - # 2099
  k: |-1
@@ -13689,17 +13707,16 @@
  k: |-1
   12173
  v: |-1
-  \dgrey;Transmute in the cube after reaching Level 120
-  Difficulty Level: 120
-  \gold;Horror Under Tristram (Heroic)
-  
+  \blue;+2 to All Attributes per Character Level above 130
+  +3% Magic Find per Character Level above 130
 
 - # 2175
  k: |-1
   12174
  v: |-1
-  \dgrey;Transmute with a Mark of Victory to double the stats of this charm
+  \dgrey;Reward can be used to upgrade Paragon's Hammer
   Transmute with an Urt rune to receive two quest entrance scrolls
+  Difficulty Level: 125
   \gold;Horror Under Tristram (Heroic)
   
 
@@ -13733,17 +13750,16 @@
  k: |-1
   12178
  v: |-1
-  \dgrey;Transmute in the cube after reaching Level 121
-  Difficulty Level: 121
-  \gold;Death Projector (Heroic)
-  
+  \blue;Rgenerate Mana +2% per Character Level above 130
+  +1% Maximum Mana per Character Level above 130
 
 - # 2180
  k: |-1
   12179
  v: |-1
-  \dgrey;Transmute with a Mark of Victory to double the stats of this charm
+  \dgrey;Reward can be used to upgrade Paragon's Hammer
   Transmute with a Thal rune to receive two quest entrance scrolls
+  Difficulty Level: 125
   \gold;Death Projector (Heroic)
   
 
@@ -13786,8 +13802,9 @@
  k: |-1
   12185
  v: |-1
-  \dgrey;Transmute with a Mark of Victory to double the stats of this charm
+  \dgrey;Reward can be used to upgrade Paragon's Hammer
   Transmute with a Xith rune to receive two quest entrance scrolls
+  Difficulty Level: 125
   \gold;Infernal Machine (Heroic)
   
 
@@ -13795,10 +13812,8 @@
  k: |-1
   12186
  v: |-1
-  \dgrey;Transmute in the cube after reaching Level 122
-  Difficulty Level: 122
-  \gold;Infernal Machine (Heroic)
-  
+  \blue;+2% Summoned Minion Resistances per Character Level above 130
+  +3% Elemental Resists per Character Level above 130
 
 - # 2188
  k: |-1
@@ -14354,7 +14369,7 @@
   12237
  v: |-1
   
-  [2] + [4] = 20 to Rising Dawn [Assassin Shield, Paladin 1H Weapon, Amazon Helm]
+  [2] + [4] = 14 to Rising Dawn [Assassin Shield, Paladin 1H Weapon, Amazon Helm]
   
   [1] + [4] = (8-16) to Death Star [Claw, Assassin Shield, Amazon/Barbarian Helm]
   oSkills - Suffixes
@@ -14407,7 +14422,7 @@
  k: |-1
   12242
  v: |-1
-  Divine Judgement: Buff Grants 1.5% Fire Pierce per Base Level Instead of Physical Weapon Damage
+  Divine Judgement: 1.5% Fire Pierce per Base Level while attacking
 
 - # 2244
  k: |-1
@@ -14420,11 +14435,13 @@
  k: |-1
   12244
  v: |-1
+  \dgrey;Transmute in the cube to obtain a Pearl of Wisdom on this topic
+  \gold;Further progress requires the Paragon of Fate mastery and a Mark of Fate
+  
   \dgrey;Tramsmute with 2 Angelic items to open with Area Level 130
   Tramsmute with a Perfect Gem to open with Area Level 125
   \purple;Rewards: Angelic Items, Crafting Rares, Crafting Exclusive Uniques
   \orange;Heroic Library of Fate
-  
   
 
 - # 2246
@@ -15082,3 +15099,675 @@
   StrCfgGfxShaderPreset
  v: |-1
   Upscale shader preset
+
+- # 2344
+ k: |-1
+  12343
+ v: |-1
+  +13 to all Attributes
+  \gold;Weapons, Armor:
+  
+
+- # 2345
+ k: |-1
+  12344
+ v: |-1
+  +10 to Maximum Damage
+  \gold;Armor:
+  
+  \grey;+20 to Maximum Damage
+  \gold;Weapons:
+  
+
+- # 2346
+ k: |-1
+  12345
+ v: |-1
+  +5% to Fire Spell Damage
+  \gold;Weapons, Armor:
+  
+
+- # 2347
+ k: |-1
+  12346
+ v: |-1
+  +5% to Lightning Spell Damage
+  \gold;Weapons, Armor:
+  
+
+- # 2348
+ k: |-1
+  12347
+ v: |-1
+  +5% to Cold Spell Damage
+  \gold;Weapons, Armor:
+  
+
+- # 2349
+ k: |-1
+  12348
+ v: |-1
+  +5% to Poison Spell Damage
+  \gold;Weapons, Armor:
+  
+
+- # 2350
+ k: |-1
+  12349
+ v: |-1
+  +5% to Physical/Magic Spell Damage
+  \gold;Weapons, Armor:
+  
+
+- # 2351
+ k: |-1
+  12350
+ v: |-1
+  Fire Resist +45%
+  \gold;Shields:
+  
+  \grey;Fire Resist +35%
+  \gold;Armor:
+  
+  \grey;Fire Resist +35%
+  \gold;Weapons:
+  
+
+- # 2352
+ k: |-1
+  12351
+ v: |-1
+  Lightning Resist +45%
+  \gold;Shields:
+  
+  \grey;Lightning Resist +35%
+  \gold;Armor:
+  
+  \grey;Lightning Resist +35%
+  \gold;Weapons:
+  
+
+- # 2353
+ k: |-1
+  12352
+ v: |-1
+  Cold Resist +45%
+  \gold;Shields:
+  
+  \grey;Cold Resist +35%
+  \gold;Armor:
+  
+  \grey;Cold Resist +35%
+  \gold;Weapons:
+  
+
+- # 2354
+ k: |-1
+  12353
+ v: |-1
+  Poison Resist +45%
+  \gold;Shields:
+  
+  \grey;Poison Resist +35%
+  \gold;Armor:
+  
+  \grey;Poison Resist +35%
+  \gold;Weapons:
+  
+
+- # 2355
+ k: |-1
+  12354
+ v: |-1
+  +75 to Mana
+  \gold;Shields:
+  
+  \grey;+75 to Mana
+  \gold;Armor:
+  
+  \grey;+100 to Mana
+  \gold;Weapons:
+  
+
+- # 2356
+ k: |-1
+  12355
+ v: |-1
+  +15% Bonus to Poison Skill Duration
+  \gold;Armor:
+  
+  \grey;+20% Bonus to Poison Skill Duration
+  \gold;Weapons:
+  
+
+- # 2357
+ k: |-1
+  12356
+ v: |-1
+  +20% to Summoned Minion Life
+  \gold;Weapons, Armor:
+  
+
+- # 2358
+ k: |-1
+  12357
+ v: |-1
+  +10% to Summoned Minion Damage
+  \gold;Weapons, Armor:
+  
+
+- # 2359
+ k: |-1
+  12358
+ v: |-1
+  +70% to Summoned Minion Attack Rating
+  \gold;Weapons, Armor:
+  
+
+- # 2360
+ k: |-1
+  12359
+ v: |-1
+  +7% to Summoned Minion Resistances
+  \gold;Weapons, Armor:
+  
+
+- # 2361
+ k: |-1
+  12360
+ v: |-1
+  7% to Strength
+  \gold;Weapons, Armor:
+  
+
+- # 2362
+ k: |-1
+  12361
+ v: |-1
+  7% to Dexterity
+  \gold;Weapons, Armor:
+  
+
+- # 2363
+ k: |-1
+  12362
+ v: |-1
+  6% to Vitality
+  \gold;Weapons, Armor:
+  
+
+- # 2364
+ k: |-1
+  12363
+ v: |-1
+  7% to Energy
+  \gold;Weapons, Armor:
+  
+
+- # 2365
+ k: |-1
+  12364
+ v: |-1
+  Elemental Resists +13%
+  \gold;Weapons, Armor:
+  
+
+- # 2366
+ k: |-1
+  12365
+ v: |-1
+  +4% to All Attributes
+  \gold;Weapons, Armor:
+  
+
+- # 2367
+ k: |-1
+  12366
+ v: |-1
+  +10% Magic Find
+  \gold;Armor:
+  
+  \grey;+13% Magic Find
+  \gold;Weapons:
+  
+
+- # 2368
+ k: |-1
+  12367
+ v: |-1
+  +30% Attack Speed
+  \gold;Armor:
+  
+  \grey;+40% Attack Speed
+  \gold;Weapons:
+  
+
+- # 2369
+ k: |-1
+  12368
+ v: |-1
+  +30% Cast Speed
+  \gold;Armor:
+  
+  \grey;+40% Cast Speed
+  \gold;Weapons:
+  
+
+- # 2370
+ k: |-1
+  12369
+ v: |-1
+  +40% Hit Recovery
+  \gold;Shields:
+  
+  \grey;+30% Hit Recovery
+  \gold;Weapons, Armor:
+  
+
+- # 2371
+ k: |-1
+  12370
+ v: |-1
+  +40% Block Speed
+  \gold;Shields:
+  
+  \grey;+30% Block Speed
+  \gold;Weapons, Armor:
+  
+
+- # 2372
+ k: |-1
+  12371
+ v: |-1
+  Regenerate Mana +11%
+  \gold;Shields:
+  
+  \grey;Regenerate Mana +11%
+  \gold;Armor:
+  
+  \grey;Regenerate Mana +22%
+  \gold;Weapons:
+  
+
+- # 2373
+ k: |-1
+  12372
+ v: |-1
+  Slows Attacker by +5%
+  \gold;Shields:
+  
+  \grey;Slows Attacker by +4%
+  \gold;Armor:
+  
+  \grey;Slow Target +5%
+  \gold;Weapons:
+  
+
+- # 2374
+ k: |-1
+  12373
+ v: |-1
+  +25% Enhanced Defense
+  \gold;Armor:
+  
+  \grey;+25% Enhanced Damage
+  \gold;Weapons:
+  
+  \grey;+25% Enhanced Damage
+  \gold;Shields:
+  
+
+- # 2375
+ k: |-1
+  12374
+ v: |-1
+  Maximum Life +3%
+  \gold;Shields:
+  
+  \grey;Maximum Life and Mana +2%
+  \gold;Armor:
+  
+  \grey;Maximum Mana +5%
+  \gold;Weapons:
+  
+
+- # 2376
+ k: |-1
+  12375
+ v: |-1
+  +1 to All Skills
+  \gold;Shields:
+  
+  \grey;+1 to All Skills
+  \gold;Armor:
+  
+  \grey;+1 to All Skills
+  \gold;Weapons:
+  
+
+- # 2377
+ k: |-1
+  ModitemAFreq
+ v: |-1
+  Activation Frequency
+
+- # 2378
+ k: |-1
+  12377
+ v: |-1
+  Can be upgraded in Heroic Endgame Quests
+
+- # 2379
+ k: |-1
+  12378
+ v: |-1
+  Your Javelin procs always Pierce
+
+- # 2380
+ k: |-1
+  12379
+ v: |-1
+  \grey;Transmute: Paragon's Hammer + 3 Heavenly Souls + 200,000 gold = Library of Fate 139 scroll
+  \gold;Level 139
+  
+  \grey;Transmute: Paragon's Hammer + 2 Heavenly Souls + 100,000 gold = Library of Fate 136 scroll
+  \gold;Level 136
+  
+  \grey;Transmute: Paragon's Hammer + Heavenly Soul + 50,000 gold = Library of Fate 133 scroll
+  \gold;Level 133
+  \green;(Keep in inventory to gain bonus)
+  Unlocks Mastery Skill: Paragon of Fate
+
+- # 2381
+ k: |-1
+  12380
+ v: |-1
+  \white;<Transmute>
+  
+  \dgrey;Invitations to the Trial of the Angiris can drop in Library of Fate 139
+  \gold;Level 147
+  
+  \blue;-5% to Enemy Magic Resistance
+  Maximum Life +5%
+  \gold;Level 145
+  
+  \dgrey;Mark of the Angiris chase item can drop in Library of Fate 139+
+  \gold;Level 143
+  
+  \dgrey;Transmute: Heavenly Soul + Angelic item to reroll affixes
+  \gold;Level 141
+
+- # 2382
+ k: |-1
+  12381
+ v: |-1
+  Patriot Sentry: rate of fire doubled, duration halved
+
+- # 2383
+ k: |-1
+  12382
+ v: |-1
+  duration lowered by 1.12 sec, flechettes pierce
+  APF-20 'Maelstrom' MkI: Maelstroms explode around the thrower
+
+- # 2384
+ k: |-1
+  12383
+ v: |-1
+  \white;<Transmute>
+  
+  \dgrey;Transmute: Paragon's Hammer + Heavenly Soul + 50,000 gold = Library of Fate 133 scroll
+  Increased drop rate of Angelic Items in Library of Fate 133+
+  \gold;Level 133
+  
+  \dgrey;Drop rate of Heavenly Souls greatly increased
+  \gold;Level 130
+  \grey;Unlock rewards at the following levels
+  
+  Craft a Mark of Fate with 5 Heavenly Souls, upgrade your Paragon's Hammer
+  Learn the Paragon of Fate skill
+  \orange;Unlocking the full secrets of the Heroic Library of Fate requires
+
+- # 2385
+ k: |-1
+  12384
+ v: |-1
+  \white;<Transmute>
+  
+  \dgrey;Transmute: Paragon's Hammer + 3 Heavenly Souls + 200,000 gold = Library of Fate 139 scroll
+  Find Soulforged Mystic Orbs in Library of Fate 133+
+  \gold;Level 139
+  
+  \dgrey;Transmute: Paragon's Hammer + 2 Heavenly Souls + 100,000 gold = Library of Fate 136 scroll
+  \gold;Level 136
+  
+  \dgrey;+1% to Maximum Elemental Resists
+  +10% Physical Resist
+  \orange;While in the Heroic Library of Fate:
+  \gold;Level 135
+
+- # 2386
+ k: |-1
+  12385
+ v: |-1
+  (Shield Only)
+
+- # 2387
+ k: |-1
+  12386
+ v: |-1
+  (Body Armor Only)
+
+- # 2388
+ k: |-1
+  12387
+ v: |-1
+  Limit per item:
+
+- # 2389
+ k: |-1
+  12388
+ v: |-1
+  \dgrey;(Stackable)
+  \orange;+2% to Experience Gained Until Level 100
+
+- # 2390
+ k: |-1
+  12389
+ v: |-1
+  \dgrey;(Stackable)\orange;
+  +3% to Movement Speed Until Level 100
+
+- # 2391
+ k: |-1
+  12390
+ v: |-1
+  \dgrey;(Stackable)\orange;
+  +2 Maximum Tri-Elemental Damage per 5 Character Levels
+
+- # 2392
+ k: |-1
+  12391
+ v: |-1
+  \dgrey;(Stackable)\orange;
+  +15 Spell Focus Until Level 100
+
+- # 2393
+ k: |-1
+  12392
+ v: |-1
+  Your Minions have no Attack Rating
+  Exodia Minions no longer block each other
+
+- # 2394
+ k: |-1
+  12393
+ v: |-1
+  \orange;+3% Physical/Magic Spell Damage for each affix from Rare/Crafted/Magic gear
+  +2% Movement Speed for each affix from Rare/Crafted/Magic gear
+  \dgreen;Transmute with Soulforged Mystic Orbs to apply with double effect
+
+- # 2395
+ k: |-1
+  12394
+ v: |-1
+  \orange;+5% Weapon Physical Damage for each affix from Rare/Crafted/Magic gear
+  +2% Movement Speed for each affix from Rare/Crafted/Magic gear
+  \dgreen;Transmute with Soulforged Mystic Orbs to apply with double effect
+  
+
+- # 2396
+ k: |-1
+  Stoneharpe
+ v: |-1
+  Stoneharpe
+
+- # 2397
+ k: |-1
+  12396
+ v: |-1
+  Medusa: slow target by 1% per 2 skill levels
+
+- # 2398
+ k: |-1
+  12397
+ v: |-1
+  \dgrey;Str: Fire \orange;|\dgrey; Dex: Cold \orange;|\dgrey; Ene: Lightning \orange;|\dgrey; Vita: Poison \orange;|\dgrey; Multiple if tied
+  \orange;Gain 1% of your Highest Attribute as Elemental Pierce to an element
+
+- # 2399
+ k: |-1
+  12398
+ v: |-1
+  
+  Revenants gain 100 life regeneration per Resurrect skill level
+
+- # 2400
+ k: |-1
+  12399
+ v: |-1
+  Goblin Glee lasts 3 extra seconds but reduces your maximum life by 66%
+
+- # 2401
+ k: |-1
+  12400
+ v: |-1
+  \blue;+1% to Maximum Elemental Resists if you have at least 36 affixes from Rare/Crafted/Magic items
+
+- # 2402
+ k: |-1
+  12401
+ v: |-1
+  \green;Star Chart (4)
+
+- # 2403
+ k: |-1
+  12402
+ v: |-1
+  \green;Star Chart (3)
+
+- # 2404
+ k: |-1
+  12403
+ v: |-1
+  \green;Star Chart (2)
+
+- # 2405
+ k: |-1
+  12404
+ v: |-1
+  \green;Star Chart (1)
+
+- # 2406
+ k: |-1
+  12405
+ v: |-1
+  \green;Dream Fragment (5)
+
+- # 2407
+ k: |-1
+  12406
+ v: |-1
+  \green;Dream Fragment (4)
+
+- # 2408
+ k: |-1
+  12407
+ v: |-1
+  \green;Dream Fragment (3)
+
+- # 2409
+ k: |-1
+  12408
+ v: |-1
+  \green;Dream Fragment (2)
+
+- # 2410
+ k: |-1
+  12409
+ v: |-1
+  \green;Dream Fragment (1)
+
+- # 2411
+ k: |-1
+  12410
+ v: |-1
+  \dgrey;- Awakened -
+
+- # 2412
+ k: |-1
+  12411
+ v: |-1
+  
+  \dgrey;(must be done in ascending order)
+  Transmute charm once with each Riftstone
+  Explore every level of the Labyrinth
+  \gold;Trial of Discovery
+
+- # 2413
+ k: |-1
+  12412
+ v: |-1
+  Life and Mana Recovery from Potions reduced by 95%
+
+- # 2414
+ k: |-1
+  12413
+ v: |-1
+  \dgrey;65% Success | 35% to Add 50 Required Level
+  Can be corrupted any number of times
+  
+
+- # 2415
+ k: |-1
+  12414
+ v: |-1
+  \red;Eviscerate fires no projectiles if you've Blocked recently
+  \orange;2% of Maximum Life added as Physical Damage while holding a shield
+
+- # 2416
+ k: |-1
+  12415
+ v: |-1
+  Flash: Strength and Radius of Blinding effect Doubled
+
+- # 2417
+ k: |-1
+  12416
+ v: |-1
+  \blue;-200 Life on Melee Attack
+  \red;It also applies to you
+  \orange;Cast a random Deadly Curse on attack
+
+- # 2418
+ k: |-1
+  12417
+ v: |-1
+  Sanctity and Consecration: penalties removed
+
+- # 2419
+ k: |-1
+  12418
+ v: |-1
+  \tan;Famous last words
+  
