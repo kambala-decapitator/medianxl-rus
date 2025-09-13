@@ -1,0 +1,15084 @@
+- # 1
+ k: |-1
+  Cutthroat1
+ v: |-1
+  Bartuc's Cut-Throat
+
+- # 2
+ k: |-1
+  ModStr5d
+ v: |-1
+  Maximum Stamina
+
+- # 3
+ k: |-1
+  Mauler
+ v: |-1
+  Mauler
+
+- # 4
+ k: |-1
+  StrSkill41
+ v: |-1
+   damage
+
+- # 5
+ k: |-1
+  D2bnetHelp13
+ v: |-1
+  /whisper <*accountname>, /w <*accountname>
+
+- # 6
+ k: |-1
+  D2bnetHelp13b
+ v: |-1
+  /msg <*accountname>, /m <*accountname>
+
+- # 7
+ k: |-1
+  D2bnetHelp15
+ v: |-1
+  /squelch <*accountname>
+
+- # 8
+ k: |-1
+  D2bnetHelp15b
+ v: |-1
+  /ignore <*accountname>
+
+- # 9
+ k: |-1
+  D2bnetHelp16
+ v: |-1
+  /unsquelch <*accountname>
+
+- # 10
+ k: |-1
+  D2bnetHelp16b
+ v: |-1
+  /unignore <*accountname>
+
+- # 11
+ k: |-1
+  D2bnetHelp21
+ v: |-1
+  /ban <*accountname>
+
+- # 12
+ k: |-1
+  D2bnetHelp23
+ v: |-1
+  /designate <*accountname>
+
+- # 13
+ k: |-1
+  D2bnetHelp24
+ v: |-1
+  /kick <*accountname>
+
+- # 14
+ k: |-1
+  D2bnetHelp26
+ v: |-1
+  /whois <*accountname>, /where <*accountname>
+
+- # 15
+ k: |-1
+  D2bnetHelp26b
+ v: |-1
+  /whereis <*accountname>
+
+- # 16
+ k: |-1
+  D2bnetHelp32
+ v: |-1
+  /stats <*accountname> <programID>
+
+- # 17
+ k: |-1
+  x
+ v: |-1
+  hell
+
+- # 18
+ k: |-1
+  x
+ v: |-1
+  nightmare
+
+- # 19
+ k: |-1
+  x
+ v: |-1
+  normal
+
+- # 20
+ k: |-1
+  x
+ v: |-1
+  SELECT DIFFICULTY
+
+- # 21
+ k: |-1
+  ModStr6e
+ v: |-1
+  Slower Stamina Drain
+
+- # 22
+ k: |-1
+  xhm
+ v: |-1
+  Winged Helm
+
+- # 23
+ k: |-1
+  Hsarus' Defense
+ v: |-1
+  Hsarus' Defense
+
+- # 24
+ k: |-1
+  strModEnhancedDamage
+ v: |-1
+  Enhanced Damage
+  
+
+- # 25
+ k: |-1
+  strModAllResistances
+ v: |-1
+  All Resistances +%d
+
+- # 26
+ k: |-1
+  strModAllSkillLevels
+ v: |-1
+  +%d to All Skill Levels
+
+- # 27
+ k: |-1
+  strModFireDamage
+ v: |-1
+  +%d Fire Damage
+
+- # 28
+ k: |-1
+  strModFireDamageRange
+ v: |-1
+  Adds %d-%d Fire Damage
+
+- # 29
+ k: |-1
+  strModColdDamage
+ v: |-1
+  +%d Cold Damage
+
+- # 30
+ k: |-1
+  strModColdDamageRange
+ v: |-1
+  Adds %d-%d Cold Damage
+
+- # 31
+ k: |-1
+  strModLightningDamage
+ v: |-1
+  +%d Lightning Damage
+
+- # 32
+ k: |-1
+  strModLightningDamageRange
+ v: |-1
+  Adds %d-%d Lightning Damage
+
+- # 33
+ k: |-1
+  strModMagicDamage
+ v: |-1
+  +%d Magic Damage
+
+- # 34
+ k: |-1
+  strModMagicDamageRange
+ v: |-1
+  Adds %d-%d Magic Damage
+
+- # 35
+ k: |-1
+  strModPoisonDamage
+ v: |-1
+  +%d Poison Damage over %d seconds
+
+- # 36
+ k: |-1
+  strModPoisonDamageRange
+ v: |-1
+  Adds %d-%d Poison Damage over %d seconds
+
+- # 37
+ k: |-1
+  strModMinDamage
+ v: |-1
+  +%d Damage
+
+- # 38
+ k: |-1
+  strModMinDamageRange
+ v: |-1
+  Adds %d-%d Damage
+
+- # 39
+ k: |-1
+  strModEnhancedDamage
+ v: |-1
+  Enhanced Damage
+
+- # 40
+ k: |-1
+  ModStre9j
+ v: |-1
+  Fire Damage Reduced by
+
+- # 41
+ k: |-1
+  ModStre9k
+ v: |-1
+  Cold Damage Reduced by
+
+- # 42
+ k: |-1
+  ModStre9l
+ v: |-1
+  Lightning Damage Reduced by
+
+- # 43
+ k: |-1
+  ModStre9m
+ v: |-1
+  Poison Damage Reduced by
+
+- # 44
+ k: |-1
+  ModStre9n
+ v: |-1
+  Absorbs Magic Damage
+
+- # 45
+ k: |-1
+  ModStre9o
+ v: |-1
+  Absorbs Fire Damage
+
+- # 46
+ k: |-1
+  ModStre9p
+ v: |-1
+  Absorbs Cold Damage
+
+- # 47
+ k: |-1
+  ModStre9q
+ v: |-1
+  Absorbs Lightning Damage
+
+- # 48
+ k: |-1
+  ModStre9r
+ v: |-1
+  Absorbs Poison Damage
+
+- # 49
+ k: |-1
+  of the Wraith
+ v: |-1
+  of the Wraith
+
+- # 50
+ k: |-1
+  of Equilibrium
+ v: |-1
+  of Equilibrium
+
+- # 51
+ k: |-1
+  Valkyrie's
+ v: |-1
+  Valkyrie's
+
+- # 52
+ k: |-1
+  Maiden's
+ v: |-1
+  Maiden's
+
+- # 53
+ k: |-1
+  Blank
+ v: |-1
+  Void
+
+- # 54
+ k: |-1
+  strEskilllighttoattack
+ v: |-1
+   to your attack
+
+- # 55
+ k: |-1
+  StrSklTabItem1
+ v: |-1
+  +%d to Javelin and Spear Skills
+
+- # 56
+ k: |-1
+  StrSklTabItem2
+ v: |-1
+  +%d to Passive and Magic Skills
+
+- # 57
+ k: |-1
+  StrSklTabItem3
+ v: |-1
+  +%d to Bow and Crossbow Skills
+
+- # 58
+ k: |-1
+  StrSklTabItem4
+ v: |-1
+  +%d to Defensive Auras
+
+- # 59
+ k: |-1
+  StrSklTabItem5
+ v: |-1
+  +%d to Offensive Auras
+
+- # 60
+ k: |-1
+  StrSklTabItem6
+ v: |-1
+  +%d to Combat Skills
+
+- # 61
+ k: |-1
+  StrSklTabItem6
+ v: |-1
+  +%d to Summoning Skills
+
+- # 62
+ k: |-1
+  StrSklTabItem7
+ v: |-1
+  +%d to Poison and Bone Skills
+
+- # 63
+ k: |-1
+  StrSklTabItem8
+ v: |-1
+  +%d to Curses
+
+- # 64
+ k: |-1
+  StrSklTabItem10
+ v: |-1
+  +%d to Warcries
+
+- # 65
+ k: |-1
+  StrSklTabItem11
+ v: |-1
+  +%d to Combat Skills
+
+- # 66
+ k: |-1
+  StrSklTabItem12
+ v: |-1
+  +%d to Masteries
+
+- # 67
+ k: |-1
+  StrSklTabItem13
+ v: |-1
+  +%d to Cold Skills
+
+- # 68
+ k: |-1
+  StrSklTabItem14
+ v: |-1
+  +%d to Lightning Skills
+
+- # 69
+ k: |-1
+  StrSklTabItem15
+ v: |-1
+  +%d to Fire Skills
+
+- # 70
+ k: |-1
+  StrSklTabItem16
+ v: |-1
+  +%d to Summoning Skills
+
+- # 71
+ k: |-1
+  StrSklTabItem17
+ v: |-1
+  +%d to Shape Shifting Skills
+
+- # 72
+ k: |-1
+  StrSklTabItem18
+ v: |-1
+  +%d to Elemental Skills
+
+- # 73
+ k: |-1
+  StrSklTabItem19
+ v: |-1
+  +%d to Traps
+
+- # 74
+ k: |-1
+  StrSklTabItem20
+ v: |-1
+  +%d to Shadow Disciplines
+
+- # 75
+ k: |-1
+  StrSklTabItem21
+ v: |-1
+  +%d to Martial Arts
+
+- # 76
+ k: |-1
+  x
+ v: |-1
+  The character '%s' has not been used for over 3 months and has expired.
+
+- # 77
+ k: |-1
+  upgraderestrictEx
+ v: |-1
+  No Magic, Socketed, Rare, Unique, or Set Items. No Jewelry. No Nothing, punk.
+
+- # 78
+ k: |-1
+  UndeadDescriptX
+ v: |-1
+  Undead
+
+- # 79
+ k: |-1
+  DemonID
+ v: |-1
+  Demon
+
+- # 80
+ k: |-1
+  strScaryMonDescA
+ v: |-1
+  
+
+- # 81
+ k: |-1
+  strScaryMonDescB
+ v: |-1
+  Immune to all Damage
+
+- # 82
+ k: |-1
+  strScaryMonDesc1
+ v: |-1
+  Immune to Fire
+
+- # 83
+ k: |-1
+  strScaryMonDesc2
+ v: |-1
+  Immune to Cold
+
+- # 84
+ k: |-1
+  strScaryMonDesc3
+ v: |-1
+  Immune to Lightning
+
+- # 85
+ k: |-1
+  strScaryMonDesc4
+ v: |-1
+  Immune to Poison
+
+- # 86
+ k: |-1
+  strScaryMonDesc5
+ v: |-1
+  Immune to Physical
+
+- # 87
+ k: |-1
+  strScaryMonDesc6
+ v: |-1
+  Immune to Magic
+
+- # 88
+ k: |-1
+  PlayerNameOnItemstring
+ v: |-1
+  %s's
+
+- # 89
+ k: |-1
+  PlayerNameOnItemstringX
+ v: |-1
+  %s'
+
+- # 90
+ k: |-1
+  SetItemFormatX
+ v: |-1
+  %0
+
+- # 91
+ k: |-1
+  x
+ v: |-1
+  softcore ladder
+
+- # 92
+ k: |-1
+  x
+ v: |-1
+  hardcore ladder
+
+- # 93
+ k: |-1
+  D2bnetHelp47a
+ v: |-1
+  The EXPANSION LADDER displays the top characters, ranked by experience. The default setting displays overall rankings, but you can view sorted lists after selecting the By Class option.
+
+- # 94
+ k: |-1
+  D2bnetHelp48a
+ v: |-1
+  The EXPANSION HARDCORE LADDER displays the top Hardcore characters, ranked by experience. The default setting displays overall rankings, but you can view sorted lists after selecting By Class option.
+
+- # 95
+ k: |-1
+  x
+ v: |-1
+  Repair All
+
+- # 96
+ k: |-1
+  x
+ v: |-1
+  Repair all equipment: 
+
+- # 97
+ k: |-1
+  x
+ v: |-1
+  No equipped items need repairing
+
+- # 98
+ k: |-1
+  Druid
+ v: |-1
+  Druid
+
+- # 99
+ k: |-1
+  Assassin
+ v: |-1
+  Assassin
+
+- # 100
+ k: |-1
+  partychardru
+ v: |-1
+  Druid
+
+- # 101
+ k: |-1
+  partycharass
+ v: |-1
+  Assassin
+
+- # 102
+ k: |-1
+  x
+ v: |-1
+  Unable to enter game. This SSF character cannot join a game created by a non-SSF character.
+
+- # 103
+ k: |-1
+  x
+ v: |-1
+  Unable to enter game. This non-SSF character cannot join a game created by a SSF character.
+
+- # 104
+ k: |-1
+  charmonsterX
+ v: |-1
+  %s: %d%%
+
+- # 105
+ k: |-1
+  charmontohit1X
+ v: |-1
+  Strength Damage Bonus:
+
+- # 106
+ k: |-1
+  charmontohit2X
+ v: |-1
+  Dexterity Damage Bonus:
+
+- # 107
+ k: |-1
+  Party1X
+ v: |-1
+  %s signed a suicide pact with you.
+
+- # 108
+ k: |-1
+  Party2X
+ v: |-1
+  %s signed a suicide pact with you.
+
+- # 109
+ k: |-1
+  Party10
+ v: |-1
+  %s no longer allows you to access his corpse.
+
+- # 110
+ k: |-1
+  Party11
+ v: |-1
+  %s no longer allows you to access her corpse.
+
+- # 111
+ k: |-1
+  Party12
+ v: |-1
+  You are hostile towards each other.
+
+- # 112
+ k: |-1
+  Party13
+ v: |-1
+  %s is hostile to you, but you are friendly to him.
+
+- # 113
+ k: |-1
+  Party14
+ v: |-1
+  %s is hostile to you, but you are friendly to her.
+
+- # 114
+ k: |-1
+  Party 15
+ v: |-1
+  %s is friendly to you, but you are hostile to him.
+
+- # 115
+ k: |-1
+  Party16
+ v: |-1
+  %s is friendly to you, but you are hostile to her.
+
+- # 116
+ k: |-1
+  Party17
+ v: |-1
+  You are friendly to each other.
+
+- # 117
+ k: |-1
+  Party18
+ v: |-1
+  You may loot each other's corpse.
+
+- # 118
+ k: |-1
+  Party19
+ v: |-1
+  %s may loot your corpse, but you may not loot his.
+
+- # 119
+ k: |-1
+  Party20
+ v: |-1
+  %s may loot your corpse, but you may not loot hers.
+
+- # 120
+ k: |-1
+  Party21
+ v: |-1
+  %s may not loot your corpse, but you may loot his.
+
+- # 121
+ k: |-1
+  Party22
+ v: |-1
+  %s may not loot your corpse, but you may loot hers.
+
+- # 122
+ k: |-1
+  Party23
+ v: |-1
+  Neither of you may loot the other's corpse.
+
+- # 123
+ k: |-1
+  Civerb's Ward
+ v: |-1
+  Civerb's Ward
+
+- # 124
+ k: |-1
+  Civerb's Icon
+ v: |-1
+  Civerb's Icon
+
+- # 125
+ k: |-1
+  Civerb's Cudgel
+ v: |-1
+  Civerb's Cudgel
+
+- # 126
+ k: |-1
+  Hsarus' Iron Heel
+ v: |-1
+  Hsarus' Iron Heel
+
+- # 127
+ k: |-1
+  Hsarus' Iron Fist
+ v: |-1
+  Hsarus' Iron Fist
+
+- # 128
+ k: |-1
+  Hsarus' Iron Stay
+ v: |-1
+  Hsarus' Iron Stay
+
+- # 129
+ k: |-1
+  Cleglaw's Tooth
+ v: |-1
+  Cleglaw's Tooth
+
+- # 130
+ k: |-1
+  Cleglaw's Claw
+ v: |-1
+  Cleglaw's Claw
+
+- # 131
+ k: |-1
+  Cleglaw's Pincers
+ v: |-1
+  Cleglaw's Pincers
+
+- # 132
+ k: |-1
+  Iratha's Cord
+ v: |-1
+  Iratha's Cord
+
+- # 133
+ k: |-1
+  Iratha's Coil
+ v: |-1
+  Iratha's Coil
+
+- # 134
+ k: |-1
+  Iratha's Cuff
+ v: |-1
+  Iratha's Cuff
+
+- # 135
+ k: |-1
+  Iratha's Collar
+ v: |-1
+  Iratha's Collar
+
+- # 136
+ k: |-1
+  Isenhart's Horns
+ v: |-1
+  Isenhart's Horns
+
+- # 137
+ k: |-1
+  Isenhart's Case
+ v: |-1
+  Isenhart's Case
+
+- # 138
+ k: |-1
+  Isenhart's Parry
+ v: |-1
+  Isenhart's Parry
+
+- # 139
+ k: |-1
+  Isenhart's Lightbrand
+ v: |-1
+  Isenhart's Lightbrand
+
+- # 140
+ k: |-1
+  Vidala's Snare
+ v: |-1
+  Vidala's Snare
+
+- # 141
+ k: |-1
+  Vidala's Ambush
+ v: |-1
+  Vidala's Ambush
+
+- # 142
+ k: |-1
+  Vidala's Fetlock
+ v: |-1
+  Vidala's Fetlock
+
+- # 143
+ k: |-1
+  Vidala's Barb
+ v: |-1
+  Vidala's Barb
+
+- # 144
+ k: |-1
+  Milabrega's Robe
+ v: |-1
+  Milabrega's Robe
+
+- # 145
+ k: |-1
+  Milabrega's Diadem
+ v: |-1
+  Milabrega's Diadem
+
+- # 146
+ k: |-1
+  Milabrega's Rod
+ v: |-1
+  Milabrega's Rod
+
+- # 147
+ k: |-1
+  Milabrega's Orb
+ v: |-1
+  Milabrega's Orb
+
+- # 148
+ k: |-1
+  Cathan's Seal
+ v: |-1
+  Cathan's Seal
+
+- # 149
+ k: |-1
+  Cathan's Sigil
+ v: |-1
+  Cathan's Sigil
+
+- # 150
+ k: |-1
+  Cathan's Visage
+ v: |-1
+  Cathan's Visage
+
+- # 151
+ k: |-1
+  Cathan's Mesh
+ v: |-1
+  Cathan's Mesh
+
+- # 152
+ k: |-1
+  Cathan's Rule
+ v: |-1
+  Cathan's Rule
+
+- # 153
+ k: |-1
+  Tancred's Crowbill
+ v: |-1
+  Tancred's Crowbill
+
+- # 154
+ k: |-1
+  Tancred's Spine
+ v: |-1
+  Tancred's Spine
+
+- # 155
+ k: |-1
+  Tancred's Hobnails
+ v: |-1
+  Tancred's Hobnails
+
+- # 156
+ k: |-1
+  Tancred's Weird
+ v: |-1
+  Tancred's Weird
+
+- # 157
+ k: |-1
+  Tancred's Skull
+ v: |-1
+  Tancred's Skull
+
+- # 158
+ k: |-1
+  Sigon's Visor
+ v: |-1
+  Sigon's Visor
+
+- # 159
+ k: |-1
+  Sigon's Shelter
+ v: |-1
+  Sigon's Shelter
+
+- # 160
+ k: |-1
+  Sigon's Gage
+ v: |-1
+  Sigon's Gage
+
+- # 161
+ k: |-1
+  Sigon's Sabot
+ v: |-1
+  Sigon's Sabot
+
+- # 162
+ k: |-1
+  Sigon's Wrap
+ v: |-1
+  Sigon's Wrap
+
+- # 163
+ k: |-1
+  Sigon's Guard
+ v: |-1
+  Sigon's Guard
+
+- # 164
+ k: |-1
+  Infernal Cranium
+ v: |-1
+  Infernal Cranium
+
+- # 165
+ k: |-1
+  Infernal Torch
+ v: |-1
+  Infernal Torch
+
+- # 166
+ k: |-1
+  Infernal Sign
+ v: |-1
+  Infernal Sign
+
+- # 167
+ k: |-1
+  Berserker's Headgear
+ v: |-1
+  Berserker's Headgear
+
+- # 168
+ k: |-1
+  Berserker's Hauberk
+ v: |-1
+  Berserker's Hauberk
+
+- # 169
+ k: |-1
+  Berserker's Hatchet
+ v: |-1
+  Berserker's Hatchet
+
+- # 170
+ k: |-1
+  Death's Hand
+ v: |-1
+  Death's Hand
+
+- # 171
+ k: |-1
+  Death's Guard
+ v: |-1
+  Death's Guard
+
+- # 172
+ k: |-1
+  Death's Touch
+ v: |-1
+  Death's Touch
+
+- # 173
+ k: |-1
+  Angelic Sickle
+ v: |-1
+  Angelic Sickle
+
+- # 174
+ k: |-1
+  Angelic Mantle
+ v: |-1
+  Angelic Mantle
+
+- # 175
+ k: |-1
+  Angelic Halo
+ v: |-1
+  Angelic Halo
+
+- # 176
+ k: |-1
+  Angelic Wings
+ v: |-1
+  Angelic Wings
+
+- # 177
+ k: |-1
+  Arctic Horn
+ v: |-1
+  Arctic Horn
+
+- # 178
+ k: |-1
+  Arctic Furs
+ v: |-1
+  Arctic Furs
+
+- # 179
+ k: |-1
+  Arctic Binding
+ v: |-1
+  Arctic Binding
+
+- # 180
+ k: |-1
+  Arctic Mitts
+ v: |-1
+  Arctic Mitts
+
+- # 181
+ k: |-1
+  Arcanna's Sign
+ v: |-1
+  Arcanna's Sign
+
+- # 182
+ k: |-1
+  Arcanna's Deathwand
+ v: |-1
+  Arcanna's Deathwand
+
+- # 183
+ k: |-1
+  Arcanna's Head
+ v: |-1
+  Arcanna's Head
+
+- # 184
+ k: |-1
+  Arcanna's Flesh
+ v: |-1
+  Arcanna's Flesh
+
+- # 185
+ k: |-1
+  skillxname0
+ v: |-1
+   
+
+- # 186
+ k: |-1
+  skillxsd0
+ v: |-1
+   
+
+- # 187
+ k: |-1
+  skillxld0
+ v: |-1
+   
+
+- # 188
+ k: |-1
+  skillxan0
+ v: |-1
+   
+
+- # 189
+ k: |-1
+  skillxname1
+ v: |-1
+   
+
+- # 190
+ k: |-1
+  skillxsd1
+ v: |-1
+   
+
+- # 191
+ k: |-1
+  skillxld1
+ v: |-1
+   
+
+- # 192
+ k: |-1
+  skillxan1
+ v: |-1
+   
+
+- # 193
+ k: |-1
+  skillxname2
+ v: |-1
+   
+
+- # 194
+ k: |-1
+  skillxsd2
+ v: |-1
+   
+
+- # 195
+ k: |-1
+  skillxld2
+ v: |-1
+   
+
+- # 196
+ k: |-1
+  skillxan2
+ v: |-1
+   
+
+- # 197
+ k: |-1
+  skillxname3
+ v: |-1
+   
+
+- # 198
+ k: |-1
+  skillxsd3
+ v: |-1
+   
+
+- # 199
+ k: |-1
+  skillxld3
+ v: |-1
+   
+
+- # 200
+ k: |-1
+  skillxan3
+ v: |-1
+   
+
+- # 201
+ k: |-1
+  skillxname4
+ v: |-1
+   
+
+- # 202
+ k: |-1
+  skillxsd4
+ v: |-1
+   
+
+- # 203
+ k: |-1
+  skillxld4
+ v: |-1
+   
+
+- # 204
+ k: |-1
+  skillxan4
+ v: |-1
+   
+
+- # 205
+ k: |-1
+  skillxname5
+ v: |-1
+   
+
+- # 206
+ k: |-1
+  skillxsd5
+ v: |-1
+   
+
+- # 207
+ k: |-1
+  skillxld5
+ v: |-1
+   
+
+- # 208
+ k: |-1
+  skillxan5
+ v: |-1
+   
+
+- # 209
+ k: |-1
+  skillxname6
+ v: |-1
+   
+
+- # 210
+ k: |-1
+  skillxsd6
+ v: |-1
+   
+
+- # 211
+ k: |-1
+  skillxld6
+ v: |-1
+   
+
+- # 212
+ k: |-1
+  skillxan6
+ v: |-1
+   
+
+- # 213
+ k: |-1
+  skillxname7
+ v: |-1
+   
+
+- # 214
+ k: |-1
+  skillxsd7
+ v: |-1
+   
+
+- # 215
+ k: |-1
+  skillxld7
+ v: |-1
+  or bolts with fire
+  magically enhances your arrows
+
+- # 216
+ k: |-1
+  skillxan7
+ v: |-1
+   
+
+- # 217
+ k: |-1
+  skillxname8
+ v: |-1
+   
+
+- # 218
+ k: |-1
+  skillxsd8
+ v: |-1
+   
+
+- # 219
+ k: |-1
+  skillxld8
+ v: |-1
+  cold arrows only do half of their regular damage
+  by adding cold damage and a slowing effect
+  magically enhances your arrows or bolts
+
+- # 220
+ k: |-1
+  skillxan8
+ v: |-1
+   
+
+- # 221
+ k: |-1
+  skillxname9
+ v: |-1
+   
+
+- # 222
+ k: |-1
+  skillxsd9
+ v: |-1
+   
+
+- # 223
+ k: |-1
+  skillxld9
+ v: |-1
+   
+
+- # 224
+ k: |-1
+  skillxan9
+ v: |-1
+   
+
+- # 225
+ k: |-1
+  skillxname10
+ v: |-1
+   
+
+- # 226
+ k: |-1
+  skillxsd10
+ v: |-1
+   
+
+- # 227
+ k: |-1
+  skillxld10
+ v: |-1
+   
+
+- # 228
+ k: |-1
+  skillxan10
+ v: |-1
+   
+
+- # 229
+ k: |-1
+  skillxname11
+ v: |-1
+   
+
+- # 230
+ k: |-1
+  skillxsd11
+ v: |-1
+   
+
+- # 231
+ k: |-1
+  skillxld11
+ v: |-1
+  cold arrows only do half of their regular damage
+  by adding cold damage and a slowing effect
+  magically enhances your arrows or bolts
+
+- # 232
+ k: |-1
+  skillxan11
+ v: |-1
+   
+
+- # 233
+ k: |-1
+  skillxname12
+ v: |-1
+   
+
+- # 234
+ k: |-1
+  skillxsd12
+ v: |-1
+   
+
+- # 235
+ k: |-1
+  skillxld12
+ v: |-1
+   
+
+- # 236
+ k: |-1
+  skillxan12
+ v: |-1
+   
+
+- # 237
+ k: |-1
+  skillxname13
+ v: |-1
+   
+
+- # 238
+ k: |-1
+  skillxsd13
+ v: |-1
+   
+
+- # 239
+ k: |-1
+  skillxld13
+ v: |-1
+   
+
+- # 240
+ k: |-1
+  skillxan13
+ v: |-1
+   
+
+- # 241
+ k: |-1
+  skillxname14
+ v: |-1
+   
+
+- # 242
+ k: |-1
+  skillxsd14
+ v: |-1
+   
+
+- # 243
+ k: |-1
+  skillxld14
+ v: |-1
+   
+
+- # 244
+ k: |-1
+  skillxan14
+ v: |-1
+   
+
+- # 245
+ k: |-1
+  skillxname15
+ v: |-1
+   
+
+- # 246
+ k: |-1
+  skillxsd15
+ v: |-1
+   
+
+- # 247
+ k: |-1
+  skillxld15
+ v: |-1
+   
+
+- # 248
+ k: |-1
+  skillxan15
+ v: |-1
+   
+
+- # 249
+ k: |-1
+  skillxname16
+ v: |-1
+   
+
+- # 250
+ k: |-1
+  skillxsd16
+ v: |-1
+   
+
+- # 251
+ k: |-1
+  skillxld16
+ v: |-1
+  contact, damaging all nearby enemies
+  enchants an arrow or bolt that explodes on
+
+- # 252
+ k: |-1
+  skillxan16
+ v: |-1
+   
+
+- # 253
+ k: |-1
+  skillxname17
+ v: |-1
+   
+
+- # 254
+ k: |-1
+  skillxsd17
+ v: |-1
+   
+
+- # 255
+ k: |-1
+  skillxld17
+ v: |-1
+   
+
+- # 256
+ k: |-1
+  skillxan17
+ v: |-1
+   
+
+- # 257
+ k: |-1
+  skillxname18
+ v: |-1
+   
+
+- # 258
+ k: |-1
+  skillxsd18
+ v: |-1
+   
+
+- # 259
+ k: |-1
+  skillxld18
+ v: |-1
+   
+
+- # 260
+ k: |-1
+  skillxan18
+ v: |-1
+   
+
+- # 261
+ k: |-1
+  skillxname19
+ v: |-1
+   
+
+- # 262
+ k: |-1
+  skillxsd19
+ v: |-1
+   
+
+- # 263
+ k: |-1
+  skillxld19
+ v: |-1
+   
+
+- # 264
+ k: |-1
+  skillxan19
+ v: |-1
+   
+
+- # 265
+ k: |-1
+  skillxname20
+ v: |-1
+   
+
+- # 266
+ k: |-1
+  skillxsd20
+ v: |-1
+   
+
+- # 267
+ k: |-1
+  skillxld20
+ v: |-1
+   
+
+- # 268
+ k: |-1
+  skillxan20
+ v: |-1
+   
+
+- # 269
+ k: |-1
+  skillxname21
+ v: |-1
+   
+
+- # 270
+ k: |-1
+  skillxsd21
+ v: |-1
+   
+
+- # 271
+ k: |-1
+  skillxld21
+ v: |-1
+  to freeze your enemies
+  magically enhances your arrow or bolt
+
+- # 272
+ k: |-1
+  skillxan21
+ v: |-1
+   
+
+- # 273
+ k: |-1
+  skillxname22
+ v: |-1
+   
+
+- # 274
+ k: |-1
+  skillxsd22
+ v: |-1
+   
+
+- # 275
+ k: |-1
+  skillxld22
+ v: |-1
+   
+
+- # 276
+ k: |-1
+  skillxan22
+ v: |-1
+   
+
+- # 277
+ k: |-1
+  skillxname23
+ v: |-1
+   
+
+- # 278
+ k: |-1
+  skillxsd23
+ v: |-1
+   
+
+- # 279
+ k: |-1
+  skillxld23
+ v: |-1
+   
+
+- # 280
+ k: |-1
+  skillxan23
+ v: |-1
+   
+
+- # 281
+ k: |-1
+  skillxname24
+ v: |-1
+   
+
+- # 282
+ k: |-1
+  skillxsd24
+ v: |-1
+   
+
+- # 283
+ k: |-1
+  skillxld24
+ v: |-1
+   
+
+- # 284
+ k: |-1
+  skillxan24
+ v: |-1
+   
+
+- # 285
+ k: |-1
+  skillxname25
+ v: |-1
+   
+
+- # 286
+ k: |-1
+  skillxsd25
+ v: |-1
+   
+
+- # 287
+ k: |-1
+  skillxld25
+ v: |-1
+   
+
+- # 288
+ k: |-1
+  skillxan25
+ v: |-1
+   
+
+- # 289
+ k: |-1
+  skillxname26
+ v: |-1
+   
+
+- # 290
+ k: |-1
+  skillxsd26
+ v: |-1
+   
+
+- # 291
+ k: |-1
+  skillxld26
+ v: |-1
+   
+
+- # 292
+ k: |-1
+  skillxan26
+ v: |-1
+   
+
+- # 293
+ k: |-1
+  skillxname27
+ v: |-1
+   
+
+- # 294
+ k: |-1
+  skillxsd27
+ v: |-1
+   
+
+- # 295
+ k: |-1
+  skillxld27
+ v: |-1
+  creates a pyre upon impact
+  cause severe fire damage and
+  enhances arrows or bolts to
+
+- # 296
+ k: |-1
+  skillxan27
+ v: |-1
+   
+
+- # 297
+ k: |-1
+  skillxname28
+ v: |-1
+   
+
+- # 298
+ k: |-1
+  skillxsd28
+ v: |-1
+   
+
+- # 299
+ k: |-1
+  skillxld28
+ v: |-1
+   
+
+- # 300
+ k: |-1
+  skillxan28
+ v: |-1
+   
+
+- # 301
+ k: |-1
+  skillxname29
+ v: |-1
+   
+
+- # 302
+ k: |-1
+  skillxsd29
+ v: |-1
+   
+
+- # 303
+ k: |-1
+  skillxld29
+ v: |-1
+   
+
+- # 304
+ k: |-1
+  skillxan29
+ v: |-1
+   
+
+- # 305
+ k: |-1
+  skillxname30
+ v: |-1
+   
+
+- # 306
+ k: |-1
+  skillxsd30
+ v: |-1
+   
+
+- # 307
+ k: |-1
+  skillxld30
+ v: |-1
+   
+
+- # 308
+ k: |-1
+  skillxan30
+ v: |-1
+   
+
+- # 309
+ k: |-1
+  skillxname31
+ v: |-1
+   
+
+- # 310
+ k: |-1
+  skillxsd31
+ v: |-1
+   
+
+- # 311
+ k: |-1
+  skillxld31
+ v: |-1
+  to freeze entire groups of monsters
+  magically enhances an arrow or bolt
+
+- # 312
+ k: |-1
+  skillxan31
+ v: |-1
+   
+
+- # 313
+ k: |-1
+  skillxname32
+ v: |-1
+   
+
+- # 314
+ k: |-1
+  skillxsd32
+ v: |-1
+   
+
+- # 315
+ k: |-1
+  skillxld32
+ v: |-1
+   
+
+- # 316
+ k: |-1
+  skillxan32
+ v: |-1
+   
+
+- # 317
+ k: |-1
+  skillxname33
+ v: |-1
+   
+
+- # 318
+ k: |-1
+  skillxsd33
+ v: |-1
+   
+
+- # 319
+ k: |-1
+  skillxld33
+ v: |-1
+   
+
+- # 320
+ k: |-1
+  skillxan33
+ v: |-1
+   
+
+- # 321
+ k: |-1
+  skillxname34
+ v: |-1
+   
+
+- # 322
+ k: |-1
+  skillxsd34
+ v: |-1
+   
+
+- # 323
+ k: |-1
+  skillxld34
+ v: |-1
+   
+
+- # 324
+ k: |-1
+  skillxan34
+ v: |-1
+   
+
+- # 325
+ k: |-1
+  skillxname35
+ v: |-1
+   
+
+- # 326
+ k: |-1
+  skillxsd35
+ v: |-1
+   
+
+- # 327
+ k: |-1
+  skillxld35
+ v: |-1
+   
+
+- # 328
+ k: |-1
+  skillxan35
+ v: |-1
+   
+
+- # 329
+ k: |-1
+  skillxname36
+ v: |-1
+   
+
+- # 330
+ k: |-1
+  skillxsd36
+ v: |-1
+   
+
+- # 331
+ k: |-1
+  skillxld36
+ v: |-1
+   
+
+- # 332
+ k: |-1
+  skillxan36
+ v: |-1
+   
+
+- # 333
+ k: |-1
+  skillxname37
+ v: |-1
+   
+
+- # 334
+ k: |-1
+  skillxsd37
+ v: |-1
+   
+
+- # 335
+ k: |-1
+  skillxld37
+ v: |-1
+   
+
+- # 336
+ k: |-1
+  skillxan37
+ v: |-1
+   
+
+- # 337
+ k: |-1
+  skillxname38
+ v: |-1
+   
+
+- # 338
+ k: |-1
+  skillxsd38
+ v: |-1
+   
+
+- # 339
+ k: |-1
+  skillxld38
+ v: |-1
+   
+
+- # 340
+ k: |-1
+  skillxan38
+ v: |-1
+   
+
+- # 341
+ k: |-1
+  skillxname39
+ v: |-1
+   
+
+- # 342
+ k: |-1
+  skillxsd39
+ v: |-1
+   
+
+- # 343
+ k: |-1
+  skillxld39
+ v: |-1
+   
+
+- # 344
+ k: |-1
+  skillxan39
+ v: |-1
+   
+
+- # 345
+ k: |-1
+  skillxname40
+ v: |-1
+   
+
+- # 346
+ k: |-1
+  skillxsd40
+ v: |-1
+   
+
+- # 347
+ k: |-1
+  skillxld40
+ v: |-1
+   
+
+- # 348
+ k: |-1
+  skillxan40
+ v: |-1
+   
+
+- # 349
+ k: |-1
+  skillxname41
+ v: |-1
+   
+
+- # 350
+ k: |-1
+  skillxsd41
+ v: |-1
+   
+
+- # 351
+ k: |-1
+  skillxld41
+ v: |-1
+   
+
+- # 352
+ k: |-1
+  skillxan41
+ v: |-1
+   
+
+- # 353
+ k: |-1
+  skillxname42
+ v: |-1
+   
+
+- # 354
+ k: |-1
+  skillxsd42
+ v: |-1
+   
+
+- # 355
+ k: |-1
+  skillxld42
+ v: |-1
+  of all nearby enemies
+  creates an electrical field that reduces life
+
+- # 356
+ k: |-1
+  skillxan42
+ v: |-1
+   
+
+- # 357
+ k: |-1
+  skillxname43
+ v: |-1
+   
+
+- # 358
+ k: |-1
+  skillxsd43
+ v: |-1
+   
+
+- # 359
+ k: |-1
+  skillxld43
+ v: |-1
+   
+
+- # 360
+ k: |-1
+  skillxan43
+ v: |-1
+   
+
+- # 361
+ k: |-1
+  skillxname44
+ v: |-1
+   
+
+- # 362
+ k: |-1
+  skillxsd44
+ v: |-1
+   
+
+- # 363
+ k: |-1
+  skillxld44
+ v: |-1
+   
+
+- # 364
+ k: |-1
+  skillxan44
+ v: |-1
+   
+
+- # 365
+ k: |-1
+  skillxname45
+ v: |-1
+   
+
+- # 366
+ k: |-1
+  skillxsd45
+ v: |-1
+   
+
+- # 367
+ k: |-1
+  skillxld45
+ v: |-1
+   
+
+- # 368
+ k: |-1
+  skillxan45
+ v: |-1
+   
+
+- # 369
+ k: |-1
+  skillxname46
+ v: |-1
+   
+
+- # 370
+ k: |-1
+  skillxsd46
+ v: |-1
+   
+
+- # 371
+ k: |-1
+  skillxld46
+ v: |-1
+   
+
+- # 372
+ k: |-1
+  skillxan46
+ v: |-1
+   
+
+- # 373
+ k: |-1
+  skillxname47
+ v: |-1
+   
+
+- # 374
+ k: |-1
+  skillxsd47
+ v: |-1
+   
+
+- # 375
+ k: |-1
+  skillxld47
+ v: |-1
+   
+
+- # 376
+ k: |-1
+  skillxan47
+ v: |-1
+   
+
+- # 377
+ k: |-1
+  skillxname48
+ v: |-1
+   
+
+- # 378
+ k: |-1
+  skillxsd48
+ v: |-1
+   
+
+- # 379
+ k: |-1
+  skillxld48
+ v: |-1
+   
+
+- # 380
+ k: |-1
+  skillxan48
+ v: |-1
+   
+
+- # 381
+ k: |-1
+  skillxname49
+ v: |-1
+   
+
+- # 382
+ k: |-1
+  skillxsd49
+ v: |-1
+   
+
+- # 383
+ k: |-1
+  skillxld49
+ v: |-1
+   
+
+- # 384
+ k: |-1
+  skillxan49
+ v: |-1
+   
+
+- # 385
+ k: |-1
+  skillxname50
+ v: |-1
+   
+
+- # 386
+ k: |-1
+  skillxsd50
+ v: |-1
+   
+
+- # 387
+ k: |-1
+  skillxld50
+ v: |-1
+   
+
+- # 388
+ k: |-1
+  skillxan50
+ v: |-1
+   
+
+- # 389
+ k: |-1
+  skillxname51
+ v: |-1
+   
+
+- # 390
+ k: |-1
+  skillxsd51
+ v: |-1
+   
+
+- # 391
+ k: |-1
+  skillxld51
+ v: |-1
+   
+
+- # 392
+ k: |-1
+  skillxan51
+ v: |-1
+   
+
+- # 393
+ k: |-1
+  skillxname52
+ v: |-1
+   
+
+- # 394
+ k: |-1
+  skillxsd52
+ v: |-1
+   
+
+- # 395
+ k: |-1
+  skillxld52
+ v: |-1
+   
+
+- # 396
+ k: |-1
+  skillxan52
+ v: |-1
+   
+
+- # 397
+ k: |-1
+  skillxname53
+ v: |-1
+   
+
+- # 398
+ k: |-1
+  skillxsd53
+ v: |-1
+   
+
+- # 399
+ k: |-1
+  skillxld53
+ v: |-1
+   
+
+- # 400
+ k: |-1
+  skillxan53
+ v: |-1
+   
+
+- # 401
+ k: |-1
+  skillxname54
+ v: |-1
+   
+
+- # 402
+ k: |-1
+  skillxsd54
+ v: |-1
+   
+
+- # 403
+ k: |-1
+  skillxld54
+ v: |-1
+   
+
+- # 404
+ k: |-1
+  skillxan54
+ v: |-1
+   
+
+- # 405
+ k: |-1
+  skillxname55
+ v: |-1
+   
+
+- # 406
+ k: |-1
+  skillxsd55
+ v: |-1
+   
+
+- # 407
+ k: |-1
+  skillxld55
+ v: |-1
+   
+
+- # 408
+ k: |-1
+  skillxan55
+ v: |-1
+   
+
+- # 409
+ k: |-1
+  skillxname56
+ v: |-1
+   
+
+- # 410
+ k: |-1
+  skillxsd56
+ v: |-1
+   
+
+- # 411
+ k: |-1
+  skillxld56
+ v: |-1
+   
+
+- # 412
+ k: |-1
+  skillxan56
+ v: |-1
+   
+
+- # 413
+ k: |-1
+  skillxname57
+ v: |-1
+   
+
+- # 414
+ k: |-1
+  skillxsd57
+ v: |-1
+   
+
+- # 415
+ k: |-1
+  skillxld57
+ v: |-1
+   
+
+- # 416
+ k: |-1
+  skillxan57
+ v: |-1
+   
+
+- # 417
+ k: |-1
+  skillxname58
+ v: |-1
+   
+
+- # 418
+ k: |-1
+  skillxsd58
+ v: |-1
+   
+
+- # 419
+ k: |-1
+  skillxld58
+ v: |-1
+   
+
+- # 420
+ k: |-1
+  skillxan58
+ v: |-1
+   
+
+- # 421
+ k: |-1
+  skillxname59
+ v: |-1
+   
+
+- # 422
+ k: |-1
+  skillxsd59
+ v: |-1
+   
+
+- # 423
+ k: |-1
+  skillxld59
+ v: |-1
+   
+
+- # 424
+ k: |-1
+  skillxan59
+ v: |-1
+   
+
+- # 425
+ k: |-1
+  skillxname60
+ v: |-1
+   
+
+- # 426
+ k: |-1
+  skillxsd60
+ v: |-1
+   
+
+- # 427
+ k: |-1
+  skillxld60
+ v: |-1
+   
+
+- # 428
+ k: |-1
+  skillxan60
+ v: |-1
+   
+
+- # 429
+ k: |-1
+  skillxsname61
+ v: |-1
+   
+
+- # 430
+ k: |-1
+  skillxsd61
+ v: |-1
+   
+
+- # 431
+ k: |-1
+  skillxld61
+ v: |-1
+   
+
+- # 432
+ k: |-1
+  skillxan61
+ v: |-1
+   
+
+- # 433
+ k: |-1
+  skillxname62
+ v: |-1
+   
+
+- # 434
+ k: |-1
+  skillxsd62
+ v: |-1
+   
+
+- # 435
+ k: |-1
+  skillxld62
+ v: |-1
+   
+
+- # 436
+ k: |-1
+  skillxan62
+ v: |-1
+   
+
+- # 437
+ k: |-1
+  skillxname63
+ v: |-1
+   
+
+- # 438
+ k: |-1
+  skillxsd63
+ v: |-1
+  passive - increases lightning damage
+
+- # 439
+ k: |-1
+  skillxld63
+ v: |-1
+  passive - increases all damage caused by your lightning spells
+
+- # 440
+ k: |-1
+  skillxan63
+ v: |-1
+   
+
+- # 441
+ k: |-1
+  skillxname64
+ v: |-1
+   
+
+- # 442
+ k: |-1
+  skillxsd64
+ v: |-1
+   
+
+- # 443
+ k: |-1
+  skillxld64
+ v: |-1
+   
+
+- # 444
+ k: |-1
+  skillxan64
+ v: |-1
+   
+
+- # 445
+ k: |-1
+  skillxname65
+ v: |-1
+   
+
+- # 446
+ k: |-1
+  skillxsd65
+ v: |-1
+   
+
+- # 447
+ k: |-1
+  skillxld65
+ v: |-1
+   
+
+- # 448
+ k: |-1
+  skillxan65
+ v: |-1
+   
+
+- # 449
+ k: |-1
+  skillxname66
+ v: |-1
+   
+
+- # 450
+ k: |-1
+  skillxsd66
+ v: |-1
+   
+
+- # 451
+ k: |-1
+  skillxld66
+ v: |-1
+   
+
+- # 452
+ k: |-1
+  skillxan66
+ v: |-1
+   
+
+- # 453
+ k: |-1
+  skillxname67
+ v: |-1
+   
+
+- # 454
+ k: |-1
+  skillxsd67
+ v: |-1
+   
+
+- # 455
+ k: |-1
+  skillxld67
+ v: |-1
+   
+
+- # 456
+ k: |-1
+  skillxan67
+ v: |-1
+   
+
+- # 457
+ k: |-1
+  skillxname68
+ v: |-1
+   
+
+- # 458
+ k: |-1
+  skillxsd68
+ v: |-1
+   
+
+- # 459
+ k: |-1
+  skillxld68
+ v: |-1
+   
+
+- # 460
+ k: |-1
+  skillxan68
+ v: |-1
+   
+
+- # 461
+ k: |-1
+  skillxname69
+ v: |-1
+   
+
+- # 462
+ k: |-1
+  skillxsd69
+ v: |-1
+   
+
+- # 463
+ k: |-1
+  skillxld69
+ v: |-1
+   
+
+- # 464
+ k: |-1
+  skillxan69
+ v: |-1
+   
+
+- # 465
+ k: |-1
+  skillxname70
+ v: |-1
+   
+
+- # 466
+ k: |-1
+  skillxsd70
+ v: |-1
+   
+
+- # 467
+ k: |-1
+  skillxld70
+ v: |-1
+   
+
+- # 468
+ k: |-1
+  skillxan70
+ v: |-1
+   
+
+- # 469
+ k: |-1
+  skillxname71
+ v: |-1
+   
+
+- # 470
+ k: |-1
+  skillxsd71
+ v: |-1
+   
+
+- # 471
+ k: |-1
+  skillxld71
+ v: |-1
+   
+
+- # 472
+ k: |-1
+  skillxan71
+ v: |-1
+   
+
+- # 473
+ k: |-1
+  skillxname72
+ v: |-1
+   
+
+- # 474
+ k: |-1
+  skillxsd72
+ v: |-1
+   
+
+- # 475
+ k: |-1
+  skillxld72
+ v: |-1
+   
+
+- # 476
+ k: |-1
+  skillxan72
+ v: |-1
+   
+
+- # 477
+ k: |-1
+  skillxname73
+ v: |-1
+   
+
+- # 478
+ k: |-1
+  skillxsd73
+ v: |-1
+   
+
+- # 479
+ k: |-1
+  skillxld73
+ v: |-1
+   
+
+- # 480
+ k: |-1
+  skillxan73
+ v: |-1
+   
+
+- # 481
+ k: |-1
+  skillxname74
+ v: |-1
+   
+
+- # 482
+ k: |-1
+  skillxsd74
+ v: |-1
+   
+
+- # 483
+ k: |-1
+  skillxld74
+ v: |-1
+   
+
+- # 484
+ k: |-1
+  skillxan74
+ v: |-1
+   
+
+- # 485
+ k: |-1
+  skillxname75
+ v: |-1
+   
+
+- # 486
+ k: |-1
+  skillxsd75
+ v: |-1
+   
+
+- # 487
+ k: |-1
+  skillxld75
+ v: |-1
+   
+
+- # 488
+ k: |-1
+  skillxan75
+ v: |-1
+   
+
+- # 489
+ k: |-1
+  skillxname76
+ v: |-1
+   
+
+- # 490
+ k: |-1
+  skillxsd76
+ v: |-1
+   
+
+- # 491
+ k: |-1
+  skillxld76
+ v: |-1
+   
+
+- # 492
+ k: |-1
+  skillxan76
+ v: |-1
+   
+
+- # 493
+ k: |-1
+  skillxname77
+ v: |-1
+   
+
+- # 494
+ k: |-1
+  skillxsd77
+ v: |-1
+   
+
+- # 495
+ k: |-1
+  skillxld77
+ v: |-1
+   
+
+- # 496
+ k: |-1
+  skillxan77
+ v: |-1
+   
+
+- # 497
+ k: |-1
+  skillxname78
+ v: |-1
+   
+
+- # 498
+ k: |-1
+  skillxsd78
+ v: |-1
+   
+
+- # 499
+ k: |-1
+  skillxld78
+ v: |-1
+   
+
+- # 500
+ k: |-1
+  skillxan78
+ v: |-1
+   
+
+- # 501
+ k: |-1
+  skillxname79
+ v: |-1
+   
+
+- # 502
+ k: |-1
+  skillxsd79
+ v: |-1
+   
+
+- # 503
+ k: |-1
+  skillxld79
+ v: |-1
+   
+
+- # 504
+ k: |-1
+  skillxan79
+ v: |-1
+   
+
+- # 505
+ k: |-1
+  skillxname80
+ v: |-1
+   
+
+- # 506
+ k: |-1
+  skillxsd80
+ v: |-1
+   
+
+- # 507
+ k: |-1
+  skillxld80
+ v: |-1
+   
+
+- # 508
+ k: |-1
+  skillxan80
+ v: |-1
+   
+
+- # 509
+ k: |-1
+  skillxname81
+ v: |-1
+   
+
+- # 510
+ k: |-1
+  skillxsd81
+ v: |-1
+   
+
+- # 511
+ k: |-1
+  skillxld81
+ v: |-1
+   
+
+- # 512
+ k: |-1
+  skillxan81
+ v: |-1
+   
+
+- # 513
+ k: |-1
+  skillxname82
+ v: |-1
+   
+
+- # 514
+ k: |-1
+  skillxsd82
+ v: |-1
+   
+
+- # 515
+ k: |-1
+  skillxld82
+ v: |-1
+   
+
+- # 516
+ k: |-1
+  skillxan82
+ v: |-1
+   
+
+- # 517
+ k: |-1
+  skillxname83
+ v: |-1
+   
+
+- # 518
+ k: |-1
+  skillxsd83
+ v: |-1
+   
+
+- # 519
+ k: |-1
+  skillxld83
+ v: |-1
+   
+
+- # 520
+ k: |-1
+  skillxan83
+ v: |-1
+   
+
+- # 521
+ k: |-1
+  skillxname84
+ v: |-1
+   
+
+- # 522
+ k: |-1
+  skillxsd84
+ v: |-1
+   
+
+- # 523
+ k: |-1
+  skillxld84
+ v: |-1
+   
+
+- # 524
+ k: |-1
+  skillxan84
+ v: |-1
+   
+
+- # 525
+ k: |-1
+  skillxname85
+ v: |-1
+   
+
+- # 526
+ k: |-1
+  skillxsd85
+ v: |-1
+   
+
+- # 527
+ k: |-1
+  skillxld85
+ v: |-1
+   
+
+- # 528
+ k: |-1
+  skillxan85
+ v: |-1
+   
+
+- # 529
+ k: |-1
+  skillxname86
+ v: |-1
+   
+
+- # 530
+ k: |-1
+  skillxsd86
+ v: |-1
+   
+
+- # 531
+ k: |-1
+  skillxld86
+ v: |-1
+  this curse may not be overridden by another curse
+  target of all nearby monsters
+  curses a monster to become the
+
+- # 532
+ k: |-1
+  skillxan86
+ v: |-1
+   
+
+- # 533
+ k: |-1
+  skillxname87
+ v: |-1
+   
+
+- # 534
+ k: |-1
+  skillxsd87
+ v: |-1
+   
+
+- # 535
+ k: |-1
+  skillxld87
+ v: |-1
+   
+
+- # 536
+ k: |-1
+  skillxan87
+ v: |-1
+   
+
+- # 537
+ k: |-1
+  skillxname88
+ v: |-1
+   
+
+- # 538
+ k: |-1
+  skillxsd88
+ v: |-1
+   
+
+- # 539
+ k: |-1
+  skillxld88
+ v: |-1
+   
+
+- # 540
+ k: |-1
+  skillxan88
+ v: |-1
+   
+
+- # 541
+ k: |-1
+  skillxname89
+ v: |-1
+   
+
+- # 542
+ k: |-1
+  skillxsd89
+ v: |-1
+   
+
+- # 543
+ k: |-1
+  skillxld89
+ v: |-1
+   
+
+- # 544
+ k: |-1
+  skillxan89
+ v: |-1
+   
+
+- # 545
+ k: |-1
+  skillxname90
+ v: |-1
+   
+
+- # 546
+ k: |-1
+  skillxsd90
+ v: |-1
+   
+
+- # 547
+ k: |-1
+  skillxld90
+ v: |-1
+   
+
+- # 548
+ k: |-1
+  skillxan90
+ v: |-1
+   
+
+- # 549
+ k: |-1
+  skillxname91
+ v: |-1
+   
+
+- # 550
+ k: |-1
+  skillxsd91
+ v: |-1
+   
+
+- # 551
+ k: |-1
+  skillxld91
+ v: |-1
+   
+
+- # 552
+ k: |-1
+  skillxan91
+ v: |-1
+   
+
+- # 553
+ k: |-1
+  skillxname92
+ v: |-1
+   
+
+- # 554
+ k: |-1
+  skillxsd92
+ v: |-1
+   
+
+- # 555
+ k: |-1
+  skillxld92
+ v: |-1
+   
+
+- # 556
+ k: |-1
+  skillxan92
+ v: |-1
+   
+
+- # 557
+ k: |-1
+  skillxname93
+ v: |-1
+   
+
+- # 558
+ k: |-1
+  skillxsd93
+ v: |-1
+   
+
+- # 559
+ k: |-1
+  skillxld93
+ v: |-1
+   
+
+- # 560
+ k: |-1
+  skillxan93
+ v: |-1
+   
+
+- # 561
+ k: |-1
+  skillxname94
+ v: |-1
+   
+
+- # 562
+ k: |-1
+  skillxsd94
+ v: |-1
+   
+
+- # 563
+ k: |-1
+  skillxld94
+ v: |-1
+   
+
+- # 564
+ k: |-1
+  skillxan94
+ v: |-1
+   
+
+- # 565
+ k: |-1
+  skillxname95
+ v: |-1
+   
+
+- # 566
+ k: |-1
+  skillxsd95
+ v: |-1
+   
+
+- # 567
+ k: |-1
+  skillxld95
+ v: |-1
+   
+
+- # 568
+ k: |-1
+  skillxan95
+ v: |-1
+   
+
+- # 569
+ k: |-1
+  skillxname96
+ v: |-1
+   
+
+- # 570
+ k: |-1
+  skillxsd96
+ v: |-1
+   
+
+- # 571
+ k: |-1
+  skillxld96
+ v: |-1
+   
+
+- # 572
+ k: |-1
+  skillxan96
+ v: |-1
+   
+
+- # 573
+ k: |-1
+  skillxname97
+ v: |-1
+   
+
+- # 574
+ k: |-1
+  skillxsd97
+ v: |-1
+   
+
+- # 575
+ k: |-1
+  skillxld97
+ v: |-1
+   
+
+- # 576
+ k: |-1
+  skillxan97
+ v: |-1
+   
+
+- # 577
+ k: |-1
+  skillxname98
+ v: |-1
+   
+
+- # 578
+ k: |-1
+  skillxsd98
+ v: |-1
+   
+
+- # 579
+ k: |-1
+  skillxld98
+ v: |-1
+   
+
+- # 580
+ k: |-1
+  skillxan98
+ v: |-1
+   
+
+- # 581
+ k: |-1
+  skillxname99
+ v: |-1
+   
+
+- # 582
+ k: |-1
+  skillxsd99
+ v: |-1
+   
+
+- # 583
+ k: |-1
+  skillxld99
+ v: |-1
+   
+
+- # 584
+ k: |-1
+  skillxan99
+ v: |-1
+   
+
+- # 585
+ k: |-1
+  skillxname100
+ v: |-1
+   
+
+- # 586
+ k: |-1
+  skillxsd100
+ v: |-1
+   
+
+- # 587
+ k: |-1
+  skillxld100
+ v: |-1
+   
+
+- # 588
+ k: |-1
+  skillxan100
+ v: |-1
+   
+
+- # 589
+ k: |-1
+  skillxname101
+ v: |-1
+   
+
+- # 590
+ k: |-1
+  skillxsd101
+ v: |-1
+   
+
+- # 591
+ k: |-1
+  skillxld101
+ v: |-1
+   
+
+- # 592
+ k: |-1
+  skillxan101
+ v: |-1
+   
+
+- # 593
+ k: |-1
+  skillxname102
+ v: |-1
+   
+
+- # 594
+ k: |-1
+  skillxsd102
+ v: |-1
+   
+
+- # 595
+ k: |-1
+  skillxld102
+ v: |-1
+   
+
+- # 596
+ k: |-1
+  skillxan102
+ v: |-1
+   
+
+- # 597
+ k: |-1
+  skillxname103
+ v: |-1
+   
+
+- # 598
+ k: |-1
+  skillxsd103
+ v: |-1
+   
+
+- # 599
+ k: |-1
+  skillxld103
+ v: |-1
+   
+
+- # 600
+ k: |-1
+  skillxan103
+ v: |-1
+   
+
+- # 601
+ k: |-1
+  skillxname104
+ v: |-1
+   
+
+- # 602
+ k: |-1
+  skillxsd104
+ v: |-1
+   
+
+- # 603
+ k: |-1
+  skillxld104
+ v: |-1
+   
+
+- # 604
+ k: |-1
+  skillxan104
+ v: |-1
+   
+
+- # 605
+ k: |-1
+  skillxname105
+ v: |-1
+   
+
+- # 606
+ k: |-1
+  skillxsd105
+ v: |-1
+   
+
+- # 607
+ k: |-1
+  skillxld105
+ v: |-1
+   
+
+- # 608
+ k: |-1
+  skillxan105
+ v: |-1
+   
+
+- # 609
+ k: |-1
+  skillxname106
+ v: |-1
+   
+
+- # 610
+ k: |-1
+  skillxsd106
+ v: |-1
+   
+
+- # 611
+ k: |-1
+  skillxld106
+ v: |-1
+   
+
+- # 612
+ k: |-1
+  skillxan106
+ v: |-1
+   
+
+- # 613
+ k: |-1
+  skillxname107
+ v: |-1
+   
+
+- # 614
+ k: |-1
+  skillxsd107
+ v: |-1
+   
+
+- # 615
+ k: |-1
+  skillxld107
+ v: |-1
+   
+
+- # 616
+ k: |-1
+  skillxan107
+ v: |-1
+   
+
+- # 617
+ k: |-1
+  skillxname108
+ v: |-1
+   
+
+- # 618
+ k: |-1
+  skillxsd108
+ v: |-1
+   
+
+- # 619
+ k: |-1
+  skillxld108
+ v: |-1
+   
+
+- # 620
+ k: |-1
+  skillxan108
+ v: |-1
+   
+
+- # 621
+ k: |-1
+  skillxname109
+ v: |-1
+   
+
+- # 622
+ k: |-1
+  skillxsd109
+ v: |-1
+   
+
+- # 623
+ k: |-1
+  skillxld109
+ v: |-1
+   
+
+- # 624
+ k: |-1
+  skillxan109
+ v: |-1
+   
+
+- # 625
+ k: |-1
+  skillxname110
+ v: |-1
+   
+
+- # 626
+ k: |-1
+  skillxsd110
+ v: |-1
+   
+
+- # 627
+ k: |-1
+  skillxld110
+ v: |-1
+   
+
+- # 628
+ k: |-1
+  skillxan110
+ v: |-1
+   
+
+- # 629
+ k: |-1
+  skillxname111
+ v: |-1
+   
+
+- # 630
+ k: |-1
+  skillxsd111
+ v: |-1
+   
+
+- # 631
+ k: |-1
+  skillxld111
+ v: |-1
+   
+
+- # 632
+ k: |-1
+  skillxan111
+ v: |-1
+   
+
+- # 633
+ k: |-1
+  skillxname112
+ v: |-1
+   
+
+- # 634
+ k: |-1
+  skillxsd112
+ v: |-1
+   
+
+- # 635
+ k: |-1
+  skillxld112
+ v: |-1
+   
+
+- # 636
+ k: |-1
+  skillxan112
+ v: |-1
+   
+
+- # 637
+ k: |-1
+  skillxname113
+ v: |-1
+   
+
+- # 638
+ k: |-1
+  skillxsd113
+ v: |-1
+   
+
+- # 639
+ k: |-1
+  skillxld113
+ v: |-1
+   
+
+- # 640
+ k: |-1
+  skillxan113
+ v: |-1
+   
+
+- # 641
+ k: |-1
+  skillxname114
+ v: |-1
+   
+
+- # 642
+ k: |-1
+  skillxsd114
+ v: |-1
+   
+
+- # 643
+ k: |-1
+  skillxld114
+ v: |-1
+   
+
+- # 644
+ k: |-1
+  skillxan114
+ v: |-1
+   
+
+- # 645
+ k: |-1
+  skillxname115
+ v: |-1
+   
+
+- # 646
+ k: |-1
+  skillxsd115
+ v: |-1
+   
+
+- # 647
+ k: |-1
+  skillxld115
+ v: |-1
+   
+
+- # 648
+ k: |-1
+  skillxan115
+ v: |-1
+   
+
+- # 649
+ k: |-1
+  skillxname116
+ v: |-1
+   
+
+- # 650
+ k: |-1
+  skillxsd116
+ v: |-1
+   
+
+- # 651
+ k: |-1
+  skillxld116
+ v: |-1
+   
+
+- # 652
+ k: |-1
+  skillxan116
+ v: |-1
+   
+
+- # 653
+ k: |-1
+  skillxname117
+ v: |-1
+   
+
+- # 654
+ k: |-1
+  skillxsd117
+ v: |-1
+   
+
+- # 655
+ k: |-1
+  skillxld117
+ v: |-1
+   
+
+- # 656
+ k: |-1
+  skillxan117
+ v: |-1
+   
+
+- # 657
+ k: |-1
+  skillxname118
+ v: |-1
+   
+
+- # 658
+ k: |-1
+  skillxsd118
+ v: |-1
+   
+
+- # 659
+ k: |-1
+  skillxld118
+ v: |-1
+  adds lightning damage to your attack
+  to damage nearby enemies
+  when active, aura causes pulses of electricity
+
+- # 660
+ k: |-1
+  skillxan118
+ v: |-1
+   
+
+- # 661
+ k: |-1
+  skillxname119
+ v: |-1
+   
+
+- # 662
+ k: |-1
+  skillxsd119
+ v: |-1
+   
+
+- # 663
+ k: |-1
+  skillxld119
+ v: |-1
+   
+
+- # 664
+ k: |-1
+  skillxan119
+ v: |-1
+   
+
+- # 665
+ k: |-1
+  skillxname120
+ v: |-1
+   
+
+- # 666
+ k: |-1
+  skillxsd120
+ v: |-1
+   
+
+- # 667
+ k: |-1
+  skillxld120
+ v: |-1
+   
+
+- # 668
+ k: |-1
+  skillxan120
+ v: |-1
+   
+
+- # 669
+ k: |-1
+  skillxname121
+ v: |-1
+   
+
+- # 670
+ k: |-1
+  skillxsd121
+ v: |-1
+   
+
+- # 671
+ k: |-1
+  skillxld121
+ v: |-1
+   
+
+- # 672
+ k: |-1
+  skillxan121
+ v: |-1
+   
+
+- # 673
+ k: |-1
+  skillxname122
+ v: |-1
+   
+
+- # 674
+ k: |-1
+  skillxsd122
+ v: |-1
+  aura - increases attack speed and damage
+
+- # 675
+ k: |-1
+  skillxld122
+ v: |-1
+  and attack rating for you and your party
+  when active, aura increases damage, attack speed,
+
+- # 676
+ k: |-1
+  skillxan122
+ v: |-1
+   
+
+- # 677
+ k: |-1
+  skillxname123
+ v: |-1
+   
+
+- # 678
+ k: |-1
+  skillxsd123
+ v: |-1
+  aura - weakens enemies
+
+- # 679
+ k: |-1
+  skillxld123
+ v: |-1
+   
+
+- # 680
+ k: |-1
+  skillxan123
+ v: |-1
+   
+
+- # 681
+ k: |-1
+  skillxname124
+ v: |-1
+   
+
+- # 682
+ k: |-1
+  skillxsd124
+ v: |-1
+   
+
+- # 683
+ k: |-1
+  skillxld124
+ v: |-1
+  you life and mana
+  the souls of slain enemies to give
+  when active, aura attempts to redeem
+
+- # 684
+ k: |-1
+  skillxan124
+ v: |-1
+   
+
+- # 685
+ k: |-1
+  skillxname125
+ v: |-1
+   
+
+- # 686
+ k: |-1
+  skillxsd125
+ v: |-1
+   
+
+- # 687
+ k: |-1
+  skillxld125
+ v: |-1
+   
+
+- # 688
+ k: |-1
+  skillxan125
+ v: |-1
+   
+
+- # 689
+ k: |-1
+  skillxname126
+ v: |-1
+   
+
+- # 690
+ k: |-1
+  skillxsd126
+ v: |-1
+   
+
+- # 691
+ k: |-1
+  skillxld126
+ v: |-1
+   
+
+- # 692
+ k: |-1
+  skillxan126
+ v: |-1
+   
+
+- # 693
+ k: |-1
+  skillxname127
+ v: |-1
+   
+
+- # 694
+ k: |-1
+  skillxsd127
+ v: |-1
+   
+
+- # 695
+ k: |-1
+  skillxld127
+ v: |-1
+   
+
+- # 696
+ k: |-1
+  skillxan127
+ v: |-1
+   
+
+- # 697
+ k: |-1
+  skillxname128
+ v: |-1
+   
+
+- # 698
+ k: |-1
+  skillxsd128
+ v: |-1
+   
+
+- # 699
+ k: |-1
+  skillxld128
+ v: |-1
+   
+
+- # 700
+ k: |-1
+  skillxan128
+ v: |-1
+   
+
+- # 701
+ k: |-1
+  skillxname129
+ v: |-1
+   
+
+- # 702
+ k: |-1
+  skillxsd129
+ v: |-1
+   
+
+- # 703
+ k: |-1
+  skillxld129
+ v: |-1
+   
+
+- # 704
+ k: |-1
+  skillxan129
+ v: |-1
+   
+
+- # 705
+ k: |-1
+  skillxname130
+ v: |-1
+   
+
+- # 706
+ k: |-1
+  skillxsd130
+ v: |-1
+   
+
+- # 707
+ k: |-1
+  skillxld130
+ v: |-1
+   
+
+- # 708
+ k: |-1
+  skillxan130
+ v: |-1
+   
+
+- # 709
+ k: |-1
+  skillxname131
+ v: |-1
+   
+
+- # 710
+ k: |-1
+  skillxsd131
+ v: |-1
+   
+
+- # 711
+ k: |-1
+  skillxld131
+ v: |-1
+   
+
+- # 712
+ k: |-1
+  skillxan131
+ v: |-1
+   
+
+- # 713
+ k: |-1
+  skillxname132
+ v: |-1
+   
+
+- # 714
+ k: |-1
+  skillxsd132
+ v: |-1
+   
+
+- # 715
+ k: |-1
+  skillxld132
+ v: |-1
+   
+
+- # 716
+ k: |-1
+  skillxan132
+ v: |-1
+   
+
+- # 717
+ k: |-1
+  skillxname133
+ v: |-1
+   
+
+- # 718
+ k: |-1
+  skillxsd133
+ v: |-1
+   
+
+- # 719
+ k: |-1
+  skillxld133
+ v: |-1
+   
+
+- # 720
+ k: |-1
+  skillxan133
+ v: |-1
+   
+
+- # 721
+ k: |-1
+  skillxname134
+ v: |-1
+   
+
+- # 722
+ k: |-1
+  skillxsd134
+ v: |-1
+   
+
+- # 723
+ k: |-1
+  skillxld134
+ v: |-1
+   
+
+- # 724
+ k: |-1
+  skillxan134
+ v: |-1
+   
+
+- # 725
+ k: |-1
+  skillxname135
+ v: |-1
+   
+
+- # 726
+ k: |-1
+  skillxsd135
+ v: |-1
+   
+
+- # 727
+ k: |-1
+  skillxld135
+ v: |-1
+   
+
+- # 728
+ k: |-1
+  skillxan135
+ v: |-1
+   
+
+- # 729
+ k: |-1
+  skillxname136
+ v: |-1
+   
+
+- # 730
+ k: |-1
+  skillxsd136
+ v: |-1
+   
+
+- # 731
+ k: |-1
+  skillxld136
+ v: |-1
+   
+
+- # 732
+ k: |-1
+  skillxan136
+ v: |-1
+   
+
+- # 733
+ k: |-1
+  skillxname137
+ v: |-1
+   
+
+- # 734
+ k: |-1
+  skillxsd137
+ v: |-1
+   
+
+- # 735
+ k: |-1
+  skillxld137
+ v: |-1
+   
+
+- # 736
+ k: |-1
+  skillxan137
+ v: |-1
+   
+
+- # 737
+ k: |-1
+  skillxname138
+ v: |-1
+   
+
+- # 738
+ k: |-1
+  skillxsd138
+ v: |-1
+   
+
+- # 739
+ k: |-1
+  skillxld138
+ v: |-1
+   
+
+- # 740
+ k: |-1
+  skillxan138
+ v: |-1
+   
+
+- # 741
+ k: |-1
+  skillxname139
+ v: |-1
+   
+
+- # 742
+ k: |-1
+  skillxsd139
+ v: |-1
+   
+
+- # 743
+ k: |-1
+  skillxld139
+ v: |-1
+   
+
+- # 744
+ k: |-1
+  skillxan139
+ v: |-1
+   
+
+- # 745
+ k: |-1
+  skillxname140
+ v: |-1
+   
+
+- # 746
+ k: |-1
+  skillxsd140
+ v: |-1
+   
+
+- # 747
+ k: |-1
+  skillxld140
+ v: |-1
+   
+
+- # 748
+ k: |-1
+  skillxan140
+ v: |-1
+   
+
+- # 749
+ k: |-1
+  skillxname141
+ v: |-1
+   
+
+- # 750
+ k: |-1
+  skillxsd141
+ v: |-1
+   
+
+- # 751
+ k: |-1
+  skillxld141
+ v: |-1
+   
+
+- # 752
+ k: |-1
+  skillxan141
+ v: |-1
+   
+
+- # 753
+ k: |-1
+  skillxname142
+ v: |-1
+   
+
+- # 754
+ k: |-1
+  skillxsd142
+ v: |-1
+   
+
+- # 755
+ k: |-1
+  skillxld142
+ v: |-1
+   
+
+- # 756
+ k: |-1
+  skillxan142
+ v: |-1
+   
+
+- # 757
+ k: |-1
+  skillxname143
+ v: |-1
+   
+
+- # 758
+ k: |-1
+  skillxsd143
+ v: |-1
+   
+
+- # 759
+ k: |-1
+  skillxld143
+ v: |-1
+   
+
+- # 760
+ k: |-1
+  skillxan143
+ v: |-1
+   
+
+- # 761
+ k: |-1
+  skillxname144
+ v: |-1
+   
+
+- # 762
+ k: |-1
+  skillxsd144
+ v: |-1
+   
+
+- # 763
+ k: |-1
+  skillxld144
+ v: |-1
+   
+
+- # 764
+ k: |-1
+  skillxan144
+ v: |-1
+   
+
+- # 765
+ k: |-1
+  skillxname145
+ v: |-1
+   
+
+- # 766
+ k: |-1
+  skillxsd145
+ v: |-1
+   
+
+- # 767
+ k: |-1
+  skillxld145
+ v: |-1
+   
+
+- # 768
+ k: |-1
+  skillxan145
+ v: |-1
+   
+
+- # 769
+ k: |-1
+  skillxname146
+ v: |-1
+   
+
+- # 770
+ k: |-1
+  skillxsd146
+ v: |-1
+   
+
+- # 771
+ k: |-1
+  skillxld146
+ v: |-1
+   
+
+- # 772
+ k: |-1
+  skillxan146
+ v: |-1
+   
+
+- # 773
+ k: |-1
+  skillxname147
+ v: |-1
+   
+
+- # 774
+ k: |-1
+  skillxsd147
+ v: |-1
+   
+
+- # 775
+ k: |-1
+  skillxld147
+ v: |-1
+   
+
+- # 776
+ k: |-1
+  skillxan147
+ v: |-1
+   
+
+- # 777
+ k: |-1
+  skillxname148
+ v: |-1
+   
+
+- # 778
+ k: |-1
+  skillxsd148
+ v: |-1
+   
+
+- # 779
+ k: |-1
+  skillxld148
+ v: |-1
+   
+
+- # 780
+ k: |-1
+  skillxan148
+ v: |-1
+   
+
+- # 781
+ k: |-1
+  skillxname149
+ v: |-1
+   
+
+- # 782
+ k: |-1
+  skillxsd149
+ v: |-1
+   
+
+- # 783
+ k: |-1
+  skillxld149
+ v: |-1
+   
+
+- # 784
+ k: |-1
+  skillxan149
+ v: |-1
+   
+
+- # 785
+ k: |-1
+  skillxname150
+ v: |-1
+   
+
+- # 786
+ k: |-1
+  skillxsd150
+ v: |-1
+   
+
+- # 787
+ k: |-1
+  skillxld150
+ v: |-1
+   
+
+- # 788
+ k: |-1
+  skillxan150
+ v: |-1
+   
+
+- # 789
+ k: |-1
+  skillxname151
+ v: |-1
+   
+
+- # 790
+ k: |-1
+  skillxsd151
+ v: |-1
+   
+
+- # 791
+ k: |-1
+  skillxld151
+ v: |-1
+   
+
+- # 792
+ k: |-1
+  skillxan151
+ v: |-1
+   
+
+- # 793
+ k: |-1
+  skillxname152
+ v: |-1
+   
+
+- # 794
+ k: |-1
+  skillxsd152
+ v: |-1
+   
+
+- # 795
+ k: |-1
+  skillxld152
+ v: |-1
+   
+
+- # 796
+ k: |-1
+  skillxan152
+ v: |-1
+   
+
+- # 797
+ k: |-1
+  skillxname153
+ v: |-1
+   
+
+- # 798
+ k: |-1
+  skillxsd153
+ v: |-1
+   
+
+- # 799
+ k: |-1
+  skillxld153
+ v: |-1
+   
+
+- # 800
+ k: |-1
+  skillxan153
+ v: |-1
+   
+
+- # 801
+ k: |-1
+  skillxname154
+ v: |-1
+   
+
+- # 802
+ k: |-1
+  skillxsd154
+ v: |-1
+   
+
+- # 803
+ k: |-1
+  skillxld154
+ v: |-1
+   
+
+- # 804
+ k: |-1
+  skillxan154
+ v: |-1
+   
+
+- # 805
+ k: |-1
+  skillxname155
+ v: |-1
+   
+
+- # 806
+ k: |-1
+  skillxsd155
+ v: |-1
+   
+
+- # 807
+ k: |-1
+  skillxld155
+ v: |-1
+   
+
+- # 808
+ k: |-1
+  skillxan155
+ v: |-1
+   
+
+- # 809
+ k: |-1
+  strHostileTimeout
+ v: |-1
+  You must wait a short time to declare hostility with that player.
+
+- # 810
+ k: |-1
+  ShrId0
+ v: |-1
+  Null Shrine
+
+- # 811
+ k: |-1
+  ShrId1
+ v: |-1
+  Refilling Shrine
+
+- # 812
+ k: |-1
+  ShrId2
+ v: |-1
+  Health Shrine
+
+- # 813
+ k: |-1
+  ShrId3
+ v: |-1
+  Mana Shrine
+
+- # 814
+ k: |-1
+  ShrId4
+ v: |-1
+  Health Exchange Shrine
+
+- # 815
+ k: |-1
+  ShrId5
+ v: |-1
+  Mana Exchange Shrine
+
+- # 816
+ k: |-1
+  ShrId6
+ v: |-1
+  Armor Shrine
+
+- # 817
+ k: |-1
+  ShrId7
+ v: |-1
+  Combat Shrine
+
+- # 818
+ k: |-1
+  ShrId8
+ v: |-1
+  Resist Fire Shrine
+
+- # 819
+ k: |-1
+  ShrId9
+ v: |-1
+  Resist Cold Shrine
+
+- # 820
+ k: |-1
+  ShrId10
+ v: |-1
+  Resist Lightning Shrine
+
+- # 821
+ k: |-1
+  ShrId11
+ v: |-1
+  Resist Poison Shrine
+
+- # 822
+ k: |-1
+  ShrId12
+ v: |-1
+  Skill Shrine
+
+- # 823
+ k: |-1
+  ShrId13
+ v: |-1
+  Mana Recharge Shrine
+
+- # 824
+ k: |-1
+  ShrId14
+ v: |-1
+  Stamina Shrine
+
+- # 825
+ k: |-1
+  ShrId15
+ v: |-1
+  Experience Shrine
+
+- # 826
+ k: |-1
+  ShrId16
+ v: |-1
+  Enirhs Shrine
+
+- # 827
+ k: |-1
+  ShrId17
+ v: |-1
+  Portal Shrine
+
+- # 828
+ k: |-1
+  ShrId18
+ v: |-1
+  Gem Shrine
+
+- # 829
+ k: |-1
+  ShrId19
+ v: |-1
+  Fire Shrine
+
+- # 830
+ k: |-1
+  ShrId20
+ v: |-1
+  Monster Shrine
+
+- # 831
+ k: |-1
+  ShrId21
+ v: |-1
+  Exploding Shrine
+
+- # 832
+ k: |-1
+  ShrId22
+ v: |-1
+  Poison Shrine
+
+- # 833
+ k: |-1
+  x
+ v: |-1
+  create new
+
+- # 834
+ k: |-1
+  CfgSkillPick
+ v: |-1
+  Skill Speed Bar
+
+- # 835
+ k: |-1
+  x
+ v: |-1
+  Verify Password
+
+- # 836
+ k: |-1
+  MercX101
+ v: |-1
+  Varaya
+
+- # 837
+ k: |-1
+  MercX102
+ v: |-1
+  Khan
+
+- # 838
+ k: |-1
+  MercX103
+ v: |-1
+  Klisk
+
+- # 839
+ k: |-1
+  MercX104
+ v: |-1
+  Bors
+
+- # 840
+ k: |-1
+  MercX105
+ v: |-1
+  Brom
+
+- # 841
+ k: |-1
+  MercX106
+ v: |-1
+  Wiglaf
+
+- # 842
+ k: |-1
+  MercX107
+ v: |-1
+  Hrothgar
+
+- # 843
+ k: |-1
+  MercX108
+ v: |-1
+  Scyld
+
+- # 844
+ k: |-1
+  MercX109
+ v: |-1
+  Healfdane
+
+- # 845
+ k: |-1
+  MercX110
+ v: |-1
+  Heorogar
+
+- # 846
+ k: |-1
+  MercX111
+ v: |-1
+  Halgaunt
+
+- # 847
+ k: |-1
+  MercX112
+ v: |-1
+  Hygelac
+
+- # 848
+ k: |-1
+  MercX113
+ v: |-1
+  Egtheow
+
+- # 849
+ k: |-1
+  MercX114
+ v: |-1
+  Bohdan
+
+- # 850
+ k: |-1
+  MercX115
+ v: |-1
+  Wulfgar
+
+- # 851
+ k: |-1
+  MercX116
+ v: |-1
+  Hild
+
+- # 852
+ k: |-1
+  MercX117
+ v: |-1
+  Heatholaf
+
+- # 853
+ k: |-1
+  MercX118
+ v: |-1
+  Weder
+
+- # 854
+ k: |-1
+  MercX119
+ v: |-1
+  Vikhyat
+
+- # 855
+ k: |-1
+  MercX120
+ v: |-1
+  Unferth
+
+- # 856
+ k: |-1
+  MercX121
+ v: |-1
+  Sigemund
+
+- # 857
+ k: |-1
+  MercX122
+ v: |-1
+  Heremod
+
+- # 858
+ k: |-1
+  MercX123
+ v: |-1
+  Hengest
+
+- # 859
+ k: |-1
+  MercX124
+ v: |-1
+  Folcwald
+
+- # 860
+ k: |-1
+  MercX125
+ v: |-1
+  Frisian
+
+- # 861
+ k: |-1
+  MercX126
+ v: |-1
+  Bashir
+
+- # 862
+ k: |-1
+  MercX127
+ v: |-1
+  Guthlaf
+
+- # 863
+ k: |-1
+  MercX128
+ v: |-1
+  Oslaf
+
+- # 864
+ k: |-1
+  MercX129
+ v: |-1
+  Yrmenlaf
+
+- # 865
+ k: |-1
+  MercX130
+ v: |-1
+  Garmund
+
+- # 866
+ k: |-1
+  MercX131
+ v: |-1
+  Lanth
+
+- # 867
+ k: |-1
+  MercX132
+ v: |-1
+  Eadgils
+
+- # 868
+ k: |-1
+  MercX133
+ v: |-1
+  Onela
+
+- # 869
+ k: |-1
+  MercX134
+ v: |-1
+  Damien
+
+- # 870
+ k: |-1
+  MercX135
+ v: |-1
+  Erfor
+
+- # 871
+ k: |-1
+  MercX136
+ v: |-1
+  Weohstan
+
+- # 872
+ k: |-1
+  MercX137
+ v: |-1
+  Wulf
+
+- # 873
+ k: |-1
+  MercX138
+ v: |-1
+  Bulwye
+
+- # 874
+ k: |-1
+  MercX139
+ v: |-1
+  Lief
+
+- # 875
+ k: |-1
+  MercX140
+ v: |-1
+  Magnus
+
+- # 876
+ k: |-1
+  MercX141
+ v: |-1
+  Klatu
+
+- # 877
+ k: |-1
+  MercX142
+ v: |-1
+  Drus
+
+- # 878
+ k: |-1
+  MercX143
+ v: |-1
+  Hoku
+
+- # 879
+ k: |-1
+  MercX144
+ v: |-1
+  Kord
+
+- # 880
+ k: |-1
+  MercX145
+ v: |-1
+  Uther
+
+- # 881
+ k: |-1
+  MercX146
+ v: |-1
+  Ip
+
+- # 882
+ k: |-1
+  MercX147
+ v: |-1
+  Ulf
+
+- # 883
+ k: |-1
+  MercX148
+ v: |-1
+  Tharr
+
+- # 884
+ k: |-1
+  MercX149
+ v: |-1
+  Kaelim
+
+- # 885
+ k: |-1
+  MercX150
+ v: |-1
+  Ulric
+
+- # 886
+ k: |-1
+  MercX151
+ v: |-1
+  Alaric
+
+- # 887
+ k: |-1
+  MercX152
+ v: |-1
+  Ethelred
+
+- # 888
+ k: |-1
+  MercX153
+ v: |-1
+  Caden
+
+- # 889
+ k: |-1
+  MercX154
+ v: |-1
+  Elgifu
+
+- # 890
+ k: |-1
+  MercX155
+ v: |-1
+  Tostig
+
+- # 891
+ k: |-1
+  MercX156
+ v: |-1
+  Alcuin
+
+- # 892
+ k: |-1
+  MercX157
+ v: |-1
+  Emund
+
+- # 893
+ k: |-1
+  MercX158
+ v: |-1
+  Sigurd
+
+- # 894
+ k: |-1
+  MercX159
+ v: |-1
+  Gorm
+
+- # 895
+ k: |-1
+  MercX160
+ v: |-1
+  Hollis
+
+- # 896
+ k: |-1
+  MercX161
+ v: |-1
+  Ragnar
+
+- # 897
+ k: |-1
+  MercX162
+ v: |-1
+  Torkel
+
+- # 898
+ k: |-1
+  MercX163
+ v: |-1
+  Wulfstan
+
+- # 899
+ k: |-1
+  MercX164
+ v: |-1
+  Alban
+
+- # 900
+ k: |-1
+  MercX165
+ v: |-1
+  Barloc
+
+- # 901
+ k: |-1
+  MercX166
+ v: |-1
+  Bill
+
+- # 902
+ k: |-1
+  MercX167
+ v: |-1
+  Theodoric
+
+- # 903
+ k: |-1
+  r16
+ v: |-1
+  \purple;Io Rune
+
+- # 904
+ k: |-1
+  r16L
+ v: |-1
+  Io
+
+- # 905
+ k: |-1
+  r13
+ v: |-1
+  \purple;Shael Rune
+
+- # 906
+ k: |-1
+  r13L
+ v: |-1
+  Shael
+
+- # 907
+ k: |-1
+  r31
+ v: |-1
+  \purple;Jah Rune
+
+- # 908
+ k: |-1
+  r31L
+ v: |-1
+  Jah
+
+- # 909
+ k: |-1
+  DarkStalker
+ v: |-1
+  Dark Stalker
+
+- # 910
+ k: |-1
+  VileArcher
+ v: |-1
+  Vile Archer
+
+- # 911
+ k: |-1
+  Runeword22
+ v: |-1
+  Delirium
+
+- # 912
+ k: |-1
+  Whichwild String
+ v: |-1
+  Witchwild String
+
+- # 913
+ k: |-1
+  x
+ v: |-1
+  This application was installed using a Lord of Destruction CD Key which is not authorized for Battle.net use.
+
+- # 914
+ k: |-1
+  x
+ v: |-1
+  The Lord of Destruction CD Key that you installed with has been disabled. Please contact Blizzard Entertainment Technical Support for further assistance.
+
+- # 915
+ k: |-1
+  x
+ v: |-1
+  Your Lord of Destruction CD key is currently being used by:
+
+- # 916
+ k: |-1
+  x
+ v: |-1
+  The Lord of Destruction CD key used to install this application was intended for another product. Please reinstall this application using the correct CD key.
+
+- # 917
+ k: |-1
+  Playersubtitles29
+ v: |-1
+  Retreat!
+
+- # 918
+ k: |-1
+  AmaOnly
+ v: |-1
+  (Amazon Only)
+
+- # 919
+ k: |-1
+  SorOnly
+ v: |-1
+  (Sorceress Only)
+
+- # 920
+ k: |-1
+  NecOnly
+ v: |-1
+  (Necromancer Only)
+
+- # 921
+ k: |-1
+  PalOnly
+ v: |-1
+  (Paladin Only)
+
+- # 922
+ k: |-1
+  BarOnly
+ v: |-1
+  (Barbarian Only)
+
+- # 923
+ k: |-1
+  DruOnly
+ v: |-1
+  (Druid Only)
+
+- # 924
+ k: |-1
+  AssOnly
+ v: |-1
+  (Assassin Only)
+
+- # 925
+ k: |-1
+  Chatcaps
+ v: |-1
+  CHAT
+
+- # 926
+ k: |-1
+  Newscaps
+ v: |-1
+  NEWS
+
+- # 927
+ k: |-1
+  Laddercaps
+ v: |-1
+  LADDER
+
+- # 928
+ k: |-1
+  LaddeCharacter
+ v: |-1
+  Ladder Character
+
+- # 929
+ k: |-1
+  x
+ v: |-1
+  A Ladder Character can only be played with other Ladder characters during the Ladder Season when it was created. After the Ladder Season is over, then the Ladder character will become a Non-Ladder Character. Continue?
+
+- # 930
+ k: |-1
+  x
+ v: |-1
+  Unable to enter game. A Non-Ladder character cannot join a game created by a Ladder character.
+
+- # 931
+ k: |-1
+  x
+ v: |-1
+  Unable to enter game. A Ladder character cannot join a game created by a Non-Ladder character.
+
+- # 932
+ k: |-1
+  Sksyn
+ v: |-1
+  Synergies
+
+- # 933
+ k: |-1
+  Damplev
+ v: |-1
+  % Physical Damage per Base Level
+
+- # 934
+ k: |-1
+  ElemDampLev
+ v: |-1
+  Elemental Damage per Level
+
+- # 935
+ k: |-1
+  Firedplev
+ v: |-1
+  Fire Damage per Level
+
+- # 936
+ k: |-1
+  Colddplev
+ v: |-1
+  Cold Damage per Level
+
+- # 937
+ k: |-1
+  Ltngdplev
+ v: |-1
+  Lightning Damage per Level
+
+- # 938
+ k: |-1
+  Poisdplev
+ v: |-1
+  % Poison Damage per Base Level
+
+- # 939
+ k: |-1
+  Magdplev
+ v: |-1
+  Magic Damage per Level
+
+- # 940
+ k: |-1
+  Rangplev
+ v: |-1
+  Yards per Level
+
+- # 941
+ k: |-1
+  RateFireplev
+ v: |-1
+  Rate of Fire per Level
+
+- # 942
+ k: |-1
+  AttRateplev
+ v: |-1
+  Attack Rating per Level
+
+- # 943
+ k: |-1
+  AttSpeedplev
+ v: |-1
+  Attack Speed per Level
+
+- # 944
+ k: |-1
+  Defplev
+ v: |-1
+  Defense per Level
+
+- # 945
+ k: |-1
+  Manacoredplev
+ v: |-1
+  Mana Cost per Level
+
+- # 946
+ k: |-1
+  Missplev1
+ v: |-1
+  Missiles per Level
+
+- # 947
+ k: |-1
+  Missplev2
+ v: |-1
+  +1 Missile per Level
+
+- # 948
+ k: |-1
+  Missplev3
+ v: |-1
+  +1 Missile per %d Levels
+
+- # 949
+ k: |-1
+  Boltplev1
+ v: |-1
+  Bolts per Level
+
+- # 950
+ k: |-1
+  Boltplev2
+ v: |-1
+  +1 Bolt per Level
+
+- # 951
+ k: |-1
+  Boltplev3
+ v: |-1
+  +1 Bolt per %d Levels
+
+- # 952
+ k: |-1
+  Shotplev1
+ v: |-1
+  Shots per Level
+
+- # 953
+ k: |-1
+  Shotplev2
+ v: |-1
+  +1 Shot per Level
+
+- # 954
+ k: |-1
+  Shotplev3
+ v: |-1
+  +1 Shot per %d Levels
+
+- # 955
+ k: |-1
+  Hpplev
+ v: |-1
+  Life per Level
+
+- # 956
+ k: |-1
+  WRSpeedplev
+ v: |-1
+  Walk/Run Speed per Level
+
+- # 957
+ k: |-1
+  Durateplev
+ v: |-1
+  Duration per Level
+
+- # 958
+ k: |-1
+  CoLenplev
+ v: |-1
+  Cold Length per Level
+
+- # 959
+ k: |-1
+  FrezLenplev
+ v: |-1
+  Freeze Length per Level
+
+- # 960
+ k: |-1
+  PoisLenplev
+ v: |-1
+  Poison Length per Level
+
+- # 961
+ k: |-1
+  Convphy2magplev
+ v: |-1
+  Converts %d%% Physical Damage to Magic per Level
+
+- # 962
+ k: |-1
+  Convphy2elemplev
+ v: |-1
+  Converts %d%% Physical Damage to Elemental per Level
+
+- # 963
+ k: |-1
+  Convphy2magalt
+ v: |-1
+  Converts %d%% Physical Damage to Elemental
+
+- # 964
+ k: |-1
+  Convphy2elemalt
+ v: |-1
+  Converts %d%% Physical Damage to Magic
+
+- # 965
+ k: |-1
+  Secplev1
+ v: |-1
+  Second per Level
+
+- # 966
+ k: |-1
+  Secplev2
+ v: |-1
+  Seconds per Level
+
+- # 967
+ k: |-1
+  Damabsplev
+ v: |-1
+  Damage Absorbed per Level
+
+- # 968
+ k: |-1
+  WeapDamsk
+ v: |-1
+  Weapon Damage
+
+- # 969
+ k: |-1
+  Hbdplev
+ v: |-1
+  Holy Bolt Damage per Level
+
+- # 970
+ k: |-1
+  Healplev
+ v: |-1
+  Life Healed per Level
+
+- # 971
+ k: |-1
+  Healplev2
+ v: |-1
+  Life Healed Every 2 Seconds
+
+- # 972
+ k: |-1
+  FanYDam
+ v: |-1
+  Your Damage: 
+
+- # 973
+ k: |-1
+  PartDam
+ v: |-1
+  Party Damage: 
+
+- # 974
+ k: |-1
+  AFDImm
+ v: |-1
+  Average Fire Damage per Second per Level
+
+- # 975
+ k: |-1
+  Cgslow
+ v: |-1
+  Slows Enemies: 
+
+- # 976
+ k: |-1
+  Corexpdam
+ v: |-1
+  Corpse Explosion Damage: 
+
+- # 977
+ k: |-1
+  ModitemAura
+ v: |-1
+  Level %d %s Aura When Equipped
+
+- # 978
+ k: |-1
+  Moditem2allattrib
+ v: |-1
+  to all Attributes
+
+- # 979
+ k: |-1
+  Moditem2ExpG
+ v: |-1
+  to Experience Gained
+
+- # 980
+ k: |-1
+  ModitemHPaK
+ v: |-1
+  Life after each Kill
+
+- # 981
+ k: |-1
+  ModitemRedVendP
+ v: |-1
+  to All Vendor Prices
+
+- # 982
+ k: |-1
+  ModitemSMRIP
+ v: |-1
+  Slain Monsters Rest in Peace
+
+- # 983
+ k: |-1
+  ModitemAttratvsM
+ v: |-1
+  to Attack Rating versus
+
+- # 984
+ k: |-1
+  Moditemdamvsm
+ v: |-1
+  to Damage versus
+
+- # 985
+ k: |-1
+  Moditemslayat
+ v: |-1
+  Slaying:
+
+- # 986
+ k: |-1
+  Moditemreanimas
+ v: |-1
+  Reanimate as:
+
+- # 987
+ k: |-1
+  Moditemenrescoldsk
+ v: |-1
+  to Enemy Cold Resistance
+
+- # 988
+ k: |-1
+  Moditemenresfiresk
+ v: |-1
+  to Enemy Fire Resistance
+
+- # 989
+ k: |-1
+  Moditemenresltngsk
+ v: |-1
+  to Enemy Lightning Resistance
+
+- # 990
+ k: |-1
+  Moditemenrespoissk
+ v: |-1
+  to Enemy Poison Resistance
+
+- # 991
+ k: |-1
+  ModitemdamFiresk
+ v: |-1
+  to Fire Spell Damage
+
+- # 992
+ k: |-1
+  ModitemdamColdsk
+ v: |-1
+  to Cold Spell Damage
+
+- # 993
+ k: |-1
+  ModitemdamLtngsk
+ v: |-1
+  to Lightning Spell Damage
+
+- # 994
+ k: |-1
+  ModitemdamPoissk
+ v: |-1
+  to Poison Spell Damage
+
+- # 995
+ k: |-1
+  Moditemskondeath
+ v: |-1
+  %d%% Chance to cast level %d %s when you Die
+
+- # 996
+ k: |-1
+  ModitemskonLevel
+ v: |-1
+  %d%% Chance to cast level %d %s when you Level-Up
+
+- # 997
+ k: |-1
+  ModitemskonKill
+ v: |-1
+  %d%% Chance to cast level %d %s on Kill
+
+- # 998
+ k: |-1
+  Skillname224
+ v: |-1
+  Werewolf
+
+- # 999
+ k: |-1
+  Skillsd224
+ v: |-1
+  transform into a werewolf
+
+- # 1000
+ k: |-1
+  Skillld224
+ v: |-1
+  transform into a werewolf
+
+- # 1001
+ k: |-1
+  Skillan224
+ v: |-1
+  Werewolf
+
+- # 1002
+ k: |-1
+  StrSkill43a
+ v: |-1
+   skeleton mage
+
+- # 1003
+ k: |-1
+  StrSkill44a
+ v: |-1
+   skeleton magi
+
+- # 1004
+ k: |-1
+  StrSklTabItem9
+ v: |-1
+  +%d to Summoning Skills
+
+- # 1005
+ k: |-1
+  SOJSold
+ v: |-1
+  %d Stones of Jordan Sold to Merchants
+
+- # 1006
+ k: |-1
+  DiabloWalksEarth
+ v: |-1
+  Diablo Walks the Earth
+
+- # 1007
+ k: |-1
+  neg
+ v: |-1
+  Hellspawn Skull
+
+- # 1008
+ k: |-1
+  TrappDoor
+ v: |-1
+  Trap Door
+
+- # 1009
+ k: |-1
+  uhf
+ v: |-1
+  Legendary Mallet
+
+- # 1010
+ k: |-1
+  skillxld124P
+ v: |-1
+  your life and mana
+  the souls of slain enemies to give
+  when active, aura attempts to redeem
+
+- # 1011
+ k: |-1
+  7wa
+ v: |-1
+  Berserker Axe
+
+- # 1012
+ k: |-1
+  skillld42
+ v: |-1
+  of all nearby enemies
+  creates an electrical field that reduces life
+
+- # 1013
+ k: |-1
+  xhg
+ v: |-1
+  War Gauntlets
+
+- # 1014
+ k: |-1
+  Fiendra
+ v: |-1
+  Fiend
+
+- # 1015
+ k: |-1
+  Wraithra
+ v: |-1
+  Wraith
+
+- # 1016
+ k: |-1
+  Fiend
+ v: |-1
+  Fiend
+
+- # 1017
+ k: |-1
+  Wraith
+ v: |-1
+  Wraith
+
+- # 1018
+ k: |-1
+  D2bnetHelp10
+ v: |-1
+  \blue;Blue Text\gold; represents actions that have been taken by people in the chat Channel.
+
+- # 1019
+ k: |-1
+  ItemStats1r
+ v: |-1
+  Chance to Block: 
+
+- # 1020
+ k: |-1
+  x
+ v: |-1
+  Server is Full
+
+- # 1021
+ k: |-1
+  x
+ v: |-1
+  No new games can be created right now, Please Join a game or try later.
+
+- # 1022
+ k: |-1
+  merca239
+ v: |-1
+  Jarulf
+
+- # 1023
+ k: |-1
+  StrSkill63Patch
+ v: |-1
+  over 
+
+- # 1024
+ k: |-1
+  x
+ v: |-1
+  You are in line to create a game. Try joining a game to avoid waiting.
+
+- # 1025
+ k: |-1
+  X
+ v: |-1
+  Game Queue
+
+- # 1026
+ k: |-1
+  x
+ v: |-1
+  Too many games have been created. Please join one instead or await your turn in the Game Queue
+
+- # 1027
+ k: |-1
+  x
+ v: |-1
+  Your position in line is: 
+
+- # 1028
+ k: |-1
+  x
+ v: |-1
+  In the Game Queue
+
+- # 1029
+ k: |-1
+  9bl
+ v: |-1
+  Stiletto
+
+- # 1030
+ k: |-1
+  eats and spits corpses
+ v: |-1
+  Eats and Spits Corpses
+
+- # 1031
+ k: |-1
+  qstsa2q63f
+ v: |-1
+  Explore Tal Rasha's Tomb
+
+- # 1032
+ k: |-1
+  Shocking Hit
+ v: |-1
+  Shocking Hit
+
+- # 1033
+ k: |-1
+  11032
+ v: |-1
+  Shower of Rocks: Cooldown reduced by 1.5 seconds
+
+- # 1034
+ k: |-1
+  ModStrCuck1
+ v: |-1
+  unused
+
+- # 1035
+ k: |-1
+  ModStr3u
+ v: |-1
+  Hit Causes Monster to Flee
+
+- # 1036
+ k: |-1
+  ModStr4c
+ v: |-1
+  Bonus to Attack Rating
+
+- # 1037
+ k: |-1
+  11036
+ v: |-1
+  Eviscerate: +2 Projectiles
+
+- # 1038
+ k: |-1
+  ModStr6f
+ v: |-1
+  Chance to Reanimate Target
+
+- # 1039
+ k: |-1
+  ModStr6d
+ v: |-1
+  Hit Blinds Target
+
+- # 1040
+ k: |-1
+  x
+ v: |-1
+  Enter Host IP Address to Join Game
+
+- # 1041
+ k: |-1
+  StrSkill61
+ v: |-1
+  Multiple Hits
+
+- # 1042
+ k: |-1
+  D2bnetHelp13c
+ v: |-1
+  /reply
+
+- # 1043
+ k: |-1
+  D2bnethelp13d
+ v: |-1
+  Allows you to reply to a whisper without typing the account name
+
+- # 1044
+ k: |-1
+  D2bnetHelp52
+ v: |-1
+  /whisper, /msg, /reply
+
+- # 1045
+ k: |-1
+  D2bnetHelp10a
+ v: |-1
+  \yellow; Yellow Text\gold; represents special messages sent directly from battle.net
+
+- # 1046
+ k: |-1
+  BnetnewGameTime
+ v: |-1
+  Game Time:
+
+- # 1047
+ k: |-1
+  D2bnetHelp12c
+ v: |-1
+  When using advanced commands, you may also use character names for people in the same Realm, and character names @Realm for people in another Realm.
+
+- # 1048
+ k: |-1
+  D2bnetHelp12d
+ v: |-1
+  You must use *account names for anyone on battle.net including people in a different game such as Starcraft.
+
+- # 1049
+ k: |-1
+  D2bnetHelp12b
+ v: |-1
+  Wherever a command below calls for the use of <accountname>, please use either <charactername>, <charactername@Realm>, or <*accountname>.
+
+- # 1050
+ k: |-1
+  x
+ v: |-1
+  GATEWAY: %s
+
+- # 1051
+ k: |-1
+  x
+ v: |-1
+  change password
+
+- # 1052
+ k: |-1
+  x
+ v: |-1
+  Change Password
+
+- # 1053
+ k: |-1
+  x
+ v: |-1
+  Current Password
+
+- # 1054
+ k: |-1
+  x
+ v: |-1
+  New Password
+
+- # 1055
+ k: |-1
+  x
+ v: |-1
+  Verify New Password
+
+- # 1056
+ k: |-1
+  x
+ v: |-1
+  SELECT GATEWAY
+
+- # 1057
+ k: |-1
+  x
+ v: |-1
+  If the current gateway does not best represent your location, select another Battle.net gateway connection.
+
+- # 1058
+ k: |-1
+  x
+ v: |-1
+  CHANGE REALM
+
+- # 1059
+ k: |-1
+  x
+ v: |-1
+  Current Realm
+
+- # 1060
+ k: |-1
+  x
+ v: |-1
+  A character named '%s' already exists in this Realm.
+
+- # 1061
+ k: |-1
+  D2bnetHelp6a
+ v: |-1
+  \dgrey;Gray Text\gold; also represents actions that have been taken by people in the chat Channel.
+
+- # 1062
+ k: |-1
+  D2bnetHelp10aPatch
+ v: |-1
+  \blue;Blue Text\gold; represents special messages sent directly from battle.net or messages from a Blizzard Representative.
+
+- # 1063
+ k: |-1
+  x
+ v: |-1
+  SEND
+
+- # 1064
+ k: |-1
+  x
+ v: |-1
+  PASSWORD WARNING
+
+- # 1065
+ k: |-1
+  x
+ v: |-1
+  You are about to send your password to another user on Battle.net. Blizzard will never ask you for your password for any reason.
+
+- # 1066
+ k: |-1
+  x
+ v: |-1
+  CONNECTING...
+
+- # 1067
+ k: |-1
+  x
+ v: |-1
+  REALM DOWN
+
+- # 1068
+ k: |-1
+  x
+ v: |-1
+  More...
+
+- # 1069
+ k: |-1
+  x
+ v: |-1
+  You have more than 8 characters on this Diablo II Realm. Only 8 characters can be displayed at a time.
+
+- # 1070
+ k: |-1
+  x
+ v: |-1
+  To see more characters, you must delete one of your existing characters. This deletion is permanent. You will not be able to recover the deleted character.
+
+- # 1071
+ k: |-1
+  X
+ v: |-1
+  Terms of Service
+
+- # 1072
+ k: |-1
+  X
+ v: |-1
+  By logging on to Battle.net, you are certifying that you have read and agree to its current Terms of Service
+
+- # 1073
+ k: |-1
+  x
+ v: |-1
+  %0 %1
+
+- # 1074
+ k: |-1
+  GemXp1
+ v: |-1
+  Gloves, Belts, Boots:
+
+- # 1075
+ k: |-1
+  GemXp2
+ v: |-1
+  Shields:
+
+- # 1076
+ k: |-1
+  GemXp3
+ v: |-1
+  Weapons:
+
+- # 1077
+ k: |-1
+  GemXp4
+ v: |-1
+  Armor:
+
+- # 1078
+ k: |-1
+  strCharSelectHardcoreCharacter
+ v: |-1
+  Hardcore Character
+
+- # 1079
+ k: |-1
+  x
+ v: |-1
+  Missing string
+
+- # 1080
+ k: |-1
+  EskillLowersResistX
+ v: |-1
+  Lowers Resistance 
+
+- # 1081
+ k: |-1
+  ExInsertSocketsX
+ v: |-1
+  Can be Inserted into Socketed Items
+
+- # 1082
+ k: |-1
+  EskillToMeleeX
+ v: |-1
+   to melee attacks
+
+- # 1083
+ k: |-1
+  eskillincasemasteryX
+ v: |-1
+  %d Percent Chance of Critical Strike
+
+- # 1084
+ k: |-1
+  CfgSay7X
+ v: |-1
+  Say 'Retreat'
+
+- # 1085
+ k: |-1
+  champghostlyX
+ v: |-1
+  Ghostly
+
+- # 1086
+ k: |-1
+  champfanaticX
+ v: |-1
+  Fanatic
+
+- # 1087
+ k: |-1
+  champpossessedX
+ v: |-1
+  Possessed
+
+- # 1088
+ k: |-1
+  champberserkX
+ v: |-1
+  Berserker
+
+- # 1089
+ k: |-1
+  PalMercExST1X
+ v: |-1
+  Shapeshifter
+
+- # 1090
+ k: |-1
+  PalMercEXST3X
+ v: |-1
+  Fighter Mage
+
+- # 1091
+ k: |-1
+  PalMercEXST4X
+ v: |-1
+  Exemplar
+
+- # 1092
+ k: |-1
+  increaseswithplaylevelX
+ v: |-1
+  (Based on Character Level)
+
+- # 1093
+ k: |-1
+  RankX
+ v: |-1
+  Rank
+
+- # 1094
+ k: |-1
+  x
+ v: |-1
+  
+
+- # 1095
+ k: |-1
+  x
+ v: |-1
+  Entering your email address will enable extra features, such as the ability to recover your account should you forget your password. Visit median-xl.com for more information.
+  
+
+- # 1096
+ k: |-1
+  x
+ v: |-1
+  Email Address:
+
+- # 1097
+ k: |-1
+  x
+ v: |-1
+  Verify Email Address:
+
+- # 1098
+ k: |-1
+  x
+ v: |-1
+  REGISTER
+
+- # 1099
+ k: |-1
+  x
+ v: |-1
+  DON'T REGISTER
+
+- # 1100
+ k: |-1
+  x
+ v: |-1
+  Please make sure that the two email addresses match.
+
+- # 1101
+ k: |-1
+  x
+ v: |-1
+  Invalid Email Address
+
+- # 1102
+ k: |-1
+  x
+ v: |-1
+  The email address you entered does not appear to be valid.  Please enter a valid email address.
+
+- # 1103
+ k: |-1
+  x
+ v: |-1
+  Without a registered email address, you will not be able to recover your account should you forget your password. You will not have another opportunity to register an email address with this account.
+
+- # 1104
+ k: |-1
+  x
+ v: |-1
+  If you have forgotten your password and you registered your email address with us for this account, you can request that a new password be sent to you by clicking Send.  Make sure to enter the email address that you registered for this account.
+
+- # 1105
+ k: |-1
+  x
+ v: |-1
+  Your request for a new password has been received. If you registered an email address for this account you will receive an email with instructions on how to complete your password change.
+
+- # 1106
+ k: |-1
+  x
+ v: |-1
+  CONTINUE
+
+- # 1107
+ k: |-1
+  x
+ v: |-1
+  Forgot your password? Click 'Account Settings'.
+
+- # 1108
+ k: |-1
+  x
+ v: |-1
+  Typing is hard. You can get a new and easier password by clicking 'Account Settings'.
+
+- # 1109
+ k: |-1
+  x
+ v: |-1
+  account settings
+
+- # 1110
+ k: |-1
+  x
+ v: |-1
+  Account Settings
+
+- # 1111
+ k: |-1
+  x
+ v: |-1
+  If you know your password and want to change it, click here.
+
+- # 1112
+ k: |-1
+  x
+ v: |-1
+  If you have forgotten your password or your password doesn't work, click here.
+
+- # 1113
+ k: |-1
+  DAntlers (Grade 6)
+ v: |-1
+  If you need to change your registered email address, click here.
+
+- # 1114
+ k: |-1
+  DAntlers (Sacred)
+ v: |-1
+  get new password
+
+- # 1115
+ k: |-1
+  DAspis (Grade 1)
+ v: |-1
+  Get New Password
+
+- # 1116
+ k: |-1
+  DAspis (Grade 2)
+ v: |-1
+  change email
+
+- # 1117
+ k: |-1
+  DAspis (Grade 3)
+ v: |-1
+  Change Email
+
+- # 1118
+ k: |-1
+  DAspis (Grade 4)
+ v: |-1
+  Old Email Address:
+
+- # 1119
+ k: |-1
+  DAspis (Grade 5)
+ v: |-1
+  New Email Address:
+
+- # 1120
+ k: |-1
+  DAspis (Grade 6)
+ v: |-1
+  Verify New Email Address:
+
+- # 1121
+ k: |-1
+  DAspis (Sacred)
+ v: |-1
+  If you registered an email address for this account then you can change it here. Note that both email addresses need to be active for you to make this change.
+
+- # 1122
+ k: |-1
+  DAssault Helmet (Grade 1)
+ v: |-1
+  The old and new email addresses you have entered are the same.  Please enter a different email address.
+
+- # 1123
+ k: |-1
+  DAssault Helmet (Grade 2)
+ v: |-1
+  Please make sure that the two new email addresses match.
+
+- # 1124
+ k: |-1
+  DAssault Helmet (Grade 3)
+ v: |-1
+  Latest News
+
+- # 1125
+ k: |-1
+  DAssault Helmet (Grade 4)
+ v: |-1
+  Last Difficulty Setting Completed:
+
+- # 1126
+ k: |-1
+  DAssault Helmet (Grade 5)
+ v: |-1
+  None
+
+- # 1127
+ k: |-1
+  DAssault Helmet (Grade 6)
+ v: |-1
+  enter chat
+
+- # 1128
+ k: |-1
+  DAssault Helmet (Sacred)
+ v: |-1
+  
+  www.median-xl.com
+  
+
+- # 1129
+ k: |-1
+  DAthulua's Hand (Grade 1)
+ v: |-1
+  Unsafe Password
+
+- # 1130
+ k: |-1
+  DAthulua's Hand (Grade 2)
+ v: |-1
+  The password you've chosen is unsafe. Please choose a new one.
+
+- # 1131
+ k: |-1
+  DAthulua's Hand (Grade 3)
+ v: |-1
+  CDKEY WARNING
+
+- # 1132
+ k: |-1
+  DAthulua's Hand (Grade 4)
+ v: |-1
+  You cannot send your cdkey to another user on Battle.net. Blizzard will never ask you for your cdkey for any reason.
+
+- # 1133
+ k: |-1
+  DAthulua's Hand (Grade 5)
+ v: |-1
+  Expires Today
+
+- # 1134
+ k: |-1
+  DAthulua's Hand (Grade 6)
+ v: |-1
+  Expires in %d days
+
+- # 1135
+ k: |-1
+  DAthulua's Hand (Sacred)
+ v: |-1
+  RIP
+
+- # 1136
+ k: |-1
+  DAvenger Guard (Grade 1)
+ v: |-1
+  
+
+- # 1137
+ k: |-1
+  DAvenger Guard (Grade 2)
+ v: |-1
+  
+
+- # 1138
+ k: |-1
+  DAvenger Guard (Grade 3)
+ v: |-1
+  
+
+- # 1139
+ k: |-1
+  DAvenger Guard (Grade 4)
+ v: |-1
+  
+
+- # 1140
+ k: |-1
+  DAvenger Guard (Grade 5)
+ v: |-1
+  
+
+- # 1141
+ k: |-1
+  DAvenger Guard (Grade 6)
+ v: |-1
+  
+
+- # 1142
+ k: |-1
+  DAvenger Guard (Sacred)
+ v: |-1
+  
+
+- # 1143
+ k: |-1
+  DBanded Plate (Grade 1)
+ v: |-1
+  
+
+- # 1144
+ k: |-1
+  DBanded Plate (Grade 2)
+ v: |-1
+  A Diablo II character must be played in a game, or it will eventually expire. It will not expire until six months from the time it was last played.
+
+- # 1145
+ k: |-1
+  DBanded Plate (Grade 3)
+ v: |-1
+  A character that expires is deleted from the realm.
+
+- # 1146
+ k: |-1
+  DBanded Plate (Grade 4)
+ v: |-1
+  Your character '%s' has not been given enough attention and has died.
+
+- # 1147
+ k: |-1
+  DBanded Plate (Grade 5)
+ v: |-1
+  \red;Devouring Banded Plate
+
+- # 1148
+ k: |-1
+  DBanded Plate (Grade 6)
+ v: |-1
+  \red;Devouring Banded Plate
+
+- # 1149
+ k: |-1
+  DBanded Plate (Sacred)
+ v: |-1
+  \red;Devouring Banded Plate
+
+- # 1150
+ k: |-1
+  DBelt (Grade 1)
+ v: |-1
+  \red;Devouring Belt
+
+- # 1151
+ k: |-1
+  DBelt (Grade 2)
+ v: |-1
+  \red;Devouring Belt
+
+- # 1152
+ k: |-1
+  DBelt (Grade 3)
+ v: |-1
+  \red;Devouring Belt
+
+- # 1153
+ k: |-1
+  DBelt (Grade 4)
+ v: |-1
+  \red;Devouring Belt
+
+- # 1154
+ k: |-1
+  DBelt (Grade 5)
+ v: |-1
+  \red;Devouring Belt
+
+- # 1155
+ k: |-1
+  DBelt (Grade 6)
+ v: |-1
+  \red;Devouring Belt
+
+- # 1156
+ k: |-1
+  DBelt (Sacred)
+ v: |-1
+  \red;Devouring Belt
+
+- # 1157
+ k: |-1
+  DBlackguard Helm (Grade 1)
+ v: |-1
+  \red;Devouring Blackguard Helm
+
+- # 1158
+ k: |-1
+  DBlackguard Helm (Grade 2)
+ v: |-1
+  \red;Devouring Blackguard Helm
+
+- # 1159
+ k: |-1
+  DBlackguard Helm (Grade 3)
+ v: |-1
+  to Assassin Skills
+
+- # 1160
+ k: |-1
+  DBlackguard Helm (Grade 4)
+ v: |-1
+  \red;Devouring Blackguard Helm
+
+- # 1161
+ k: |-1
+  DBlackguard Helm (Grade 5)
+ v: |-1
+  \red;Devouring Blackguard Helm
+
+- # 1162
+ k: |-1
+  DBlackguard Helm (Grade 6)
+ v: |-1
+  The CD-Key you are currently using is disabled from playing realm games. You may continue playing the game in Single Player and Open Battle.net.
+
+- # 1163
+ k: |-1
+  DBlackguard Helm (Sacred)
+ v: |-1
+  Your connection has been temporarily restricted from this realm. Please try to log in at another time.
+
+- # 1164
+ k: |-1
+  toa
+ v: |-1
+  \orange;Belladonna Extract
+
+- # 1165
+ k: |-1
+  DBladed Shield (Grade 2)
+ v: |-1
+  Twisted Essence of Suffering
+
+- # 1166
+ k: |-1
+  DBladed Shield (Grade 3)
+ v: |-1
+  Charged Essence of Hatred
+
+- # 1167
+ k: |-1
+  DBladed Shield (Grade 4)
+ v: |-1
+  Burning Essence of Terror
+
+- # 1168
+ k: |-1
+  DBladed Shield (Grade 5)
+ v: |-1
+  Item Level
+
+- # 1169
+ k: |-1
+  DBladed Shield (Grade 6)
+ v: |-1
+  Reset Stat/Skill Points
+
+- # 1170
+ k: |-1
+  DBladed Shield (Sacred)
+ v: |-1
+  \red;Devouring Bladed Shield
+
+- # 1171
+ k: |-1
+  x
+ v: |-1
+  -- BEGIN SIGMA CORE --
+
+- # 1172
+ k: |-1
+  x
+ v: |-1
+  The following lines are hardcoded -- Marco
+
+- # 1173
+ k: |-1
+  x
+ v: |-1
+  game settings
+
+- # 1174
+ k: |-1
+  x
+ v: |-1
+  save and exit
+
+- # 1175
+ k: |-1
+  x
+ v: |-1
+  resume game
+
+- # 1176
+ k: |-1
+  x
+ v: |-1
+  
+
+- # 1177
+ k: |-1
+  x
+ v: |-1
+  
+
+- # 1178
+ k: |-1
+  x
+ v: |-1
+  
+
+- # 1179
+ k: |-1
+  x
+ v: |-1
+  
+
+- # 1180
+ k: |-1
+  x
+ v: |-1
+  
+
+- # 1181
+ k: |-1
+  x
+ v: |-1
+  
+
+- # 1182
+ k: |-1
+  x
+ v: |-1
+  
+
+- # 1183
+ k: |-1
+  x
+ v: |-1
+  
+
+- # 1184
+ k: |-1
+  x
+ v: |-1
+  
+
+- # 1185
+ k: |-1
+  x
+ v: |-1
+  
+
+- # 1186
+ k: |-1
+  x
+ v: |-1
+  
+
+- # 1187
+ k: |-1
+  x
+ v: |-1
+  -- END 1.1 --
+
+- # 1188
+ k: |-1
+  x
+ v: |-1
+  %ls to level lock
+  A new quest has started
+
+- # 1189
+ k: |-1
+  Rusted
+ v: |-1
+  Rusted
+
+- # 1190
+ k: |-1
+  x
+ v: |-1
+  (Required Level: %d)
+
+- # 1191
+ k: |-1
+  Used
+ v: |-1
+  Used
+
+- # 1192
+ k: |-1
+  x
+ v: |-1
+  Closing in: %s
+
+- # 1193
+ k: |-1
+  x
+ v: |-1
+  Join another game to enter again
+  This area is locked
+
+- # 1194
+ k: |-1
+  x
+ v: |-1
+  ONCE YOU EXIT YOU CANNOT GO BACK
+
+- # 1195
+ k: |-1
+  LegionX
+ v: |-1
+  Legionnaire
+
+- # 1196
+ k: |-1
+  EternalVigil
+ v: |-1
+  Eternal Vigil
+
+- # 1197
+ k: |-1
+  TerrQ
+ v: |-1
+  Terror
+
+- # 1198
+ k: |-1
+  Leviath
+ v: |-1
+  Leviathan
+
+- # 1199
+ k: |-1
+  Peace
+ v: |-1
+  Peace
+
+- # 1200
+ k: |-1
+  Mana
+ v: |-1
+  Mana
+
+- # 1201
+ k: |-1
+  ZakQ
+ v: |-1
+  Zakarum
+
+- # 1202
+ k: |-1
+  DrQ
+ v: |-1
+  Dragon
+
+- # 1203
+ k: |-1
+  boxX
+ v: |-1
+  Box
+
+- # 1204
+ k: |-1
+  barrelX
+ v: |-1
+  Barrel
+
+- # 1205
+ k: |-1
+  spines
+ v: |-1
+  Spines
+
+- # 1206
+ k: |-1
+  slammer
+ v: |-1
+  Slammer
+
+- # 1207
+ k: |-1
+  prophetX
+ v: |-1
+  Prophet
+
+- # 1208
+ k: |-1
+  charmX
+ v: |-1
+  Charm
+
+- # 1209
+ k: |-1
+  strBodyLocItemHead
+ v: |-1
+  Helmet
+
+- # 1210
+ k: |-1
+  strBodyLocItemNeck
+ v: |-1
+  Necklace
+
+- # 1211
+ k: |-1
+  strBodyLocItemTorso
+ v: |-1
+  Body Armor
+
+- # 1212
+ k: |-1
+  strBodyLocItemRArm
+ v: |-1
+  Right Hand Item
+
+- # 1213
+ k: |-1
+  strBodyLocItemLArm
+ v: |-1
+  Left Hand Item
+
+- # 1214
+ k: |-1
+  strBodyLocItemRRin
+ v: |-1
+  Right Hand Ring
+
+- # 1215
+ k: |-1
+  strBodyLocItemLRin
+ v: |-1
+  Left Hand Ring
+
+- # 1216
+ k: |-1
+  strBodyLocItemBelt
+ v: |-1
+  Belt
+
+- # 1217
+ k: |-1
+  strBodyLocItemBoots
+ v: |-1
+  Boots
+
+- # 1218
+ k: |-1
+  strBodyLocItemGloves
+ v: |-1
+  Gloves
+
+- # 1219
+ k: |-1
+  strBodyLocItemRArmSwitch
+ v: |-1
+  Secondary Right Hand Item
+
+- # 1220
+ k: |-1
+  strBodylocItemLArmSwitch
+ v: |-1
+  Secondary Left Hand Item
+
+- # 1221
+ k: |-1
+  strDurabilityWarningDamaged
+ v: |-1
+  are damaged
+  your equipped items
+  one or more of
+
+- # 1222
+ k: |-1
+  strDurabilityWarningCritical
+ v: |-1
+  are heavily damaged
+  your equipped items
+  one or more of
+
+- # 1223
+ k: |-1
+  strDurabilityWarningBroken
+ v: |-1
+  are broken
+  your equipped items
+  one or more of
+
+- # 1224
+ k: |-1
+  strRaidNotif
+ v: |-1
+  this quest
+  named \orange;%S\gold; to join in
+  activated, join the game
+  A new raid quest has been
+
+- # 1225
+ k: |-1
+  strRaidNotifOwnGame
+ v: |-1
+  activated in this game.
+  A new raid quest has been
+
+- # 1226
+ k: |-1
+  StrAmmoWarningLow
+ v: |-1
+  have low ammunitions
+  your equipped items
+  one or more of
+
+- # 1227
+ k: |-1
+  StrAmmoWarningCritical
+ v: |-1
+  have very low ammunitions
+  your equipped items
+  one or more of
+
+- # 1228
+ k: |-1
+  StrAmmoWarningEmpty
+ v: |-1
+  are out of ammunitions
+  your equipped items
+  one or more of
+
+- # 1229
+ k: |-1
+  StrLevelUpNotif
+ v: |-1
+  Level up
+
+- # 1230
+ k: |-1
+  StrStatPointsNotif
+ v: |-1
+  New stat points
+
+- # 1231
+ k: |-1
+  StrSkillPointsNotif
+ v: |-1
+  New skill points
+
+- # 1232
+ k: |-1
+  StrQuestUpdateNotif
+ v: |-1
+  You've made new progress in a quest
+
+- # 1233
+ k: |-1
+  StrCfgTabHotkey
+ v: |-1
+  Settings
+  Control
+
+- # 1234
+ k: |-1
+  StrCfgTitleHud
+ v: |-1
+  Interface and display settings
+
+- # 1235
+ k: |-1
+  StrCfgTabDisplay
+ v: |-1
+  Settings
+  Preference
+
+- # 1236
+ k: |-1
+  StrCfgTitleNotifications
+ v: |-1
+  Notifications
+
+- # 1237
+ k: |-1
+  StrDisplayAlvl
+ v: |-1
+  Area Level: 
+
+- # 1238
+ k: |-1
+  x
+ v: |-1
+  Warp Blade
+
+- # 1239
+ k: |-1
+  CfgNoPickup
+ v: |-1
+  Toggle item pickup
+
+- # 1240
+ k: |-1
+  CfpMapReveal
+ v: |-1
+  Reveal map
+
+- # 1241
+ k: |-1
+  StrCfgSmallAutomap
+ v: |-1
+  Small automap
+
+- # 1242
+ k: |-1
+  StrCfgTitleAutomap
+ v: |-1
+  Automap settings
+
+- # 1243
+ k: |-1
+  StrCfgTheme
+ v: |-1
+  Interface Theme
+
+- # 1244
+ k: |-1
+  CfgNotifGold
+ v: |-1
+  Gold gains and loss
+
+- # 1245
+ k: |-1
+  CfgNotifLevelUp
+ v: |-1
+  Level up
+
+- # 1246
+ k: |-1
+  CfgNotifNewStats
+ v: |-1
+  New stat points
+
+- # 1247
+ k: |-1
+  CfgNotifNewSkills
+ v: |-1
+  New skill points
+
+- # 1248
+ k: |-1
+  CfgNotifActiveBuffs
+ v: |-1
+  Show active buffs and debuffs
+
+- # 1249
+ k: |-1
+  CfgNotifRealmWhispers
+ v: |-1
+  Friends activity whispers
+
+- # 1250
+ k: |-1
+  CfgDisplayHp
+ v: |-1
+  Always show hitpoints
+
+- # 1251
+ k: |-1
+  CfgDisplayMp
+ v: |-1
+  Always show mana
+
+- # 1252
+ k: |-1
+  CfgDisplayGameTime
+ v: |-1
+  Show time spent in game
+
+- # 1253
+ k: |-1
+  CfgDisplayIlvl
+ v: |-1
+  Display item's level
+
+- # 1254
+ k: |-1
+  CfgDisplayGameName
+ v: |-1
+  Show game name
+
+- # 1255
+ k: |-1
+  CfgDisplayGamePwd
+ v: |-1
+  Show game password
+
+- # 1256
+ k: |-1
+  CfgDisplayAlvl
+ v: |-1
+  Show area level
+
+- # 1257
+ k: |-1
+  CfgVolume
+ v: |-1
+  Gameplay volume
+
+- # 1258
+ k: |-1
+  CfgMusicVolume
+ v: |-1
+  Music Volume
+
+- # 1259
+ k: |-1
+  CfgContrast
+ v: |-1
+  Contrast
+
+- # 1260
+ k: |-1
+  CfgGamma
+ v: |-1
+  Gamma
+
+- # 1261
+ k: |-1
+  x
+ v: |-1
+  Mana Shield: +20% Damage Reduction
+
+- # 1262
+ k: |-1
+  x
+ v: |-1
+  Self-Immolation damage per cast unchanged
+  +3 seconds to Balefire Buff Duration
+
+- # 1263
+ k: |-1
+  x
+ v: |-1
+  Pagan Rites also Restores Mana
+
+- # 1264
+ k: |-1
+  1263
+ v: |-1
+  Superbeast adds Deadly Strike Instead of Spell Damage at 50% efficiency
+
+- # 1265
+ k: |-1
+  x
+ v: |-1
+  +30% Pierce Chance to Mind Flay
+
+- # 1266
+ k: |-1
+  x
+ v: |-1
+  +8 Storm Crows Projectiles if you have not taken weapon damage recently
+
+- # 1267
+ k: |-1
+  x
+ v: |-1
+  +60 Attack Rating per Character Level Above 105
+  Lion Stance Does not Reduce Your Physical Resistance
+
+- # 1268
+ k: |-1
+  x
+ v: |-1
+  +40% Pierce Chance to Stormeye Totem
+
+- # 1269
+ k: |-1
+  x
+ v: |-1
+  +200% Fire Damage to Colosseum
+
+- # 1270
+ k: |-1
+  x
+ v: |-1
+  Graveyard: +2 Additional Projectiles
+
+- # 1271
+ k: |-1
+  x
+ v: |-1
+  Ragh nar Rook
+
+- # 1272
+ k: |-1
+  x
+ v: |-1
+  Dragon's Blessing Attribute Bonus Halved
+
+- # 1273
+ k: |-1
+  x
+ v: |-1
+  Mana Shield: 54% less Mana Drained when Hit
+
+- # 1274
+ k: |-1
+  x
+ v: |-1
+  Mana Shield: 65% less Mana Drained when Hit
+
+- # 1275
+ k: |-1
+  x
+ v: |-1
+  Moonbeam: Doubled Buff Duration
+
+- # 1276
+ k: |-1
+  x
+ v: |-1
+  50% of your Fire and Poison spell damage added as Defense Bonus
+
+- # 1277
+ k: |-1
+  11276
+ v: |-1
+  Hunting Banshee: +2 Projectiles
+
+- # 1278
+ k: |-1
+  StrCfgAssignHotkey
+ v: |-1
+  or press any key to assign
+  press DEL to unassign key
+  press ESC to cancel
+
+- # 1279
+ k: |-1
+  x
+ v: |-1
+  You Cannot Deal Fire, Lightning or Poison Damage
+  Max Life gained per point of Vitality reduced by 0.9
+  100% of Vitality Added as Cold Damage to Weapon
+
+- # 1280
+ k: |-1
+  x
+ v: |-1
+  Remorseless Winter
+
+- # 1281
+ k: |-1
+  x
+ v: |-1
+  \dgrey;+25% Deadly Strike
+  Knockback Enemies
+  \orange;If You Have at Least 1000 Strength:
+
+- # 1282
+ k: |-1
+  x
+ v: |-1
+  ''Knowledge is Power''
+
+- # 1283
+ k: |-1
+  x
+ v: |-1
+  +2.5% Spell Damage per 1% Additional Experience Gain
+
+- # 1284
+ k: |-1
+  11283
+ v: |-1
+  \dgrey;Shower of Rocks: cooldown reduced by 1 second
+  Thunder Slam: cooldown reduced by 4 seconds
+  \orange;If You Have no Points in combat stances:
+
+- # 1285
+ k: |-1
+  x
+ v: |-1
+  \red;Deathlord Morph
+  \orange;Parasite: +6 Targets
+
+- # 1286
+ k: |-1
+  x
+ v: |-1
+  Flamefront: +3 Maximum Projectiles
+
+- # 1287
+ k: |-1
+  x
+ v: |-1
+  +2% Deadly Strike Per Firedance Base Level
+
+- # 1288
+ k: |-1
+  x
+ v: |-1
+  Idol of Scosglen has no Cooldown
+
+- # 1289
+ k: |-1
+  11288
+ v: |-1
+  Ember Spirit: +25% Total Damage
+
+- # 1290
+ k: |-1
+  11289
+ v: |-1
+  Ember Spirit: +10% Total Damage
+
+- # 1291
+ k: |-1
+  x
+ v: |-1
+  Mana Sweep: +15% Total Damage, Leeches no Mana
+
+- # 1292
+ k: |-1
+  x
+ v: |-1
+  Fortress: +50% Pierce Chance
+
+- # 1293
+ k: |-1
+  x
+ v: |-1
+  +60% Pierce Chance to Fortress
+
+- # 1294
+ k: |-1
+  x
+ v: |-1
+  Celeri Caelesti Iustitia
+
+- # 1295
+ k: |-1
+  11294
+ v: |-1
+  20% of Lightning Resistance Added as Lightning Spell Damage
+
+- # 1296
+ k: |-1
+  x
+ v: |-1
+  +15% Physical Resist After Level 120
+  +25% to Experience Gained Until Level 120
+
+- # 1297
+ k: |-1
+  x
+ v: |-1
+  Treewarden Morph
+
+- # 1298
+ k: |-1
+  x
+ v: |-1
+  Thundercrack: +100% Bonus Lightning Damage
+
+- # 1299
+ k: |-1
+  11298
+ v: |-1
+  \dgrey;+8% to Physical/Magic Spell Damage
+  +25% Bonus to Defense
+  +10 Life after each Kill
+  +1 to All Skills
+  \grey;(Bonus for each Socketed Great/Elemental Rune)
+  \orange;Gematria
+
+- # 1300
+ k: |-1
+  11299
+ v: |-1
+  +180% Damage to The Zakarum
+
+- # 1301
+ k: |-1
+  x
+ v: |-1
+  \dgrey;+20% to Elemental Resists
+  +0.75% Base Block Chance
+  +1 to All Skills
+  \grey;(Bonus for each Socketed Great/Elemental Rune)
+  \orange;Gematria
+
+- # 1302
+ k: |-1
+  x
+ v: |-1
+  Worship the Crack Monkeys!
+
+- # 1303
+ k: |-1
+  x
+ v: |-1
+  Cannot be Unsocketed
+
+- # 1304
+ k: |-1
+  x
+ v: |-1
+  Drains 2% Life per Second
+
+- # 1305
+ k: |-1
+  x
+ v: |-1
+  +1 Hunting Banshee/Ember Spirit Projectile
+  Drains 2% Life per Second
+
+- # 1306
+ k: |-1
+  x
+ v: |-1
+  +1 Hunting Banshee/Ember Spirit Projectile
+
+- # 1307
+ k: |-1
+  x
+ v: |-1
+  +2 Hunting Banshee Projectiles
+  \orange;Ember Spirit Nullified
+
+- # 1308
+ k: |-1
+  x
+ v: |-1
+  +3 Ember Spirit Projectiles
+  \orange;Hunting Banshee Nullified
+
+- # 1309
+ k: |-1
+  x
+ v: |-1
+  Random Elemental Resistance Bonus
+
+- # 1310
+ k: |-1
+  x
+ v: |-1
+  Random Movement Speed Bonus
+
+- # 1311
+ k: |-1
+  x
+ v: |-1
+  Tempest: +3 Projectiles
+
+- # 1312
+ k: |-1
+  x
+ v: |-1
+  +150% Total Familiar Damage
+
+- # 1313
+ k: |-1
+  x
+ v: |-1
+  +8 to Maximum Raven Familiar Base Level
+
+- # 1314
+ k: |-1
+  11313
+ v: |-1
+  \dgrey;10-15% of base Vitality
+  20-30% of base Strength and Dexterity
+  Adds Fire and Lightning Damage:
+  5% Innate Elemental Damage
+  \orange;Level 10 Nephalem Weapons
+
+- # 1315
+ k: |-1
+  x
+ v: |-1
+  Spiral Dance: +300% Bonus Magic Damage
+
+- # 1316
+ k: |-1
+  x
+ v: |-1
+  +1% Physical Resist per 18% Mana Regeneration
+
+- # 1317
+ k: |-1
+  x
+ v: |-1
+  +1% Physical/Magic Spell Damage per 20 Vitality
+  Enhanced Death Ripple
+
+- # 1318
+ k: |-1
+  11317
+ v: |-1
+  Right click to open Time Rift
+  
+
+- # 1319
+ k: |-1
+  x
+ v: |-1
+  -5% Deadly Strike per 1% Attack Speed
+  +400% Deadly Strike
+
+- # 1320
+ k: |-1
+  x
+ v: |-1
+  Shieldmaiden: +15% Weapon Physical Damage per character level above 120
+
+- # 1321
+ k: |-1
+  11320
+ v: |-1
+  Cannot be Upgraded
+
+- # 1322
+ k: |-1
+  11321
+ v: |-1
+  +50% Pierce Chance to Mind Flay
+
+- # 1323
+ k: |-1
+  11322
+ v: |-1
+  Maelstrom MkI: +25% Bonus Magic Damage
+
+- # 1324
+ k: |-1
+  11323
+ v: |-1
+  -1% Cold Spell Damage per 1 Light Radius
+  +3% Fire Spell Damage per 1 Light Radius
+  +2 Spell Focus per 1 Light Radius
+
+- # 1325
+ k: |-1
+  11324
+ v: |-1
+  \dgrey;Regenerate Mana +40%
+  Restores 2.8% Life Per Second
+  \orange;Level 20 Eagle Stance
+  \orange;Mind Flay: +2 Projectiles
+
+- # 1326
+ k: |-1
+  11325
+ v: |-1
+  Level 10 Wolf Stance
+
+- # 1327
+ k: |-1
+  11326
+ v: |-1
+  Adds 140% of Your Physical/Magic Spell Damage as Bonus Weapon Physical Damage
+  Adds 140% of Your Fire Spell Damage as Bonus Weapon Physical Damage
+
+- # 1328
+ k: |-1
+  11327
+ v: |-1
+  -1% to Enemy Poison Resistance per 25 Strength
+
+- # 1329
+ k: |-1
+  11328
+ v: |-1
+  \dgrey;Adds 75-150 Fire Damage
+  +30% Attack Speed
+  \grey;(Bonus for Socketed Great/Elemental Rune)
+  \orange;Gematria
+
+- # 1330
+ k: |-1
+  11329
+ v: |-1
+  Mana Pulse: +50% Duration
+
+- # 1331
+ k: |-1
+  11330
+ v: |-1
+  Adds 300% of Crushing Blow as Fire and Cold Spell Damage
+
+- # 1332
+ k: |-1
+  11331
+ v: |-1
+  +200% Bonus Magic Damage to Spiral Dance
+
+- # 1333
+ k: |-1
+  11332
+ v: |-1
+  Lightning Shield: +(18 to 30) Lightning Damage to Weapon per Skill Level
+  Thundergod Nova Deals 5000 Lightning Damage
+  Stormblast: +1 Projectile
+
+- # 1334
+ k: |-1
+  11333
+ v: |-1
+  Vessel of Judgement: +3 Targets
+
+- # 1335
+ k: |-1
+  11334
+ v: |-1
+  +1% Deadly Strike per 6% Fire Spell Damage
+  Total Defense Reduced by 25%
+
+- # 1336
+ k: |-1
+  11335
+ v: |-1
+  Deathly Effigy: +1 Maximum Effigy Allowed
+
+- # 1337
+ k: |-1
+  11336
+ v: |-1
+  3 Magic Missiles Projectiles
+
+- # 1338
+ k: |-1
+  11337
+ v: |-1
+  \dgrey;26.6 Yard Radius
+  You and Undead Minions: Maximum Life +6%
+  \orange;Demon Blood Aura
+
+- # 1339
+ k: |-1
+  11338
+ v: |-1
+  Skills Cost Life Instead of Mana
+
+- # 1340
+ k: |-1
+  11339
+ v: |-1
+  \dgrey;-10% to Enemy Poison Resistance
+  +30 Life After Each Kill
+  +2.5% Physical Resist
+  +1 to All Skills
+  \grey;(Bonus for each Socketed Great/Elemental Rune)
+  \orange;Gematria
+
+- # 1341
+ k: |-1
+  11340
+ v: |-1
+  Vessel of Retribution: 0.7% Damage Leeched as Life
+
+- # 1342
+ k: |-1
+  11341
+ v: |-1
+  Queen of Blades: +2500 Lightning Damage
+
+- # 1343
+ k: |-1
+  11342
+ v: |-1
+  -6% Weapon Physical Damage per 1% Crushing Blow
+
+- # 1344
+ k: |-1
+  11343
+ v: |-1
+  \orange;Kraken Stance: +3% Damage per Base Level in the Templar Tree
+  \dgrey;Adds 150-375 Fire, Cold, and Lightning Damage
+  \orange;Level 30 Kraken Stance
+
+- # 1345
+ k: |-1
+  11344
+ v: |-1
+  Deal No Elemental or Magic Damage
+
+- # 1346
+ k: |-1
+  11345
+ v: |-1
+  Fear No Evil
+
+- # 1347
+ k: |-1
+  11346
+ v: |-1
+  50% of Your Bonus to Defense Added as Vitality
+
+- # 1348
+ k: |-1
+  11347
+ v: |-1
+  \dgrey;+600 Spell Focus
+  +25% Physical Resist
+  +33% Deadly Strike
+  +100% Magic Find
+  +50% Cast Speed
+  \orange;Thundermaiden, Crimson Rite and Dragonlore:
+  If you have No Points in Lioness, Shieldmaiden,
+
+- # 1349
+ k: |-1
+  11348
+ v: |-1
+  Thunder Path: 150 Life after Each Kill
+  Hammer Path: -30% Enemy Lightning Resistance
+
+- # 1350
+ k: |-1
+  11349
+ v: |-1
+  Crucify: +30% Magic Damage per Base Level
+
+- # 1351
+ k: |-1
+  11350
+ v: |-1
+  Shadow Refuge: -1% to Enemy Fire, Cold and Lightning Resists per Base Level
+
+- # 1352
+ k: |-1
+  11351
+ v: |-1
+  +100% Duration to Solar Flare
+
+- # 1353
+ k: |-1
+  11352
+ v: |-1
+  Stampede: +1 Projectile
+
+- # 1354
+ k: |-1
+  11353
+ v: |-1
+  You may Only use Melee, Summon and Support Skills
+
+- # 1355
+ k: |-1
+  11354
+ v: |-1
+  Fire Pierce Reduces Cold Pierce
+  Fire Spell Damage Reduces Cold Spell Damage
+  Glacial Nova: +150% Total Damage
+
+- # 1356
+ k: |-1
+  11355
+ v: |-1
+  \dgrey; 20 Second Cooldown to All Lightning Tree Spells
+  \orange;If You Have any Points in Vengeful Power, Living Flame or Snow Queen
+
+- # 1357
+ k: |-1
+  11356
+ v: |-1
+  Reckoning of Zerae: Doubled Lightning Damage Bonus To Hammer Of Zerae
+
+- # 1358
+ k: |-1
+  11357
+ v: |-1
+  +20% Deadly Strike If Wielded by a Player
+  +100% Magic Find If Wielded by a Mercenary
+
+- # 1359
+ k: |-1
+  11358
+ v: |-1
+  Summon One Extra Necromancer Minion With Each Cast
+
+- # 1360
+ k: |-1
+  11359
+ v: |-1
+  Otherwise, -10% Total Mind Flay Damage
+  If You Have Not Been Hit Recently, +30% Total Mind Flay Damage
+
+- # 1361
+ k: |-1
+  11360
+ v: |-1
+  -3% Enemy Poison Resist per Snake Stance Base Level
+
+- # 1362
+ k: |-1
+  11361
+ v: |-1
+  \dgrey;-1% to Enemy Fire and Lightning Resists per 60 Attributes
+  +200% to Fire and Lightning Spell Damage
+  Adds 3 - 5 Lightning Damage per 20 Attributes
+  Adds 3 - 5 Fire Damage per 20 Attributes
+  \orange;While Using Windform:
+
+- # 1363
+ k: |-1
+  11362
+ v: |-1
+  Minion Damage Also Increases Your Spell Damage at 50% Efficiency
+  -1 to Maximum Totems
+
+- # 1364
+ k: |-1
+  11363
+ v: |-1
+  +1% Attack Speed per 20 Strength
+
+- # 1365
+ k: |-1
+  11364
+ v: |-1
+  \dgrey;+0.5% to Maximum Elemental Resistances
+  +250 to Life
+  \grey;(Bonus for each Socketed Great/Elemental Rune)
+  \orange;Gematria
+
+- # 1366
+ k: |-1
+  11365
+ v: |-1
+  Deal No Lightning Damage
+
+- # 1367
+ k: |-1
+  x
+ v: |-1
+  
+
+- # 1368
+ k: |-1
+  x
+ v: |-1
+  
+
+- # 1369
+ k: |-1
+  11368
+ v: |-1
+  Congratulations!
+
+- # 1370
+ k: |-1
+  11369
+ v: |-1
+  Cube to upgrade, granting bonuses based on your class
+
+- # 1371
+ k: |-1
+  11370
+ v: |-1
+  +8 to Maximum Forked Lightning Projectiles
+
+- # 1372
+ k: |-1
+  11371
+ v: |-1
+  Deal No Crushing Blows
+  40% of Minion Life Increases Added as Bonus to Defense
+  12% of Minion Damage Increases Added as Deadly Strike
+
+- # 1373
+ k: |-1
+  11372
+ v: |-1
+  (Max: 1 minute from each other)
+  Cube after Killing Imperius and Malthael
+
+- # 1374
+ k: |-1
+  11373
+ v: |-1
+  Cube with Essence/Runestone to Roll Stat
+
+- # 1375
+ k: |-1
+  11374
+ v: |-1
+  Can be Upgraded with Ghost Trance
+
+- # 1376
+ k: |-1
+  11375
+ v: |-1
+  Chance to Avoid Damage becomes 0%
+
+- # 1377
+ k: |-1
+  11376
+ v: |-1
+  Fire Elementals Gain 100% of Their Physical Damage as Fire
+
+- # 1378
+ k: |-1
+  11377
+ v: |-1
+  Adds 1 - 4 Fire, Cold and Lightning Damage to Weapon per 1 Spell Focus until capped
+
+- # 1379
+ k: |-1
+  11378
+ v: |-1
+  +120% Weapon Physical Damage if Wielding a Scepter
+
+- # 1380
+ k: |-1
+  11379
+ v: |-1
+  \dgrey;+1 Projectile to Iceburst
+  \orange;While Dual Wielding This Weapon:
+
+- # 1381
+ k: |-1
+  11380
+ v: |-1
+  \dgrey; +100% Noctule Projectiles
+  \orange;While Dual Wielding This Weapon:
+
+- # 1382
+ k: |-1
+  11381
+ v: |-1
+  You Cannot Summon Ice Elementals Directly
+
+- # 1383
+ k: |-1
+  11382
+ v: |-1
+  You Cannot Summon Blade Spirits Directly
+
+- # 1384
+ k: |-1
+  11383
+ v: |-1
+  \dgrey;7.3 Yard Radius
+  Maximum Fire Resist +5%
+  -18% to Enemy Elemental Resistances
+  \orange;Level 8 Hellfire Aura
+
+- # 1385
+ k: |-1
+  11384
+ v: |-1
+  Enhances Death Ripple
+  Bane: +100% Duration
+
+- # 1386
+ k: |-1
+  11385
+ v: |-1
+  +33% Increased Leap Speed
+
+- # 1387
+ k: |-1
+  11386
+ v: |-1
+  Arrow Swarm: 50% More Projectiles
+
+- # 1388
+ k: |-1
+  11387
+ v: |-1
+  Sanguine Covenant Regenerates 2% of Maximum Life per Second
+
+- # 1389
+ k: |-1
+  11388
+ v: |-1
+  Ecstatic Frenzy Does Not Reduce Your Defense
+
+- # 1390
+ k: |-1
+  11389
+ v: |-1
+  Scorpion Blade: +2 Projectiles
+
+- # 1391
+ k: |-1
+  11390
+ v: |-1
+  Guardian Spirits Inherit 100% of Your Deadly Strike
+
+- # 1392
+ k: |-1
+  11391
+ v: |-1
+  Veil King: +100% Life and Damage
+
+- # 1393
+ k: |-1
+  11392
+ v: |-1
+  Deathlord Makes You Significantly More Vulnerable to All Damage
+
+- # 1394
+ k: |-1
+  11393
+ v: |-1
+  \dgrey;+3% Weapon Physical Damage per Tantrum Skill Level
+  +0.5% Crushing Blow per Tantrum Skill Level
+  +0.5% Deadly Strike per Tantrum Skill Level
+  \orange;While Tantrum is Active:
+
+- # 1395
+ k: |-1
+  11394
+ v: |-1
+  Graveyard: +40% Total Damage and +2 Projectiles
+  Deal No Fire, Cold or Lightning Damage
+
+- # 1396
+ k: |-1
+  11395
+ v: |-1
+  +1% Cold Spell Damage For Each Skill Level of Your Ways Passives
+  Limpet Laser: +1 Projectile
+
+- # 1397
+ k: |-1
+  11396
+ v: |-1
+  Voodoo Practice: +1% Extra Chance to Spawn a Corpse on Striking
+
+- # 1398
+ k: |-1
+  11397
+ v: |-1
+  Sun Strike: +25% Bonus Fire Damage per Base Level in the Bow Tree
+
+- # 1399
+ k: |-1
+  11398
+ v: |-1
+  Parasite: +200% Bonus Magic Damage
+
+- # 1400
+ k: |-1
+  11399
+ v: |-1
+  -3% to Enemy Elemental Resistances per Carnage Base Level
+
+- # 1401
+ k: |-1
+  11400
+ v: |-1
+  This Fire Damage is Increased by 15% per Wildfire Base Level
+  Adds 2000 Fire Damage to Idol of Scosglen
+
+- # 1402
+ k: |-1
+  11401
+ v: |-1
+  Laughing Ghost: +8% Bonus Magic Damage per Summon Skill Base Level
+
+- # 1403
+ k: |-1
+  11402
+ v: |-1
+  \dgrey;Adds 100-200 Cold Damage
+  -10% to Enemy Cold Resist
+  Adds 10-15 Damage
+  \grey;(Bonus for each Socketed Great/Elemental Rune)
+  \orange;Gematria
+
+- # 1404
+ k: |-1
+  11403
+ v: |-1
+  Adds (80 to 110)% of Dexerity as Magic Damage to Weapon
+
+- # 1405
+ k: |-1
+  11404
+ v: |-1
+  Three's a Company''
+  ''Cross the Wide, Somber Seas I Will Sail
+
+- # 1406
+ k: |-1
+  11405
+ v: |-1
+  ''Cross the Wide, Somber Seas I Will Sail''
+
+- # 1407
+ k: |-1
+  11406
+ v: |-1
+  \dgrey;+25% Bonus to Defense
+  -5% Elemental Resists
+  +5% Physical Resist
+  \grey;(Bonus for each Socketed Great/Elemental Rune)
+  \orange;Gematria
+
+- # 1408
+ k: |-1
+  11407
+ v: |-1
+  Hunting Banshee: +2 Projectiles
+
+- # 1409
+ k: |-1
+  11408
+ v: |-1
+  Hunting Banshee: +3 Projectiles
+
+- # 1410
+ k: |-1
+  11409
+ v: |-1
+  -4% to Enemy Elemental Resistances per Nephalem Spirit Base Level
+
+- # 1411
+ k: |-1
+  11410
+ v: |-1
+  Discharge: Thunder Frequency Improved by 1 Second
+
+- # 1412
+ k: |-1
+  11411
+ v: |-1
+  Exorcism: +50% Total Damage
+
+- # 1413
+ k: |-1
+  11412
+ v: |-1
+  Bloodbath Is Active
+
+- # 1414
+ k: |-1
+  11413
+ v: |-1
+  (Max: 1 minute from each other)
+  Cube after Killing Rathma and Mendeln
+
+- # 1415
+ k: |-1
+  StrCfgAutomapMode
+ v: |-1
+  Small automap
+
+- # 1416
+ k: |-1
+  StrCfgTextOnlyNotif
+ v: |-1
+  Text only notifications
+
+- # 1417
+ k: |-1
+  StrCfgDebugUi
+ v: |-1
+  Enable debug interface
+
+- # 1418
+ k: |-1
+  StrCfgColorblind
+ v: |-1
+  Enable color blindness accommodations
+
+- # 1419
+ k: |-1
+  StrMinute
+ v: |-1
+   minute
+
+- # 1420
+ k: |-1
+  StrMinutes
+ v: |-1
+   minutes
+
+- # 1421
+ k: |-1
+  11420
+ v: |-1
+  +500% Weapon Physical Damage
+
+- # 1422
+ k: |-1
+  11421
+ v: |-1
+  -70% to Enemy Elemental Resistances
+
+- # 1423
+ k: |-1
+  11422
+ v: |-1
+  \dgrey;16.6 Yard Radius
+  and -25% Weapon Physical Damage
+  Nearby Enemies: -30% Attack Rating
+  \orange;Level 20 Warp Field Aura
+
+- # 1424
+ k: |-1
+  11423
+ v: |-1
+  Nullifies Alchemical Provision
+
+- # 1425
+ k: |-1
+  StrCfgShowAutomapParty
+ v: |-1
+  Show minions and mercenary
+
+- # 1426
+ k: |-1
+  11425
+ v: |-1
+  +1 Extra Veil King
+
+- # 1427
+ k: |-1
+  11426
+ v: |-1
+  Night Hawks: +10% Total Damage and +2 Extra Hawks
+  Veil King: +25% Total Damage
+
+- # 1428
+ k: |-1
+  11427
+ v: |-1
+  +1 Extra Fireheart Totem
+
+- # 1429
+ k: |-1
+  11428
+ v: |-1
+  Grim Vision: Aura Level Increased by 5
+
+- # 1430
+ k: |-1
+  11429
+ v: |-1
+  \dgrey;+160% to Iron Golem Damage
+  +20% Crushing Blow
+  +20% Deadly Strike
+  \orange;When Iron Golem Consumes This Item:
+
+- # 1431
+ k: |-1
+  11430
+ v: |-1
+  +1 Extra Totems
+
+- # 1432
+ k: |-1
+  11431
+ v: |-1
+  
+
+- # 1433
+ k: |-1
+  11432
+ v: |-1
+  Slain Monsters Rest in Peace
+
+- # 1434
+ k: |-1
+  11433
+ v: |-1
+  \dgrey;Transmute your upgraded vial before it is too late
+  Slay him in the half hour between eleven and twelve
+  Horadric cube to be corrupted by the Nothingness
+  Survive the Herald's attacks long enough for the
+  \blue;For the truly brave or insane:
+  
+  
+
+- # 1435
+ k: |-1
+  11434
+ v: |-1
+  \dgrey;+50 to Life
+  +25 to Mana
+  +5% Magic Find
+  +1% Physical Resist
+  +10 Life after each Kill
+  \grey;(Based on Trophies)
+  \orange;Medals of Honor
+
+- # 1436
+ k: |-1
+  11435
+ v: |-1
+  \gold;Summon Two Edyrem Minions per Cast
+  Can Summon Edyrems Anywhere
+  \dgrey;+50% Chance of Crushing Blow
+  +20% of Life Added as Damage
+  20% Reanimate as: \yellow;Edyrem\dgrey;
+  \orange;Summon Edyrem:
+
+- # 1437
+ k: |-1
+  11436
+ v: |-1
+  Summon Edyrem: +5000 Defense
+
+- # 1438
+ k: |-1
+  11437
+ v: |-1
+  \dgrey;+10 Energy
+  +10 Dexterity
+  \orange; Cube with a Trophy to Add Bonus: 
+
+- # 1439
+ k: |-1
+  11438
+ v: |-1
+  \dgrey;+10 Vitality
+  +10 Strength
+  \orange; Cube with a Trophy to Add Bonus:
+
+- # 1440
+ k: |-1
+  11439
+ v: |-1
+  Scorpion Sting: +1% Pierce Chance to Lightning Fury per Base Level
+
+- # 1441
+ k: |-1
+  11440
+ v: |-1
+  ATMG Sentry: +20 Magic Damage per Level
+
+- # 1442
+ k: |-1
+  11441
+ v: |-1
+  +250% to Veil King Life and Damage
+
+- # 1443
+ k: |-1
+  11442
+ v: |-1
+  To unlock its true power
+  
+  \dgrey;Phul Rune
+  Lew Rune
+  Two Greater Signets of Learning
+  \blue;Transmute this item with:
+
+- # 1444
+ k: |-1
+  11443
+ v: |-1
+  To unlock its true power
+  
+  \dgrey;Any Great Rune
+  Two Greater Signets of Learning
+  \blue;Transmute this item with:
+
+- # 1445
+ k: |-1
+  11444
+ v: |-1
+  Tantrum: 20% of Vitality added as Cold Damage
+
+- # 1446
+ k: |-1
+  11445
+ v: |-1
+  Gamma Field: Increased Damage and Lowered Duration
+
+- # 1447
+ k: |-1
+  11446
+ v: |-1
+  Soulshatter: +200 Fire damage per Level
+
+- # 1448
+ k: |-1
+  11447
+ v: |-1
+  \orange;Ignis Fatuus: bonuses increased by 50%
+
+- # 1449
+ k: |-1
+  11448
+ v: |-1
+  \dgrey;+3% Hit Recovery (per Base Level)
+  +3% to Cold Spell Damage (per Base Level)
+  \orange;After using Mana Sweep: 
+
+- # 1450
+ k: |-1
+  11449
+ v: |-1
+  \gold;Wyrd Cooldown Increased by 0.3 seconds
+  \orange;Wyrd: Stuns Target for 0.2 seconds
+
+- # 1451
+ k: |-1
+  11450
+ v: |-1
+  Congratulations!
+
+- # 1452
+ k: |-1
+  11451
+ v: |-1
+  Adds 4000 - 5000 Magic Damage
+
+- # 1453
+ k: |-1
+  11452
+ v: |-1
+  \dgrey;20 Yard Radius
+  Nearby Enemies: -10% Elemental and Magic Resistances
+  \orange;Despair
+
+- # 1454
+ k: |-1
+  11453
+ v: |-1
+  \dgrey;- Demonic Forgery -
+
+- # 1455
+ k: |-1
+  11454
+ v: |-1
+  \dgrey;- Curse of the Warlord -
+
+- # 1456
+ k: |-1
+  11455
+ v: |-1
+  \dgrey;- Divine Mandate -
+
+- # 1457
+ k: |-1
+  11456
+ v: |-1
+  \dgrey;- Arcane Guidance -
+
+- # 1458
+ k: |-1
+  11457
+ v: |-1
+  \dgrey;- Eternal Reign -
+
+- # 1459
+ k: |-1
+  11458
+ v: |-1
+  \dgrey;- Infernal Blaze -
+
+- # 1460
+ k: |-1
+  11459
+ v: |-1
+  \dgrey;- Demonic Delirium -
+
+- # 1461
+ k: |-1
+  11460
+ v: |-1
+  \dgrey;- Blighted Grace -
+
+- # 1462
+ k: |-1
+  11461
+ v: |-1
+  \dgrey;- Askari Valor -
+
+- # 1463
+ k: |-1
+  11462
+ v: |-1
+  \dgrey;- Virtuosity of the Elements -
+
+- # 1464
+ k: |-1
+  11463
+ v: |-1
+  \dgrey;- Web of Deception -
+
+- # 1465
+ k: |-1
+  11464
+ v: |-1
+  \dgrey;- Vile Dissolution -
+
+- # 1466
+ k: |-1
+  11465
+ v: |-1
+  \dgrey;- Power Synthesis -
+
+- # 1467
+ k: |-1
+  11466
+ v: |-1
+  \dgrey;- Glimmer of Genesis -
+
+- # 1468
+ k: |-1
+  11467
+ v: |-1
+  \dgrey;- Revelations of the Cult -
+
+- # 1469
+ k: |-1
+  11468
+ v: |-1
+  \dgrey;- Legacy of the Ancients -
+
+- # 1470
+ k: |-1
+  11469
+ v: |-1
+  \dgrey;- Shadow's Embrace -
+
+- # 1471
+ k: |-1
+  11470
+ v: |-1
+  \dgrey;- Glow of the Dark Star -
+
+- # 1472
+ k: |-1
+  11471
+ v: |-1
+  \dgrey;- Axioms of Equilibrium -
+
+- # 1473
+ k: |-1
+  11472
+ v: |-1
+  \dgrey;- Stigma of Excidium -
+
+- # 1474
+ k: |-1
+  11473
+ v: |-1
+  (The Armor will be Disenchanted by the Recipe)
+  When Cubed with The Sleep, Enables an Additional Awakening
+
+- # 1475
+ k: |-1
+  11474
+ v: |-1
+  \dgrey;- Athulua's Determination -
+
+- # 1476
+ k: |-1
+  11475
+ v: |-1
+  \dgrey;remainders of a once powerful armor...
+
+- # 1477
+ k: |-1
+  11476
+ v: |-1
+  Difficulty: 60%
+  Congratulations!
+
+- # 1478
+ k: |-1
+  11477
+ v: |-1
+  Difficulty: 65%
+  Congratulations!
+
+- # 1479
+ k: |-1
+  11478
+ v: |-1
+  Difficulty: 70%
+  Congratulations!
+
+- # 1480
+ k: |-1
+  11479
+ v: |-1
+  Difficulty: 75%
+  Congratulations!
+
+- # 1481
+ k: |-1
+  11480
+ v: |-1
+  Difficulty: 80%
+  Congratulations!
+
+- # 1482
+ k: |-1
+  11481
+ v: |-1
+  Difficulty: 90%
+  Congratulations!
+
+- # 1483
+ k: |-1
+  11482
+ v: |-1
+  Difficulty: 100%
+  Congratulations!
+
+- # 1484
+ k: |-1
+  11483
+ v: |-1
+  \blue;Cube with Heavenly Soul: Restore +20%
+  \dgrey;Maximum Elemental Resists +3%
+  +50% Bonus to Defense
+  +2 to All Skills
+  \grey;(Based on Restore Percentage)
+  \orange;Restitution
+
+- # 1485
+ k: |-1
+  11484
+ v: |-1
+  \blue;Cube with Heavenly Soul: Restore +4%
+  \dgrey;Maximum Life +7%
+  Physical Resist +15%
+  +50% Combat Speeds
+  \grey;(Based on Restore Percentage)
+  \orange;Restitution
+
+- # 1486
+ k: |-1
+  11485
+ v: |-1
+  \blue;Cube with Heavenly Soul: Restore +5%
+  \dgrey;+50% Magic Find
+  +10 to All Skills
+  +150 Life after each Kill
+  -50% to Enemy Cold Resistance
+  Becomes Available to All Classes
+  \grey;(Based on Restore Percentage)
+  \orange;Restitution
+
+- # 1487
+ k: |-1
+  11486
+ v: |-1
+  \dgrey;Maximum Elemental Resists +3%
+  Total Character Defense +50%
+  +2 to All Skills
+  \orange;Blessing of Souls
+
+- # 1488
+ k: |-1
+  11487
+ v: |-1
+  \dgrey;Maximum Life +7%
+  Physical Resist +15%
+  +50% Combat Speeds
+  \orange;Blessing of Souls
+
+- # 1489
+ k: |-1
+  11488
+ v: |-1
+  \dgrey;+50% Magic Find
+  +10 to All Skills
+  +150 Life after each Kill
+  -50% to Enemy Cold Resistance
+  \orange;Blessing of Souls
+
+- # 1490
+ k: |-1
+  11489
+ v: |-1
+  50% of Strength Added as Fire Damage to Weapon
+
+- # 1491
+ k: |-1
+  11490
+ v: |-1
+  33% of Dexterity Added as Cold Damage to Weapon
+
+- # 1492
+ k: |-1
+  11491
+ v: |-1
+  36% of Dexterity Added as Lightning Damage to Weapon
+
+- # 1493
+ k: |-1
+  11492
+ v: |-1
+  37% of Dexterity Added as Tri-Elemental Damage to Weapon
+
+- # 1494
+ k: |-1
+  11493
+ v: |-1
+  Catalyst Trap Cooldown Reduced by 10 seconds
+  Incineration Trap Radius Reduced by 50%
+
+- # 1495
+ k: |-1
+  11494
+ v: |-1
+  +1% Trap Damage per 5 Base Strength
+
+- # 1496
+ k: |-1
+  11495
+ v: |-1
+  \dgrey;If you have an item source with Area of Effect attack
+  \orange;60% of Strength Added as Magic Damage to Area of Effect attack bonus
+
+- # 1497
+ k: |-1
+  11496
+ v: |-1
+  +1.5% Physical Resist per Resurgence Base Level
+  +1% Maximum Elemental Resists per Totem of that Element
+
+- # 1498
+ k: |-1
+  11497
+ v: |-1
+  -25% to Enemy Elemental Resistances for Your Traps
+
+- # 1499
+ k: |-1
+  11498
+ v: |-1
+  \blue;Weapon Physical Damage -150%
+  \orange;Adds 5 - 7 Fire Damage to Weapon per 2% Attack Speed
+
+- # 1500
+ k: |-1
+  11499
+ v: |-1
+  Bloodbath Duration Increased by 5 seconds
+
+- # 1501
+ k: |-1
+  11500
+ v: |-1
+  Backstab: Chance to Dodge Decreased by 100%
+  Backstab: Duration Increased by 8 seconds
+
+- # 1502
+ k: |-1
+  11501
+ v: |-1
+  \orange;Adds 50% of Current Mana as Cold Damage
+  While in Werewolf Form:
+
+- # 1503
+ k: |-1
+  11502
+ v: |-1
+  -75% Mana Drain in Werewolf Form
+
+- # 1504
+ k: |-1
+  11503
+ v: |-1
+  Metal Solace: Also Regenerates Totem Life
+
+- # 1505
+ k: |-1
+  11504
+ v: |-1
+  +1 Projectile to Punishers
+
+- # 1506
+ k: |-1
+  11505
+ v: |-1
+  Fire Elementals Inherit Your Fire Spell Damage
+
+- # 1507
+ k: |-1
+  11506
+ v: |-1
+  Fire Elementals Inherit Your Energy and Spell Focus
+
+- # 1508
+ k: |-1
+  11507
+ v: |-1
+  +1% Lightning Spell Damage per 2% Gold Find
+
+- # 1509
+ k: |-1
+  11508
+ v: |-1
+  +3 Additional Dragon Wyrms
+
+- # 1510
+ k: |-1
+  11509
+ v: |-1
+  Dragon Breath: Reduces Weapon Physical Damage by 25%
+
+- # 1511
+ k: |-1
+  11510
+ v: |-1
+  Hoplites: +5% Poison Pierce per Plague Base Level
+
+- # 1512
+ k: |-1
+  11511
+ v: |-1
+  Wyrm Count Reduced by 5
+  Dragon Wyrms Fire Two Bolts
+
+- # 1513
+ k: |-1
+  11512
+ v: |-1
+  \green;
+  \grey;(Active during B Blessing)
+  \orange;Nephalem Glory
+  
+
+- # 1514
+ k: |-1
+  11513
+ v: |-1
+  \green;
+  \grey;(Active during V- Blessing)
+  \orange;Sharp-Tooth Eye
+  
+
+- # 1515
+ k: |-1
+  11514
+ v: |-1
+  Orb Effects Applied to this Item are Quadrupled
+
+- # 1516
+ k: |-1
+  11515
+ v: |-1
+  Regens 15% Life Over 5 Seconds Upon Taking Weapon Damage
+
+- # 1517
+ k: |-1
+  11516
+ v: |-1
+  +20% Total Damage to Curare
+
+- # 1518
+ k: |-1
+  11517
+ v: |-1
+  \dgrey;-150% to Summoned Minion Damage
+  +375 Life Regenerated per Second
+  +20% Malice Skill Damage
+  \orange;If you have No Ultimate Skill:
+
+- # 1519
+ k: |-1
+  11518
+ v: |-1
+  Unique Orbs Add +7 Extra Required Level
+
+- # 1520
+ k: |-1
+  11519
+ v: |-1
+  \dgrey;Immersion Leeches Life
+  \orange;With The Catalyst and The Judgement Equipped:
+
+- # 1521
+ k: |-1
+  11520
+ v: |-1
+  \dgrey;+24% Twilight Havoc Spell Damage per Chronofield Base Level
+  +12% Twilight Havoc Spell Damage per Offensive Arcane Skill Base Level
+  \orange;With The Catalyst and The Judgement Equipped:
+
+- # 1522
+ k: |-1
+  11521
+ v: |-1
+  \dgrey;Hive adds 0.75% of Vitality to Energy per Base Level in the Arcane Tree (Max 40%)
+  \orange;With The Catalyst and The Judgement Equipped:
+
+- # 1523
+ k: |-1
+  11522
+ v: |-1
+  Hive Duration Reduced to 30 Seconds
+
+- # 1524
+ k: |-1
+  11523
+ v: |-1
+  +15% Malice Skill Damage
+
+- # 1525
+ k: |-1
+  11524
+ v: |-1
+  28% of Strength Added as Lightning Damage to Weapon
+
+- # 1526
+ k: |-1
+  11525
+ v: |-1
+  Mana Sweep: -25% Total Damage, Leeches no Mana
+
+- # 1527
+ k: |-1
+  11526
+ v: |-1
+  Fury: +4 seconds Base Duration
+
+- # 1528
+ k: |-1
+  11527
+ v: |-1
+  15% of Dexterity added as Weapon Physical Damage
+  -1% to Enemy Poison Resist per 1% Block Chance
+
+- # 1529
+ k: |-1
+  11528
+ v: |-1
+  +5 Axes to Overkill
+
+- # 1530
+ k: |-1
+  11529
+ v: |-1
+  +15 Lightning Damage per 1% Lightning Pierce
+
+- # 1531
+ k: |-1
+  11530
+ v: |-1
+  Apple Healing Effect While Equipped
+
+- # 1532
+ k: |-1
+  11531
+ v: |-1
+  \dgrey;+1 to All Skills
+  +20% to Elemental Spell Damage
+  +25 Spell Focus
+  \grey;(Bonus for each equipped Hidden Craft Item)
+  \orange;Hidden Reliquary
+
+- # 1533
+ k: |-1
+  11532
+ v: |-1
+  33% of Dexterity Added as Lightning Damage to Weapon
+
+- # 1534
+ k: |-1
+  11533
+ v: |-1
+  +1 Extra Resurrect
+
+- # 1535
+ k: |-1
+  11534
+ v: |-1
+  Split Arrow: +8 Projectiles
+
+- # 1536
+ k: |-1
+  11535
+ v: |-1
+  +2 Sandstorm Projectiles
+
+- # 1537
+ k: |-1
+  11536
+ v: |-1
+  Cone of Cold Size Increased by 50%
+
+- # 1538
+ k: |-1
+  11537
+ v: |-1
+  +1 Diseased Cattle Projectiles
+
+- # 1539
+ k: |-1
+  11538
+ v: |-1
+  +4% to Euphoria Pierce
+
+- # 1540
+ k: |-1
+  11539
+ v: |-1
+  +1 Extra Fireheart Totem
+
+- # 1541
+ k: |-1
+  11540
+ v: |-1
+  +1 Extra Frostclaw Totem
+
+- # 1542
+ k: |-1
+  11541
+ v: |-1
+  +1 Extra Stormeye Totem
+
+- # 1543
+ k: |-1
+  11542
+ v: |-1
+  Flamefront: +1 Maximum Projectile
+
+- # 1544
+ k: |-1
+  11543
+ v: |-1
+  +1 Extra Guardian Spirit
+
+- # 1545
+ k: |-1
+  11544
+ v: |-1
+  
+
+- # 1546
+ k: |-1
+  11545
+ v: |-1
+  +1 Extra Hoplite
+
+- # 1547
+ k: |-1
+  11546
+ v: |-1
+  +1 Extra Ice Elemental
+
+- # 1548
+ k: |-1
+  11547
+ v: |-1
+  +1 Ice Lance Projectiles
+
+- # 1549
+ k: |-1
+  11548
+ v: |-1
+  +5 Hail of Stones Projectiles
+
+- # 1550
+ k: |-1
+  11549
+ v: |-1
+  +1 Extra Thunder Bear
+
+- # 1551
+ k: |-1
+  11550
+ v: |-1
+  
+
+- # 1552
+ k: |-1
+  11551
+ v: |-1
+  +1 Razor Spines Projectiles
+
+- # 1553
+ k: |-1
+  11552
+ v: |-1
+  Moonbeam Duration Increased by 3 seconds
+
+- # 1554
+ k: |-1
+  11553
+ v: |-1
+  Nightmare Reduces Physical Resistance by 6%
+
+- # 1555
+ k: |-1
+  11554
+ v: |-1
+  Blast Wave Cooldown Halved
+
+- # 1556
+ k: |-1
+  11555
+ v: |-1
+  +3 Axes to Overkill
+
+- # 1557
+ k: |-1
+  11556
+ v: |-1
+  +1 Pain Spirit Projectiles
+
+- # 1558
+ k: |-1
+  11557
+ v: |-1
+  Parasite Gains 5 Additional Targets
+
+- # 1559
+ k: |-1
+  11558
+ v: |-1
+  +500 Total Energy to Psicrown
+
+- # 1560
+ k: |-1
+  11559
+ v: |-1
+  Shred: +50% Duration
+
+- # 1561
+ k: |-1
+  11560
+ v: |-1
+  Spark of Hope Duration Increased by 15 seconds
+
+- # 1562
+ k: |-1
+  11561
+ v: |-1
+  +10 Rebound Projectiles
+
+- # 1563
+ k: |-1
+  11562
+ v: |-1
+  Eviscerate: +1 Projectile
+
+- # 1564
+ k: |-1
+  11563
+ v: |-1
+  +2 Rock Shock Projectiles
+
+- # 1565
+ k: |-1
+  11564
+ v: |-1
+  +1 Extra Servant
+
+- # 1566
+ k: |-1
+  11565
+ v: |-1
+  Screaming Eagle Duration Increased by 3 seconds
+
+- # 1567
+ k: |-1
+  11566
+ v: |-1
+  +1 Silver Dart Projectiles
+
+- # 1568
+ k: |-1
+  11567
+ v: |-1
+  20% Lightning Pierce to Slayers
+
+- # 1569
+ k: |-1
+  11568
+ v: |-1
+  Solar Flare: +30% Duration
+
+- # 1570
+ k: |-1
+  11569
+ v: |-1
+  Spore Shot Magic Damage Increased by 100%
+
+- # 1571
+ k: |-1
+  11570
+ v: |-1
+  +1 Squall Gust Projectiles
+
+- # 1572
+ k: |-1
+  11571
+ v: |-1
+  +2 Storm Crows Projectiles
+
+- # 1573
+ k: |-1
+  11572
+ v: |-1
+  +2 Extra Harvesters
+
+- # 1574
+ k: |-1
+  11573
+ v: |-1
+  +25% Fire Pierce to Fire Elementals
+
+- # 1575
+ k: |-1
+  11574
+ v: |-1
+  Blood Skeleton: +5 to Grim Vision Aura
+
+- # 1576
+ k: |-1
+  11575
+ v: |-1
+  +3 Extra Night Hawks
+
+- # 1577
+ k: |-1
+  11576
+ v: |-1
+  Jinn: +4 to Hellfire Aura
+
+- # 1578
+ k: |-1
+  11577
+ v: |-1
+  +1 Extra Lamia
+
+- # 1579
+ k: |-1
+  11578
+ v: |-1
+  +1 Extra Rampagor
+
+- # 1580
+ k: |-1
+  11579
+ v: |-1
+  +15% Elemental Spell Damage to Demon Blood Aura
+
+- # 1581
+ k: |-1
+  11580
+ v: |-1
+  Veil King: +8% Deadly Strike
+
+- # 1582
+ k: |-1
+  11581
+ v: |-1
+  Teleport Cooldown Reduced by 0.5 seconds (min: 2s)
+
+- # 1583
+ k: |-1
+  11582
+ v: |-1
+  +3 Maximum Tempest Projectiles
+
+- # 1584
+ k: |-1
+  11583
+ v: |-1
+  +1 Extra Venomcloud Totem
+
+- # 1585
+ k: |-1
+  11584
+ v: |-1
+  +30% Weapon Physical Damage in Wereowl Form
+
+- # 1586
+ k: |-1
+  11585
+ v: |-1
+  +25% Magic Find When Near a Revenant
+
+- # 1587
+ k: |-1
+  11586
+ v: |-1
+  Hunter's Mark: Increased Damage per Hit
+
+- # 1588
+ k: |-1
+  11587
+ v: |-1
+  +3 Wyrmshot Targets
+
+- # 1589
+ k: |-1
+  11588
+ v: |-1
+  Champion of Sanctuary
+
+- # 1590
+ k: |-1
+  11589
+ v: |-1
+  Lethal Incision: +1 Extra Blade
+
+- # 1591
+ k: |-1
+  11590
+ v: |-1
+  Blast Radius: Explosion Radius increased by 2 Yards
+
+- # 1592
+ k: |-1
+  11591
+ v: |-1
+  +10% Lightning Fury Damage
+
+- # 1593
+ k: |-1
+  11592
+ v: |-1
+  Blink Restores Stamina If You Have a Point in Summon Familiars
+
+- # 1594
+ k: |-1
+  11593
+ v: |-1
+  +2 Bloodstar Projectiles
+
+- # 1595
+ k: |-1
+  11594
+ v: |-1
+  +30% Bonus Damage to Doom
+
+- # 1596
+ k: |-1
+  11595
+ v: |-1
+  +75% Velocity After Casting Jitan's Gate
+
+- # 1597
+ k: |-1
+  11596
+ v: |-1
+  Takedown: +1 Maximum Fury Charges
+
+- # 1598
+ k: |-1
+  11597
+ v: |-1
+  +8% Total Psionic Storm Damage
+
+- # 1599
+ k: |-1
+  11598
+ v: |-1
+  +1 Projectile to Punisher
+
+- # 1600
+ k: |-1
+  11599
+ v: |-1
+  
+
+- # 1601
+ k: |-1
+  ModitemEleInnateSeq
+ v: |-1
+  \grey;Innate Fire Damage: \red;%d\grey; (%.1f%% of %s)
+
+- # 1602
+ k: |-1
+  x
+ v: |-1
+  \grey;Innate Lightning Damage: \yellow;%d \grey;(%.1f%% of %s)
+
+- # 1603
+ k: |-1
+  x
+ v: |-1
+  \grey;Innate Cold Damage: \blue;%d \grey;(%.1f%% of %s)
+
+- # 1604
+ k: |-1
+  x
+ v: |-1
+  \grey;Innate Poison Damage: \green;%d \grey;(%.1f%% of %s)
+
+- # 1605
+ k: |-1
+  x
+ v: |-1
+  \grey;Innate Magic Damage: \orange;%d \grey;(%.1f%% of %s)
+
+- # 1606
+ k: |-1
+  x
+ v: |-1
+  \grey;Innate Tri-Elemental Damage: \orange;%d \grey;(%.1f%% of %s)
+
+- # 1607
+ k: |-1
+  x
+ v: |-1
+  %d %.1f %s
+
+- # 1608
+ k: |-1
+  x
+ v: |-1
+  %d %.1f %s
+
+- # 1609
+ k: |-1
+  x
+ v: |-1
+  %d %.1f %s
+
+- # 1610
+ k: |-1
+  x
+ v: |-1
+  %d %.1f %s
+
+- # 1611
+ k: |-1
+  11610
+ v: |-1
+  
+
+- # 1612
+ k: |-1
+  11611
+ v: |-1
+  Level 14 Crane Stance
+
+- # 1613
+ k: |-1
+  11612
+ v: |-1
+  Level 1 Crane Stance
+
+- # 1614
+ k: |-1
+  11613
+ v: |-1
+  Level 3 Crane Stance
+
+- # 1615
+ k: |-1
+  11614
+ v: |-1
+  Level 7 Crane Stance
+
+- # 1616
+ k: |-1
+  11615
+ v: |-1
+  \dgrey;10% Weapon Physical Damage
+  10% Crushing Blow
+  28% Hit Recovery
+  40% Movement Speed
+  28% Attack Speed
+  \orange;Level 1 Wolf Stance
+
+- # 1617
+ k: |-1
+  11616
+ v: |-1
+  Level 6 Lion Stance
+
+- # 1618
+ k: |-1
+  11617
+ v: |-1
+  Level 12 Lion Stance
+
+- # 1619
+ k: |-1
+  11618
+ v: |-1
+  \dgrey;12% Bonus to Defense
+  Physical Resist 20%
+  \orange;Level 1 Bear Stance
+
+- # 1620
+ k: |-1
+  11619
+ v: |-1
+  Level 6 Eagle Stance
+
+- # 1621
+ k: |-1
+  11620
+ v: |-1
+  Level 1 Eagle Stance
+
+- # 1622
+ k: |-1
+  11621
+ v: |-1
+  +1% Attack Speed per 25 Dexterity
+
+- # 1623
+ k: |-1
+  11622
+ v: |-1
+  +5% Innate Elemental Damage per Character Level above 137
+
+- # 1624
+ k: |-1
+  11623
+ v: |-1
+  +10% Innate Elemental Damage per Character level above 137
+
+- # 1625
+ k: |-1
+  11624
+ v: |-1
+  Transmute in the Horadric Cube to Upgrade
+  Survive the Edge of Nothingness battle for 11 minutes
+  Must have at least 3000 Dexterity
+  Hunter Only Upgrade:
+  
+
+- # 1626
+ k: |-1
+  11625
+ v: |-1
+  And the Abyss Stares Back
+
+- # 1627
+ k: |-1
+  11626
+ v: |-1
+  Level 12 Wolf Stance
+
+- # 1628
+ k: |-1
+  11627
+ v: |-1
+  Perfect Rainbow Stone
+
+- # 1629
+ k: |-1
+  11628
+ v: |-1
+  Sol, Tal, Ort Runes
+
+- # 1630
+ k: |-1
+  11629
+ v: |-1
+  2 Arcane Crystals
+
+- # 1631
+ k: |-1
+  11630
+ v: |-1
+  Rare Jewel
+
+- # 1632
+ k: |-1
+  11631
+ v: |-1
+  Wirt's Leg
+
+- # 1633
+ k: |-1
+  11632
+ v: |-1
+  Emblem of Destruction (Secret)
+
+- # 1634
+ k: |-1
+  11633
+ v: |-1
+  Emblem of Suffering (Secret)
+
+- # 1635
+ k: |-1
+  11634
+ v: |-1
+  Emblem of Terror (Secret)
+
+- # 1636
+ k: |-1
+  11635
+ v: |-1
+  Emblem of Hatred (Secret)
+
+- # 1637
+ k: |-1
+  11636
+ v: |-1
+  Emblem of Pain (Secret)
+
+- # 1638
+ k: |-1
+  11637
+ v: |-1
+  Emblem of Lies (Secret)
+
+- # 1639
+ k: |-1
+  11638
+ v: |-1
+  \grey;Cube with separate Ingredients to Design
+  
+
+- # 1640
+ k: |-1
+  11639
+ v: |-1
+  \grey;Cube with Oil of Craft to Create
+  
+
+- # 1641
+ k: |-1
+  StrStashPageLocal
+ v: |-1
+  Storage Page: 
+
+- # 1642
+ k: |-1
+  StrStashPageShared
+ v: |-1
+  Shared Storage Page: 
+
+- # 1643
+ k: |-1
+  StrStashToggleShared
+ v: |-1
+  Switch to shared storage
+
+- # 1644
+ k: |-1
+  StrStashToggleLocal
+ v: |-1
+  Switch to local storage
+
+- # 1645
+ k: |-1
+  StrStashNextPage
+ v: |-1
+  Next page
+
+- # 1646
+ k: |-1
+  StrStashPrevPage
+ v: |-1
+  Previous page
+
+- # 1647
+ k: |-1
+  11646
+ v: |-1
+  10% Magic Find per Socketed Rainbow Stone
+  +1 to All Skills per 2 Socketed Rainbow Stones
+
+- # 1648
+ k: |-1
+  11647
+ v: |-1
+  Lightning Arena Damage Increased by 2000%
+
+- # 1649
+ k: |-1
+  11648
+ v: |-1
+  Churel Buff Duration Increased by 66%
+
+- # 1650
+ k: |-1
+  11649
+ v: |-1
+  \blue;300% of Deadly Strike added as Damage Multiplier
+  200% of Deadly Strike added as Fire Pierce
+  \orange;Path of Flames:
+
+- # 1651
+ k: |-1
+  11650
+ v: |-1
+  Dark Power Adds 1% Innate Elemental Damage per Skill Level
+
+- # 1652
+ k: |-1
+  11651
+ v: |-1
+  Firedance Does Not Add Spell Damage
+
+- # 1653
+ k: |-1
+  11652
+ v: |-1
+  Hive Adds 1% Poison Spell Damage per Skill Level
+
+- # 1654
+ k: |-1
+  11653
+ v: |-1
+  20% Magic Find per Socketed Rainbow Stone
+  +1 to All Skills per 2 Socketed Rainbow Stones
+
+- # 1655
+ k: |-1
+  11654
+ v: |-1
+  40% Less Healing From Potions
+
+- # 1656
+ k: |-1
+  11655
+ v: |-1
+  (Weapon Only)
+
+- # 1657
+ k: |-1
+  11656
+ v: |-1
+  (Armor Only)
+
+- # 1658
+ k: |-1
+  11657
+ v: |-1
+  (Ring, Amulet or Quiver Only)
+
+- # 1659
+ k: |-1
+  11658
+ v: |-1
+  (Any Equippable Item)
+
+- # 1660
+ k: |-1
+  11659
+ v: |-1
+  200% Bonus to Miasma Haunt Duration
+
+- # 1661
+ k: |-1
+  11660
+ v: |-1
+  Miasma: Haunt Duration Increased by 4 seconds
+
+- # 1662
+ k: |-1
+  11661
+ v: |-1
+  +50% Bonus to Miasma Haunt Duration
+
+- # 1663
+ k: |-1
+  11662
+ v: |-1
+  +150% Bonus to Miasma Haunt Duration
+
+- # 1664
+ k: |-1
+  11663
+ v: |-1
+  +200% Enhanced Damage to Mooncall
+
+- # 1665
+ k: |-1
+  11664
+ v: |-1
+  Druid Morph
+
+- # 1666
+ k: |-1
+  11665
+ v: |-1
+  30% Enhanced Damage vs. Necrobots
+
+- # 1667
+ k: |-1
+  11666
+ v: |-1
+  Increased Healing Rate from Apples by 50%
+
+- # 1668
+ k: |-1
+  11667
+ v: |-1
+  Increased Healing Rate from Apples by 100%
+
+- # 1669
+ k: |-1
+  11668
+ v: |-1
+  +1 to All Skills when using an Apple
+
+- # 1670
+ k: |-1
+  11669
+ v: |-1
+  +2 to All Skills when using an Apple
+
+- # 1671
+ k: |-1
+  11670
+ v: |-1
+  +3 to All Skills when using an Apple
+
+- # 1672
+ k: |-1
+  11671
+ v: |-1
+  +15% Damage to Protector Spirit Bloodlust
+  
+
+- # 1673
+ k: |-1
+  11672
+ v: |-1
+  +30% Damage to Protector Spirit Bloodlust
+  
+
+- # 1674
+ k: |-1
+  11673
+ v: |-1
+  +50% Damage to Protector Spirit Bloodlust
+  
+
+- # 1675
+ k: |-1
+  11674
+ v: |-1
+  Searing Glow: Dazzle Reduces Enemy Attack Rating by 5%
+
+- # 1676
+ k: |-1
+  11675
+ v: |-1
+  10% of Total Energy Gained as Life
+
+- # 1677
+ k: |-1
+  StrSkillTabsAma
+ v: |-1
+  Divine
+
+- # 1678
+ k: |-1
+  x
+ v: |-1
+  Bow
+
+- # 1679
+ k: |-1
+  x
+ v: |-1
+  Javelin
+
+- # 1680
+ k: |-1
+  x
+ v: |-1
+  Spear
+
+- # 1681
+ k: |-1
+  x
+ v: |-1
+  Storm
+
+- # 1682
+ k: |-1
+  x
+ v: |-1
+  Blood
+
+- # 1683
+ k: |-1
+  x
+ v: |-1
+  Mastery
+
+- # 1684
+ k: |-1
+  x
+ v: |-1
+  Reward
+
+- # 1685
+ k: |-1
+  x
+ v: |-1
+  
+
+- # 1686
+ k: |-1
+  x
+ v: |-1
+  
+
+- # 1687
+ k: |-1
+  StrSkillTabsAss
+ v: |-1
+  Ninja
+
+- # 1688
+ k: |-1
+  x
+ v: |-1
+  Throwing
+
+- # 1689
+ k: |-1
+  x
+ v: |-1
+  Claw
+
+- # 1690
+ k: |-1
+  x
+ v: |-1
+  Naginata
+
+- # 1691
+ k: |-1
+  x
+ v: |-1
+  Traps
+
+- # 1692
+ k: |-1
+  x
+ v: |-1
+  Psionic
+
+- # 1693
+ k: |-1
+  x
+ v: |-1
+  Mastery
+
+- # 1694
+ k: |-1
+  x
+ v: |-1
+  Reward
+
+- # 1695
+ k: |-1
+  x
+ v: |-1
+  
+
+- # 1696
+ k: |-1
+  x
+ v: |-1
+  
+
+- # 1697
+ k: |-1
+  StrSkillTabsBar
+ v: |-1
+  Nomad
+
+- # 1698
+ k: |-1
+  x
+ v: |-1
+  Earthshaker
+
+- # 1699
+ k: |-1
+  x
+ v: |-1
+  Windcarver
+
+- # 1700
+ k: |-1
+  x
+ v: |-1
+  Elementalist
+
+- # 1701
+ k: |-1
+  x
+ v: |-1
+  Warmonger
+
+- # 1702
+ k: |-1
+  x
+ v: |-1
+  Shaman
+
+- # 1703
+ k: |-1
+  x
+ v: |-1
+  Mastery
+
+- # 1704
+ k: |-1
+  x
+ v: |-1
+  Reward
+
+- # 1705
+ k: |-1
+  x
+ v: |-1
+  
+
+- # 1706
+ k: |-1
+  x
+ v: |-1
+  
+
+- # 1707
+ k: |-1
+  StrSkillTabsDru
+ v: |-1
+  Nature
+
+- # 1708
+ k: |-1
+  x
+ v: |-1
+  Werebear
+
+- # 1709
+ k: |-1
+  x
+ v: |-1
+  Werewolf
+
+- # 1710
+ k: |-1
+  x
+ v: |-1
+  Wereowl
+
+- # 1711
+ k: |-1
+  x
+ v: |-1
+  Hunter
+
+- # 1712
+ k: |-1
+  x
+ v: |-1
+  Seer
+
+- # 1713
+ k: |-1
+  x
+ v: |-1
+  Mastery
+
+- # 1714
+ k: |-1
+  x
+ v: |-1
+  Reward
+
+- # 1715
+ k: |-1
+  x
+ v: |-1
+  
+
+- # 1716
+ k: |-1
+  x
+ v: |-1
+  
+
+- # 1717
+ k: |-1
+  StrSkillTabsNec
+ v: |-1
+  Deathspeaker
+
+- # 1718
+ k: |-1
+  x
+ v: |-1
+  Summon
+
+- # 1719
+ k: |-1
+  x
+ v: |-1
+  Melee
+
+- # 1720
+ k: |-1
+  x
+ v: |-1
+  Crossbow
+
+- # 1721
+ k: |-1
+  x
+ v: |-1
+  Malice
+
+- # 1722
+ k: |-1
+  x
+ v: |-1
+  Totem
+
+- # 1723
+ k: |-1
+  x
+ v: |-1
+  Mastery
+
+- # 1724
+ k: |-1
+  x
+ v: |-1
+  Reward
+
+- # 1725
+ k: |-1
+  x
+ v: |-1
+  
+
+- # 1726
+ k: |-1
+  x
+ v: |-1
+  
+
+- # 1727
+ k: |-1
+  StrSkillTabsPal
+ v: |-1
+  Aspects
+
+- # 1728
+ k: |-1
+  x
+ v: |-1
+  Templar
+
+- # 1729
+ k: |-1
+  x
+ v: |-1
+  Incarnation
+
+- # 1730
+ k: |-1
+  x
+ v: |-1
+  Nephalem
+
+- # 1731
+ k: |-1
+  x
+ v: |-1
+  Ritualist
+
+- # 1732
+ k: |-1
+  x
+ v: |-1
+  Warlock
+
+- # 1733
+ k: |-1
+  x
+ v: |-1
+  Mastery
+
+- # 1734
+ k: |-1
+  x
+ v: |-1
+  Reward
+
+- # 1735
+ k: |-1
+  x
+ v: |-1
+  
+
+- # 1736
+ k: |-1
+  x
+ v: |-1
+  
+
+- # 1737
+ k: |-1
+  StrSkillTabsSor
+ v: |-1
+  Arcane
+
+- # 1738
+ k: |-1
+  x
+ v: |-1
+  Fire
+
+- # 1739
+ k: |-1
+  x
+ v: |-1
+  Lightning
+
+- # 1740
+ k: |-1
+  x
+ v: |-1
+  Cold
+
+- # 1741
+ k: |-1
+  x
+ v: |-1
+  Poison
+
+- # 1742
+ k: |-1
+  x
+ v: |-1
+  Melee
+
+- # 1743
+ k: |-1
+  x
+ v: |-1
+  Mastery
+
+- # 1744
+ k: |-1
+  x
+ v: |-1
+  Coven
+
+- # 1745
+ k: |-1
+  x
+ v: |-1
+  Reward
+
+- # 1746
+ k: |-1
+  x
+ v: |-1
+  
+
+- # 1747
+ k: |-1
+  11746
+ v: |-1
+  Your Cold Damage is Nullified
+
+- # 1748
+ k: |-1
+  11747
+ v: |-1
+  When Equipped with Acokanthera: +1 Second Duration to Devouring Cloud
+
+- # 1749
+ k: |-1
+  11748
+ v: |-1
+  -1% to Enemy Elemental Resistances per 150 Dexterity
+
+- # 1750
+ k: |-1
+  11749
+ v: |-1
+  Carnage Now Converts 100% Physical Damage to Fire
+
+- # 1751
+ k: |-1
+  11750
+ v: |-1
+  Carnage Conversion is Reduced by 1% per Base Level
+  Your Fire Damage Is Nullified
+
+- # 1752
+ k: |-1
+  RightClickToUnsummon
+ v: |-1
+  Right-click to Unsummon
+
+- # 1753
+ k: |-1
+  11752
+ v: |-1
+  Pestilence: regenerates 4% of Maximum Life per Second
+  Pestilence: duration reduced by 50%
+
+- # 1754
+ k: |-1
+  11753
+ v: |-1
+  +5-10 Damage per Character Level Above 138
+
+- # 1755
+ k: |-1
+  11754
+ v: |-1
+  \dgrey;16.6 Yard Radius
+  +1% damage per 7 Energy
+  Nearby Enemies take 1200 Lightning Damage every 1.2 seconds
+  \orange;Holy Shock
+
+- # 1756
+ k: |-1
+  11755
+ v: |-1
+  With 15 Base Levels in Runemaster: 10% Deadly Strike
+  At least 1 Base Level in Runemaster: Maximum Poison Resist +4%
+
+- # 1757
+ k: |-1
+  11756
+ v: |-1
+  (Whichever is Higher)
+  +1% Weapon Physical Damage per 50 Strength or Dexterity
+
+- # 1758
+ k: |-1
+  11757
+ v: |-1
+  Howl of the Spirits: +4 Seconds Duration 
+
+- # 1759
+ k: |-1
+  11758
+ v: |-1
+  +150% Bonus Fire Damage to Retaliate
+
+- # 1760
+ k: |-1
+  strConfigDungeonTimer
+ v: |-1
+  Display countdown in timed dungeons
+
+- # 1761
+ k: |-1
+  11760
+ v: |-1
+  Level 1 Spark of Hope
+
+- # 1762
+ k: |-1
+  11761
+ v: |-1
+  -3% Weapon Physical Damage per 1% Lost Mana
+  +200% Enhanced Weapon Damage
+
+- # 1763
+ k: |-1
+  11762
+ v: |-1
+  +1 Hunting Banshee Missiles
+
+- # 1764
+ k: |-1
+  11763
+ v: |-1
+  Psicrown Now Explodes Upon Impact
+
+- # 1765
+ k: |-1
+  11764
+ v: |-1
+  Lemures Explosion Radius Increased by 2 yards
+
+- # 1766
+ k: |-1
+  11765
+ v: |-1
+  Below 50% Life: +200 Life After Each Kill
+  Above 70% Life: -10 Life After Each Kill
+
+- # 1767
+ k: |-1
+  11766
+ v: |-1
+  (pick one)
+  Ultimate Skill
+
+- # 1768
+ k: |-1
+  11767
+ v: |-1
+  Ring Of Flames Gains +1% Total Damage per Character Level
+
+- # 1769
+ k: |-1
+  11768
+ v: |-1
+  Living Flame Gives +1% Fire Spell Damage per 8 Character Levels
+
+- # 1770
+ k: |-1
+  11769
+ v: |-1
+  Occult Path: +10 Life per Death Ripple Skill Level
+  Enhances Death Ripple
+
+- # 1771
+ k: |-1
+  11770
+ v: |-1
+  (locks other devotions)
+  \orange;Holy Devotion
+
+- # 1772
+ k: |-1
+  11771
+ v: |-1
+  (locks other devotions)
+  \purple;Unholy Devotion
+
+- # 1773
+ k: |-1
+  11772
+ v: |-1
+  (locks other devotions)
+  \grey;Neutral Devotion
+
+- # 1774
+ k: |-1
+  11773
+ v: |-1
+  +1% Innate Elemental Damage per 250 Strength and Dexterity
+
+- # 1775
+ k: |-1
+  11774
+ v: |-1
+  +1% Maximum Cold Resist per 80% Cold Resist
+
+- # 1776
+ k: |-1
+  11775
+ v: |-1
+  +25 Fire Damage per 100 Dexterity
+
+- # 1777
+ k: |-1
+  11776
+ v: |-1
+  Enemy Fire Resistance is Reduced by Lightning Pierce at 25% Efficiency
+
+- # 1778
+ k: |-1
+  11777
+ v: |-1
+  +10% Maximum Mana if Solar Flare is Active
+  +40 Spell Focus if Sanguine Covenant is Active
+
+- # 1779
+ k: |-1
+  11778
+ v: |-1
+  While in Werewolf Form: -10% Enemy Cold Resistance
+  While in Wereowl Form: Adds 10-15 Damage
+
+- # 1780
+ k: |-1
+  11779
+ v: |-1
+  Abyss Knights: Chance to cast Chaos Nova on Kill Doubled
+
+- # 1781
+ k: |-1
+  11780
+ v: |-1
+  +1% Maximum Elemental Resist per 200% Lightning Spell Damage
+
+- # 1782
+ k: |-1
+  11781
+ v: |-1
+  12% Chance to cast Level 42 Flamefront on Death Blow when Below 80% Life
+
+- # 1783
+ k: |-1
+  11782
+ v: |-1
+  Famine No Longer Grants Weapon Physical Damage
+  Famine Grants 1% of Strength and Dexterity as Innate Elemental Damage
+
+- # 1784
+ k: |-1
+  11783
+ v: |-1
+  If you have 90% Fire Resist: +50% Fire Spell Damage
+
+- # 1785
+ k: |-1
+  11784
+ v: |-1
+  Hammer of Zerae: Lightning Spell Damage Applies To Added Lightning Damage At 50% Efficiency
+
+- # 1786
+ k: |-1
+  11785
+ v: |-1
+  Heal 0.05% Life per Second per 1% Lost Mana
+
+- # 1787
+ k: |-1
+  11786
+ v: |-1
+  Above Level 100: +6-12 Lightning Damage per Character Level
+  Up to Level 100: +2-4 Lightning Damage per Character Level
+
+- # 1788
+ k: |-1
+  11787
+ v: |-1
+  If Colosseum has 20 Base Levels: +5% Avoid
+
+- # 1789
+ k: |-1
+  11788
+ v: |-1
+  7% Chance to cast Level 5 Lifespark on Death Blow when Below 50% Life
+
+- # 1790
+ k: |-1
+  11789
+ v: |-1
+  Abyss Knights Reduce Enemy Magic Resistance by 10%
+
+- # 1791
+ k: |-1
+  11790
+ v: |-1
+  \grey;(you cannot dual wield)
+  \orange;Melee Elemental Base Required
+
+- # 1792
+ k: |-1
+  11791
+ v: |-1
+  \dgrey;Dirge Chances to cast Increased by 10%
+  \orange;When Soulchain is Active:
+
+- # 1793
+ k: |-1
+  11792
+ v: |-1
+  \dgrey;Stormeye Totem has 6% Chance to cast Level 44 Stormclash on Death Blow
+  \dgrey;Fireheart Totem has 6% Chance to cast Level 44 Fire Cannonade on Death Blow
+  \dgrey;Frostclaw Totem has 6% Chance to cast Level 44 Blizzard on Death Blow
+  \orange;When Soulchain is Active:
+
+- # 1794
+ k: |-1
+  11793
+ v: |-1
+  Earthshaker Skills Have Their Cooldowns Reduced by 20%
+
+- # 1795
+ k: |-1
+  11794
+ v: |-1
+  +3 to all Attributes
+  \gold;Weapons, Armor:
+  
+
+- # 1796
+ k: |-1
+  11795
+ v: |-1
+  +3 to Maximum Damage
+  \gold;Armor:
+  
+  \grey;+5 to Maximum Damage
+  \gold;Weapons:
+  
+
+- # 1797
+ k: |-1
+  11796
+ v: |-1
+  +3% to Fire Spell Damage
+  \gold;Weapons, Armor:
+  
+
+- # 1798
+ k: |-1
+  11797
+ v: |-1
+  +3% to Lightning Spell Damage
+  \gold;Weapons, Armor:
+  
+
+- # 1799
+ k: |-1
+  11798
+ v: |-1
+  +3% to Cold Spell Damage
+  \gold;Weapons, Armor:
+  
+
+- # 1800
+ k: |-1
+  11799
+ v: |-1
+  +3% to Poison Spell Damage
+  \gold;Weapons, Armor:
+  
+
+- # 1801
+ k: |-1
+  11800
+ v: |-1
+  +3% to Physical/Magic Spell Damage
+  \gold;Weapons, Armor:
+  
+
+- # 1802
+ k: |-1
+  11801
+ v: |-1
+  Fire Resist +25%
+  \gold;Armor:
+  
+  \grey;Fire Resist +30%
+  \gold;Weapons:
+  
+
+- # 1803
+ k: |-1
+  11802
+ v: |-1
+  Lightning Resist +25%
+  \gold;Armor:
+  
+  \grey;Lightning Resist +30%
+  \gold;Weapons:
+  
+
+- # 1804
+ k: |-1
+  11803
+ v: |-1
+  Cold Resist +25%
+  \gold;Armor:
+  
+  \grey;Cold Resist +30%
+  \gold;Weapons:
+  
+
+- # 1805
+ k: |-1
+  11804
+ v: |-1
+  Poison Resist +25%
+  \gold;Armor:
+  
+  \grey;Poison Resist +30%
+  \gold;Weapons:
+  
+
+- # 1806
+ k: |-1
+  11805
+ v: |-1
+  +40 to Mana
+  \gold;Armor:
+  
+  \grey;+60 to Mana
+  \gold;Weapons:
+  
+
+- # 1807
+ k: |-1
+  11806
+ v: |-1
+  +10% Bonus to Poison Skill Duration
+  \gold;Armor:
+  
+  \grey;+15% Bonus to Poison Skill Duration
+  \gold;Weapons:
+  
+
+- # 1808
+ k: |-1
+  11807
+ v: |-1
+  +10% to Summoned Minion Life
+  \gold;Weapons, Armor:
+  
+
+- # 1809
+ k: |-1
+  11808
+ v: |-1
+  +5% to Summoned Minion Damage
+  \gold;Weapons, Armor:
+  
+
+- # 1810
+ k: |-1
+  11809
+ v: |-1
+  +50% to Summoned Minion Attack Rating
+  \gold;Weapons, Armor:
+  
+
+- # 1811
+ k: |-1
+  11810
+ v: |-1
+  +5% to Summoned Minion Resistances
+  \gold;Weapons, Armor:
+  
+
+- # 1812
+ k: |-1
+  11811
+ v: |-1
+  5% to Strength
+  \gold;Weapons, Armor:
+  
+
+- # 1813
+ k: |-1
+  11812
+ v: |-1
+  5% to Dexterity
+  \gold;Weapons, Armor:
+  
+
+- # 1814
+ k: |-1
+  11813
+ v: |-1
+  4% to Vitality
+  \gold;Weapons, Armor:
+  
+
+- # 1815
+ k: |-1
+  11814
+ v: |-1
+  5% to Energy
+  \gold;Weapons, Armor:
+  
+
+- # 1816
+ k: |-1
+  11815
+ v: |-1
+  Elemental Resists +10%
+  \gold;Weapons, Armor:
+  
+
+- # 1817
+ k: |-1
+  11816
+ v: |-1
+  +3% to All Attributes
+  \gold;Weapons, Armor:
+  
+
+- # 1818
+ k: |-1
+  11817
+ v: |-1
+  +7% Magic Find
+  \gold;Armor:
+  
+  \grey;+10% Magic Find
+  \gold;Weapons:
+  
+
+- # 1819
+ k: |-1
+  11818
+ v: |-1
+  +15% Attack Speed
+  \gold;Weapons, Armor:
+  
+
+- # 1820
+ k: |-1
+  11819
+ v: |-1
+  +15% Cast Speed
+  \gold;Weapons, Armor:
+  
+
+- # 1821
+ k: |-1
+  11820
+ v: |-1
+  +15% Hit Recovery
+  \gold;Weapons, Armor:
+  
+
+- # 1822
+ k: |-1
+  11821
+ v: |-1
+  +15% Block Speed
+  \gold;Weapons, Armor:
+  
+
+- # 1823
+ k: |-1
+  11822
+ v: |-1
+  Regenerate Mana +5%
+  \gold;Armor:
+  
+  \grey;Regenerate Mana +15%
+  \gold;Weapons:
+  
+
+- # 1824
+ k: |-1
+  11823
+ v: |-1
+  Slows Attacker by +2%
+  \gold;Armor:
+  
+  \grey;Slow Target +3%
+  \gold;Weapons:
+  
+
+- # 1825
+ k: |-1
+  11824
+ v: |-1
+  +15% Enhanced Defense
+  \gold;Armor:
+  
+  \grey;+15% Enhanced Damage
+  \gold;Weapons:
+  
+
+- # 1826
+ k: |-1
+  11825
+ v: |-1
+  Maximum Mana +2%
+  \gold;Armor:
+  
+  \grey;Maximum Mana +3%
+  \gold;Weapons:
+  
+
+- # 1827
+ k: |-1
+  11826
+ v: |-1
+  +15 Life after each Kill
+  \gold;Weapons, Armor:
+  
+
+- # 1828
+ k: |-1
+  11827
+ v: |-1
+  +x to Strength
+  x% to Strength
+  x% Chance of Crushing Blow
+  
+
+- # 1829
+ k: |-1
+  11828
+ v: |-1
+  +x to Dexterity
+  x% to Dexterity
+  x% Bonus to Attack Rating
+  
+
+- # 1830
+ k: |-1
+  11829
+ v: |-1
+  +x to Vitality
+  x% to Vitality
+  +x Life Regenerated per Second
+  
+
+- # 1831
+ k: |-1
+  11830
+ v: |-1
+  +x to Energy
+  x% to Energy
+  +x Spell Focus
+  
+
+- # 1832
+ k: |-1
+  11831
+ v: |-1
+  Adds x-y damage
+  +x% Enhanced Damage
+  
+
+- # 1833
+ k: |-1
+  11832
+ v: |-1
+  \dgrey;(Armor)
+  \grey;Physical Resist +x%
+  +x% Enhanced Defense
+  
+  \dgrey;(Weapons)
+  \grey;x% Deadly Strike
+  Requirements +x%
+  +x% Enhanced Damage
+  
+
+- # 1834
+ k: |-1
+  11833
+ v: |-1
+  +x% to Summoned Minion Damage
+  +x% to Summoned Minion Attack Rating
+  
+
+- # 1835
+ k: |-1
+  11834
+ v: |-1
+  +x% to Fire Spell Damage
+  -x% to Enemy Fire Resistance
+  
+
+- # 1836
+ k: |-1
+  11835
+ v: |-1
+  +x% to Lightning Spell Damage
+  -x% to Enemy Lightning Resistance
+  
+
+- # 1837
+ k: |-1
+  11836
+ v: |-1
+  +x% to Cold Spell Damage
+  -x% to Enemy Cold Resistance
+  
+
+- # 1838
+ k: |-1
+  11837
+ v: |-1
+  +x% to Poison Spell Damage
+  -x% to Enemy Poison Resistance
+  
+
+- # 1839
+ k: |-1
+  11838
+ v: |-1
+  +x% Cast Speed
+  Maximum Mana +x%
+  Regenerate Mana +x%
+  
+
+- # 1840
+ k: |-1
+  11839
+ v: |-1
+  +x% to Summoned Minion Life
+  +x% to Summoned Minion Resistances
+  
+
+- # 1841
+ k: |-1
+  11840
+ v: |-1
+  Magic Resist +x%
+  +x% to Physical/Magic Spell Damage
+  
+
+- # 1842
+ k: |-1
+  11841
+ v: |-1
+  1% Reanimate as: Random Monster
+  1% Reanimate as: Random Monster
+  
+
+- # 1843
+ k: |-1
+  11842
+ v: |-1
+  +x to All Attributes
+  +x% to Innate Elemental Damage
+  
+
+- # 1844
+ k: |-1
+  strMercLabelStrength
+ v: |-1
+  Strength
+
+- # 1845
+ k: |-1
+  strMercLabelDexterity
+ v: |-1
+  Dexterity
+
+- # 1846
+ k: |-1
+  strMercLabelEnergy
+ v: |-1
+  Energy
+
+- # 1847
+ k: |-1
+  strMercLabelLife
+ v: |-1
+  Life
+
+- # 1848
+ k: |-1
+  strMercLabelDefense
+ v: |-1
+  Defense
+
+- # 1849
+ k: |-1
+  strMercLabelAttack
+ v: |-1
+  Attack Rating
+
+- # 1850
+ k: |-1
+  strMercLabelResistFire
+ v: |-1
+  Resistance
+  Fire
+
+- # 1851
+ k: |-1
+  strMercLabelResistCold
+ v: |-1
+  Resistance
+  Cold
+
+- # 1852
+ k: |-1
+  strMercLabelResistLtng
+ v: |-1
+  Resistance
+  Lightning
+
+- # 1853
+ k: |-1
+  strMercLabelResistPois
+ v: |-1
+  Resistance
+  Poison
+
+- # 1854
+ k: |-1
+  strMercLabelMf
+ v: |-1
+  Magic Find
+
+- # 1855
+ k: |-1
+  strMercLabelGf
+ v: |-1
+  Gold Find
+
+- # 1856
+ k: |-1
+  strMercLabelFireSpd
+ v: |-1
+  Spell Damage
+  Fire
+
+- # 1857
+ k: |-1
+  strMercLabelColdSpd
+ v: |-1
+  Spell Damage
+  Cold
+
+- # 1858
+ k: |-1
+  strMercLabelLtngSpd
+ v: |-1
+  Spell Damage
+  Lightning
+
+- # 1859
+ k: |-1
+  strMercLabelPoisSpd
+ v: |-1
+  Spell Damage
+  Poison
+
+- # 1860
+ k: |-1
+  11859
+ v: |-1
+  You may pick up to two passives
+
+- # 1861
+ k: |-1
+  11860
+ v: |-1
+  You may pick up to three masteries
+
+- # 1862
+ k: |-1
+  11861
+ v: |-1
+  Unlocks Mastery Skill: Tenacity
+
+- # 1863
+ k: |-1
+  11862
+ v: |-1
+  Unlocks Mastery Skill: Chemistry
+
+- # 1864
+ k: |-1
+  11863
+ v: |-1
+  Unlocks Mastery Skill: Specialization
+
+- # 1865
+ k: |-1
+  11864
+ v: |-1
+  Unlocks Mastery Skill: Endurance
+
+- # 1866
+ k: |-1
+  11865
+ v: |-1
+  Unlocks Mastery Skill: Continuity
+
+- # 1867
+ k: |-1
+  11866
+ v: |-1
+  Unlocks Mastery Skill: PLACEHOLDER
+
+- # 1868
+ k: |-1
+  11867
+ v: |-1
+  Unlocks Mastery Skill: PLACEHOLDER
+
+- # 1869
+ k: |-1
+  11868
+ v: |-1
+  Unlocks Mastery Skill: PLACEHOLDER
+
+- # 1870
+ k: |-1
+  11869
+ v: |-1
+  Unlocks Mastery Skill: PLACEHOLDER
+
+- # 1871
+ k: |-1
+  11870
+ v: |-1
+  Unlocks Mastery Skill: PLACEHOLDER
+
+- # 1872
+ k: |-1
+  11871
+ v: |-1
+  Unlocks Mastery Skill: PLACEHOLDER
+
+- # 1873
+ k: |-1
+  11872
+ v: |-1
+  Unlocks Mastery Skill: PLACEHOLDER
+
+- # 1874
+ k: |-1
+  11873
+ v: |-1
+  All Skills require Werebear Form
+
+- # 1875
+ k: |-1
+  11874
+ v: |-1
+  All Skills require Werewolf Form
+
+- # 1876
+ k: |-1
+  11875
+ v: |-1
+  All Skills require Wereowl Form
+
+- # 1877
+ k: |-1
+  11876
+ v: |-1
+  Spiritual Alignment No Longer Adds Fire/Cold Spell Damage
+  Spiritual Alignment Adds 5% Lightning Spell Damage per Base Level
+
+- # 1878
+ k: |-1
+  strPartyScreenKillCount
+ v: |-1
+  Monsters Killed
+
+- # 1879
+ k: |-1
+  strPartyScreenTimePlayed
+ v: |-1
+  Hours Played
+
+- # 1880
+ k: |-1
+  11879
+ v: |-1
+  Takedown: +1 Maximum Fury Charges
+
+- # 1881
+ k: |-1
+  strPartyScreenFriends
+ v: |-1
+  Friends
+
+- # 1882
+ k: |-1
+  strPartyScreenAddFriend
+ v: |-1
+  Add Friend
+
+- # 1883
+ k: |-1
+  11882
+ v: |-1
+  Vindicate: +200% Duration
+
+- # 1884
+ k: |-1
+  11883
+ v: |-1
+  Gale Force: +1.3 Yards to Area of Effect
+
+- # 1885
+ k: |-1
+  11884
+ v: |-1
+  Gain 50% of your Maximum Mana as Defense
+
+- # 1886
+ k: |-1
+  11885
+ v: |-1
+  - without taking damage from the Rift Storm
+  - with at least one Frozen Shambler alive
+  \green;Defeat the Ascendant Riftwalker
+  \grey;(cube charm by itself on completion)
+  \tan;Bonus Quest II
+  
+
+- # 1887
+ k: |-1
+  11886
+ v: |-1
+  - without taking damage from the Rift Storm
+  \green;Defeat the Greater Riftwalker
+  \grey;(cube charm by itself on completion)
+  \tan;Bonus Quest I
+  
+
+- # 1888
+ k: |-1
+  11887
+ v: |-1
+  Gain 20% of your Poison Resistance as Poison Length Reduction
+
+- # 1889
+ k: |-1
+  11888
+ v: |-1
+  Curare: +5% Damage Multiplier Per Reckoning Of Zerae Base Level
+
+- # 1890
+ k: |-1
+  11889
+ v: |-1
+  UNUSED
+
+- # 1891
+ k: |-1
+  11890
+ v: |-1
+  (locks other devotions)
+  \grey;Bow Devotion
+
+- # 1892
+ k: |-1
+  11891
+ v: |-1
+  (locks other devotions)
+  \grey;Javelin Devotion
+
+- # 1893
+ k: |-1
+  11892
+ v: |-1
+  (locks other devotions)
+  \grey;Spear Devotion
+
+- # 1894
+ k: |-1
+  11893
+ v: |-1
+  (locks other devotions)
+  \grey;Storm Devotion
+
+- # 1895
+ k: |-1
+  11894
+ v: |-1
+  (locks other devotions)
+  \grey;Blood Devotion
+
+- # 1896
+ k: |-1
+  11895
+ v: |-1
+  5 Fire Runes
+
+- # 1897
+ k: |-1
+  11896
+ v: |-1
+  5 Stone Runes
+
+- # 1898
+ k: |-1
+  11897
+ v: |-1
+  5 Arcane Runes
+
+- # 1899
+ k: |-1
+  11898
+ v: |-1
+  5 Light Runes
+
+- # 1900
+ k: |-1
+  11899
+ v: |-1
+  5 Ice Runes
+
+- # 1901
+ k: |-1
+  11900
+ v: |-1
+  5 Poison Runes
+
+- # 1902
+ k: |-1
+  11901
+ v: |-1
+  Gold Cost: 250,000
+  Cube with 5 Runestones to Create
+
+- # 1903
+ k: |-1
+  11902
+ v: |-1
+  +100 Lightning Damage per Character Level Above 130
+
+- # 1904
+ k: |-1
+  11903
+ v: |-1
+  +6 Life per Cognition
+
+- # 1905
+ k: |-1
+  11904
+ v: |-1
+  +4-5 Damage per Hammer of Zerae Base Level
+
+- # 1906
+ k: |-1
+  11905
+ v: |-1
+  +2.5% Innate Elemental Damage per Wolf Stance Base Level
+
+- # 1907
+ k: |-1
+  11906
+ v: |-1
+  Shields: Fire Resist +30%
+  Armor: 4% to Vitality
+  Weapons: +10 Life after each Kill
+  
+
+- # 1908
+ k: |-1
+  11907
+ v: |-1
+  Shields: Poison Resist +30%
+  Armor: +10 Life Regenerated per Second
+  Weapons: +5 to Maximum Damage
+  
+
+- # 1909
+ k: |-1
+  11908
+ v: |-1
+  Shields: Cold Resist +30%
+  Armor: Cold Resist +20%
+  Weapons: +8 Mana after each Kill
+  
+
+- # 1910
+ k: |-1
+  11909
+ v: |-1
+  Shields: Lightning Resist +30%
+  Armor: 5% to Energy
+  Weapons: +10 Spell Focus
+  
+
+- # 1911
+ k: |-1
+  11910
+ v: |-1
+  Shields: Elemental Resists +5%
+  Armor: 5% to Strength
+  Weapons: +3% to Spell Damage
+  
+
+- # 1912
+ k: |-1
+  11911
+ v: |-1
+  Shields: +5 Mana when Struck by an Enemy
+  Armor: 5% to Dexterity
+  Weapons: 50% Bonus to Attack Rating
+  
+
+- # 1913
+ k: |-1
+  11912
+ v: |-1
+  Shields: Poison Length Reduced by 5%
+  Armor: +10% Enhanced Defense
+  Weapons: +10% Enhanced Damage
+  
+
+- # 1914
+ k: |-1
+  11913
+ v: |-1
+  Shields: 10% Curse Length Reduction
+  Armor: 8% Gold Find
+  Weapons: 3% Innate Elemental Damage
+  
+
+- # 1915
+ k: |-1
+  11914
+ v: |-1
+  Shields: +5% to Summoned Minion Resistances
+  Armor: Fire Resist +20%, Maximum Fire Resist +1%
+  Weapons: +10% to Summoned Minion Life
+  
+
+- # 1916
+ k: |-1
+  11915
+ v: |-1
+  Shields: Slow Target 2%
+  Armor: Cold Resist +20%, Maximum Cold Resist +1%
+  Weapons: +5% to Summoned Minion Damage
+  
+
+- # 1917
+ k: |-1
+  11916
+ v: |-1
+  Shields: Slows Attacker by 2%
+  Armor: Lightning Resist +20%, Maximum Lightning Resist +1%
+  Weapons: 2% Reanimate as: Walker
+  
+
+- # 1918
+ k: |-1
+  11917
+ v: |-1
+  Shields: 8% Magic Find
+  Armor: Poison Resist +20%, Maximum Poison Resist +1%
+  Weapons: Regenerate Mana +10%
+  
+
+- # 1919
+ k: |-1
+  11918
+ v: |-1
+  +1% Block Chance per 300 Mana
+  +1 Attack Rating per 3 Mana
+
+- # 1920
+ k: |-1
+  11919
+ v: |-1
+  
+
+- # 1921
+ k: |-1
+  11920
+ v: |-1
+  
+
+- # 1922
+ k: |-1
+  11921
+ v: |-1
+  
+
+- # 1923
+ k: |-1
+  11922
+ v: |-1
+  
+
+- # 1924
+ k: |-1
+  11923
+ v: |-1
+  
+
+- # 1925
+ k: |-1
+  11924
+ v: |-1
+  
+
+- # 1926
+ k: |-1
+  11925
+ v: |-1
+  
+
+- # 1927
+ k: |-1
+  11926
+ v: |-1
+  Tenet of Harmony
+
+- # 1928
+ k: |-1
+  11927
+ v: |-1
+  Tenet of Restraint
+
+- # 1929
+ k: |-1
+  11928
+ v: |-1
+  Tenet of Vigor
+
+- # 1930
+ k: |-1
+  11929
+ v: |-1
+  Tenet of Wisdom
+
+- # 1931
+ k: |-1
+  11930
+ v: |-1
+  Tenet of Judgement
+
+- # 1932
+ k: |-1
+  11931
+ v: |-1
+  Tenet of Conflict
+
+- # 1933
+ k: |-1
+  11932
+ v: |-1
+  3 Arcane Crystals
+
+- # 1934
+ k: |-1
+  11933
+ v: |-1
+  2 Corrupted Crystals
+
+- # 1935
+ k: |-1
+  11934
+ v: |-1
+  Greater Signet of Learning
+
+- # 1936
+ k: |-1
+  11935
+ v: |-1
+  3 Unique Rings
+
+- # 1937
+ k: |-1
+  11936
+ v: |-1
+  3 Unique Amulets
+
+- # 1938
+ k: |-1
+  11937
+ v: |-1
+  3 Sacred Unique Body Armors
+
+- # 1939
+ k: |-1
+  11938
+ v: |-1
+  3 Sacred Unique Belts
+
+- # 1940
+ k: |-1
+  11939
+ v: |-1
+  3 Sacred Unique Gloves
+
+- # 1941
+ k: |-1
+  11940
+ v: |-1
+  3 Sacred Unique Boots
+
+- # 1942
+ k: |-1
+  11941
+ v: |-1
+  4 Large Cycles
+
+- # 1943
+ k: |-1
+  11942
+ v: |-1
+  Any Emblem
+
+- # 1944
+ k: |-1
+  11943
+ v: |-1
+  5 Enchanted Runes
+
+- # 1945
+ k: |-1
+  11944
+ v: |-1
+  Relic
+
+- # 1946
+ k: |-1
+  11945
+ v: |-1
+  25 Shrines
+
+- # 1947
+ k: |-1
+  11946
+ v: |-1
+  3 Unique Mystic Orbs
+
+- # 1948
+ k: |-1
+  11947
+ v: |-1
+  Weather Control
+
+- # 1949
+ k: |-1
+  11948
+ v: |-1
+  The Sleep
+
+- # 1950
+ k: |-1
+  11949
+ v: |-1
+  Books of Kalan
+
+- # 1951
+ k: |-1
+  11950
+ v: |-1
+  Ghost Trance
+
+- # 1952
+ k: |-1
+  11951
+ v: |-1
+  Xazax's Illusion
+
+- # 1953
+ k: |-1
+  11952
+ v: |-1
+  Neutrality Pact
+
+- # 1954
+ k: |-1
+  11953
+ v: |-1
+  (Better items and more gold cost the higher the rune)
+  Restore Gold Cost: 20,000 - 500,000
+  Cube with Arcane Crystal and Enchanted Rune to Restore
+
+- # 1955
+ k: |-1
+  11954
+ v: |-1
+  Transmute in the Cube to Open
+
+- # 1956
+ k: |-1
+  11955
+ v: |-1
+  Cube with Enchanted Rune to Unlock
+
+- # 1957
+ k: |-1
+  11956
+ v: |-1
+  \grey;Gold Cost: 666,666
+  Cube with Oil of Craft to Create
+  
+
+- # 1958
+ k: |-1
+  11957
+ v: |-1
+  \grey;Gold Cost: 1,000,000
+  Cube with Oil of Craft to Create
+  
+
+- # 1959
+ k: |-1
+  11958
+ v: |-1
+  \grey;Gold Cost: 300,000
+  Cube with Oil of Craft to Create
+  
+
+- # 1960
+ k: |-1
+  11959
+ v: |-1
+  \grey;Gold Cost: 700,000
+  Cube with Oil of Craft to Create
+  
+
+- # 1961
+ k: |-1
+  11960
+ v: |-1
+  
+
+- # 1962
+ k: |-1
+  11961
+ v: |-1
+  
+
+- # 1963
+ k: |-1
+  11962
+ v: |-1
+  
+
+- # 1964
+ k: |-1
+  11963
+ v: |-1
+  
+
+- # 1965
+ k: |-1
+  11964
+ v: |-1
+  
+
+- # 1966
+ k: |-1
+  11965
+ v: |-1
+  
+
+- # 1967
+ k: |-1
+  11966
+ v: |-1
+  
+
+- # 1968
+ k: |-1
+  11967
+ v: |-1
+  
+
+- # 1969
+ k: |-1
+  11968
+ v: |-1
+  
+
+- # 1970
+ k: |-1
+  11969
+ v: |-1
+  
+
+- # 1971
+ k: |-1
+  11970
+ v: |-1
+  
+
+- # 1972
+ k: |-1
+  11971
+ v: |-1
+  
+
+- # 1973
+ k: |-1
+  11972
+ v: |-1
+  
+
+- # 1974
+ k: |-1
+  11973
+ v: |-1
+  
+
+- # 1975
+ k: |-1
+  11974
+ v: |-1
+  
+
+- # 1976
+ k: |-1
+  11975
+ v: |-1
+  
+
+- # 1977
+ k: |-1
+  11976
+ v: |-1
+  
+
+- # 1978
+ k: |-1
+  11977
+ v: |-1
+  
+
+- # 1979
+ k: |-1
+  11978
+ v: |-1
+  
+
+- # 1980
+ k: |-1
+  11979
+ v: |-1
+  
+
+- # 1981
+ k: |-1
+  11980
+ v: |-1
+  
+
+- # 1982
+ k: |-1
+  11981
+ v: |-1
+  
+
+- # 1983
+ k: |-1
+  11982
+ v: |-1
+  
+
+- # 1984
+ k: |-1
+  11983
+ v: |-1
+  
+
+- # 1985
+ k: |-1
+  11984
+ v: |-1
+  
+
+- # 1986
+ k: |-1
+  11985
+ v: |-1
+  
+
+- # 1987
+ k: |-1
+  11986
+ v: |-1
+  
+
+- # 1988
+ k: |-1
+  11987
+ v: |-1
+  
+
+- # 1989
+ k: |-1
+  11988
+ v: |-1
+  Gold Cost: 5000
+  \orange;+(1 to 3)% Magic Find
+  
+
+- # 1990
+ k: |-1
+  11989
+ v: |-1
+  Gold Cost: 5000
+  \orange;Requirements -(2 to 4)%
+  
+
+- # 1991
+ k: |-1
+  11990
+ v: |-1
+  Gold Cost: 5000
+  \orange;+(4 to 6)% to Summoned Minion Life
+  
+
+- # 1992
+ k: |-1
+  11991
+ v: |-1
+  Gold Cost: 10000
+  \orange;Elemental Resists +(3 to 5)%
+  
+
+- # 1993
+ k: |-1
+  11992
+ v: |-1
+  Gold Cost: 10000
+  \orange;+(1 to 2) Mana after each Kill
+  +(2 to 4) Life after each Kill
+  
+
+- # 1994
+ k: |-1
+  11993
+ v: |-1
+  Gold Cost: 10000
+  \orange;+(2 to 4)% to Summoned Minion Resistances
+  
+
+- # 1995
+ k: |-1
+  11994
+ v: |-1
+  Gold Cost: 15000
+  \orange;+(3 to 5) to All Attributes
+  
+
+- # 1996
+ k: |-1
+  11995
+ v: |-1
+  Gold Cost: 15000
+  \orange;+(1 to 4) Mana on Melee Attack
+  +(2 to 8) Life on Melee Attack
+  
+
+- # 1997
+ k: |-1
+  11996
+ v: |-1
+  Gold Cost: 15000
+  \orange;+(1 to 3)% to Summoned Minion Damage
+  
+
+- # 1998
+ k: |-1
+  11997
+ v: |-1
+  Gold Cost: 25000
+  \orange;+(1 to 2)% to Spell Damage
+  
+
+- # 1999
+ k: |-1
+  11998
+ v: |-1
+  Gold Cost: 25000
+  \orange;+(1 to 2)% Mana Stolen per Hit
+  +(1 to 2)% Life Stolen per Hit
+  
+
+- # 2000
+ k: |-1
+  11999
+ v: |-1
+  Gold Cost: 25000
+  \orange;+(2 to 4) to Maximum Damage
+  
+
+- # 2001
+ k: |-1
+  12000
+ v: |-1
+  Gold Cost: 50000
+  \orange;+(4 to 8) Spell Focus
+  
+
+- # 2002
+ k: |-1
+  12001
+ v: |-1
+  Gold Cost: 50000
+  \orange;+1% to Experience Gained
+  
+
+- # 2003
+ k: |-1
+  12002
+ v: |-1
+  Gold Cost: 50000
+  \orange; Indestructible
+  
+
+- # 2004
+ k: |-1
+  12003
+ v: |-1
+  jewelcraft placeholder
+
+- # 2005
+ k: |-1
+  12004
+ v: |-1
+  jewelcraft placeholder
+
+- # 2006
+ k: |-1
+  12005
+ v: |-1
+  jewelcraft placeholder
+
+- # 2007
+ k: |-1
+  12006
+ v: |-1
+  jewelcraft placeholder
+
+- # 2008
+ k: |-1
+  12007
+ v: |-1
+  jewelcraft placeholder
+
+- # 2009
+ k: |-1
+  12008
+ v: |-1
+  5% Chance to Cast Level 50 Slayer on Death Blow
+
+- # 2010
+ k: |-1
+  12009
+ v: |-1
+  Allows an Additional Bear Companion
+
+- # 2011
+ k: |-1
+  12010
+ v: |-1
+  +4 Storm Crows Projectiles
+
+- # 2012
+ k: |-1
+  12011
+ v: |-1
+  +25 Defense per 1% Fire Spell Damage
+
+- # 2013
+ k: |-1
+  12012
+ v: |-1
+  30% added as Weapon Physical Damage (Max +150%)
+
+- # 2014
+ k: |-1
+  12013
+ v: |-1
+  36% added as Weapon Physical Damage (Max +150%)
+
+- # 2015
+ k: |-1
+  12014
+ v: |-1
+  6% added as Innate Elemental Damage (Max +25%)
+
+- # 2016
+ k: |-1
+  12015
+ v: |-1
+  8% added as Innate Elemental Damage (Max +25%)
+
+- # 2017
+ k: |-1
+  12016
+ v: |-1
+  15% added as Fire and Lightning Spell Damage (Max +40%)
+
+- # 2018
+ k: |-1
+  12017
+ v: |-1
+  18% added as Fire and Lightning Spell Damage (Max +40%)
+
+- # 2019
+ k: |-1
+  12018
+ v: |-1
+  15% added as Cold and Poison Spell Damage (Max +40%)
+
+- # 2020
+ k: |-1
+  12019
+ v: |-1
+  18% added as Cold and Poison Spell Damage (Max +40%)
+
+- # 2021
+ k: |-1
+  12020
+ v: |-1
+  15% added as Physical and Magic Spell Damage (Max +40%)
+
+- # 2022
+ k: |-1
+  12021
+ v: |-1
+  18% added as Physical and Magic Spell Damage (Max +40%)
+
+- # 2023
+ k: |-1
+  12022
+ v: |-1
+  10% added as Magic Find (Max +100%)
+
+- # 2024
+ k: |-1
+  12023
+ v: |-1
+  12% added as Magic Find (Max +100%)
+
+- # 2025
+ k: |-1
+  12024
+ v: |-1
+  \orange;Gives stats based on the sum of your bonus damage to Undead and Demons
+
+- # 2026
+ k: |-1
+  12025
+ v: |-1
+  Melee Spellcaster Tree
+
+- # 2027
+ k: |-1
+  12026
+ v: |-1
+  Servants of Valor regenerate 2% of their life per second
+
+- # 2028
+ k: |-1
+  12027
+ v: |-1
+  Allows an additional Slayer
+
+- # 2029
+ k: |-1
+  12028
+ v: |-1
+  Adds 1% Crushing Blow per 4% Fire Spell damage
+
+- # 2030
+ k: |-1
+  12029
+ v: |-1
+  Abyss Knights Die After Being Summoned
+
+- # 2031
+ k: |-1
+  12030
+ v: |-1
+  Marked for Death Duration Increased by 0.2 Seconds
+
+- # 2032
+ k: |-1
+  strMercLabelResistPhys
+ v: |-1
+  Resistance
+  Physical
+
+- # 2033
+ k: |-1
+  CfgDisplayGamePing
+ v: |-1
+  Show ping
+
+- # 2034
+ k: |-1
+  StrAutomapPing
+ v: |-1
+  Ping: 
+
+- # 2035
+ k: |-1
+  12034
+ v: |-1
+  +1 Target to Raid
+
+- # 2036
+ k: |-1
+  12035
+ v: |-1
+  -100% to Enemy Lightning Resistance (Requires 100% Crushing Blow)
+
+- # 2037
+ k: |-1
+  12036
+ v: |-1
+  Antimass Recovers Stamina
+
+- # 2038
+ k: |-1
+  12037
+ v: |-1
+  Arcane Torrent: +20% Extra Projectiles
+
+- # 2039
+ k: |-1
+  12038
+ v: |-1
+  Arrow Swarm: +2 Projectiles
+
+- # 2040
+ k: |-1
+  12039
+ v: |-1
+  Balefire: 30% Movement Speed while Self-Immolating
+
+- # 2041
+ k: |-1
+  12040
+ v: |-1
+  Bane: +100% Duration
+
+- # 2042
+ k: |-1
+  12041
+ v: |-1
+  Enhances Death Ripple
+
+- # 2043
+ k: |-1
+  12042
+ v: |-1
+  Flameburst shot: +5 Projectiles
+
+- # 2044
+ k: |-1
+  12043
+ v: |-1
+  Dark Power: Doubled Magic Damage
+
+- # 2045
+ k: |-1
+  12044
+ v: |-1
+  \dgrey;(Defender Spirit - Guardian Spirit - Protector Spirit)
+  Spirit Walk Heals an Additional 5% Maximum Life while Carrying All Shaman Relics
+
+- # 2046
+ k: |-1
+  12045
+ v: |-1
+  +1 Extra Defender Spirit
+
+- # 2047
+ k: |-1
+  12046
+ v: |-1
+  +1 Extra Protector Spirit
+
+- # 2048
+ k: |-1
+  12047
+ v: |-1
+  Catapult Shot: 100% Increased Fire Damage
+
+- # 2049
+ k: |-1
+  12048
+ v: |-1
+  \dgrey;(Ember Spirit - Hunting Banshee)
+  +1 Hunting Banshee/Ember Spirit Projectile while Carrying Seer Spirit Relics
+
+- # 2050
+ k: |-1
+  12049
+ v: |-1
+  \dgrey;(Fireheart Totem - Frostclaw Totem - Stormeye Totem)
+  5% Fire/Cold/Lightning Absorb while Carrying Totem Relics
+
+- # 2051
+ k: |-1
+  12050
+ v: |-1
+  +2 to Maximum Forked Lightning Projectiles
+
+- # 2052
+ k: |-1
+  12051
+ v: |-1
+  +2% to Runemaster Defense Bonus while Fortress is Active
+
+- # 2053
+ k: |-1
+  12052
+ v: |-1
+  Hurricane: Regenerates 100% Life in 20 seconds
+
+- # 2054
+ k: |-1
+  12053
+ v: |-1
+  Frigid Nova: Double Freeze Duration
+
+- # 2055
+ k: |-1
+  12054
+ v: |-1
+  Gorefest: 66 Magic Damage per Level
+
+- # 2056
+ k: |-1
+  12055
+ v: |-1
+  Great Hunt: +1 Spirit
+
+- # 2057
+ k: |-1
+  12056
+ v: |-1
+  Hammer of Zerae: Bonus Physical Damage Increased by 25%
+
+- # 2058
+ k: |-1
+  12057
+ v: |-1
+  Immersion: 7% Chance to Trigger Additional Projectile
+
+- # 2059
+ k: |-1
+  12058
+ v: |-1
+  Hungering Flames: +2% of Max Life healed per cast
+
+- # 2060
+ k: |-1
+  12059
+ v: |-1
+  Vessel of Judgement: +1 Target
+
+- # 2061
+ k: |-1
+  12060
+ v: |-1
+  Vessel of Retribution: +1 Target
+
+- # 2062
+ k: |-1
+  12061
+ v: |-1
+  Maelstrom MkI: +10% Bonus Magic Damage
+  
+
+- # 2063
+ k: |-1
+  12062
+ v: |-1
+  Mana Sweep: +10% Total Damage
+
+- # 2064
+ k: |-1
+  12063
+ v: |-1
+  Symphony of Destruction: +1 Beam in Slayer's Area of Effect
+
+- # 2065
+ k: |-1
+  12064
+ v: |-1
+  Cold Blooded: Also Pierces Lightning Resistance
+
+- # 2066
+ k: |-1
+  12065
+ v: |-1
+  Mythal: Doubled Debuff Duration
+
+- # 2067
+ k: |-1
+  12066
+ v: |-1
+  \dgrey;(Hive - Nova Charge - Path of Flames)
+  +10 to Frozen Heart while Carrying Periodic Relics
+
+- # 2068
+ k: |-1
+  12067
+ v: |-1
+  Limpet Laser: +1 Projectile
+
+- # 2069
+ k: |-1
+  12068
+ v: |-1
+  Shadow Refuge: 50 Life Regenerated per Second per Base Level in Shadowrush
+
+- # 2070
+ k: |-1
+  12069
+ v: |-1
+  Pestilence: +10 Seconds Duration
+
+- # 2071
+ k: |-1
+  12070
+ v: |-1
+  Pyre: Doubled Physical Resistance
+
+- # 2072
+ k: |-1
+  12071
+ v: |-1
+  Eye of the Storm: No Longer Reduces Damage
+
+- # 2073
+ k: |-1
+  12072
+ v: |-1
+  +1 Extra Abyss Knight
+
+- # 2074
+ k: |-1
+  12073
+ v: |-1
+  Stormblast: 5% Chance to Trigger Additional Projectile
+
+- # 2075
+ k: |-1
+  12074
+ v: |-1
+  Maelstrom MkI: 20% Chance to Trigger Additional Projectile during Wychwind Vulnerability
+
+- # 2076
+ k: |-1
+  12075
+ v: |-1
+  +1% Physical/Magic Spell Damage per 5 Cognition
+
+- # 2077
+ k: |-1
+  12076
+ v: |-1
+  \gold;+666 to Life
+  +100% to Summoned Minion Attack Rating
+  +100% to Summoned Minion Damage
+  Summon One Extra Minion With Each Cast
+  \orange;Exodia
+  
+  \dgrey;(Summon Frostwalker - Summon Glowing Fungus - Summon Sinner)
+  Gain \orange;Exodia\dgrey; while Carrying All Summon Trio Relics
+
+- # 2078
+ k: |-1
+  12077
+ v: |-1
+  Shower of Rocks: -5% Enemy Physical Resist
+
+- # 2079
+ k: |-1
+  12078
+ v: |-1
+  Maelstrom MkI: +10% Bonus Magic Damage
+
+- # 2080
+ k: |-1
+  12079
+ v: |-1
+  \blue;Carnage Cooldown Reduced by 1.72 seconds
+  \orange;Carnage: Added Fire Damage Doubled
+
+- # 2081
+ k: |-1
+  12080
+ v: |-1
+  
+
+- # 2082
+ k: |-1
+  12081
+ v: |-1
+  Familiars Cast Crucify when Killed/Unsummoned
+
+- # 2083
+ k: |-1
+  12082
+ v: |-1
+  \dgrey;Transmute the charm with a Celestial Wind effigy
+  Complete all of the above Labyrinth Quests
+  \gold;Trial of the Nephalem
+
+- # 2084
+ k: |-1
+  12083
+ v: |-1
+  
+  \dgrey;Transmute charm after boss death
+  Defeat Deimoss the Fleshweaver in the Labyrinth depths
+  \gold;End the Invasion
+
+- # 2085
+ k: |-1
+  12084
+ v: |-1
+  
+  \dgrey;(these items are rare drops from Labyrinth mini bosses)
+  Transmute charm once with each Star Chart piece and Dream Fragment
+  Defeat the monster Heroes, Champions and Sovereigns roaming the Labyrinth
+  \gold;Trial of Purity
+
+- # 2086
+ k: |-1
+  12085
+ v: |-1
+  
+  \dgrey;(must be done in ascending order)
+  Transmute charm once with each Riftstone
+  Explore every level of the Labyrinth
+  \gold;Trial of Discovery
+
+- # 2087
+ k: |-1
+  12086
+ v: |-1
+  
+  \dgrey;Transmute charm with an Elemental Dominion effigy
+  Defeat Deimoss with exactly 5 optional difficulty modifiers
+  \gold;Dimensional Alchemy
+
+- # 2088
+ k: |-1
+  12087
+ v: |-1
+  \dgrey;Returns charm and a random Relic
+  Transmute charm with a Depleted Riftstone (6)
+  \gold;Dimensional Alchemy Unlocked
+
+- # 2089
+ k: |-1
+  12088
+ v: |-1
+  
+  \dgrey;Transmute charm with an Elemental Ire effigy
+  Defeat Deimoss with exactly 3 optional difficulty modifiers
+  \gold;Occult Smithing
+
+- # 2090
+ k: |-1
+  12089
+ v: |-1
+  
+  \dgrey;Returns charm and an Occult Effigy of a higher tier
+  Transmute charm with two identical Occult Effigies
+  \gold;Occult Smithing Unlocked
+
+- # 2091
+ k: |-1
+  12090
+ v: |-1
+  
+  \dgrey;Charges: 0
+
+- # 2092
+ k: |-1
+  12091
+ v: |-1
+  
+  \dgrey;Charges: 1
+
+- # 2093
+ k: |-1
+  12092
+ v: |-1
+  
+  \dgrey;Charges: 2
+
+- # 2094
+ k: |-1
+  12093
+ v: |-1
+  
+  \dgrey;Charges: 3
+
+- # 2095
+ k: |-1
+  12094
+ v: |-1
+  
+  \dgrey;Charges: 4
+
+- # 2096
+ k: |-1
+  12095
+ v: |-1
+  
+  \dgrey;Charges: 5
+
+- # 2097
+ k: |-1
+  12096
+ v: |-1
+  Conductivity: Chance to Cast Doubled
+
+- # 2098
+ k: |-1
+  12097
+ v: |-1
+  Conductivity: +1% Chance to Trigger Stormcall on Hit
+
+- # 2099
+ k: |-1
+  12098
+ v: |-1
+  Discharge: Thunder Frequency Improved by 0.4 seconds
+
+- # 2100
+ k: |-1
+  12099
+ v: |-1
+  Scorpion Blade: Always Explodes, Max Range -25%
+
+- # 2101
+ k: |-1
+  12100
+ v: |-1
+  +1 Extra Target to Storm Crows
+
+- # 2102
+ k: |-1
+  12101
+ v: |-1
+  Summon Two Ancient Spirits per Cast
+
+- # 2103
+ k: |-1
+  12102
+ v: |-1
+  \gold;Blessing of Karcheus
+  
+  \dgrey;Deals 50% Weapon Damage
+  Enemies can trigger the mine prematurely upon contact
+  before exploding into a rapid barrage of homing ice arrows
+  Fire an ice mine that slows to a halt a short distance in front of you 
+  While holding a Bow:
+  
+  Deals up to 2800% Weapon damage at the center
+  Strike the ground in front of you, releasing an pulsing nova of cold
+  While holding a Spear:
+
+- # 2104
+ k: |-1
+  12103
+ v: |-1
+  \gold;Sacrificial Fervor
+  \dgrey;After taking damage, Servants lose 10% of their life per second until they die
+  Inherits Fire Pierce from Elemental Wisdom twice
+  Doubled Damage, Attack Speed, and Movement Speed
+  \orange;Servants of Valor:
+
+- # 2105
+ k: |-1
+  12104
+ v: |-1
+  \gold;A Blank Slate of Infinite Potential
+  
+
+- # 2106
+ k: |-1
+  12105
+ v: |-1
+  
+
+- # 2107
+ k: |-1
+  12106
+ v: |-1
+  
+
+- # 2108
+ k: |-1
+  12107
+ v: |-1
+  
+
+- # 2109
+ k: |-1
+  12108
+ v: |-1
+  
+
+- # 2110
+ k: |-1
+  12109
+ v: |-1
+  \red;You can only carry one Relic
+
+- # 2111
+ k: |-1
+  12110
+ v: |-1
+  
+  \dgrey;Transmute charm with a Sigil of Absolution
+  Defeat Deimoss with exactly 6 optional difficulty modifiers
+  \gold;Void Armor
+
+- # 2112
+ k: |-1
+  12111
+ v: |-1
+  \orange;Abandoned Shrine
+  
+
+- # 2113
+ k: |-1
+  12112
+ v: |-1
+  \orange;Creepy Shrine
+  
+
+- # 2114
+ k: |-1
+  12113
+ v: |-1
+  \orange;Eerie Shrine
+  
+
+- # 2115
+ k: |-1
+  12114
+ v: |-1
+  \orange;Enchanted Shrine
+  
+
+- # 2116
+ k: |-1
+  12115
+ v: |-1
+  \orange;Fascinating Shrine
+  
+
+- # 2117
+ k: |-1
+  12116
+ v: |-1
+  \orange;Hidden Shrine
+  
+
+- # 2118
+ k: |-1
+  12117
+ v: |-1
+  \orange;Intimidating Shrine
+  
+
+- # 2119
+ k: |-1
+  12118
+ v: |-1
+  \orange;Magical Shrine
+  
+
+- # 2120
+ k: |-1
+  12119
+ v: |-1
+  \orange;Ornate Shrine
+  
+
+- # 2121
+ k: |-1
+  12120
+ v: |-1
+  \orange;Quiet Shrine
+  
+
+- # 2122
+ k: |-1
+  12121
+ v: |-1
+  \orange;Sacred Shrine
+  
+
+- # 2123
+ k: |-1
+  12122
+ v: |-1
+  \orange;Shimmering Shrine
+  
+
+- # 2124
+ k: |-1
+  12123
+ v: |-1
+  \orange;Spiritual Shrine
+  
+
+- # 2125
+ k: |-1
+  12124
+ v: |-1
+  \orange;Tainted Shrine
+  
+
+- # 2126
+ k: |-1
+  12125
+ v: |-1
+  \orange;Trinity Shrine
+  
+
+- # 2127
+ k: |-1
+  12126
+ v: |-1
+  \orange;Weird Shrine
+  
+
+- # 2128
+ k: |-1
+  12127
+ v: |-1
+  the abyss gazes also into you
+  And if you gaze for long into an abyss
+  
+  thereby become a monster
+  might take care lest he
+  He who fights with monsters
+  
+  
+  
+
+- # 2129
+ k: |-1
+  12128
+ v: |-1
+  \dgrey;20 Yard Radius
+  5% Fire, Cold, and Lightning Absorb
+  \orange;Salvation Aura
+
+- # 2130
+ k: |-1
+  12129
+ v: |-1
+  +80 Magic Damage per 1% Deadly Strike
+
+- # 2131
+ k: |-1
+  12130
+ v: |-1
+  Dragon Jaws reduces enemy physical resist by 30% for 1 second
+  Dragon Jaws area increased by 30%
+
+- # 2132
+ k: |-1
+  12131
+ v: |-1
+  \dgrey;2% Chance to Cast level 60 Eldritch Storm on Death Blow
+  \orange;With 25 Points in Eldritch Storm
+
+- # 2133
+ k: |-1
+  12132
+ v: |-1
+  +1000 Life Regenerated per Second While Under 7000 Life
+
+- # 2134
+ k: |-1
+  12133
+ v: |-1
+  \dgrey;Harvest Duration Now 15 Seconds
+  \dgrey;Harvest Grants Bloom Bonuses
+  \dgrey;Can No Longer Summon Harvesters
+  \orange;If you have No Points in Werebear, Werewolf, Wereowl, Hunter and Seer Trees:
+
+- # 2135
+ k: |-1
+  12134
+ v: |-1
+  \dgrey;a portal to the Heart of Darkness
+  and a Greater Signet of Learning to open
+  with unlocked Dimensional Alchemy
+  Transmute with a Nephalem Dimensional Key
+
+- # 2136
+ k: |-1
+  12135
+ v: |-1
+  Flameburst shot: +10 projectiles
+
+- # 2137
+ k: |-1
+  strHotkeydescEsc
+ v: |-1
+  Toggles game menu
+
+- # 2138
+ k: |-1
+  strHotkeydescCharScreen
+ v: |-1
+  Toggles character screen to visualize your stats and assign attribute points
+
+- # 2139
+ k: |-1
+  strHotkeydescInventory
+ v: |-1
+  Toggles inventory screen to manage your items
+
+- # 2140
+ k: |-1
+  strHotkeydescPartyScreen
+ v: |-1
+  Toggles party screen to see the players in the game. only in multiplayer games
+
+- # 2141
+ k: |-1
+  strHotkeydescMercScreen
+ v: |-1
+  Toggles mercenary's inventory screen to manage their items, if you have a mercenary and they're alive
+
+- # 2142
+ k: |-1
+  strHotkeydescMsgLog
+ v: |-1
+  Toggles chat messages log
+
+- # 2143
+ k: |-1
+  strHotkeydescQuestScreen
+ v: |-1
+  Toggles quest screen to visualize current objectives
+
+- # 2144
+ k: |-1
+  strHotkeydescSkillTree
+ v: |-1
+  Toggles skill tree screen to assign skill points
+
+- # 2145
+ k: |-1
+  strHotkeydescSkillSelect
+ v: |-1
+  Toggles right-click skill selection
+
+- # 2146
+ k: |-1
+  strHotkeydescSprint
+ v: |-1
+  Hold down to sprint
+
+- # 2147
+ k: |-1
+  strHotkeydescSprintToggle
+ v: |-1
+  Toggles permanent sprinting without having to hold down the sprint control
+
+- # 2148
+ k: |-1
+  strHotkeydescStandstill
+ v: |-1
+  Hold down to cast skills in place, allowing you to cast spells that usually require you to run up to a target
+
+- # 2149
+ k: |-1
+  strHotkeydescSwapWeap
+ v: |-1
+  Toggles between primary and secondary in-hand inventory slots
+
+- # 2150
+ k: |-1
+  strHotkeydescClear
+ v: |-1
+  Clears all opened panels on your screen
+
+- # 2151
+ k: |-1
+  strHotkeydescShowItems
+ v: |-1
+  Hold down to show all items on the ground near you
+
+- # 2152
+ k: |-1
+  strHotkeydescTogglePickup
+ v: |-1
+  Toggles item pickup on ground without holding down the control to show items
+
+- # 2153
+ k: |-1
+  strHotkeydescTransmute
+ v: |-1
+  When using the horadric cube, use this control to transmute without clicking the transmute button
+
+- # 2154
+ k: |-1
+  strHotkeydescSkill
+ v: |-1
+  Quickly assigns the skill assigned to this key. Skill select keys can be assigned in the skill speed bar
+
+- # 2155
+ k: |-1
+  strHotkeydescQuickCast
+ v: |-1
+  Casts skill assigned to this key. Quick cast keys can be assigned in the skill speed bar
+
+- # 2156
+ k: |-1
+  strHotkeydescNextPrevSkill
+ v: |-1
+  Iterates through your assigned skill select keys
+
+- # 2157
+ k: |-1
+  strHotkeydescUseBelt
+ v: |-1
+  Consumes item in your belt for that column (1 to 4)
+
+- # 2158
+ k: |-1
+  strHotkeydescShowBelt
+ v: |-1
+  Toggles full view of items in your belt
+
+- # 2159
+ k: |-1
+  strHotkeydescChat
+ v: |-1
+  Toggles in-game chat prompt
+
+- # 2160
+ k: |-1
+  strHotkeydescClearMsg
+ v: |-1
+  Clears all chat messages on your screen
+
+- # 2161
+ k: |-1
+  strHotkeydescShowPortraits
+ v: |-1
+  Toggles visibility of allies portraits in the top left of the screen
+
+- # 2162
+ k: |-1
+  strHotkeydescScreencap
+ v: |-1
+  Takes a screen capture and stores it in your screenshots folder
+
+- # 2163
+ k: |-1
+  strHotkeydescAutomap
+ v: |-1
+  Toggles your map
+
+- # 2164
+ k: |-1
+  strHotkeydescRevealMap
+ v: |-1
+  Reveals the whole map for the current act
+
+- # 2165
+ k: |-1
+  strHotkeydescMapSize
+ v: |-1
+  Toggles smaller map view when using the map
+
+- # 2166
+ k: |-1
+  strHotkeydescMapFade
+ v: |-1
+  Iterates through different map fade settings when using the map
+
+- # 2167
+ k: |-1
+  strHotkeydescMinimapPos
+ v: |-1
+  Toggles position of the map when using the smaller map view
+
+- # 2168
+ k: |-1
+  strHotkeydescEmote
+ v: |-1
+  Audio emote from your character that other players around you will hear
+
+- # 2169
+ k: |-1
+  12168
+ v: |-1
+  \blue;+60% Physical Resist
+  \dgrey;If you have more Dexterity than Strength plus Vitality:
+  \blue;+600 Spell Focus
+  \dgrey;If you have more Energy than Strength plus Vitality:
+  \blue;+60% Innate Elemental Damage
+  +70% Deadly Strike
+  \dgrey;If you have more Strength than twice your Dexterity plus Vitality:
+
+- # 2170
+ k: |-1
+  12169
+ v: |-1
+  \blue;+30% Totem damage synergy
+  \dgrey;If you have Jinn:
+  \blue;+15% Weapon Physical Damage per Summon Tree Minion Base Level
+  \blue;+12% Minion Life per Summon Tree Minion Base Level
+  \dgrey;If you have Rathma's Chosen:
+  \blue;Blood Skeletons get Double Benefit from Minion Life Stats
+  \blue;Blood Skeletons inherit Catapult Shot's Fire Damage
+  \dgrey;If you have Veil King:
+
+- # 2171
+ k: |-1
+  12170
+ v: |-1
+  \orange;+1% Weapon Physical Damage per 2% Attack Speed
+  \red;Cannot be Renewed
+
+- # 2172
+ k: |-1
+  12171
+ v: |-1
+  \orange;+1 Lightning Damage per 1% Total Physical Weapon Damage Bonus
+  +1 Lightning Damage per 1% Bonus to Defense
+  \red;Cannot be Renewed
+
+- # 2173
+ k: |-1
+  12172
+ v: |-1
+  \orange;Fire, Cold, and Lightning Pierce Reduced by 100
+  Ecstatic Frenzy: +300% Total Damage
+
+- # 2174
+ k: |-1
+  12173
+ v: |-1
+  \dgrey;Transmute in the cube after reaching Level 120
+  Difficulty Level: 120
+  \gold;Horror Under Tristram (Heroic)
+  
+
+- # 2175
+ k: |-1
+  12174
+ v: |-1
+  \dgrey;Transmute with a Mark of Victory to double the stats of this charm
+  Transmute with an Urt rune to receive two quest entrance scrolls
+  \gold;Horror Under Tristram (Heroic)
+  
+
+- # 2176
+ k: |-1
+  12175
+ v: |-1
+  \orange; (Max +100% at full mana)
+  Adds your current mana percentage as Weapon Physical Damage
+  \dgrey;(helm only)
+
+- # 2177
+ k: |-1
+  12176
+ v: |-1
+  \dgrey;1% Chance to Cast Level 60 Crucify on Striking
+  10% Chance to Cast Level 60 Crucify on Kill
+  Laserblade works with all weapons
+  \orange;While attacking with Crucify:
+
+- # 2178
+ k: |-1
+  12177
+ v: |-1
+  \gold; The hunter persists. The prey falters
+  \dgrey;Gain 3-5 Physical Damage with melee weapons per 1 Stamina
+  Gain 1 Maximum Stamina per 100 Vitality
+  \orange; While in human form: 
+
+- # 2179
+ k: |-1
+  12178
+ v: |-1
+  \dgrey;Transmute in the cube after reaching Level 121
+  Difficulty Level: 121
+  \gold;Death Projector (Heroic)
+  
+
+- # 2180
+ k: |-1
+  12179
+ v: |-1
+  \dgrey;Transmute with a Mark of Victory to double the stats of this charm
+  Transmute with a Thal rune to receive two quest entrance scrolls
+  \gold;Death Projector (Heroic)
+  
+
+- # 2181
+ k: |-1
+  12180
+ v: |-1
+  Sacrifices: -2 Seconds to Cooldown
+  Deathly Effigy: +4 to Maximum Effigies
+  50 Life Regeneration per Widowmaker Base Level
+  Widowmaker and Life Steal Nullified
+
+- # 2182
+ k: |-1
+  12181
+ v: |-1
+  Flametail Shot Inherits Catapult Shot's Fire Damage
+  Alchemic Preparation: Flametail Shot gains +1 Projectile per 4 Base Levels
+
+- # 2183
+ k: |-1
+  12182
+ v: |-1
+  Reckoning of Zerae: Grants +1% Lightning Pierce per 1% Deadly Strike
+
+- # 2184
+ k: |-1
+  12183
+ v: |-1
+  Arcane Fury: 5% Additional Mana and Energy During Buff Effect
+
+- # 2185
+ k: |-1
+  12184
+ v: |-1
+  Gain 65% of your Wolf Companion Base Damage as Flat Physical Damage
+  +2% Fire, Cold and Lightning resistances per Wolf Companion Skill Level
+
+- # 2186
+ k: |-1
+  12185
+ v: |-1
+  \dgrey;Transmute with a Mark of Victory to double the stats of this charm
+  Transmute with a Xith rune to receive two quest entrance scrolls
+  \gold;Infernal Machine (Heroic)
+  
+
+- # 2187
+ k: |-1
+  12186
+ v: |-1
+  \dgrey;Transmute in the cube after reaching Level 122
+  Difficulty Level: 122
+  \gold;Infernal Machine (Heroic)
+  
+
+- # 2188
+ k: |-1
+  12187
+ v: |-1
+  
+  \dgrey;Main spike deals 200% weapon damage, each split halves damage
+  Launches a massive frozen spike that splits into smaller bursts, which split again into small spikes
+  While holding a Javelin:
+  
+  \blue;+1 to Crystalline Arsenal
+
+- # 2189
+ k: |-1
+  12188
+ v: |-1
+  UNUSED
+
+- # 2190
+ k: |-1
+  12189
+ v: |-1
+  
+  \dgrey;Pandemonium Season trophy
+  +
+  (Sacred unique with ilvl 130+)
+  Random SSSU
+  \orange;Level 150
+
+- # 2191
+ k: |-1
+  12190
+ v: |-1
+  
+  \dgrey;+20% Deadly Strike
+  +50% Spell Damage
+  +30% Innate Elemental Damage
+  \orange;Level 149
+
+- # 2192
+ k: |-1
+  12191
+ v: |-1
+  
+  \dgrey;Two Random Relics
+  \orange;Level 148
+
+- # 2193
+ k: |-1
+  12192
+ v: |-1
+  
+  \dgrey;Breath of Thaumaturgy
+  Empyrean Touch
+  \orange;Level 147
+
+- # 2194
+ k: |-1
+  12193
+ v: |-1
+  
+  \dgrey;Two Random Relics
+  \orange;Level 146
+
+- # 2195
+ k: |-1
+  12194
+ v: |-1
+  
+  \dgrey;Maximum Life and Mana +10%
+  \orange;Level 145
+
+- # 2196
+ k: |-1
+  12195
+ v: |-1
+  
+  \dgrey;Two Random Relics
+  \orange;Level 144
+
+- # 2197
+ k: |-1
+  12196
+ v: |-1
+  
+  \dgrey;7 Corrupted Crystals
+  \orange;Level 143
+
+- # 2198
+ k: |-1
+  12197
+ v: |-1
+  
+  \dgrey;Two Random Relics
+  \orange;Level 142
+
+- # 2199
+ k: |-1
+  12198
+ v: |-1
+  
+  \dgrey;Cherry
+  \orange;Level 141
+
+- # 2200
+ k: |-1
+  12199
+ v: |-1
+  
+  \dgrey;Random Relic
+  \orange;Level 140
+
+- # 2201
+ k: |-1
+  12200
+ v: |-1
+  
+  \dgrey;Maximum Elemental Resists +1%
+  \orange;Level 138
+
+- # 2202
+ k: |-1
+  12201
+ v: |-1
+  
+  \dgrey;Random Relic
+  \orange;Level 136
+
+- # 2203
+ k: |-1
+  12202
+ v: |-1
+  
+  \dgrey;Physical Resist +10%
+  \orange;Level 134
+
+- # 2204
+ k: |-1
+  12203
+ v: |-1
+  
+  \dgrey;Random Relic
+  \orange;Level 132
+
+- # 2205
+ k: |-1
+  12204
+ v: |-1
+  
+  \dgrey;Dark Disciple (Sacred)
+  \orange;Level 130
+
+- # 2206
+ k: |-1
+  12205
+ v: |-1
+  
+  \dgrey;Boots of Blinding Bluster (Sacred)
+  \orange;Level 128
+
+- # 2207
+ k: |-1
+  12206
+ v: |-1
+  
+  \dgrey;Random Relic
+  \orange;Level 125
+
+- # 2208
+ k: |-1
+  12207
+ v: |-1
+  
+  \dgrey;(777% magic find for 7 seconds)
+  Goblin Glee
+  \orange;Level 122
+
+- # 2209
+ k: |-1
+  12208
+ v: |-1
+  
+  \dgrey;Random Cincture (Mastercrafted)
+  \orange;Level 119
+
+- # 2210
+ k: |-1
+  12209
+ v: |-1
+  
+  \dgrey;Gothic Staff (Mastercrafted)
+  \orange;Level 116
+
+- # 2211
+ k: |-1
+  12210
+ v: |-1
+  
+  \dgrey;Staff of Herding Design
+  \orange;Level 115
+
+- # 2212
+ k: |-1
+  12211
+ v: |-1
+  \gold;(unclaimed rewards are lost)
+  \dgrey;2 Arcane Crystals
+  \gold;Transmute at 126+ to upgrade, requires: 
+  
+
+- # 2213
+ k: |-1
+  12212
+ v: |-1
+  \gold;(unclaimed rewards are lost)
+  \dgrey;4x 25 Signets of Learning
+  2 Belladonna Extracts
+  \gold;Transmute at 137+ to upgrade, requires: 
+  
+
+- # 2214
+ k: |-1
+  12213
+ v: |-1
+  \gold;(unclaimed rewards are lost)
+  \dgrey;6x 25 Signets of Learning
+  3 Belladonna Extracts
+  \gold;Transmute at 144+ to upgrade, requires: 
+  
+
+- # 2215
+ k: |-1
+  12214
+ v: |-1
+  \gold;(unclaimed rewards are lost)
+  \dgrey;10x 25 Signets of Learning
+  5 Belladonna Extracts
+  \gold;Transmute at 149+ to upgrade, requires: 
+  
+
+- # 2216
+ k: |-1
+  12215
+ v: |-1
+  \orange; Pandemonium season item, nonfunctional
+  \red;Cannot be Renewed
+
+- # 2217
+ k: |-1
+  12216
+ v: |-1
+  \orange; Pandemonium season item, nonfunctional
+  \red;Cannot be Renewed
+
+- # 2218
+ k: |-1
+  12217
+ v: |-1
+  \orange; Pandemonium season item, nonfunctional
+  \red;Cannot be Renewed
+
+- # 2219
+ k: |-1
+  12218
+ v: |-1
+  \orange; Pandemonium season item, nonfunctional
+  \red;Cannot be Renewed
+
+- # 2220
+ k: |-1
+  12219
+ v: |-1
+  \orange; Pandemonium season item, nonfunctional
+  \red;Cannot be Renewed
+
+- # 2221
+ k: |-1
+  12220
+ v: |-1
+  Pandemonium season item, nonfunctional
+
+- # 2222
+ k: |-1
+  12221
+ v: |-1
+  Congratulations on reaching level 150!
+
+- # 2223
+ k: |-1
+  12222
+ v: |-1
+  Pandemonium season item, nonfunctional
+
+- # 2224
+ k: |-1
+  12223
+ v: |-1
+  
+  Creates exclusive uniques
+  Modifies rare Sacred or Angelic, weapons or armors only
+  Collect Souls in Heroic Khalimgrad to craft
+
+- # 2225
+ k: |-1
+  12224
+ v: |-1
+  \white;<Transmute for recipe list: Diamond>
+  
+  \red;Socket / Mystic Orb / Bless / Corrupt your items after Soulforging
+  WARNING: Item modification can interfere with Soulforge functionality
+
+- # 2226
+ k: |-1
+  12225
+ v: |-1
+  \blue;
+  [4] + [3] = (5-8)% Deadly Strike
+  [3] + [2] = (90-120) Spell Focus (2H)
+  [3] + [2] = (60-80) Spell Focus (1H)
+  [2] + [2] = (85-120) Minimum Damage (2H)
+  [2] + [2] = (51-75) Minimum Damage (1H)
+  [1] + [1] = 120% Enhanced Damage
+  Weapon Prefixes
+  \purple;[Oils of Craft] + [Souls] = [Effect]
+  
+  \dgrey;Only 1 affix per group can exist
+  Item cannot have more than 3 prefixes and 3 suffixes
+  Cube: Soulforge + Rare Item + Perfect Diamond + Oils + Souls
+  \orange;Modify Rare item: Diamond
+
+- # 2227
+ k: |-1
+  12226
+ v: |-1
+  \white;<Transmute for recipe list: Ruby>
+  ---
+  \blue;[6] + [2] = (6-10)% Physical Resist (Shield)
+  [5] + [1] = (21-25) Damage Reduced
+  [4] + [1] = (2-3)% Physical Resist
+  Armor Suffixes
+  
+  [3] + [2] = (251-300) Maximum Damage (2H)
+  [3] + [2] = (111-135) Maximum Damage (1H)
+  [2] + [1] = 10% Slow Target
+  [1] + [1] = (39-50)% Minion Damage
+  Weapon Suffixes
+  \purple;[Oils of Enhancement] + [Souls] = [Effect]
+  
+  \blue;[5] + [1] = 150% Enhanced Defense
+  Armor Prefixes
+
+- # 2228
+ k: |-1
+  12227
+ v: |-1
+  \blue;[4] + [2] = (21-30)% Fire Spell Damage (Body)
+  [4] + [2] = 10% Fire Spell Damage
+  Armor Prefixes
+  
+  [3] + [1] = 10% Life Leech
+  [2] + [1] = (301-400) Life
+  [1] + [2] = (55-65)% Fire Spell Damage (2H)
+  [1] + [2] = (25-35)% Fire Spell Damage (1H)
+  Weapon Prefixes
+  \purple;[Oils of Craft] + [Souls] = [Effect]
+  
+  \dgrey;Only 1 affix per group can exist
+  Item cannot have more than 3 prefixes and 3 suffixes
+  Cube: Soulforge + Rare Item + Perfect Ruby + Oils + Souls
+  \orange;Modify Rare item: Ruby
+
+- # 2229
+ k: |-1
+  12228
+ v: |-1
+  \white;<Transmute for recipe list: Sapphire>
+  ---
+  \blue;[6] + [2] = 15% Fire Pierce (Body)
+  [6] + [2] = 5% Fire Pierce
+  [5] + [1] = 1% Max Fire Resist
+  Armor Suffixes
+  
+  [4] + [1] = 60% Minion Life (2H)
+  [4] + [1] = 30% Minion Life (1H)
+  [3] + [1] = (81-100) Life on Kill
+  [2] + [2] = 25% Fire Pierce (2H)
+  [2] + [2] = 15% Fire Pierce (1H)
+  [1] +[1] = (250-400) Fire Damage
+  Weapon Suffixes
+  \purple;[Oils of Enhancement] + [Souls] = [Effect]\blue;
+  
+  [6] + [1] = 50 Life Regen per second
+  [5] + [1] = (136-170) Life
+
+- # 2230
+ k: |-1
+  12229
+ v: |-1
+  \blue;[4] + [2] = 10% Cold Spell Damage
+  Armor Prefixes
+  
+  [3] + [1] = 10% Mana Leech
+  [2] + [1] = (201-250) Mana
+  [1] + [2] = (55-65)% Cold Spell Damage (2H)
+  [1] + [2] = (25-35)% Cold Spell Damage (1H)
+  Weapon Prefixes
+  \purple;[Oils of Craft] + [Souls] = [Effect]
+  
+  \dgrey;Only 1 affix per group can exist
+  Item cannot have more than 3 prefixes and 3 suffixes
+  Cube: Soulforge + Rare Item + Perfect Sapphire + Oils + Souls
+  \orange;Modify Rare item: Sapphire
+
+- # 2231
+ k: |-1
+  12230
+ v: |-1
+  \white;<Transmute for recipe list: Topaz>
+  ---
+  \blue;[6] + [2] = 15% Energy (Body)
+  [5] + [2] = 15% Cold Pierce (Body)
+  [5] + [2] = 5% Cold Pierce
+  [4] + [1] = 1% Max Cold Resist
+  Armor Suffixes
+  
+  [3] + [1] = (41-50) Mana on Kill
+  [2] + [2] = 25% Cold Pierce (2H)
+  [2] + [2] = 15% Cold Pierce (1H)
+  [1] + [1] = (300-350) Cold Damage
+  Weapon Suffixes
+  \purple;[Oils of Enhancement] + [Souls] = [Effect]\blue;
+  
+  [5] + [1] = (51-90) Mana
+  [4] + [2] = (21-30)% Cold Spell Damage (Body)
+
+- # 2232
+ k: |-1
+  12231
+ v: |-1
+  \blue;[4] + [2] = 10% Lightning Spell Damage
+  Armor Prefixes
+  
+  [3] + [1] = 70% Attack Speed (2H)
+  [3] + [1] = 40% Attack Speed (1H)
+  [2] + [1] = 40% Cast Speed
+  [1] + [2] = (55-65)% Lightning Spell Damage (2H)
+  [1] + [2] = (25-35)% Lightning Spell Damage (1H)
+  Weapon Prefixes
+  \purple;[Oils of Craft] + [Souls] = [Effect]
+  
+  \dgrey;Only 1 affix per group can exist
+  Item cannot have more than 3 prefixes and 3 suffixes
+  Cube: Soulforge + Rare Item + Perfect Topaz + Oils + Souls
+  \orange;Modify Rare item: Topaz
+
+- # 2233
+ k: |-1
+  12232
+ v: |-1
+  \white;<Transmute for recipe list: Emerald>
+  ---
+  \blue;[5] + [2] = 15% Dexterity (Body)
+  [4] + [2] = 15% Lightning Pierce (Body)
+  [4] + [2] = 5% Lightning Pierce
+  [3] + [1] = 1% Max Lightning Resist
+  Armor Suffixes
+  
+  [2] + [2] = 25% Lightning Pierce (2H)
+  [2]  + [2] = 15% Lightning Pierce (1H)
+  [1] + [1] = (1-750) Lightning Damage [1]
+  Weapon Suffixes
+  \purple;[Oils of Enhancement] + [Souls] = [Effect]\blue;
+  
+  [5] + [1] = (41-50)% Magic Find (Body)
+  [4] + [2] = (21-30)% Lightning Spell Damage (Body)
+
+- # 2234
+ k: |-1
+  12233
+ v: |-1
+  [3] + [2] = +10% Poison Spell Damage
+  [2] + [1] = (41-50)% Poison Length Reduced (Body)
+  [2] + [1] = 25% Poison Length Reduced
+  Armor Prefixes
+  
+  [1] + [2] = (55-65)% Poison Spell Damage (2H)
+  [1] + [2] = (25-35)% Poison Spell Damage (1H)
+  Weapon Prefixes
+  \purple;[Oils of Craft] + [Souls] = [Effect]
+  
+  \dgrey;Only 1 affix per group can exist
+  Item cannot have more than 3 prefixes and 3 suffixes
+  Cube: Soulforge + Rare Item + Perfect Emerald + Oils + Souls
+  \orange;Modify Rare item: Emerald
+
+- # 2235
+ k: |-1
+  12234
+ v: |-1
+  \white;<Transmute for recipe list: Skull>
+  ---
+  \blue;[7] + [2] = 20% Strength (Body)
+  [6] + [2] = 15% Poison Pierce (Body)
+  [6] + [2] = 5% Poison Pierce
+  [5] + [1] = 1% Max Poison Resist
+  [4] + [1] = 1% Block Chance (non-class Shield)
+  Armor Suffixes
+  
+  [3] + [1] = 200% Attack Rating
+  [2] + [2] = 25% Poison Pierce (2H)
+  [2] + [2] = 15% Poison Pierce (1H)
+  [1] + [1] = 538 Poison Damage per second
+  Weapon Suffixes
+  \purple;[Oils of Enhancement] + [Souls] = [Effect]\blue;
+  
+  [3] + [2] = (21-30)% Poison Spell Damage (Body}
+
+- # 2236
+ k: |-1
+  12235
+ v: |-1
+  
+  [2] + [2] = (25-35)% Phys/Mag Spell Damage (Body)
+  [2] + [2] = 12% Phys/Mag Spell Damage
+  Armor Prefixes
+  
+  [1] + [2] = (70-80)% Phys/Mag Spell Damage (2H)
+  [1] + [2] = (30-40)% Phys/Mag Spell Damage (1H)
+  Weapon Prefixes
+  \purple; [Oils of Craft] + [Souls] = [Effect]
+  
+  \dgrey;Only 1 affix per group can exist
+  Item cannot have more than 3 prefixes and 3 suffixes
+  Cube: Soulforge + Rare Item + Perfect Skull + Oils + Souls
+  \orange;Modify Rare item: Skull
+
+- # 2237
+ k: |-1
+  12236
+ v: |-1
+  \white;<Transmute for recipe list: Rainbow Stone>
+  ---
+  \blue;[3] + [2] = 15% Vitality (Body)
+  [2] + [1] = 25% Gold Find (Body)
+  Armor Suffixes
+  
+  [1] + [1] = (350-400) Magic Damage
+  Weapon Suffixes
+  \purple;[Oils of Enhancement] + [Souls] = [Effect]\blue;
+
+- # 2238
+ k: |-1
+  12237
+ v: |-1
+  
+  [2] + [4] = 20 to Rising Dawn [Assassin Shield, Paladin 1H Weapon, Amazon Helm]
+  
+  [1] + [4] = (8-16) to Death Star [Claw, Assassin Shield, Amazon/Barbarian Helm]
+  oSkills - Suffixes
+  \purple;[Oils of Enhancement] + [Souls] = [Effect]
+  
+  \dgrey;Item cannot have the same affix more than once
+  Item cannot have more than 3 prefixes and 3 suffixes
+  Cube: Soulforge + Rare Item + Perfect Rainbow Stone + Oils + Souls
+  \orange;Modify Rare item: Rainbow Stone
+
+- # 2239
+ k: |-1
+  12238
+ v: |-1
+  \white;<Transmute for recipe list: Craft Uniques>
+  ---
+  \blue;[6] + [4] = 18 to Tantrum [Bow/Crossbow]
+  
+  [5] + [4] = (4-14) to Searing Glow [Amazon/Paladin Shield, Druid Helm, Necromancer Staff]
+  
+  [4] + [4] = (8-16) to Phoenix Wave [Claw, Staff, Amazon Shield]
+  
+  [3] + [4] = 14 to Chaotic Spark [Paladin Helm, Sorceress Body]
+
+- # 2240
+ k: |-1
+  12239
+ v: |-1
+  100% of Physical/Magic spell damage regenerated as life per second
+
+- # 2241
+ k: |-1
+  12240
+ v: |-1
+  50% chance to splash weapon damage in a 6.67 yard radius
+
+- # 2242
+ k: |-1
+  12241
+ v: |-1
+  [2] + [20] = \gold;Faithless\blue; (Physical Damage Claw)
+  [1] + [20] = \gold;Raven Mantle\blue; (Phys/Mag Caster Body Armor)
+  
+  \purple;[Oils of Craft] + [Souls] = [Effect]
+  
+  \dgrey;Cube: Soulforge + Souls + Oils
+  \orange;Craft Uniques
+
+- # 2243
+ k: |-1
+  12242
+ v: |-1
+  Divine Judgement: Buff Grants 1.5% Fire Pierce per Base Level Instead of Physical Weapon Damage
+
+- # 2244
+ k: |-1
+  12243
+ v: |-1
+  \red;Cannot be Crafted (Shrines will be lost)
+  Cannot be Renewed
+
+- # 2245
+ k: |-1
+  12244
+ v: |-1
+  \dgrey;Tramsmute with 2 Angelic items to open with Area Level 130
+  Tramsmute with a Perfect Gem to open with Area Level 125
+  \purple;Rewards: Angelic Items, Crafting Rares, Crafting Exclusive Uniques
+  \orange;Heroic Library of Fate
+  
+  
+
+- # 2246
+ k: |-1
+  12245
+ v: |-1
+  1% Chance to Gain Heart of the Pack for 3 seconds on Striking
+
+- # 2247
+ k: |-1
+  12246
+ v: |-1
+  \dgrey;+25% Deadly Strike
+  +10% Lightning Absorb
+  +10% Cold Absorb
+  +10% Fire Absorb
+  \orange;If you have at least 450% Damage to Demons
+
+- # 2248
+ k: |-1
+  StrCfgTabLootFilterSettings
+ v: |-1
+  Settings
+  Loot Filter
+
+- # 2249
+ k: |-1
+  StrLootFilterCfgConditions
+ v: |-1
+  Conditions:
+
+- # 2250
+ k: |-1
+  StrLootFilterCfgItemQuality
+ v: |-1
+  Item's quality is: 
+
+- # 2251
+ k: |-1
+  StrLootFilterCfgClvl
+ v: |-1
+  Character's level is
+
+- # 2252
+ k: |-1
+  StrLootFilterCfgIlvl
+ v: |-1
+  Item's level is
+
+- # 2253
+ k: |-1
+  StrLootFilterCfgItemClass
+ v: |-1
+  Item is of type: 
+
+- # 2254
+ k: |-1
+  StrLootFilterCfgItemCode
+ v: |-1
+  Item is: 
+
+- # 2255
+ k: |-1
+  StrLootFilterCfgLowQual
+ v: |-1
+  Low Quality
+
+- # 2256
+ k: |-1
+  StrLootFilterCfgNormal
+ v: |-1
+  Normal
+
+- # 2257
+ k: |-1
+  StrLootFilterCfgSuperior
+ v: |-1
+  High Quality
+
+- # 2258
+ k: |-1
+  StrLootFilterCfgMagic
+ v: |-1
+  Magic
+
+- # 2259
+ k: |-1
+  StrLootFilterCfgSet
+ v: |-1
+  Part of a Set
+
+- # 2260
+ k: |-1
+  StrLootFilterCfgRare
+ v: |-1
+  Rare
+
+- # 2261
+ k: |-1
+  StrLootFilterCfgUnique
+ v: |-1
+  Unique
+
+- # 2262
+ k: |-1
+  StrLootFilterCfgCraft
+ v: |-1
+  Crafted
+
+- # 2263
+ k: |-1
+  StrLootFilterCfgTempered
+ v: |-1
+  Honorific
+
+- # 2264
+ k: |-1
+  StrLootFilterCfgUnknown
+ v: |-1
+  Unknown
+
+- # 2265
+ k: |-1
+  StrCfgTitleLootFilter
+ v: |-1
+  Loot filter settings
+
+- # 2266
+ k: |-1
+  StrCfgDisplayToggleShowLoot
+ v: |-1
+  Toggle show loot hotkey
+
+- # 2267
+ k: |-1
+  StrCfgDisplayNoLootFilterTown
+ v: |-1
+  No loot filter in town
+
+- # 2268
+ k: |-1
+  StrCfgLootFilterBtnNewConfig
+ v: |-1
+  New Configuration
+
+- # 2269
+ k: |-1
+  StrCfgLootFilterBtnImportConfig
+ v: |-1
+  Import Configuration From Clipboard
+
+- # 2270
+ k: |-1
+  StrCfgLootFilterBtnRevert
+ v: |-1
+  Discard Last Unsaved Change (ctrl+z)
+
+- # 2271
+ k: |-1
+  StrCfgLootFilterBtnSave
+ v: |-1
+  Save Changes (ctrl+s)
+
+- # 2272
+ k: |-1
+  StrCfgLootFilterBtnDelete
+ v: |-1
+  Delete Configuration
+
+- # 2273
+ k: |-1
+  StrCfgLootFilterBtnExport
+ v: |-1
+  Export to Clipboard
+
+- # 2274
+ k: |-1
+  StrCfgLootFilterBtnAddRule
+ v: |-1
+  Add Rule
+
+- # 2275
+ k: |-1
+  StrCfgLootFilterBtnUndoAll
+ v: |-1
+  Discard All Unsaved Changes
+
+- # 2276
+ k: |-1
+  StrCfgNone
+ v: |-1
+  None
+
+- # 2277
+ k: |-1
+  StrCfgAny
+ v: |-1
+  Any
+
+- # 2278
+ k: |-1
+  StrCfgTo
+ v: |-1
+  to
+
+- # 2279
+ k: |-1
+  StrCfgLootFilterOutcomeShow
+ v: |-1
+  SHOW
+
+- # 2280
+ k: |-1
+  StrCfgLootFilterOutcomeHide
+ v: |-1
+  HIDE
+
+- # 2281
+ k: |-1
+  StrCfgLootFilterLabelName
+ v: |-1
+  Name:
+
+- # 2282
+ k: |-1
+  StrCfgLootFilterLabelShowItemDefault
+ v: |-1
+  Show Item by Default:
+
+- # 2283
+ k: |-1
+  StrCfgLootFilterLabelConfiguration
+ v: |-1
+  Configuration:
+
+- # 2284
+ k: |-1
+  StrCfgLootFilterLabelRuleSettings
+ v: |-1
+  - Rule Settings -
+
+- # 2285
+ k: |-1
+  StrCfgLootFilterLabelRuleShowItem
+ v: |-1
+  Show Item:
+
+- # 2286
+ k: |-1
+  StrCfgLootFilterLabelRuleActive
+ v: |-1
+  Rule is Active:
+
+- # 2287
+ k: |-1
+  StrCfgLootFilterLabelRuleConditions
+ v: |-1
+  - Conditions -
+
+- # 2288
+ k: |-1
+  StrCfgLootFilterLabelItemQuality
+ v: |-1
+  Item's Quality is:
+
+- # 2289
+ k: |-1
+  StrCfgLootFilterLabelItemEthereal
+ v: |-1
+  Item is Ethereal:
+
+- # 2290
+ k: |-1
+  StrCfgLootFilterLabelIlvl
+ v: |-1
+  Item's Level is:
+
+- # 2291
+ k: |-1
+  StrCfgLootFilterLabelClvl
+ v: |-1
+  Character's Level is:
+
+- # 2292
+ k: |-1
+  StrCfgLootFilterLabelSpecificCondition
+ v: |-1
+  - Specific Condition -
+
+- # 2293
+ k: |-1
+  StrCfgLootFilterMatchItemByCategory
+ v: |-1
+  Match Item by Category
+
+- # 2294
+ k: |-1
+  StrCfgLootFilterMatchItemByCode
+ v: |-1
+  Match Specific Item
+
+- # 2295
+ k: |-1
+  StrCfgLootFilterLabelYes
+ v: |-1
+  Yes
+
+- # 2296
+ k: |-1
+  StrCfgLootFilterLabelNo
+ v: |-1
+  No
+
+- # 2297
+ k: |-1
+  StrCfgLootFilterLabelEither
+ v: |-1
+  Either
+
+- # 2298
+ k: |-1
+  StrCfgLootFilterItemIsEthereal
+ v: |-1
+  Item is Ethereal
+
+- # 2299
+ k: |-1
+  StrCfgLootFilterItemIsNotEthereal
+ v: |-1
+  Item is not Ethereal
+
+- # 2300
+ k: |-1
+  StrCfgLootFilterLabelAnd
+ v: |-1
+  and
+
+- # 2301
+ k: |-1
+  StrCfgLootFilterUnsavedChanges
+ v: |-1
+  Do you want to discard all changes
+  Current configuration has unsaved changes
+
+- # 2302
+ k: |-1
+  StrCfgLootFilterLabelDiscard
+ v: |-1
+  Discard
+
+- # 2303
+ k: |-1
+  StrCfgLootFilterLabelCancel
+ v: |-1
+  Cancel
+
+- # 2304
+ k: |-1
+  StrCfgLootFilterWarnDeleteConfig
+ v: |-1
+  Are you sure you want to delete it
+  The configuration will be deleted permanently
+
+- # 2305
+ k: |-1
+  StrCfgLootFilterLabelDelete
+ v: |-1
+  Delete
+
+- # 2306
+ k: |-1
+  StrCfgLootFilterFavoriteOn
+ v: |-1
+  Select as Favorite
+
+- # 2307
+ k: |-1
+  StrCfgLootFilterFavoriteOff
+ v: |-1
+  Unselect as Favorite
+
+- # 2308
+ k: |-1
+  StrCfgHotkeyFavoriteLf
+ v: |-1
+  Favorite loot filter
+
+- # 2309
+ k: |-1
+  StrCfgHotkeyDefaultLf
+ v: |-1
+  Default loot filter
+
+- # 2310
+ k: |-1
+  StrCfgHotkeyDescFavoriteLf
+ v: |-1
+  Switch to favorite loot filter configuration
+
+- # 2311
+ k: |-1
+  StrCfgHotkeyDescDefaultLf
+ v: |-1
+  Switch to default loot filter configuration
+
+- # 2312
+ k: |-1
+  StrCfgLootFilterLabelMoveRule
+ v: |-1
+  like to move this rule
+  Choose where you'd
+
+- # 2313
+ k: |-1
+  StrCfgLootFilterLabelMoveRuleHere
+ v: |-1
+  Click to move rule to this position
+
+- # 2314
+ k: |-1
+  12313
+ v: |-1
+  \orange;Can spawn any oSkill from Rare Affixes
+  \red;Cannot be Renewed
+
+- # 2315
+ k: |-1
+  12314
+ v: |-1
+  \orange;Adds +160-250 Cold Damage to Weapon
+  +1 Life on Striking per 100 Base Vitality
+  \red;Cannot be Renewed
+
+- # 2316
+ k: |-1
+  12315
+ v: |-1
+  \orange;Orb of Annihilation: +10% Total Damage per Corrupted Item worn
+  Successful corruptions increase Required Level by 10
+  Failed corruptions do not increase Required Level
+  Empowered corruption outcomes
+  Can be corrupted 10 times
+  \red;Corrupted
+
+- # 2317
+ k: |-1
+  StrCfgLootFilterLabelNotify
+ v: |-1
+  Notify:
+
+- # 2318
+ k: |-1
+  StrCfgLootFilterLabeShowOnMap
+ v: |-1
+  Show on Map:
+
+- # 2319
+ k: |-1
+  StrCfgLootFilterNotifyDesc
+ v: |-1
+  item matching these criteria drop
+  You will be notified when an
+
+- # 2320
+ k: |-1
+  StrCfgLootFilterShowOnMapDesc
+ v: |-1
+  will show up on your automap
+  Items matching these criteria
+
+- # 2321
+ k: |-1
+  StrPushNotifGoblinAppear
+ v: |-1
+   appears!
+
+- # 2322
+ k: |-1
+  StrPushNotifHighThreat
+ v: |-1
+  High threat nearby!
+
+- # 2323
+ k: |-1
+  DescBaalTrophy
+ v: |-1
+  80
+  Eve of Destruction Trophy Challenge
+  Requirements:
+  Kill Baal without being struck by his Black 
+  Carpet Bomb
+  Do not die
+  
+  Cube the Spirit of Creation within 10 
+  seconds 
+  Grants: 
+  Elemental Resists +10%
+  Locked to current character class
+  
+
+- # 2324
+ k: |-1
+  DescAzmoTrophy
+ v: |-1
+  80
+  Heart of Sin Trophy Challenge
+  Requirements: 
+  Kill Azmodan without being struck by 
+  a Flameblood
+  Do not die
+  
+  Cube Azmodan's Heart within 10 seconds
+  Grants: 
+  +150 to Life
+  +75 to mana
+  Locked to current character class
+  
+
+- # 2325
+ k: |-1
+  DescBremmTrophy
+ v: |-1
+  80
+  Bremmtown Trophy Challenge
+  Requirements:
+  Kill the Dark Star Dragon within 30 
+  seconds of entering
+  Do not die
+  
+  Cube the Dragon Claw within the time limit
+  Grants: 
+  +10% to Experience Gained
+  
+
+- # 2326
+ k: |-1
+  RevealTrophyChallenge
+ v: |-1
+  \orange;Right click to reveal trophy challenge
+
+- # 2327
+ k: |-1
+  12326
+ v: |-1
+  \orange;Amatoxin: 2000% of Innate Elemental Damage bonus added as Damage Multiplier
+  \blue;+28 to Amatoxin
+  \red;Disables Ranged Skills
+
+- # 2328
+ k: |-1
+  StrPushNotifFavoriteFilter
+ v: |-1
+  Switched to favorite filter configuration
+
+- # 2329
+ k: |-1
+  StrPushNotifDefaultFilter
+ v: |-1
+  Switched to default filter configuration
+
+- # 2330
+ k: |-1
+  strObjectNameDeusExMachina
+ v: |-1
+  \red;You will not be able to come back
+  \red;Can only be activated once
+  \grey;to end this nightmare
+  \grey;the effect radius for 15 seconds
+  \grey;Click to activate and stay within
+  \gold;Deus Ex Machina
+
+- # 2331
+ k: |-1
+  12330
+ v: |-1
+  \dgrey;Physical Damage Reduced by 150
+  +20% Chance of Crushing Blow
+  +100 Life after each Kill
+  +20% Slow Target
+  \gold;ATMG, Charged Strike, Cherubim, Guard Tower, Lex Talionis, Rock Shock, Time Wave
+  \orange;If you have at least 30 Levels in any of the following Skills:
+  Cherubim: +(50-75) Magic Damage per Skill Level
+  Guard Tower: +1 Arrow
+
+- # 2332
+ k: |-1
+  StrCfgSearch
+ v: |-1
+  Search...
+
+- # 2333
+ k: |-1
+  12332
+ v: |-1
+  Strength/Dexterity
+
+- # 2334
+ k: |-1
+  12333
+ v: |-1
+  \red;Deal no Magic Damage
+
+- # 2335
+ k: |-1
+  StrCfgTabGraphics
+ v: |-1
+  Settings
+  Graphical
+
+- # 2336
+ k: |-1
+  StrCfgGfxFullscreen
+ v: |-1
+  Full screen
+
+- # 2337
+ k: |-1
+  StrCfgGfxWindowSize
+ v: |-1
+  Window size
+
+- # 2338
+ k: |-1
+  StrCfgGfxDriver
+ v: |-1
+  Graphical engine
+
+- # 2339
+ k: |-1
+  StrCfgGfxVsync
+ v: |-1
+  V-sync
+
+- # 2340
+ k: |-1
+  StrCfgGfxStretch
+ v: |-1
+  Stretch to fit
+
+- # 2341
+ k: |-1
+  StrCfgGfxSharpen
+ v: |-1
+  Sharpen image
+
+- # 2342
+ k: |-1
+  StrCfgGfxBadDriver
+ v: |-1
+  Some settings will be unavailable
+  Unrecognized graphics driver
+
+- # 2343
+ k: |-1
+  StrCfgGfxShaderPreset
+ v: |-1
+  Upscale shader preset
