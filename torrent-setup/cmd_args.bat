@@ -1,1 +1,1 @@
-powershell -ExecutionPolicy Bypass -File cmd_args.ps1
+powershell -ExecutionPolicy Bypass -File "%~dp0cmd_args.ps1"
