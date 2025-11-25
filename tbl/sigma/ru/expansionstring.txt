@@ -8335,7 +8335,7 @@
 "MasteryNameFaith"	"Paragon of Fate"
 "MasterySdFaith"	"\grey;пассивно - бонусы, связанные с продвижением по Heroic Library of Fate"
 "MasteryFaithUnlock"	"\n\yellow;Улучшает Paragon's Hammer с помощью Mark of Fate\n\orange;Разблокируемый Навык\n\red;"
-"MasteryFaith1"	"\gold;Уровень 139: \grey;Soulforged Mystic Orbs выпадают в Library of Fate 133+\n\n\dgrey;+1% к Максимальным Стихийным Сопротилвениям\n+10% к Сопротивлению Физическому Урону\n\gold;Уровень 135: \grey;Пр нахождении в Heroic Library of Fate\n\n\gold;Уровень 133: \grey;Увеличен шанс выпадения Angelic Вещей в Library of Fate 133+\n\n\gold;Уровень 130: \grey;Значительно увеличен шанс выпадения Heavenly Souls"
+"MasteryFaith1"	"\gold;Уровень 139: \grey;Soulforged Mystic Orbs выпадают в Library of Fate 133+\n\n\dgrey;+1% к Макс. Стихийным Сопротивлениям\n+10% к Сопр. Физ. Урону\n\gold;Уровень 135: \grey;При нахождении в Heroic Library of Fate\n\n\gold;Уровень 133: \grey;Увеличен шанс выпадения Angelic Вещей в Library of Fate 133+\n\n\gold;Уровень 130: \grey;Значительно увеличен шанс выпадения Heavenly Souls"
 "MarkofFaith"	"Mark of Fate"
 "Liberty"	"Liberty"
 "DocParFate"	"Pearl of Wisdom: Paragon of Fate"
