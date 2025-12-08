@@ -7733,9 +7733,8 @@
  k: |-1
   x
  v: |-1
-  \dgrey;+25% Deadly Strike
-  Knockback Enemies
-  \orange;If You Have at Least 1000 Strength:
+  \dgrey;(radius scales with stamina spent)
+  \orange;Steady tailwinds follow wherever you go
 
 - # 1282
  k: |-1
@@ -7747,7 +7746,7 @@
  k: |-1
   x
  v: |-1
-  +2.5% Spell Damage per 1% Additional Experience Gain
+  +2% Spell Damage per 1% Additional Experience Gain
 
 - # 1284
  k: |-1
@@ -7805,7 +7804,7 @@
   x
  v: |-1
   Dual wield: No cooldown until skill level 16
-  Fortress: 50% Pierce Chance
+  Fortress: 60% Pierce Chance
 
 - # 1293
  k: |-1
@@ -8019,7 +8018,7 @@
  v: |-1
   -1% Cold Spell Damage per 1 Light Radius
   +3% Fire Spell Damage per 1 Light Radius
-  +2 Spell Focus per 1 Light Radius
+  +5 Spell Focus per 1 Light Radius
 
 - # 1325
  k: |-1
@@ -8127,7 +8126,7 @@
  k: |-1
   11339
  v: |-1
-  \dgrey;-10% to Enemy Poison Resistance
+  \dgrey;-4% to Enemy Poison Resistance
   +30 Life After Each Kill
   +2.5% Physical Resist
   +1 to All Skills
@@ -8265,8 +8264,7 @@
  k: |-1
   11359
  v: |-1
-  Otherwise, -10% Total Mind Flay Damage
-  If You Have Not Been Hit Recently, +30% Total Mind Flay Damage
+  +30% Total Mind Flay Damage if You Have Not Been Hit Recently
 
 - # 1361
  k: |-1
@@ -8295,7 +8293,7 @@
  k: |-1
   11363
  v: |-1
-  +1% Attack Speed and Attack Rating per 20 Strength
+  +1% Attack Speed and Attack Rating per 25 Strength
 
 - # 1365
  k: |-1
@@ -8379,7 +8377,7 @@
  k: |-1
   11376
  v: |-1
-  Fire Elementals Gain 100% of Their Physical Damage as Fire
+  \orange;1% of total Vitality added as Energy for each Jewel in your gear
 
 - # 1378
  k: |-1
@@ -8425,7 +8423,7 @@
  v: |-1
   \dgrey;7.3 Yard Radius
   Maximum Fire Resist +5%
-  -18% to Enemy Elemental Resistances
+  -16% to Enemy Elemental Resistances
   \orange;Level 8 Hellfire Aura
 
 - # 1385
@@ -8874,7 +8872,7 @@
  k: |-1
   11448
  v: |-1
-  \orange;Blizzard and Frozen Orb: +1% Total Damage per 7% Magic Find
+  \orange;Blizzard and Frozen Orb: +1% Total Damage per 5% Magic Find
 
 - # 1450
  k: |-1
@@ -9235,6 +9233,7 @@
  k: |-1
   11501
  v: |-1
+  \orange;+10% Grit
   \orange;Adds 50% of Current Mana as Cold Damage
   While in Werewolf Form:
 
@@ -9260,19 +9259,20 @@
  k: |-1
   11505
  v: |-1
-  Fire Elementals Inherit Your Fire Spell Damage
+  \dgrey;Jitan's Gate triggers Summon Fire Elementals 12 times
+  \orange;If there is at least one enemy nearby:
 
 - # 1507
  k: |-1
   11506
  v: |-1
-  Fire Elementals Inherit Your Energy and Spell Focus
+  Lava Pit: 3.5 second Cooldown. Spawns Fire Elementals over its duration
 
 - # 1508
  k: |-1
   11507
  v: |-1
-  +1% Lightning Spell Damage per 2% Gold Find
+  +3% Lightning Spell Damage per 5% Gold Find
 
 - # 1509
  k: |-1
@@ -9341,7 +9341,7 @@
  v: |-1
   \dgrey;-150% to Summoned Minion Damage
   +375 Life Regenerated per Second
-  +20% Malice Skill Damage
+  +30% Nightwalker damage bonus
   \orange;If you have No Ultimate Skill:
 
 - # 1519
@@ -9382,7 +9382,7 @@
  k: |-1
   11523
  v: |-1
-  +15% Malice Skill Damage
+  +20% Nightwalker damage bonus
 
 - # 1525
  k: |-1
@@ -9433,7 +9433,7 @@
  v: |-1
   \dgrey;+2 to All Skills
   +20% to Elemental Spell Damage
-  +25 Spell Focus
+  +50 Spell Focus
   \grey;(Bonus for each equipped Hidden Craft Item)
   \orange;Hidden Reliquary
 
@@ -9699,7 +9699,7 @@
  k: |-1
   11575
  v: |-1
-  +3 Extra Night Hawks
+  +3 Maximum Night Hawks
 
 - # 1577
  k: |-1
@@ -10886,6 +10886,12 @@
   
   
   
+  
+  
+  
+  
+  
+  
   (pick one)
   Ultimate Skill
 
@@ -10933,7 +10939,7 @@
  k: |-1
   11773
  v: |-1
-  +1% Innate Elemental Damage per 250 Strength and Dexterity
+  \orange;-5% Innate Elemental Damage per 1% Fire Absorb
 
 - # 1775
  k: |-1
@@ -11974,7 +11980,7 @@
  k: |-1
   11913
  v: |-1
-  Shields: 10% Curse Length Reduction
+  Shields: 6% Curse Length Reduction
   Armor: 8% Gold Find
   Weapons: 3% Innate Elemental Damage
   
@@ -13750,7 +13756,7 @@
  k: |-1
   12178
  v: |-1
-  \blue;Rgenerate Mana +2% per Character Level above 130
+  \blue;Regenerate Mana +2% per Character Level above 130
   +1% Maximum Mana per Character Level above 130
 
 - # 2180
@@ -14122,7 +14128,7 @@
  v: |-1
   \white;<Transmute for recipe list: Diamond>
   
-  \red;Socket / Mystic Orb / Bless / Corrupt your items after Soulforging
+  \red;Socket / Mystic Orb / Corrupt your items after Soulforging
   WARNING: Item modification can interfere with Soulforge functionality
 
 - # 2226
@@ -14133,8 +14139,8 @@
   [4] + [3] = (5-8)% Deadly Strike
   [3] + [2] = (90-120) Spell Focus (2H)
   [3] + [2] = (60-80) Spell Focus (1H)
-  [2] + [2] = (85-120) Minimum Damage (2H)
-  [2] + [2] = (51-75) Minimum Damage (1H)
+  [2] + [2] = (140-180) Minimum Damage (2H)
+  [2] + [2] = (61-90) Minimum Damage (1H)
   [1] + [1] = 120% Enhanced Damage
   Weapon Prefixes
   \purple;[Oils of Craft] + [Souls] = [Effect]
@@ -14150,13 +14156,13 @@
  v: |-1
   \white;<Transmute for recipe list: Ruby>
   ---
-  \blue;[6] + [2] = (6-10)% Physical Resist (Shield)
+  \blue;[6] + [2] = (6-10)% Physical Resist (Body, Shield)
   [5] + [1] = (21-25) Damage Reduced
   [4] + [1] = (2-3)% Physical Resist
   Armor Suffixes
   
-  [3] + [2] = (251-300) Maximum Damage (2H)
-  [3] + [2] = (111-135) Maximum Damage (1H)
+  [3] + [2] = (200-240) Maximum Damage (2H)
+  [3] + [2] = (101-120) Maximum Damage (1H)
   [2] + [1] = 10% Slow Target
   [1] + [1] = (39-50)% Minion Damage
   Weapon Suffixes
@@ -14435,10 +14441,10 @@
  k: |-1
   12244
  v: |-1
-  \dgrey;Transmute in the cube to obtain a Pearl of Wisdom on this topic
-  \gold;Further progress requires the Paragon of Fate mastery and a Mark of Fate
+  Transmute in the cube to obtain a Pearl of Wisdom on this topic
   
-  \dgrey;Tramsmute with 2 Angelic items to open with Area Level 130
+  \dgrey;Further progress requires the Paragon of Fate mastery and a Mark of Fate
+  Tramsmute with 2 Angelic items to open with Area Level 130
   Tramsmute with a Perfect Gem to open with Area Level 125
   \purple;Rewards: Angelic Items, Crafting Rares, Crafting Exclusive Uniques
   \orange;Heroic Library of Fate
@@ -15413,7 +15419,7 @@
   \grey;+25% Enhanced Damage
   \gold;Weapons:
   
-  \grey;+25% Enhanced Damage
+  \grey;+25% Enhanced Defense
   \gold;Shields:
   
 
@@ -15484,17 +15490,17 @@
  v: |-1
   \white;<Transmute>
   
-  \dgrey;Invitations to the Trial of the Angiris can drop in Library of Fate 139
+  \grey;Invitations to the Trial of the Angiris can drop in Library of Fate 139
   \gold;Level 147
   
   \blue;-5% to Enemy Magic Resistance
   Maximum Life +5%
   \gold;Level 145
   
-  \dgrey;Mark of the Angiris chase item can drop in Library of Fate 139+
+  \grey;Mark of the Angiris chase item can drop in Library of Fate 139+
   \gold;Level 143
   
-  \dgrey;Transmute: Heavenly Soul + Angelic item to reroll affixes
+  \grey;Transmute: Heavenly Soul + Angelic item to reroll affixes
   \gold;Level 141
 
 - # 2382
@@ -15516,17 +15522,18 @@
  v: |-1
   \white;<Transmute>
   
-  \dgrey;Transmute: Paragon's Hammer + Heavenly Soul + 50,000 gold = Library of Fate 133 scroll
+  \grey;Transmute: Paragon's Hammer + Heavenly Soul + 50,000 gold = Library of Fate 133 scroll
   Increased drop rate of Angelic Items in Library of Fate 133+
   \gold;Level 133
   
-  \dgrey;Drop rate of Heavenly Souls greatly increased
+  \grey;Drop rate of Heavenly Souls greatly increased
   \gold;Level 130
-  \grey;Unlock rewards at the following levels
+  \grey;Unlock rewards at the following levels:
   
-  Craft a Mark of Fate with 5 Heavenly Souls, upgrade your Paragon's Hammer
-  Learn the Paragon of Fate skill
-  \orange;Unlocking the full secrets of the Heroic Library of Fate requires
+  Upgrade your Paragon's Hammer (3 chaerges) and learn the Paragon of Fate Skill
+  Craft a Mark of Fate by cubing 5 Heavenly Souls
+  \orange;Instructions
+  
 
 - # 2385
  k: |-1
@@ -15534,14 +15541,14 @@
  v: |-1
   \white;<Transmute>
   
-  \dgrey;Transmute: Paragon's Hammer + 3 Heavenly Souls + 200,000 gold = Library of Fate 139 scroll
+  \grey;Transmute: Paragon's Hammer + 3 Heavenly Souls + 200,000 gold = Library of Fate 139 scroll
   Find Soulforged Mystic Orbs in Library of Fate 133+
   \gold;Level 139
   
-  \dgrey;Transmute: Paragon's Hammer + 2 Heavenly Souls + 100,000 gold = Library of Fate 136 scroll
+  \grey;Transmute: Paragon's Hammer + 2 Heavenly Souls + 100,000 gold = Library of Fate 136 scroll
   \gold;Level 136
   
-  \dgrey;+1% to Maximum Elemental Resists
+  \grey;+1% to Maximum Elemental Resists
   +10% Physical Resist
   \orange;While in the Heroic Library of Fate:
   \gold;Level 135
@@ -15633,7 +15640,7 @@
   12397
  v: |-1
   \dgrey;Str: Fire \orange;|\dgrey; Dex: Cold \orange;|\dgrey; Ene: Lightning \orange;|\dgrey; Vita: Poison \orange;|\dgrey; Multiple if tied
-  \orange;Gain 1% of your Highest Attribute as Elemental Pierce to an element
+  \orange;Gain 0.75% of your Highest Attribute as Elemental Pierce to an element
 
 - # 2399
  k: |-1
@@ -15734,7 +15741,7 @@
  k: |-1
   12413
  v: |-1
-  \dgrey;65% Success | 35% to Add 50 Required Level
+  \dgrey;67% Success | 33% to Add 50 Required Level
   Can be corrupted any number of times
   
 
@@ -15771,3 +15778,533 @@
  v: |-1
   \tan;Famous last words
   
+
+- # 2420
+ k: |-1
+  12419
+ v: |-1
+  \orange;Can only spawn Procs
+  Can spawn same Proc multiple times
+  Can spawn any Proc from Rare Affixes
+
+- # 2421
+ k: |-1
+  12420
+ v: |-1
+  \orange; Magnetic field: deals 50% of weapon lighting damage as spell damage per hit
+  \orange;Adds 35% of current mana as lightning damage
+
+- # 2422
+ k: |-1
+  12421
+ v: |-1
+  gain 20 fire damage to weapon per 1% life stolen per hit
+
+- # 2423
+ k: |-1
+  12422
+ v: |-1
+  \dgrey;(up to 5 times, Blessings are intensified)
+  \orange;Can be Blessed
+
+- # 2424
+ k: |-1
+  12423
+ v: |-1
+  \dgrey;+50 Life after each Kill
+  \dgrey;Maximum Fire and Cold Resists +1%
+  \dgrey;+1 to All Skills
+  \orange;For each Blessed item equipped:
+
+- # 2425
+ k: |-1
+  DescRvgsteal
+ v: |-1
+  % fire damage per 1% life steal
+
+- # 2426
+ k: |-1
+  12425
+ v: |-1
+  \orange;1% Fire Spell Damage per 5 Spell Focus above the cap
+
+- # 2427
+ k: |-1
+  12426
+ v: |-1
+  \orange;1% Lightning Spell Damage per 5 Spell Focus above the cap
+
+- # 2428
+ k: |-1
+  12427
+ v: |-1
+  \orange;1% Cold Spell Damage per 5 Spell Focus above the cap
+
+- # 2429
+ k: |-1
+  12428
+ v: |-1
+  \orange;1% Poison Spell Damage per 5 Spell Focus above the cap
+
+- # 2430
+ k: |-1
+  12429
+ v: |-1
+  1% poison spell damage per 3% attack speed
+
+- # 2431
+ k: |-1
+  12430
+ v: |-1
+  \dgrey;Energy: +12% Grit
+  Vitality: 400% of your Damage to Undead bonus added as Cold Damage to weapon
+  Dexterity: +300% Weapon Physical Damage
+  Strength: +5000 Attack Rating
+  \red;Does not work for Barbarians
+  \orange;Bonus based on your highest attribute if wielding a one handed weapon without an offhand
+
+- # 2432
+ k: |-1
+  12431
+ v: |-1
+  \dgrey;(visual aura toggled off)
+
+- # 2433
+ k: |-1
+  12432
+ v: |-1
+  \dgrey;(Summon Fire Elemental - Summon Ice Elemental)
+  Summon one extra Elemental with each cast while carrying both relics
+
+- # 2434
+ k: |-1
+  12433
+ v: |-1
+  \grey;Transmute: Paragon's Hammer + 2 Sacred Essence + 300,000 gold = Duncraig 139 scroll
+  \gold;Level 139
+  
+  \grey;Transmute: Paragon's Hammer + Sacred Essence + 200,000 gold = Duncraig 134 scroll
+  \gold;Level 134
+  
+  \grey;Transmute: Paragon's Hammer + Any Sacred Unique + 100,000 gold = Duncraig 130 scroll
+  Transmute: Paragon's Hammer + 4 (8) Sacred Uniques = 1 (2) Sacred Essence
+  \gold;Level 130
+  \green;(Keep in inventory to gain bonus)
+  Unlocks Mastery Skill: Paragon of Sanctity
+
+- # 2435
+ k: |-1
+  12434
+ v: |-1
+  Transmute in the cube to obtain a Pearl of Wisdom on this topic
+  
+  \dgrey;Learn the Paragon of Sanctity skill
+  Cube charm with 5 Sacred Uniques to create a Mark of Sanctity
+  \purple;Rewards: Assur's Bane upgrades, Sacred Unique Crafting, Exclusive Uniques
+  \orange;Heroic Duncraig
+  
+
+- # 2436
+ k: |-1
+  12435
+ v: |-1
+  \dgrey;Maximum Elemental Resists -10%
+  \blue;If two of these rings are equipped:
+  \orange;Assur's Curse
+  
+
+- # 2437
+ k: |-1
+  12436
+ v: |-1
+  <Transmute>
+  
+  \red;(No penalty with 75% Curse Resistance)
+  Penalty is reduced by 1% for each 15% Curse Resistance
+  -5% to Maximum Elemental Resistances
+  \orange;Bonehexer's Sanctum
+  
+  \gold;Area Level: 134
+  Duncraig (Heroic)
+  
+
+- # 2438
+ k: |-1
+  12437
+ v: |-1
+  <Transmute>
+  
+  \purple;Defeat Bonehexer to obtain a trophy
+  
+  \red;(No penalty with 150% Curse Resistance)
+  Penalty is reduced by 1% for each 15% Curse Resistance
+  -10% to Maximum Elemental Resistances
+  \orange;Bonehexer's Sanctum
+  
+  \gold;Area Level: 139
+  Duncraig (Heroic)
+  
+
+- # 2439
+ k: |-1
+  12438
+ v: |-1
+  <Transmute>
+  
+  \red;-1% Magic Resist per 1% Chance to Avoid Damage
+  \red;Warp Skill range is greatly reduced
+  -100% Bonus to Attack Rating
+  \orange;Eyegouger's Sanctuary
+  
+  \gold;Area Level: 134
+  Duncraig (Heroic)
+  
+
+- # 2440
+ k: |-1
+  12439
+ v: |-1
+  <Transmute>
+  
+  \purple;Defeat Eyegouger to obtain a trophy
+  
+  \red;-1% Magic Resist per 1% Chance to Avoid Damage
+  \red;Warp Skill range is greatly reduced
+  -300% Bonus to Attack Rating
+  \orange;Eyegouger's Sanctuary
+  
+  \gold;Area Level: 139
+  Duncraig (Heroic)
+  
+
+- # 2441
+ k: |-1
+  12440
+ v: |-1
+  <Transmute>
+  
+  \red;-1 to All Skills per 250 Energy
+  Regenerate Mana -50%
+  \orange;Mindflayer's Sanatorium
+  
+  \gold;Area Level: 134
+  Duncraig (Heroic)
+  
+
+- # 2442
+ k: |-1
+  12441
+ v: |-1
+  <Transmute>
+  
+  \purple;Defeat Mindflayer to obtain a trophy
+  
+  \red;-1 to All Skills per 250 Energy
+  Regenerate Mana -150%
+  \orange;Mindflayer's Sanatorium
+  
+  \gold;Area Level: 139
+  Duncraig (Heroic)
+  
+
+- # 2443
+ k: |-1
+  12442
+ v: |-1
+  <Transmute>
+  
+  \red;Life Regeneration: -20 per second per 1000 Maximum Life
+  Life Spark Effectiveness: -3% per 1000 Maximum Life
+  Life on Striking: -1 per 5000 Maximum Life
+  \orange;Skinrender's Fragmentary
+  
+  \gold;Area Level: 134
+  Duncraig (Heroic)
+  
+
+- # 2444
+ k: |-1
+  12443
+ v: |-1
+  <Transmute>
+  
+  \purple;Defeat Skinrender to obtain a trophy
+  
+  \red;Life Regeneration: -20 per second per 1000 Maximum Life
+  Life Spark Effectiveness: -3% per 1000 Maximum Life
+  Life on Striking: -1 per 5000 Maximum Life
+  \orange;Skinrender's Fragmentary
+  
+  \gold;Area Level: 139
+  Duncraig (Heroic)
+  
+
+- # 2445
+ k: |-1
+  12444
+ v: |-1
+  <Transmute>
+  
+  \red;-1% Physical Resist per 15,000 Defense
+  \orange;Spinecracker's Abbey
+  
+  \gold;Area Level: 134
+  Duncraig (Heroic)
+  
+
+- # 2446
+ k: |-1
+  12445
+ v: |-1
+  <Transmute>
+  
+  \purple;Defeat Spinecracker to obtain a trophy
+  
+  \red;-1% Physical Resist per 15,000 Defense
+  \orange;Spinecracker's Abbey
+  
+  \gold;Area Level: 139
+  Duncraig (Heroic)
+  
+
+- # 2447
+ k: |-1
+  12446
+ v: |-1
+  \red;Barrels: 7,000 Magic Damage
+  Base Attack Rating: +125%
+  
+  \green;+20% Equipment Drops
+  +25% Unique Bias
+  
+  \gold;Area Level: 130
+  Duncraig (Heroic)
+  
+
+- # 2448
+ k: |-1
+  12447
+ v: |-1
+  <Transmute for more information>
+  
+  \red;Level variants have additional difficulty modifiers
+  Barrels: 7,000 Magic Damage
+  Base Attack Rating: +200%
+  
+  \green;+40% Equipment Drops
+  +50% Unique Bias
+  
+  \gold;Area Level: 134
+  Duncraig (Heroic)
+  
+
+- # 2449
+ k: |-1
+  12448
+ v: |-1
+  <Transmute for more information>
+  
+  \red;Level variants have additional difficulty modifiers
+  Barrels: 14,000 Magic Damage
+  Base Attack Rating: +400%
+  
+  \green;+60% Equipment Drops
+  +80% Unique Bias
+  
+  \gold;Area Level: 139
+  Duncraig (Heroic)
+  
+
+- # 2450
+ k: |-1
+  12449
+ v: |-1
+  <Transmute for more information>
+  
+  \red;Level variants have additional difficulty modifiers
+  Barrels: 14,000 Magic Damage
+  Base Attack Rating: +650%
+  
+  \green;+75% Equipment Drops
+  +120% Unique Bias
+  
+  \gold;Area Level: 140
+  Duncraig (Heroic)
+  
+
+- # 2451
+ k: |-1
+  12450
+ v: |-1
+  Lightning shield: elemental damage reduction applies to all classes, but at 33% effectiveness
+
+- # 2452
+ k: |-1
+  12451
+ v: |-1
+  3% of Missing Life added as Flat Physical Damage Reduction
+
+- # 2453
+ k: |-1
+  12452
+ v: |-1
+  \dgrey;Cube to change class restriction to your class
+  \tan;If you have killed over 50 000 Enemies in Level 130 Duncraig
+
+- # 2454
+ k: |-1
+  12453
+ v: |-1
+  Cube with one of the matching relics to specialize
+
+- # 2455
+ k: |-1
+  12454
+ v: |-1
+  <Transmute for more>
+  
+  \grey;Use Sacred Unique (105) creation altars in Duncraig 130+
+  Transmute: Paragon's Hammer + Any Sacred Unique + 100,000 gold = Duncraig 130 scroll
+  Transmute: Paragon's Hammer + 4 (8) Sacred Uniques = 1 (2) Sacred Essence
+  \gold;Level 130
+  \grey;Unlock rewards at the following levels:
+  
+  Upgrade your Paragon's hammer (3 charges) and learn the Paragon of Sanctity skill
+  Craft a Mark of Sanctity by cubing 5 Sacred Uniques with your Demonsbane charm
+  \orange;Instructions
+  
+
+- # 2456
+ k: |-1
+  12455
+ v: |-1
+  <Transmute>
+  
+  \gold;Level 138: \dgrey;+20% Magic Resist in Duncraig 130+
+  
+  \gold;Level 136: \blue;Purify and Holybolt damage increased by 20%
+  
+  \grey;Use Sacred Unique (120) stat reroll altars in Duncraig 134+
+  Use Assur's Bane upgrade altars (Tier 1) in Duncraig 134+
+  Transmute: Paragon's Hammer + Sacred Essence + 200,000 gold = Duncraig 134 scroll
+  \gold;Level 134
+  
+
+- # 2457
+ k: |-1
+  12456
+ v: |-1
+  <Transmute>
+  
+  \gold;Level 145: \grey;Enter Assur's Realm using trophies from his fallen minions
+  
+  \gold;Level 143: \blue;+4% Grit
+  
+  \gold;Level 140: \grey; Use Sacred Unique double corruption altars in Duncraig 139+
+  
+  \grey;Use Sacred Unique (105-130) reroll altars in Duncraig 139+
+  Use Assur's Bane upgrade altars (Tier 2) in Duncraig 139+
+  Transmute: Paragon's Hammer + 2 Sacred Essence + 300,000 gold = Duncraig 139 scroll
+  \gold;Level 139
+  
+
+- # 2458
+ k: |-1
+  12457
+ v: |-1
+  \gold;Counts as 10 jewels
+  \gold;Maximum Elemental Resists +1%
+  \gold;2% of Maximum Life Regenerated per second
+  \dgrey;(while this is the only jewel socketed in all your gear)
+  \orange;Crown Jewel \dgrey;
+  
+
+- # 2459
+ k: |-1
+  12458
+ v: |-1
+  Spiral Dance: always chooses single-target variant while affected by Firedance
+
+- # 2460
+ k: |-1
+  12459
+ v: |-1
+  15% of Damage is taken from Mana before Life
+
+- # 2461
+ k: |-1
+  12460
+ v: |-1
+  <Transmute>
+  
+  \red;Bonehexer and Skinrender maluses
+  \orange;Assur's Fortress
+  
+  \gold;Area Level: 140
+  Duncraig (Heroic)
+  
+
+- # 2462
+ k: |-1
+  12461
+ v: |-1
+  <Transmute>
+  
+  \red;Eyegouger and Mindflayer maluses
+  \orange;Assur's Stronghold
+  
+  \gold;Area Level: 140
+  Duncraig (Heroic)
+  
+
+- # 2463
+ k: |-1
+  12462
+ v: |-1
+  \dgrey;(reduces movement speed by 25% and nullifies range of most Teleport skills)
+  \orange;17% Chance to Stake Enemies on Melee Attack
+
+- # 2464
+ k: |-1
+  12463
+ v: |-1
+  Cherubim: -1.5 Second Cooldown while wielding a Two-Handed Melee Weapon
+
+- # 2465
+ k: |-1
+  12464
+ v: |-1
+  \orange;+1% Weapon Physical Damage per 1% move speed
+  1-4 Magic Damage to Weapon per 1 Spell Focus until capped
+
+- # 2466
+ k: |-1
+  12465
+ v: |-1
+  \dgrey;Gain Max Physical Damage buff based on Maximum Stamina
+  \dgrey;Fully restore it, heal 20 Life for each point restored
+  \orange;No Stamina Regeneration. Whenever you run out of stamina:
+
+- # 2467
+ k: |-1
+  12466
+ v: |-1
+  +1 to Maximum Stamina per 60 Vitality
+
+- # 2468
+ k: |-1
+  12467
+ v: |-1
+  Tornado: +1 Extra Projectile with 400% Attack Speed
+
+- # 2469
+ k: |-1
+  12468
+ v: |-1
+  \dgrey;Cube with Sacred Essence and Ist rune to recharge
+
+- # 2470
+ k: |-1
+  12469
+ v: |-1
+  \dgrey;Cube with Sacred Essence and Um rune to recharge

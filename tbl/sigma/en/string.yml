@@ -44992,7 +44992,7 @@
   p@p
  v: |-1
   \grey;Quest Item
-  \gold;Fleshcutter's Sigil
+  \gold;Mindflayer's Sigil
 
 - # 6641
  k: |-1
@@ -48007,7 +48007,7 @@
   upgrade_customizable
  v: |-1
   \blue;+1 to All Skills
-  (11 to 40) to all Attributes
+  (8 to 32) to all Attributes
   \grey;Cube with Umbaru Treasure to Add Bonus
   
   Cube Reagent
@@ -48588,6 +48588,8 @@
  k: |-1
   toaDesc
  v: |-1
+  Transmute with certain charms to remove visual effects
+  
   Right-click to reset Stat/Skill Points
 
 - # 7179
@@ -48969,9 +48971,9 @@
 
 - # 7224
  k: |-1
-  Acidburn
+  Athame
  v: |-1
-  Acidburn
+  Athame
 
 - # 7225
  k: |-1
@@ -57499,7 +57501,7 @@
   ThanksEveryone
  v: |-1
   Thanks everyone!
-  Median 2005-2012
+  Median 2005-2026
   Eternal
 
 - # 8644
@@ -61406,7 +61408,7 @@
   david1
  v: |-1
   \blue;+1 Required Level
-  +(2 to 8) to Strength
+  +(3 to 5) to Strength
   \grey;Cube With Corrupted Wormhole to Add Bonus
   
   Cube Reagent
@@ -61416,7 +61418,7 @@
   david2
  v: |-1
   \blue;+1 Required Level
-  +(2 to 8) to Dexterity
+  +(3 to 5) to Dexterity
   \grey;Cube With Corrupted Wormhole to Add Bonus
   
   Cube Reagent
@@ -61426,7 +61428,7 @@
   david3
  v: |-1
   \blue;+1 Required Level
-  +(2 to 8) to Vitality
+  +(3 to 5) to Vitality
   \grey;Cube With Corrupted Wormhole to Add Bonus
   
   Cube Reagent
@@ -61436,7 +61438,7 @@
   david4
  v: |-1
   \blue;+1 Required Level
-  +(2 to 8) to Energy
+  +(3 to 5) to Energy
   \grey;Cube With Corrupted Wormhole to Add Bonus
   
   Cube Reagent
@@ -61446,7 +61448,7 @@
   david5
  v: |-1
   \blue;+3 Required Level
-  +(5 to 15) to Strength
+  +(2 to 6) to Strength
   +1% to Strength
   \grey;Cube With Corrupted Wormhole to Add Bonus
   
@@ -61457,7 +61459,7 @@
   david6
  v: |-1
   \blue;+3 Required Level
-  +(5 to 15) to Dexterity
+  +(2 to 6) to Dexterity
   +1% to Dexterity
   \grey;Cube With Corrupted Wormhole to Add Bonus
   
@@ -61468,7 +61470,7 @@
   david7
  v: |-1
   \blue;+3 Required Level
-  +(5 to 15) to Vitality
+  +(2 to 6) to Vitality
   +1% to Vitality
   \grey;Cube With Corrupted Wormhole to Add Bonus
   
@@ -61479,7 +61481,7 @@
   david8
  v: |-1
   \blue;+3 Required Level
-  +(5 to 15) to Energy
+  +(2 to 6) to Energy
   +1% to Energy
   \grey;Cube With Corrupted Wormhole to Add Bonus
   
@@ -61490,7 +61492,7 @@
   david9
  v: |-1
   \blue;+5 Required Level
-  +(10 to 20) to Strength
+  +(8 to 12) to Strength
   +2% to Strength
   \grey;Cube With Corrupted Wormhole to Add Bonus
   
@@ -61501,7 +61503,7 @@
   david10
  v: |-1
   \blue;+5 Required Level
-  +(10 to 20) to Dexterity
+  +(8 to 12) to Dexterity
   +2% to Dexterity
   \grey;Cube With Corrupted Wormhole to Add Bonus
   
@@ -61512,7 +61514,7 @@
   david11
  v: |-1
   \blue;+5 Required Level
-  +(10 to 20) to Vitality
+  +(8 to 12) to Vitality
   +2% to Vitality
   \grey;Cube With Corrupted Wormhole to Add Bonus
   
@@ -61523,7 +61525,7 @@
   david12
  v: |-1
   \blue;+5 Required Level
-  +(10 to 20) to Energy
+  +(8 to 12) to Energy
   +2% to Energy
   \grey;Cube With Corrupted Wormhole to Add Bonus
   
@@ -61740,9 +61742,9 @@
 
 - # 9300
  k: |-1
-  CrownofArnazeus
+  JeweledCrown
  v: |-1
-  Crown of Arnazeus
+  Jeweled Crown
 
 - # 9301
  k: |-1
@@ -63710,7 +63712,7 @@
  k: |-1
   SkillnameClawNado
  v: |-1
-  Claw Tornado
+  Tornado
 
 - # 9581
  k: |-1
@@ -65694,7 +65696,7 @@
  k: |-1
   SkillsdGaleForce
  v: |-1
-  \grey;passive - your Whirlwind attacks splash to nearby enemies
+  \grey;upgrade - your Whirlwind attacks splash to nearby enemies
 
 - # 9847
  k: |-1
@@ -65773,7 +65775,7 @@
  k: |-1
   SkillsdLifestealer
  v: |-1
-  \grey;passive - Whirlwind attacks restore life
+  \grey;upgrade - Whirlwind attacks restore life
 
 - # 9860
  k: |-1

@@ -18758,7 +18758,7 @@
  k: |-1
   AssurBase
  v: |-1
-  Assur
+  Assur's Avatar
 
 - # 2839
  k: |-1
@@ -23883,7 +23883,7 @@
  k: |-1
   WycBoss4
  v: |-1
-  Fleshcutter
+  Mindflayer
 
 - # 3693
  k: |-1
@@ -28594,7 +28594,7 @@
   SkillsdBlackLotus
  v: |-1
   \red;requires a melee weapon\grey;
-  attack - creates a wave of expanding poison
+  melee spell - creates a wave of expanding poison
 
 - # 4475
  k: |-1
@@ -28646,7 +28646,7 @@
  k: |-1
   SkillsdBladestorm
  v: |-1
-  \red;requires a staff, an orb or a sword\grey;
+  \red;requires a staff, orb, or a sword\grey;
   attack - unleash magical homing blades
 
 - # 4483
@@ -28741,7 +28741,7 @@
   SkillsdBlossom
  v: |-1
   \red;requires a melee weapon\grey;
-  attack - conjure a searing shockwave of fire
+  melee spell - conjure a searing shockwave of fire
 
 - # 4498
  k: |-1
@@ -28784,7 +28784,7 @@
  k: |-1
   SkillsdBossKiller
  v: |-1
-  \grey;damages Assur in the Corrupted Abbey and the MCS in Vizjun!
+  \grey;damages Assur's Avatar in the Corrupted Abbey and the MCS in Vizjun!
 
 - # 4505
  k: |-1
@@ -28831,7 +28831,7 @@
  v: |-1
   \red;requires a melee weapon
   \tan;(requires Grim Presence)
-  \grey;attack - blasts enemies with burning thorns
+  \grey;melee spell - blasts enemies with burning thorns
 
 - # 4512
  k: |-1
@@ -28848,7 +28848,7 @@
   
   \red;requires a melee target
   requires a melee weapon\grey;
-  melee attack that inflicts heavenly flames that spread to others
+  melee spell that inflicts heavenly flames that spread to others
 
 - # 4514
  k: |-1
@@ -28916,8 +28916,8 @@
  k: |-1
   SkillsdClawTZ
  v: |-1
-  \red;requires a melee weapon
-  \grey;attack - unleash multiple weapon damage whirlwinds
+  \red;requires a staff, spear, or naginata
+  \grey;attack - the speed of your weapon conjures a storm of twisters
 
 - # 4525
  k: |-1
@@ -29015,7 +29015,7 @@
  k: |-1
   SkillsdDarkKing
  v: |-1
-  \grey;passive - bonus to strength, dexterity, energy and vitality
+  \grey;passive - bonus to strength, dexterity, vitality and energy
 
 - # 4540
  k: |-1
@@ -29070,7 +29070,7 @@
  k: |-1
   SkillsdDeathgaze
  v: |-1
-  
+  \red;requires an axe or a sword
   \grey;attack - a mighty swing that unleashes homing projectiles
 
 - # 4548
@@ -29091,7 +29091,7 @@
  k: |-1
   SkillsdDeathstrike
  v: |-1
-  \red;projectile - requires a bow or crossbow\grey;
+  \red;requires a bow or crossbow\grey;
   projectile - blasts the target zone with concentrated magical energy
 
 - # 4551
@@ -29112,7 +29112,7 @@
   SkillsdDemaciaaa
  v: |-1
   \red;requires a melee weapon\grey;
-  attack -  hit all enemies in your path
+  attack - hit all enemies in your path
 
 - # 4554
  k: |-1
@@ -29150,6 +29150,7 @@
  k: |-1
   SkillsdDissUber
  v: |-1
+  \blue; useable under melee locks
   \grey;spell - powerful energy wave that destroys everything nearby
 
 - # 4560
@@ -29346,7 +29347,7 @@
  k: |-1
   SkillsdFeralists2
  v: |-1
-  \red;requires an axe, mace or sword
+  \red;requires an axe, mace, or sword
   \blue;only allows the use of melee, summoning and buff/debuff skills
   \grey;melee attack that increases attack and movement speed
 
@@ -29408,7 +29409,7 @@
  k: |-1
   SkillsdFlash
  v: |-1
-  \grey;spell - electrocutes and blinds nearby enemies
+  \grey;melee spell - electrocutes and blinds nearby enemies
 
 - # 4601
  k: |-1
@@ -29675,7 +29676,8 @@
  k: |-1
   SkillsdHyenaStrike
  v: |-1
-  10% of poison damage to weapon added as total damage multiplier
+  Scales with Innate Elemental Damage bonuses
+  9% of poison damage to weapon added as total damage multiplier
   
   \red;requires a spear
   \grey;attack - infectious strike that spreads damage to nearby enemies
@@ -29857,7 +29859,7 @@
  v: |-1
   \red;requires a melee weapon
   \tan;(requires Grim Presence)\grey;
-  attack - unleashes multiple homing ice wraiths
+  melee spell - unleashes multiple homing ice wraiths
 
 - # 4670
  k: |-1
@@ -29894,7 +29896,9 @@
  k: |-1
   SkillsdLightningSh
  v: |-1
-  \grey;buff - cast a retaliatory shield of lightning on self and nearby allies
+  \dgreen; monsters killed by reflected damage do not trigger on death effects
+  \blue; shocks monsters that attempt to attack you or hit you with ranged attacks
+  \grey;buff - cast a protective static field that shocks attackers
 
 - # 4676
  k: |-1
@@ -30149,7 +30153,7 @@
  k: |-1
   SkillsdNightmare
  v: |-1
-  \grey;curse - slows enemies and reduces their chance to hit you
+  \grey;curse - slows enemies and lowers their physical resistance
 
 - # 4715
  k: |-1
@@ -30162,7 +30166,7 @@
  k: |-1
   SkillsdNovaBomb
  v: |-1
-  \grey;places a powerful electric time bomb at your feet
+  \grey;spell - places a powerful electric time bomb
 
 - # 4717
  k: |-1
@@ -30260,7 +30264,7 @@
   per fire and lightning pierce, up to 199
   Every 5 skill levels: gains 1 extra fire damage 
   
-  Converts 60% of physical weapon damage to fire
+  Converts 60% of physical damage to fire
   
   \grey;sentry that fires a barrage of rockets at multiple targets
 
@@ -30274,7 +30278,8 @@
  k: |-1
   SkillsdPestilence
  v: |-1
-  \grey;spell - summon up a vile storm of toxic wrath
+  \blue; useable under melee locks
+  \grey;spell - conjure a vile storm of toxic wrath
 
 - # 4734
  k: |-1
@@ -30405,7 +30410,7 @@
  k: |-1
   SkillsdRavaged2
  v: |-1
-  \red;requires an axe, mace or sword
+  \red;requires an axe, mace, or sword
   \tan;(works only after using Feral Strike)\grey;
   multiple rapid melee attacks that strike one or more targets
 
@@ -30582,6 +30587,7 @@
  k: |-1
   SkillsdSeismicCharge
  v: |-1
+  \blue; useable under melee locks
   \grey;spell - device that attaches to a wall and shoots freezing bolts
 
 - # 4781
@@ -30620,7 +30626,7 @@
   SkillsdShadowAvatar
  v: |-1
   \red;requires a melee weapon
-  \grey;attack - floating avatar that blasts the area with frost novas
+  \grey;melee spell - floating avatar that blasts the area with frost novas
 
 - # 4787
  k: |-1
@@ -30767,6 +30773,7 @@
  k: |-1
   SkillsdSolarFlare
  v: |-1
+  \blue; useable under melee locks
   \grey;spell - burn and blind enemies in a large area around you
 
 - # 4810
@@ -30837,7 +30844,7 @@
   SkillsdSpikestorm
  v: |-1
   \red;requires a dagger
-  \grey;projectile -  sever nearby enemies with a burst of angry birds
+  \grey;projectile - sever nearby enemies with a burst of angry birds
 
 - # 4821
  k: |-1
@@ -30970,7 +30977,7 @@
  v: |-1
   \yellow;but they are the only beings that can harm their sworn foes!
   the spirits are powerless against most physical enemies,
-  \grey;special summon - may only be used near Lillith's minions
+  \grey;special summon - may only be used near Lilith's minions
 
 - # 4841
  k: |-1
@@ -31045,7 +31052,7 @@
  k: |-1
   SkillsdThornField2
  v: |-1
-  \red;requires an axe, mace or sword
+  \red;requires an axe, mace, or sword
   \tan;(works only after using Feral Strike)\grey;
   melee attack that unleashes a ripple of deadly spikes
 
@@ -31278,7 +31285,7 @@
   SkillsdWildFire
  v: |-1
   \red;requires an axe or mace
-  \grey;attack -  your unrelenting might burns as wildfire through demonic ranks
+  \grey;melee spell -  your unrelenting might burns as wildfire through demonic ranks
 
 - # 4887
  k: |-1
@@ -31291,7 +31298,7 @@
  k: |-1
   SkillsdWingedStrike
  v: |-1
-  \red;requires a spear, claw or naginata\grey;
+  \red;requires a spear, claw, or naginata\grey;
   creep up on the target and deliver a lethal poisonous strike
 
 - # 4889
@@ -33224,8 +33231,10 @@
  k: |-1
   DescCastsGOIF
  v: |-1
-  25% Chance to cast level 3/13/23 Fire Cannonade on Death
+  
   5% Chance to cast level 2 Inner Fire on Attack
+  25% Chance to cast level 3/13/23 Fire Cannonade on Death
+  Elementals inherit your Fire Spell Damage, Fire Pierce, Energy and Spell Focus
 
 - # 5189
  k: |-1
@@ -33354,7 +33363,7 @@
   Desc1B9Cruc
  v: |-1
   8-16 Spikes depending on Nearby Enemies
-  Converts 25% Physical Damage to Magic Damage
+  Converts 25% Physical Damage to Magic
 
 - # 5208
  k: |-1
@@ -33544,7 +33553,7 @@
   DescBlankOmax
  v: |-1
   Area Effect Delay: 1.2 seconds
-  Converts 50% Physical Damage to Magic Damage
+  Converts 50% Physical Damage to Magic
   25% Weapon Damage
   
 
@@ -33552,8 +33561,9 @@
  k: |-1
   DescBlankOmin
  v: |-1
-  Area Effect Delay: 1.2 seconds
-  Converts 50% Physical Damage to Magic Damage
+  
+  Converts 50% Physical Damage to Magic
+  
 
 - # 5240
  k: |-1
@@ -34217,7 +34227,9 @@
   +20% to Total Defense
   \orange;Frost Essence Aura\grey;
   
-  Cast Ice Lance and Glacial Nova
+  Cast Ice Lance and Glacial Nova on attack
+  40% Chance to Cast level 3/33/63 Glacial Nova on Death
+  Elementals inherit your Cold Spell Damage, Cold Pierce, Energy and Spell Focus
 
 - # 5344
  k: |-1
@@ -34238,7 +34250,7 @@
  k: |-1
   DescPureHeartFireBolt
  v: |-1
-  Damage: 625 over 5 seconds (Ignores Immunity)
+  Pure Damage: 
 
 - # 5347
  k: |-1
@@ -34300,14 +34312,14 @@
   DescPewPewPewPew
  v: |-1
   Delay between Blasts: 0.16 seconds
-  Target Range: 4 yards
+  Target seek range: 4 yards
 
 - # 5357
  k: |-1
   DescPewPewPewPewPew
  v: |-1
   Delay between Blasts: 0.32 seconds
-  Target Range: 10 yards
+  Target seek range: 10 yards
 
 - # 5358
  k: |-1
@@ -34444,10 +34456,11 @@
  k: |-1
   DescColosseumStack
  v: |-1
-  Duration: 5 seconds
   Enemy Movement Speed and Damage: -25%
   Enemy Defense: -50%
   \orange;Are you not entertained?
+  
+  \grey;Duration: 5 seconds
 
 - # 5379
  k: |-1
@@ -34525,7 +34538,7 @@
  k: |-1
   DescSEagleDebuff
  v: |-1
-  Enemy Damage and Movement Speed: 
+  Enemy Movement Speed and Damage: 
 
 - # 5392
  k: |-1
@@ -34831,11 +34844,11 @@
   DescBlank4Hits
  v: |-1
   
-  \dgrey;+1 to radius of Blinding Effect per 2 Light Radius
-  \dgrey;Reduces enemy attack rating by 30% for 3 seconds
+  \dgrey;+0.67 yards Blinding Radius per 2 Light Radius (max 14 yards)
+  \dgrey;Reduces enemy attack rating by 25% for 3 seconds
   \orange;Blinding Effect
   
-  \grey;Hits 4 times
+  \grey;Hits multiple times
   Gains 10% Total Damage per 1% Max Lightning Resist (Max 150%)
 
 - # 5440
@@ -34863,7 +34876,7 @@
   DescAncHandFlat
  v: |-1
   Hits Multiple Times
-  Converts 100% Physical Damage to Fire Damage
+  Converts 100% Physical Damage to Fire
 
 - # 5444
  k: |-1
@@ -35141,7 +35154,7 @@
  k: |-1
   DescDmgMPH
  v: |-1
-  Magic/Physical Spell Damage: 
+  Physical/Magic Spell Damage: 
 
 - # 5490
  k: |-1
@@ -35204,7 +35217,7 @@
  k: |-1
   DescBlankMaxRev
  v: |-1
-  Maximum Revenants: 
+  Revenants: 
 
 - # 5500
  k: |-1
@@ -35246,7 +35259,6 @@
   DescTellMeNewDamage
  v: |-1
   Missiles: 1 (when using Horadrim and Vizjerei sets)
-  Damage: 30000 over 0.2 seconds (Ignores Valthek's Shield)
   Can only be used when next to a Mystic Aegis
 
 - # 5506
@@ -35699,7 +35711,7 @@
  k: |-1
   DescStopCheesingUldyssian
  v: |-1
-  Movement Speed: 
+  Enemy Movement Speed: 
 
 - # 5577
  k: |-1
@@ -35711,7 +35723,7 @@
  k: |-1
   DescScourgesNr
  v: |-1
-  Current Servants: 
+  Servants: 
 
 - # 5579
  k: |-1
@@ -36078,8 +36090,9 @@
  k: |-1
   DescBlankHyenaFury
  v: |-1
-  \orange;Fury: -1 second duration per charge (minimum 5 seconds)
-  \orange;Fury: additional 10% of weapon poison damage as multiplier per fury charge
+  \orange;While you have fury charges: spread reduced by 90%
+  Fury: -1 second duration per charge (minimum 5 seconds)
+  Fury: additional 9% of weapon poison damage as multiplier per fury charge
 
 - # 5635
  k: |-1
@@ -36430,7 +36443,7 @@
  k: |-1
   To The Binding of Baal
  v: |-1
-  \grey;Difficulty: \green;Easy
+  \grey;Difficulty: \green;Moderate
   
   \orange;+ Binding of Baal +
   
@@ -38174,7 +38187,8 @@
  k: |-1
   SkillFireEleSyn
  v: |-1
-  +5% Fire Spell damage and Fire Pierce per Base Level
+  +1% extra per Base Level
+  +1% Fire Spell Damage and Fire Pierce per Skill Level
 
 - # 5948
  k: |-1
@@ -38235,7 +38249,7 @@
  k: |-1
   DescBanishDmg
  v: |-1
-  Elemental/Magical Damage: 
+  Elemental/Magic Damage: 
 
 - # 5958
  k: |-1
@@ -39292,7 +39306,7 @@
   DescHawkSynergy
  v: |-1
   +1 Hawk per Cast at Base Level 25
-  +1 Hawk per 2 Base Levels
+  +1 Max Hawk per 2 Base Levels
 
 - # 6056
  k: |-1
@@ -41258,7 +41272,7 @@
  k: |-1
   DescDreamEater
  v: |-1
-  Enemy Physical Resist: -10%
+  Enemy Physical Resistance: -10%
   \orange;Terrifies Target
 
 - # 6371
@@ -42006,7 +42020,7 @@
  k: |-1
   DescClawTornadoBlank
  v: |-1
-  Gains an Extra Projectile Every 5 Skill Levels (max 10)
+   % Increased Physical Damage per 1% Increased Attack Speed
   
 
 - # 6495
@@ -42641,7 +42655,7 @@
   
   Cooldown: 1 second
   Enemy Movement Speed: -25%
-  Enemy Physical Resist: -5%
+  Enemy Physical Resistance: -5%
   150% Weapon Damage
   
 
@@ -42709,7 +42723,7 @@
  k: |-1
   SkillsdCascadee
  v: |-1
-  \red;requires a bow or a crossbow
+  \red;requires a bow or crossbow
   \grey;projectile - fires arrows at nearby enemies
 
 - # 6600
@@ -43805,7 +43819,7 @@
  k: |-1
   SkillsdMomentum
  v: |-1
-  \grey;upgrade - increases proficency by reducing the cooldown
+  \grey;upgrade - increases proficiency by reducing the cooldown
 
 - # 6778
  k: |-1
@@ -45624,7 +45638,7 @@
  k: |-1
   SkillsdPrimalDominance
  v: |-1
-  \grey;upgrade -  your bestial senses boost battle proficency
+  \grey;upgrade -  your bestial senses boost battle proficiency
 
 - # 7072
  k: |-1
@@ -46408,13 +46422,13 @@
  k: |-1
   SkillPrimordialStrike1
  v: |-1
-  % of Strength and Dexterity added as Magic damage
+  % of Strength or Dexterity added as Magic damage
 
 - # 7196
  k: |-1
   SkillPrimordialStrikeSyn
  v: |-1
-  % of Strength and Dexterity added as Magic damage per Base Level
+  % of Strength or Dexterity added as Magic damage per Base Level
 
 - # 7197
  k: |-1
@@ -47674,7 +47688,7 @@
   SkillArcaneFury3
  v: |-1
   73% less mana drained when hit
-  92% Damage Reduction
+  85% Damage Reduction
   \green;Mana Shield:
   
 
@@ -48370,7 +48384,7 @@
  k: |-1
   SkillViolence1
  v: |-1
-  Snake: 200% of your Life Steal added as Poison Pierce
+  Snake: 150% of your Life Steal added as Poison Pierce
   
 
 - # 7505
@@ -49169,7 +49183,7 @@
  k: |-1
   SkillImpale2
  v: |-1
-  Physical Resistance: -50%
+  Enemy Physical Resistance: -50%
   \orange;Expose Weakness
   
 
@@ -49351,7 +49365,7 @@
  k: |-1
   DescChaosNovaKillSyn
  v: |-1
-  0.5% Chance to Cast Chaos Nova on Kill per Base Level
+  1% Chance to Cast Chaos Nova on Kill per Base Level
 
 - # 7653
  k: |-1
@@ -49696,7 +49710,7 @@
   SkillSinner1
  v: |-1
   
-  Summon an extra Sinner at character levels 120, 135 and 150
+  Summon an extra Sinner at character levels 115, 130 and 145
   Minion Fire pierce is increased by your own
   Gains 75% of your Minion Damage as Fire Spell Damage
   Gains 10 Spell Focus and 30 Energy per Skill Level
@@ -49706,7 +49720,7 @@
   SkillGF1
  v: |-1
   
-  Summon an extra Fungus at character levels 120, 135 and 150
+  Summon an extra Fungus at character levels 115, 130 and 145
   Minion Lightning pierce is increased by your own
   Gains 50% of your Minion Damage as Lightning Spell Damage
   Gains 3 Spell Focus and 5 Energy per 1% Cast Speed
@@ -49716,7 +49730,7 @@
   SkillFrostwalker1
  v: |-1
   
-  Summon an extra Frostwalker at character levels 120, 135 and 150
+  Summon an extra Frostwalker at character levels 115, 130 and 145
   Minion Cold pierce is increased by your own
   Gains 75% of your Minion Damage as Cold Spell Damage
   Gains 1.5 Spell Focus and 4 Energy per 1% Minion Life
@@ -49758,7 +49772,7 @@
  k: |-1
   DescMaliiche
  v: |-1
-  +1% Physical Resist per 4 points in other Malice tree skills
+  +1% Physical Resist per 3 points in other Malice tree skills
 
 - # 7710
  k: |-1
@@ -50957,7 +50971,7 @@
  k: |-1
   DescConvertToRandom
  v: |-1
-  Converts %d%% Physical Damage to Fire, Cold, or Lightning
+  Converts %d%% Physical Damage to Fire, Cold or Lightning
 
 - # 7899
  k: |-1
@@ -51683,7 +51697,7 @@
  k: |-1
   SkillViolence2
  v: |-1
-  Eagle: 200% of your Life Steal added as Lightning Pierce
+  Eagle: 150% of your Life Steal added as Lightning Pierce
   
 
 - # 8009
@@ -52659,7 +52673,7 @@
   SkillGraveyardX
  v: |-1
   
-  (Based on whichever is highest: Minion Damage or Poison Spell Damage)
+  (based on whichever is highest: minion damage, poison spell Damage, or physical/magic spell damage)
 
 - # 8160
  k: |-1
@@ -53311,8 +53325,8 @@
  k: |-1
   SkillATMGX
  v: |-1
-  Weapon Damage increases to 95% with 85% Deadly and Critical Strike Chance OR 110% Innate Elemental Damage
-  Weapon Damage increases to 75% with 55% Deadly and Critical Strike Chance OR 55% Innate Elemental Damage
+  Weapon Damage increases to 95% with 85% Deadly and Critical Strike Chance OR 140% Innate Elemental Damage
+  Weapon Damage increases to 75% with 55% Deadly and Critical Strike Chance OR 60% Innate Elemental Damage
   
   Radius increases by 27% with 200, 500, 900 Base Dexterity (Max +81%)
   
@@ -53653,7 +53667,7 @@
  k: |-1
   ec20
  v: |-1
-  \orange;Lucy Lew Container (20)
+  \orange;Lew Container (20)
 
 - # 8318
  k: |-1
@@ -53823,7 +53837,7 @@
  k: |-1
   DocParFate
  v: |-1
-  Pearl of Wisdom: Paragon of Fate
+  \gold;Pearl of Wisdom: Paragon of Fate
 
 - # 8342
  k: |-1
@@ -53833,7 +53847,7 @@
   \grey;Unlocks Mastery Skill: Paragon of Fate
   
   \dgrey;Transmute with Paragon's Hammer to add bonus
-  \gold;Library of Faith (Heroic)
+  \orange;Library of Faith (Heroic)
 
 - # 8343
  k: |-1
@@ -54046,7 +54060,7 @@
   vrx9
  v: |-1
   \dgrey;33% chance to gain the Light of the Angiris aura
-  Defeat the Justicar within 7 minutes to upgrade the Paragon's Hammer
+  Defeat the Justicar within 8 minutes to upgrade the Paragon's Hammer
   Find the red portal within 4 minutes to enter the Gauntlet
   Range of warps and warp strike skills greatly reduced
   \green;+110% Angelic Item drops
@@ -54126,10 +54140,9 @@
 
 - # 8384
  k: |-1
-  barriersyn
+  barriersyn1
  v: |-1
-  \green;Enhancement 2: \grey;ring of blades density +75% at character level 130
-  \green;Enhancement 1: \grey;gains additional ring of blades at character level 90
+  \green;Enhancement 1: \grey;gains additional ring of blades at character level 
 
 - # 8385
  k: |-1
@@ -54155,10 +54168,9 @@
 
 - # 8388
  k: |-1
-  batsyn
+  batsyn1
  v: |-1
-  \green;Enhancement 2: \grey;-0.5 seconds to cooldown at character level 125
-  \green;Enhancement 1: \grey;-0.5 seconds to cooldown at character level 90
+  \green;Enhancement 1: \grey;-0.5 seconds to cooldown at character level 
 
 - # 8389
  k: |-1
@@ -54386,3 +54398,1117 @@
   itemcls_sword
  v: |-1
   Weapon Type Sword
+
+- # 8424
+ k: |-1
+  SkillnameRavage
+ v: |-1
+  Ravage
+
+- # 8425
+ k: |-1
+  SkillsdRavage
+ v: |-1
+  \red;requires an axe or mace
+  \grey;attack - Recklessly tear through an area causing death and destruction
+
+- # 8426
+ k: |-1
+  DescRvgRegen
+ v: |-1
+   life lost per second while ravaging
+
+- # 8427
+ k: |-1
+  DescRvgDegen
+ v: |-1
+   life lost per second while ravaging per skill level
+  -3 life lost per second while ravaging per base level
+
+- # 8428
+ k: |-1
+  SkillnameTorment
+ v: |-1
+  Torment
+
+- # 8429
+ k: |-1
+  SkillsdTorment
+ v: |-1
+  \grey;melee spell - bombard your target with toxic souls of the damned
+
+- # 8430
+ k: |-1
+  DescOneOfThem
+ v: |-1
+  Requires either Pestilence or Dream Eater
+
+- # 8431
+ k: |-1
+  SkillsdRelentless
+ v: |-1
+  upgrade - mastery of the profane arts allows you to summon more spirits
+
+- # 8432
+ k: |-1
+  SkillnameRelentless
+ v: |-1
+  Relentless
+
+- # 8433
+ k: |-1
+  DescRelentless
+ v: |-1
+  
+  \red; Nightwalker: Nightwalker damage bonus halved
+  \gold;Torment: souls summoned doubled
+
+- # 8434
+ k: |-1
+  DescLoma
+ v: |-1
+   Life on Melee attack per base level
+
+- # 8435
+ k: |-1
+  DescTormentHeal
+ v: |-1
+   Life on melee attack while using Torment
+
+- # 8436
+ k: |-1
+  SkillnameGiftofBlood
+ v: |-1
+  Gift of Blood
+
+- # 8437
+ k: |-1
+  SkillsdGiftofBlood
+ v: |-1
+  \blue;only allows the use of melee, special summon and buff/debuff skills
+  \grey;passive - sacrifice blood to become that which you control
+
+- # 8438
+ k: |-1
+  DescGiftofBlood
+ v: |-1
+  maximum life reduced by 
+
+- # 8439
+ k: |-1
+  LitshieldEdr
+ v: |-1
+   damage reduction per skill level
+
+- # 8440
+ k: |-1
+  StormOnly
+ v: |-1
+  \yellow; (Amazon Only)
+
+- # 8441
+ k: |-1
+  SkillnameLotd
+ v: |-1
+  Land of the Dead
+
+- # 8442
+ k: |-1
+  SkillsdLotd
+ v: |-1
+  \grey;Buff - your mastery of the macabre arts rewards you
+
+- # 8443
+ k: |-1
+  Lotdeffect
+ v: |-1
+  
+  \grey;periodically corrupts the minds of lesser enemies, converting them against each other
+  \gold;with points in Death Ripple:
+  
+  \grey;periodically summons your night hawks when enemies are nearby
+  \gold;with no points in the Malice tree
+
+- # 8444
+ k: |-1
+  Lotdeffcontd
+ v: |-1
+  
+  \grey;periodically inflicts enemies with a plague, reducing their movement speed and resistance to poison
+  \gold;with points in Torment:
+
+- # 8445
+ k: |-1
+  LotdSyn
+ v: |-1
+  +1 second to enemy confuse per 3 base levels (Requires Death Ripple)
+  -2% enemy poison resistance and movement speed per base level (Requires Torment) 
+  +1 maximum Night Hawk per 3 base levels
+
+- # 8446
+ k: |-1
+  Lotdcurse
+ v: |-1
+  Enemy poison resistance and movement speed: 
+
+- # 8447
+ k: |-1
+  LotdExile
+ v: |-1
+  Enemy confuse duration: 
+
+- # 8448
+ k: |-1
+  OccultOP
+ v: |-1
+  \green; enhances death ripple
+  total spell damage bonus from death pact increased by 4% per character level above 125
+  
+
+- # 8449
+ k: |-1
+  LshieldDuh
+ v: |-1
+  (energy, spell focus, lightning spell damage)
+  damage recieves double benefit from your caster stats
+
+- # 8450
+ k: |-1
+  Iedwowcool
+ v: |-1
+  % innate elemental damage
+
+- # 8451
+ k: |-1
+  DjControl
+ v: |-1
+  2% reduced conversion to magic per base level
+
+- # 8452
+ k: |-1
+  abar
+ v: |-1
+  \orange;Barrel of Apples
+
+- # 8453
+ k: |-1
+  bbar
+ v: |-1
+  \green;Drown your sorrows
+  \orange;Barrel of Belladonna
+
+- # 8454
+ k: |-1
+  wm22
+ v: |-1
+  Echo Sabre (Mastercrafted)
+
+- # 8455
+ k: |-1
+  Tailwind
+ v: |-1
+  Tailwind
+
+- # 8456
+ k: |-1
+  HowtoGuidedCh
+ v: |-1
+  
+  \gold;Each Bounce adds 10% physical damage conversion to magic
+  \orange; with 160 movement speed or 1000 spell focus: bounces 4 additional times
+  \orange; with 80 movement speed or 500 spell focus: bounces 2 additional times
+
+- # 8457
+ k: |-1
+  Schaefers Hammer
+ v: |-1
+  Schaefer's Hammer
+
+- # 8458
+ k: |-1
+  SkillnameMagfield
+ v: |-1
+  Magnetic field
+
+- # 8459
+ k: |-1
+  CageBreaker
+ v: |-1
+  Cagebreaker
+
+- # 8460
+ k: |-1
+  DescArewehuman
+ v: |-1
+  \grey; decreased range, multi-hits
+  \gold;While using a one handed weapon
+  
+  \grey; increased range, higher weapon damage
+  \gold;While using a two-handed weapon or dual wielding
+
+- # 8461
+ k: |-1
+  SkillsdHeavensfury
+ v: |-1
+  \grey;attack - consecrate an area bringing divine wrath upon those within
+
+- # 8462
+ k: |-1
+  SkillnameHeavensfury
+ v: |-1
+  Heaven's fury
+
+- # 8463
+ k: |-1
+  DescPalaturgy
+ v: |-1
+  
+  \orange;Cherubim
+  \orange;Retaliate
+  \orange;Divine Judgement
+  \grey;Adds 25 magic damage per level of the following skills:
+
+- # 8464
+ k: |-1
+  DescDarude
+ v: |-1
+  
+  \gold; Per 4% attack speed above 800:\grey; maximum mana -2%
+  
+  \gold; Per 3% attack speed above 500:\grey; regenerate mana -3%
+  
+  (500% attack speed to remove cooldown)
+  \gold; Per 4% attack speed:\grey; -0.04 sec cooldown
+  
+
+- # 8465
+ k: |-1
+  ImperiusMight
+ v: |-1
+  Imperius' Might
+
+- # 8466
+ k: |-1
+  DescPalaTwogy
+ v: |-1
+  
+  \gold; Per 40% Damage to demons:\grey; +1 yard radius (max 15)
+
+- # 8467
+ k: |-1
+  statExplanation dtdu
+ v: |-1
+  Only affects weapon physical damage
+
+- # 8468
+ k: |-1
+  DescTormentTohit
+ v: |-1
+   to attack rating while using Torment
+
+- # 8469
+ k: |-1
+  SkillnameSeraPrison
+ v: |-1
+  Serafiend Prison
+
+- # 8470
+ k: |-1
+  SkillsdSeraPrison
+ v: |-1
+  \red;Some areas and enemy positions can prevent Prison from spawning. Teleport range debuff still applies
+  \grey;Slows enemy Movement Speed by 25%
+  \blue;Temporarily reduces range of most enemy teleport skills
+  
+  \grey;Warp - teleport to the target, enclosing both of you in a Bone Prison
+
+- # 8471
+ k: |-1
+  Heroic Duncraig
+ v: |-1
+  Heroic Duncraig
+
+- # 8472
+ k: |-1
+  To Duncraig 130
+ v: |-1
+  \grey;Area Level: 130
+  \grey;Heroic Rift
+  \gold;Duncraig
+
+- # 8473
+ k: |-1
+  f700
+ v: |-1
+  \orange;Sacred Essence
+
+- # 8474
+ k: |-1
+  SacEssenceExplain
+ v: |-1
+  (Cube with an Oil of Craft to create container)
+  
+  Used for Sacred Unique manipulation and Assur's Bane upgrades
+
+- # 8475
+ k: |-1
+  Voodoobranch
+ v: |-1
+  Voodoo Branch
+
+- # 8476
+ k: |-1
+  AssurBaneUpgrade50
+ v: |-1
+  Limit: once per game. Purify to craft
+  
+  \blue;+4 Required Level
+  Adds 3-4 Damage
+  \purple;Cost: 1 Sacred Essence
+  \gold;Assur's Bane Upgrade
+
+- # 8477
+ k: |-1
+  AssurBaneUpgrade51
+ v: |-1
+  Limit: once per game. Purify to craft
+  
+  \blue;+12 Required Level
+  +1 to All Skills
+  \purple;Cost: 1 Sacred Essence
+  \gold;Assur's Bane Upgrade
+
+- # 8478
+ k: |-1
+  AssurBaneUpgrade52
+ v: |-1
+  Limit: once per game. Purify to craft
+  
+  \blue;+4 Required Level
+  +15%% Damage to Undead
+  \purple;Cost: 1 Sacred Essence
+  \gold;Assur's Bane Upgrade
+
+- # 8479
+ k: |-1
+  AssurBaneUpgrade53
+ v: |-1
+  Limit: once per game. Purify to craft
+  
+  \blue;+4 Required Level
+  Maximum Life +1%%
+  \purple;Cost: 1 Sacred Essence
+  \gold;Assur's Bane Upgrade
+
+- # 8480
+ k: |-1
+  AssurBaneUpgrade54
+ v: |-1
+  Limit: once per game. Purify to craft
+  
+  \blue;+5 Required Level
+  -3%% to Enemy Fire Resistance
+  \purple;Cost: 1 Sacred Essence
+  \gold;Assur's Bane Upgrade
+
+- # 8481
+ k: |-1
+  AssurBaneUpgrade55
+ v: |-1
+  Limit: once per game. Purify to craft
+  
+  \blue;+5 Required Level
+  -3%% to Enemy Cold Resistance
+  \purple;Cost: 1 Sacred Essence
+  \gold;Assur's Bane Upgrade
+
+- # 8482
+ k: |-1
+  AssurBaneUpgrade56
+ v: |-1
+  Limit: once per game. Purify to craft
+  
+  \blue;+5 Required Level
+  -3%% to Enemy Lightning Resistance
+  \purple;Cost: 1 Sacred Essence
+  \gold;Assur's Bane Upgrade
+
+- # 8483
+ k: |-1
+  AssurBaneUpgrade57
+ v: |-1
+  Limit: once per game. Purify to craft
+  
+  \blue;+5 Required Level
+  -3%% to Enemy Poison Resistance
+  \purple;Cost: 1 Sacred Essence
+  \gold;Assur's Bane Upgrade
+
+- # 8484
+ k: |-1
+  AssurBaneUpgrade58
+ v: |-1
+  Limit: once per game. Purify to craft
+  
+  \blue;Fire Resist -10%%
+  -1 to Light Radius
+  +40%% Weapon Physical Damage
+  \red;Requires at least 1 Light Radius on item
+  \purple;Cost: 2 Sacred Essence
+  \gold;Assur's Bane Upgrade
+
+- # 8485
+ k: |-1
+  AssurBaneUpgrade59
+ v: |-1
+  Limit: once per game. Purify to craft
+  
+  \blue;Fire Resist -10%%
+  -1 to Light Radius
+  +5%% Innate Elemental Damage
+  \red;Requires at least 1 Light Radius on item
+  \purple;Cost: 2 Sacred Essence
+  \gold;Assur's Bane Upgrade
+
+- # 8486
+ k: |-1
+  AssurBaneUpgrade60
+ v: |-1
+  Limit: once per game. Purify to craft
+  
+  \blue;Fire Resist -20%%
+  -2 to Light Radius
+  +1%% to maximum Fire, Poison, Cold Resistances
+  \red;Requires at least 2 Light Radius on item
+  \purple;Cost: 2 Sacred Essence
+  \gold;Assur's Bane Upgrade
+
+- # 8487
+ k: |-1
+  AssurBaneUpgrade61
+ v: |-1
+  Limit: once per game. Purify to craft
+  
+  \blue;Fire Resist -10%%
+  -1 to Light Radius
+  +10%% Spell Damage
+  \red;Requires at least 1 Light Radius on item
+  \purple;Cost: 2 Sacred Essence
+  \gold;Assur's Bane Upgrade
+
+- # 8488
+ k: |-1
+  AssurBaneUpgrade70
+ v: |-1
+  Limit: once per game. Purify to craft
+  
+  \blue;Fire Resist -20%%
+  \orange;1%% Fire Spell Damage per 4 Spell Focus above the cap
+  \red;Replaces Purify
+  \purple;Cost: 4 Sacred Essence
+  \gold;Assur's Bane Upgrade
+
+- # 8489
+ k: |-1
+  AssurBaneUpgrade71
+ v: |-1
+  Limit: once per game. Purify to craft
+  
+  \blue;Fire Resist -20%%
+  \orange;1%% Lightning Spell Damage per 4 Spell Focus above the cap
+  \red;Replaces Purify
+  \purple;Cost: 4 Sacred Essence
+  \gold;Assur's Bane Upgrade
+
+- # 8490
+ k: |-1
+  AssurBaneUpgrade72
+ v: |-1
+  Limit: once per game. Purify to craft
+  
+  \blue;Fire Resist -20%%
+  \orange;1%% Cold Spell Damage per 4 Spell Focus above the cap
+  \red;Replaces Purify
+  \purple;Cost: 4 Sacred Essence
+  \gold;Assur's Bane Upgrade
+
+- # 8491
+ k: |-1
+  AssurBaneUpgrade73
+ v: |-1
+  Limit: once per game. Purify to craft
+  
+  \blue;Fire Resist -20%%
+  \orange;1%% Poison Spell Damage per 4 Spell Focus above the cap
+  \red;Replaces Purify
+  \purple;Cost: 4 Sacred Essence
+  \gold;Assur's Bane Upgrade
+
+- # 8492
+ k: |-1
+  AssurBaneUpgrade74
+ v: |-1
+  Limit: once per game. Purify to craft
+  
+  \blue;Fire Resist -30%%
+  \dgrey;Energy: +12%% Grit
+  Vitality: 400%% of your Damage to Undead bonus added as Cold Damage to weapon
+  Dexterity: +300%% Weapon Physical Damage
+  Strength: +5000 Attack Rating
+  \orange;Bonus based on your highest attribute if wielding a one handed weapon without a shield
+  \red;Does not work for Barbarians
+  Replaces Purify
+  \purple;Cost: 6 Sacred Essence
+  \gold;Assur's Bane Upgrade
+
+- # 8493
+ k: |-1
+  HDuncSURecipe1
+ v: |-1
+  Limit: once per game. Purify to craft
+  
+  Sacred Weapon/Armor + 1 Sacred Essence
+  \red;Does not work with corrupted items
+  \orange;Sacred Unique (105) Creation
+
+- # 8494
+ k: |-1
+  HDuncSURecipe2
+ v: |-1
+  Purify to craft
+  
+  Sacred Unique (120) Weapon/Armor + 2 Sacred Essence
+  \red;Does not work with corrupted items
+  \orange;Sacred Unique (120) Stat Reroll
+
+- # 8495
+ k: |-1
+  HDuncSURecipe3
+ v: |-1
+  Limit: once per game. Purify to craft
+  
+  Sacred Unique Weapon/Armor + 4 Sacred Essence
+  \red;Does not work with corrupted items
+  \orange;Sacred Unique (105-130) Item Reroll
+
+- # 8496
+ k: |-1
+  HDuncSURecipe4
+ v: |-1
+  Limit: once per game. Purify to craft
+  
+  (allows item to be corrupted once more)
+  Corrupted Sacred Unique + 8 Sacred Essence
+  \red;Recipe cannot be repeated
+  \orange;Sacred Unique Double Corruption
+
+- # 8497
+ k: |-1
+  ManaRegDuring
+ v: |-1
+  Mana Regenerated while attacking: 
+
+- # 8498
+ k: |-1
+  ManaMaxDuring
+ v: |-1
+  Maximum Mana while attacking: 
+
+- # 8499
+ k: |-1
+  MarkofSanctity
+ v: |-1
+  Mark of Sanctity
+
+- # 8500
+ k: |-1
+  MarkSanctityDesc
+ v: |-1
+  \green;Cost: 3 charges
+  \grey;Unlocks Mastery Skill: Paragon of Sanctity
+  
+  \dgrey;Transmute with Paragon's Hammer to add bonus
+  \orange;Duncraig (Heroic)
+
+- # 8501
+ k: |-1
+  f701
+ v: |-1
+  Crate O' Sacred Essence
+
+- # 8502
+ k: |-1
+  DescEssenceCrate
+ v: |-1
+  (Transmute in Cube to Extract Sacred Essence)
+  (Right Click to Collect)
+
+- # 8503
+ k: |-1
+  MasteryNameSanctity
+ v: |-1
+  Paragon of Sanctity
+
+- # 8504
+ k: |-1
+  MasterySdSanctity
+ v: |-1
+  \grey;passive - high level bonuses tied to Heroic Duncraig progression
+
+- # 8505
+ k: |-1
+  MasterySanctityUnlock
+ v: |-1
+  
+  \yellow;Upgrade Paragon's Hammer with a Mark of Sanctity
+  \orange;Unlockable Skill
+  \red;
+
+- # 8506
+ k: |-1
+  MasterySanctity1
+ v: |-1
+  
+  \gold;Level 136: \blue;Purify and Holybolt damage increased by 20%
+  
+  \grey;Use Sacred Unique (120) stat reroll altars in Duncraig 134+
+  Use Assur's Bane upgrade altars (Tier 1) in Duncraig 134+
+  \gold;Level 134: 
+  
+  \gold;Level 132: \dgrey;+20% Magic Resist in Duncraig 130+
+  
+  \gold;Level 130: \grey;Use Sacred Unique (105) creation altars in Duncraig 130+
+
+- # 8507
+ k: |-1
+  SkillnameRedemption
+ v: |-1
+  Ignis Mortem
+
+- # 8508
+ k: |-1
+  SkillsdRedemption
+ v: |-1
+  \grey;Drains 1% of Maximum Life per second while active
+  
+  \yellow;(cast again to turn off)\grey;
+  Buff - instantly releases newly summoned Fire Elementals from their service
+
+- # 8509
+ k: |-1
+  barriersyn2
+ v: |-1
+  \green;Enhancement 2: \grey;ring of blades density +75% at character level 
+
+- # 8510
+ k: |-1
+  batsyn2
+ v: |-1
+  \green;Enhancement 2: \grey;-0.5 seconds to cooldown at character level 
+
+- # 8511
+ k: |-1
+  MasterySanctity2
+ v: |-1
+  \gold;Level 143:\blue; +4% Grit
+  
+  \gold;Level 140:\grey; Use Sacred Unique double corruption altars in Duncraig 139+
+  
+  \grey;Use Sacred Unique (105-130) reroll altars in Duncraig 139+
+  Use Assur's Bane upgrade altars (Tier 2) in Duncraig 139+
+  \gold;Level 139:
+  
+  \gold;Level 138: \dgrey;+20% Magic Resist in Duncraig 130+
+
+- # 8512
+ k: |-1
+  MasterySanctity3
+ v: |-1
+  \gold;Level 145:\grey; Enter Assur's Realm using trophies from his fallen minions
+  
+
+- # 8513
+ k: |-1
+  DescPurify1
+ v: |-1
+   over 5 seconds (Ignores Immunity)
+
+- # 8514
+ k: |-1
+  DescPurify2
+ v: |-1
+   over 0.2 seconds (Ignores Immunity)
+
+- # 8515
+ k: |-1
+  SkillnameTylwulf
+ v: |-1
+  Visions of the Past
+
+- # 8516
+ k: |-1
+  SkillsdTylwulf
+ v: |-1
+  \red;Specter is hostile but starts to quickly dematerialize when damaged
+  \grey;Spell - summon a vengeful specter from Tylwulfs past
+
+- # 8517
+ k: |-1
+  BetrayedAmazon
+ v: |-1
+  Vision of the Past
+
+- # 8518
+ k: |-1
+  FireAffinity
+ v: |-1
+  
+  \dgrey;(only one Affinity can be active at a time)
+  \grey;15% of Cold and Lightning Spell Damage added as Fire Spell Damage
+  Cold and Lightning attack damage added as Fire Attack Damage
+  Cold and Lightning pierce nullified
+  \orange;Fire Affinity while attacking
+  
+
+- # 8519
+ k: |-1
+  LightningAffinity
+ v: |-1
+  
+  \dgrey;(only one Affinity can be active at a time)
+  \grey;15% of Cold and Fire Spell Damage added as Lightning Spell Damage
+  Cold and Fire attack damage added as Lightning Attack Damage
+  Cold and Fire pierce nullified
+  \orange;Lightning Affinity while attacking
+  
+
+- # 8520
+ k: |-1
+  IceAffinity
+ v: |-1
+  
+  \dgrey;(only one Affinity can be active at a time)
+  \grey;15% of Fire and Lightning Spell Damage added as Cold Spell Damage
+  Fire and Lightning attack damage added as Cold Attack Damage
+  Fire and Lightning pierce nullified
+  \orange;Ice Affinity while attacking
+  
+
+- # 8521
+ k: |-1
+  HDuncTrophyInfo
+ v: |-1
+  Transmute four different boss trophies to enter Assur's Domain 
+
+- # 8522
+ k: |-1
+  HDuncTrophy
+ v: |-1
+  \orange;Heroic Duncraig Boss Trophy
+
+- # 8523
+ k: |-1
+  AnyColourUliek
+ v: |-1
+  (energy, spell focus, lightning spell damage)
+  - Double your caster synergy
+  
+  - 15% per 1% weapon physical damage bonus
+  
+  \gold;(whichever is higher)
+  \grey;Thorns damage increased by:
+  
+
+- # 8524
+ k: |-1
+  ElementalBandFire
+ v: |-1
+  Elemental Band (Fire)
+
+- # 8525
+ k: |-1
+  ElementalBandLight
+ v: |-1
+  Elemental Band (Lightning)
+
+- # 8526
+ k: |-1
+  ElementalBandCold
+ v: |-1
+  Elemental Band (Cold)
+
+- # 8527
+ k: |-1
+  ElementalBandPoison
+ v: |-1
+  Elemental Band (Poison)
+
+- # 8528
+ k: |-1
+  RelicX1
+ v: |-1
+  Relic
+
+- # 8529
+ k: |-1
+  RelicX2
+ v: |-1
+  Relic
+
+- # 8530
+ k: |-1
+  RelicX3
+ v: |-1
+  Relic
+
+- # 8531
+ k: |-1
+  RelicX4
+ v: |-1
+  Relic
+
+- # 8532
+ k: |-1
+  To Duncraig 134
+ v: |-1
+  \grey;Area Level: 134
+  \grey;Heroic Rift
+  \gold;Duncraig
+
+- # 8533
+ k: |-1
+  To Duncraig 139
+ v: |-1
+  \grey;Area Level: 139
+  \grey;Heroic Rift
+  \gold;Duncraig
+
+- # 8534
+ k: |-1
+  To Duncraig 140
+ v: |-1
+  \grey;Area Level: 140
+  \grey;Heroic Rift
+  \gold;Assur's Realm
+
+- # 8535
+ k: |-1
+  DocParSanct
+ v: |-1
+  \gold;Pearl of Wisdom: Paragon of Sanctity
+
+- # 8536
+ k: |-1
+  MindflayerArena
+ v: |-1
+  \grey;Area Level: 139
+  \purple;Mindflayer's Arena
+
+- # 8537
+ k: |-1
+  EyegougerArena
+ v: |-1
+  \grey;Area Level: 139
+  \purple;Eyegouger's Arena
+
+- # 8538
+ k: |-1
+  BonehexerArena
+ v: |-1
+  \grey;Area Level: 139
+  \purple;Bonehexer's Arena
+
+- # 8539
+ k: |-1
+  Baseconv
+ v: |-1
+  % of weapon physical damage converted to magic
+
+- # 8540
+ k: |-1
+  ir80
+ v: |-1
+  \orange;Occult Effigy
+  Craftsman's Brand
+
+- # 8541
+ k: |-1
+  ir80x
+ v: |-1
+  \blue;+18 Required Level
+  \dgreen;Orb Effects Applied to this Item are Doubled
+  \grey;Cube with Magic Quiver to Add Bonus
+  
+  Cube Reagent
+
+- # 8542
+ k: |-1
+  DesecratedAltar
+ v: |-1
+  Desecrated Altar
+
+- # 8543
+ k: |-1
+  DesecratedAltarStr
+ v: |-1
+  Purifying this altar has a chance to unlock unique crafting opportunities
+
+- # 8544
+ k: |-1
+  EdrBase
+ v: |-1
+   damage reduction per base level
+
+- # 8545
+ k: |-1
+  DescInstant
+ v: |-1
+  (not affected by poison skill duration)
+  ghosts deal instant poison damage
+
+- # 8546
+ k: |-1
+  GhostsNstuff
+ v: |-1
+  % avoid per 3 base levels in the malice tree
+
+- # 8547
+ k: |-1
+  BloodNstuff
+ v: |-1
+  % max life per 4 base levels in the malice tree
+
+- # 8548
+ k: |-1
+  ir90
+ v: |-1
+  \orange;Occult Effigy
+  Northern Winds
+
+- # 8549
+ k: |-1
+  ir90x
+ v: |-1
+  \blue;+8 Required Level
+  Maximum Cold Resist +1%
+  \dgrey;If armor already has Cannot be Frozen:
+  \blue;Upgrade it to Cannot Be Frozen
+  \dgrey;If armor already has Half Freeze Duration:
+  \blue;Half Freeze Duration
+  \grey;Cube with any Armor without Maximum Cold Resist to add bonus
+  
+  Cube Reagent
+
+- # 8550
+ k: |-1
+  DescBounces
+ v: |-1
+  Bounces: 
+
+- # 8551
+ k: |-1
+  BounceMagConv
+ v: |-1
+  % of physical damage converted to magic on first bounce
+
+- # 8552
+ k: |-1
+  BonehexerArena
+ v: |-1
+  \grey;Area Level: 139
+  \purple;Bonehexer's Arena
+
+- # 8553
+ k: |-1
+  SkillnameHabeasCorpus
+ v: |-1
+  Habeas Corpus
+
+- # 8554
+ k: |-1
+  SkillsdHabeasCorpus
+ v: |-1
+  spell - spawn corpses of enemies you've Resurrected last
+
+- # 8555
+ k: |-1
+  DescFlatARslvl
+ v: |-1
+   to attack rating per skill level
+
+- # 8556
+ k: |-1
+  DescRelentARper
+ v: |-1
+  % bonus to attack rating during torment
+
+- # 8557
+ k: |-1
+  EmissaryX
+ v: |-1
+  Emissary of Assur
+
+- # 8558
+ k: |-1
+  EyegougerArena
+ v: |-1
+  \grey;Area Level: 139
+  \purple;Eyegouger's Arena
+
+- # 8559
+ k: |-1
+  EvilEyeX
+ v: |-1
+  Evil Eye
+
+- # 8560
+ k: |-1
+  EvilEyeDesc
+ v: |-1
+  Hit to interrupt
+
+- # 8561
+ k: |-1
+  AurielsSatchel
+ v: |-1
+  Auriel's Satchel
+
+- # 8562
+ k: |-1
+  MindflayerSeal
+ v: |-1
+  Mindflayer's Seal
+
+- # 8563
+ k: |-1
+  EyegougerSeal
+ v: |-1
+  Eyegouger's Seal
+
+- # 8564
+ k: |-1
+  BonehexerSeal
+ v: |-1
+  Bonehexer's Seal
+
+- # 8565
+ k: |-1
+  DescHurricane2
+ v: |-1
+  Hits more times at the center
+  Damage and radius increases based on stamina missing
+  
+  50% chance to avoid damage while channeling
+  Not Affected by Cast Speed Modifiers
+
+- # 8566
+ k: |-1
+  bbox
+ v: |-1
+  Stash O' Treasures
+
+- # 8567
+ k: |-1
+  AllFlatDmgReductions
+ v: |-1
+  Flat Physical, Elemental and Magic damage reduction: 
