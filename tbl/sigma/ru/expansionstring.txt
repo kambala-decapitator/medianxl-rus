@@ -5403,7 +5403,7 @@
 "DescCatStack"	"+15% к Скорости Сотворения Заклинаний\n+25% к Энергии\n\orange;Zann Esu's Rite\n"
 "DescEnrageDuration"	"Длительность Бешенства: "
 "MaelExpDmg"	"Урон Огнём от Взрыва"
-"DescCatAuraSynBBB"	"Zann Esu's Rite Aura: +1 ко Всем Навыкам каждые 4 БУН"
+"DescCatAuraSynBBB"	"Аура Zann Esu's Rite: +1 ко Всем Навыкам каждые 4 БУН"
 "DescWayCollection"	"уменьшение преобразования в маг. урон на 2% за БУН\n+20% Бонусного Магического Урона за БУН"
 "DescHitRecWild"	"к Скорости Восстановления После Удара: "
 "DescFearBombCount2"	"Нов Страха: 10"
