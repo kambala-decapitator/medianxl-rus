@@ -120,9 +120,9 @@
 
 - # 21
  k: |-1
-  ModStr6e
+  ModStr6ee
  v: |-1
-  Slower Stamina Drain
+  Faster Stamina Drain
 
 - # 22
  k: |-1
@@ -7033,7 +7033,7 @@
 
 - # 1169
  k: |-1
-  DBladed Shield (Grade 6)
+  AkaraMenu1b
  v: |-1
   Reset Stat/Skill Points
 
@@ -7746,6 +7746,7 @@
  k: |-1
   x
  v: |-1
+  Cain's Marbles retain their Experience bonus past level 100
   +2% Spell Damage per 1% Additional Experience Gain
 
 - # 1284
@@ -7754,7 +7755,7 @@
  v: |-1
   \dgrey;Shower of Rocks: cooldown reduced by 1 second
   Thunder Slam: cooldown reduced by 4 seconds
-  \orange;If You Have no Points in combat stances:
+  \orange;If You Have no Points in combat stances: 
 
 - # 1285
  k: |-1
@@ -7767,13 +7768,13 @@
  k: |-1
   x
  v: |-1
-  Flamefront: +3 Maximum Projectiles
+  Flamefront: +30% Damage Multiplier
 
 - # 1287
  k: |-1
   x
  v: |-1
-  +2% Deadly Strike Per Firedance Base Level
+  +2% Deadly Strike per Firedance Base Level
 
 - # 1288
  k: |-1
@@ -7803,7 +7804,7 @@
  k: |-1
   x
  v: |-1
-  Dual wield: No cooldown until skill level 16
+  Dual wield: No cooldown until Skill Level 16
   Fortress: 60% Pierce Chance
 
 - # 1293
@@ -8025,7 +8026,7 @@
   11324
  v: |-1
   \dgrey;Regenerate Mana +40%
-  Restores 2.8% Life Per Second
+  Restores 2.8% Life per Second
   \orange;Level 20 Eagle Stance
   \orange;Mind Flay: +2 Projectiles
 
@@ -8094,7 +8095,7 @@
   11334
  v: |-1
   +1% Deadly Strike per 6% Fire Spell Damage
-  Total Defense Reduced by 25%
+  Total Defense reduced by 25%
 
 - # 1336
  k: |-1
@@ -8224,7 +8225,7 @@
  k: |-1
   11353
  v: |-1
-  You may Only use Melee, Summon and Support Skills
+  You may only use Melee, Summon and Support Skills
 
 - # 1355
  k: |-1
@@ -8245,14 +8246,14 @@
  k: |-1
   11356
  v: |-1
-  Reckoning of Zerae: Doubled Lightning Damage Bonus To Hammer Of Zerae
+  Reckoning of Zerae: Doubled Lightning Damage Bonus to Hammer of Zerae
 
 - # 1358
  k: |-1
   11357
  v: |-1
-  +20% Deadly Strike If Wielded by a Player
-  +100% Magic Find If Wielded by a Mercenary
+  +20% Deadly Strike if Wielded by a Player
+  +100% Magic Find if Wielded by a Mercenary
 
 - # 1359
  k: |-1
@@ -8338,7 +8339,7 @@
  k: |-1
   11370
  v: |-1
-  +8 to Maximum Forked Lightning Projectiles
+  Forked Lightning: +48% Damage Multiplier
 
 - # 1372
  k: |-1
@@ -8377,6 +8378,7 @@
  k: |-1
   11376
  v: |-1
+  \dgrey;(Doubled for Jewels socketed in the Crown itself)
   \orange;1% of total Vitality added as Energy for each Jewel in your gear
 
 - # 1378
@@ -8532,6 +8534,7 @@
  k: |-1
   11400
  v: |-1
+  Activation Frequency of Periodic Fire Skills +15%
   This Fire Damage is Increased by 15% per Wildfire Base Level
   Adds 2000 Fire Damage to Idol of Scosglen
 
@@ -8602,7 +8605,7 @@
  k: |-1
   11410
  v: |-1
-  Discharge: Thunder Frequency Improved by 1 Second
+  Discharge deals your Askari Lightning damage to its main target
 
 - # 1412
  k: |-1
@@ -8610,8 +8613,7 @@
  v: |-1
   \dgrey; 1% reduced duration (to a minimum of 6.6 seconds)
   \dgrey; 1% increased damage (up to 100%)
-  \orange;Per 5% damage to demons:
-  \orange;Exorcism: 
+  \orange;Exorcism - per 5% damage to demons:
 
 - # 1413
  k: |-1
@@ -8678,9 +8680,9 @@
  k: |-1
   11422
  v: |-1
-  \dgrey;16.6 Yard Radius
-  and -25% Weapon Physical Damage
-  Nearby Enemies: -30% Attack Rating
+  \dgrey;8 Yard Radius
+  Nullifies range of most Teleport skills
+  Reduces enemy Movement Speed by 20%
   \orange;Level 20 Warp Field Aura
 
 - # 1424
@@ -8866,7 +8868,8 @@
  k: |-1
   11447
  v: |-1
-  \orange;Ignis Fatuus: Effects Increased by 100%
+  \orange;Ignis Fatuus: Effects increased by 100%
+  Apocalypse: +100% to cap on damage scaling from Maximum Mana vs Life
 
 - # 1449
  k: |-1
@@ -8897,8 +8900,8 @@
  k: |-1
   11452
  v: |-1
-  \dgrey;20 Yard Radius
-  Nearby Enemies: -10% Elemental and Magic Resistances
+  \dgrey;16.6 Yard Radius
+  Nearby Enemies: -30% Attack Rating and -25% Weapon Physical Damage
   \orange;Despair
 
 - # 1454
@@ -9180,8 +9183,9 @@
  k: |-1
   11493
  v: |-1
-  Catalyst Trap Cooldown Reduced by 10 seconds
-  Incineration Trap Radius Reduced by 50%
+  \dgrey;Grants Activation Frequency buff that scales with charges released
+  \dgrey;Charges are released when you stop moving or reach the cap
+  \orange;Movement accumulates Dynamo charges
 
 - # 1495
  k: |-1
@@ -9233,7 +9237,7 @@
  k: |-1
   11501
  v: |-1
-  \orange;+10% Grit
+  \orange;10% Grit
   \orange;Adds 50% of Current Mana as Cold Damage
   While in Werewolf Form:
 
@@ -9501,7 +9505,7 @@
  k: |-1
   11542
  v: |-1
-  Flamefront: +1 Maximum Projectile
+  Flamefront: +10% Damage Multiplier
 
 - # 1544
  k: |-1
@@ -9633,7 +9637,7 @@
  k: |-1
   11564
  v: |-1
-  +1 Extra Servant
+  Summons 2 extra Servants per cast
 
 - # 1566
  k: |-1
@@ -9988,13 +9992,13 @@
  k: |-1
   11622
  v: |-1
-  +4% Innate Elemental Damage per Character Level above 137
+  Erupting Strike grants 10% extra bonus fire damage per character level above 137
 
 - # 1624
  k: |-1
   11623
  v: |-1
-  +8% Innate Elemental Damage per Character level above 137
+  Erupting Strike grants 20% extra bonus fire damage per character level above 137
 
 - # 1625
  k: |-1
@@ -10796,6 +10800,7 @@
  v: |-1
   \dgrey;16.6 Yard Radius
   +1% damage per 7 Energy
+  Activation Frequency Effectiveness: 30%
   Nearby Enemies take 1200 Lightning Damage every 1.2 seconds
   \orange;Holy Shock
 
@@ -10899,7 +10904,7 @@
  k: |-1
   11767
  v: |-1
-  Ring Of Flames Gains +1% Total Damage per Character Level
+  Ring of Flames Gains +1% Total Damage per Character Level
 
 - # 1769
  k: |-1
@@ -10933,7 +10938,7 @@
   11772
  v: |-1
   (locks other devotions)
-  \grey;Neutral Devotion
+  \white;Neutral Devotion
 
 - # 1774
  k: |-1
@@ -11008,7 +11013,7 @@
  k: |-1
   11784
  v: |-1
-  Hammer of Zerae: Lightning Spell Damage Applies To Added Lightning Damage At 50% Efficiency
+  Hammer of Zerae: Lightning Spell Damage Applies to Added Lightning Damage At 50% Efficiency
 
 - # 1786
  k: |-1
@@ -11070,7 +11075,7 @@
  k: |-1
   11793
  v: |-1
-  Earthshaker Skills Have Their Cooldowns Reduced by 20%
+  Tectonics: +30 Power
 
 - # 1795
  k: |-1
@@ -11803,13 +11808,13 @@
  k: |-1
   11888
  v: |-1
-  Curare: +5% Damage Multiplier Per Reckoning Of Zerae Base Level
+  Curare: +5% Damage Multiplier per Reckoning of Zerae Base Level
 
 - # 1890
  k: |-1
   11889
  v: |-1
-  UNUSED
+  \orange;Black Wind: +5% Chance to Cast on Striking
 
 - # 1891
  k: |-1
@@ -12465,7 +12470,7 @@
   11989
  v: |-1
   Gold Cost: 5000
-  \orange;Requirements -(3 to 5)%
+  \orange;Requirements -(4 to 6)%
   
 
 - # 1991
@@ -12489,8 +12494,8 @@
   11992
  v: |-1
   Gold Cost: 10000
-  \orange;+(1 to 2) Mana after each Kill
-  +(2 to 4) Life after each Kill
+  \orange;+(4 to 6) Mana after each Kill
+  +(4 to 6) Life after each Kill
   
 
 - # 1994
@@ -12506,7 +12511,7 @@
   11994
  v: |-1
   Gold Cost: 15000
-  \orange;+(3 to 5) to All Attributes
+  \orange;+(4 to 6) to All Attributes
   
 
 - # 1996
@@ -12514,8 +12519,8 @@
   11995
  v: |-1
   Gold Cost: 15000
-  \orange;+(2 to 4) Mana on Melee Attack
-  +(4 to 8) Life on Melee Attack
+  \orange;+(4 to 6) Mana on Melee Attack
+  +(5 to 10) Life on Melee Attack
   
 
 - # 1997
@@ -12539,8 +12544,8 @@
   11998
  v: |-1
   Gold Cost: 25000
-  \orange;+(1 to 2)% Mana Stolen per Hit
-  +(1 to 2)% Life Stolen per Hit
+  \orange;+(1 to 3)% Mana Stolen per Hit
+  +(1 to 3)% Life Stolen per Hit
   
 
 - # 2000
@@ -12556,7 +12561,7 @@
   12000
  v: |-1
   Gold Cost: 50000
-  \orange;+(4 to 8) Spell Focus
+  \orange;+(5 to 10) Spell Focus
   
 
 - # 2002
@@ -12564,7 +12569,7 @@
   12001
  v: |-1
   Gold Cost: 50000
-  \orange;+1% to Experience Gained
+  \orange;+(1 to 2)% to Experience Gained
   
 
 - # 2003
@@ -12572,7 +12577,7 @@
   12002
  v: |-1
   Gold Cost: 50000
-  \orange; Indestructible
+  \orange; +(1 to 2)% Activation Frequency of Periodic Skills
   
 
 - # 2004
@@ -12729,13 +12734,14 @@
  k: |-1
   12028
  v: |-1
-  Adds 1% Crushing Blow per 4% Fire Spell damage
+  Adds 1% Crushing Blow per 4% Fire Spell Damage
 
 - # 2030
  k: |-1
   12029
  v: |-1
-  Abyss Knights Die After Being Summoned
+  +6% Total Damage to Night Hawks
+  Abyss Knights and Night Hawks Die After Being Summoned
 
 - # 2031
  k: |-1
@@ -12865,7 +12871,7 @@
  k: |-1
   12050
  v: |-1
-  +2 to Maximum Forked Lightning Projectiles
+  Forked Lightning: +12% Damage Multiplier
 
 - # 2052
  k: |-1
@@ -12907,7 +12913,7 @@
  k: |-1
   12057
  v: |-1
-  Immersion: 7% Chance to Trigger Additional Projectile
+  Immersion: +10% Damage Multiplier
 
 - # 2059
  k: |-1
@@ -13237,7 +13243,7 @@
   \gold;Sacrificial Fervor
   \dgrey;After taking damage, Servants lose 10% of their life per second until they die
   Inherits Fire Pierce from Elemental Wisdom twice
-  Doubled Damage, Attack Speed, and Movement Speed
+  Doubled Fire Damage, Attack Speed, and Movement Speed
   \orange;Servants of Valor:
 
 - # 2105
@@ -13431,7 +13437,7 @@
   12130
  v: |-1
   Dragon Jaws reduces enemy physical resist by 30% for 1 second
-  Dragon Jaws area increased by 30%
+  Dragon Jaws area increased by 33%
 
 - # 2132
  k: |-1
@@ -13836,7 +13842,7 @@
  k: |-1
   12188
  v: |-1
-  UNUSED
+  \orange;Wintertide: +100% Damage Multiplier
 
 - # 2190
  k: |-1
@@ -14136,12 +14142,12 @@
   12225
  v: |-1
   \blue;
-  [4] + [3] = (5-8)% Deadly Strike
-  [3] + [2] = (90-120) Spell Focus (2H)
-  [3] + [2] = (60-80) Spell Focus (1H)
-  [2] + [2] = (140-180) Minimum Damage (2H)
-  [2] + [2] = (61-90) Minimum Damage (1H)
-  [1] + [1] = 120% Enhanced Damage
+  [4] + [6] = (5-8)% Deadly Strike
+  [3] + [4] = (90-120) Spell Focus (2H)
+  [3] + [4] = (60-80) Spell Focus (1H)
+  [2] + [4] = (126-162) Minimum Damage (2H)
+  [2] + [4] = (55-81) Minimum Damage (1H)
+  [1] + [2] = 120% Enhanced Damage
   Weapon Prefixes
   \purple;[Oils of Craft] + [Souls] = [Effect]
   
@@ -14156,33 +14162,33 @@
  v: |-1
   \white;<Transmute for recipe list: Ruby>
   ---
-  \blue;[6] + [2] = (6-10)% Physical Resist (Body, Shield)
-  [5] + [1] = (21-25) Damage Reduced
-  [4] + [1] = (2-3)% Physical Resist
+  \blue;[6] + [4] = (6-10)% Physical Resist (Body, Shield)
+  [5] + [2] = (21-25) Damage Reduced
+  [4] + [2] = (2-3)% Physical Resist
   Armor Suffixes
   
-  [3] + [2] = (200-240) Maximum Damage (2H)
-  [3] + [2] = (101-120) Maximum Damage (1H)
-  [2] + [1] = 10% Slow Target
-  [1] + [1] = (39-50)% Minion Damage
+  [3] + [4] = (180-216) Maximum Damage (2H)
+  [3] + [4] = (90-108) Maximum Damage (1H)
+  [2] + [2] = 10% Slow Target
+  [1] + [2] = (39-50)% Minion Damage
   Weapon Suffixes
   \purple;[Oils of Enhancement] + [Souls] = [Effect]
   
-  \blue;[5] + [1] = 150% Enhanced Defense
+  \blue;[5] + [2] = 150% Enhanced Defense
   Armor Prefixes
 
 - # 2228
  k: |-1
   12227
  v: |-1
-  \blue;[4] + [2] = (21-30)% Fire Spell Damage (Body)
-  [4] + [2] = 10% Fire Spell Damage
+  \blue;[4] + [4] = (21-30)% Fire Spell Damage (Body)
+  [4] + [4] = 10% Fire Spell Damage
   Armor Prefixes
   
-  [3] + [1] = 10% Life Leech
-  [2] + [1] = (301-400) Life
-  [1] + [2] = (55-65)% Fire Spell Damage (2H)
-  [1] + [2] = (25-35)% Fire Spell Damage (1H)
+  [3] + [2] = 10% Life Leech
+  [2] + [2] = (301-400) Life
+  [1] + [4] = (55-65)% Fire Spell Damage (2H)
+  [1] + [4] = (25-35)% Fire Spell Damage (1H)
   Weapon Prefixes
   \purple;[Oils of Craft] + [Souls] = [Effect]
   
@@ -14197,34 +14203,34 @@
  v: |-1
   \white;<Transmute for recipe list: Sapphire>
   ---
-  \blue;[6] + [2] = 15% Fire Pierce (Body)
-  [6] + [2] = 5% Fire Pierce
-  [5] + [1] = 1% Max Fire Resist
+  \blue;[6] + [4] = 15% Fire Pierce (Body)
+  [6] + [4] = 5% Fire Pierce
+  [5] + [2] = 1% Max Fire Resist
   Armor Suffixes
   
-  [4] + [1] = 60% Minion Life (2H)
-  [4] + [1] = 30% Minion Life (1H)
-  [3] + [1] = (81-100) Life on Kill
-  [2] + [2] = 25% Fire Pierce (2H)
-  [2] + [2] = 15% Fire Pierce (1H)
-  [1] +[1] = (250-400) Fire Damage
+  [4] + [2] = 60% Minion Life (2H)
+  [4] + [2] = 30% Minion Life (1H)
+  [3] + [2] = (81-100) Life on Kill
+  [2] + [4] = 25% Fire Pierce (2H)
+  [2] + [4] = 15% Fire Pierce (1H)
+  [1] +[2] = (250-400) Fire Damage
   Weapon Suffixes
   \purple;[Oils of Enhancement] + [Souls] = [Effect]\blue;
   
-  [6] + [1] = 50 Life Regen per second
-  [5] + [1] = (136-170) Life
+  [6] + [2] = 50 Life Regen per second
+  [5] + [2] = (136-170) Life
 
 - # 2230
  k: |-1
   12229
  v: |-1
-  \blue;[4] + [2] = 10% Cold Spell Damage
+  \blue;[4] + [4] = 10% Cold Spell Damage
   Armor Prefixes
   
   [3] + [1] = 10% Mana Leech
   [2] + [1] = (201-250) Mana
-  [1] + [2] = (55-65)% Cold Spell Damage (2H)
-  [1] + [2] = (25-35)% Cold Spell Damage (1H)
+  [1] + [4] = (55-65)% Cold Spell Damage (2H)
+  [1] + [4] = (25-35)% Cold Spell Damage (1H)
   Weapon Prefixes
   \purple;[Oils of Craft] + [Souls] = [Effect]
   
@@ -14239,34 +14245,34 @@
  v: |-1
   \white;<Transmute for recipe list: Topaz>
   ---
-  \blue;[6] + [2] = 15% Energy (Body)
-  [5] + [2] = 15% Cold Pierce (Body)
-  [5] + [2] = 5% Cold Pierce
-  [4] + [1] = 1% Max Cold Resist
+  \blue;[6] + [4] = 15% Energy (Body)
+  [5] + [4] = 15% Cold Pierce (Body)
+  [5] + [4] = 5% Cold Pierce
+  [4] + [2] = 1% Max Cold Resist
   Armor Suffixes
   
-  [3] + [1] = (41-50) Mana on Kill
-  [2] + [2] = 25% Cold Pierce (2H)
-  [2] + [2] = 15% Cold Pierce (1H)
-  [1] + [1] = (300-350) Cold Damage
+  [3] + [2] = (41-50) Mana on Kill
+  [2] + [4] = 25% Cold Pierce (2H)
+  [2] + [4] = 15% Cold Pierce (1H)
+  [1] + [2] = (300-350) Cold Damage
   Weapon Suffixes
   \purple;[Oils of Enhancement] + [Souls] = [Effect]\blue;
   
-  [5] + [1] = (51-90) Mana
-  [4] + [2] = (21-30)% Cold Spell Damage (Body)
+  [5] + [2] = (51-90) Mana
+  [4] + [4] = (21-30)% Cold Spell Damage (Body)
 
 - # 2232
  k: |-1
   12231
  v: |-1
-  \blue;[4] + [2] = 10% Lightning Spell Damage
+  \blue;[4] + [4] = 10% Lightning Spell Damage
   Armor Prefixes
   
-  [3] + [1] = 70% Attack Speed (2H)
-  [3] + [1] = 40% Attack Speed (1H)
-  [2] + [1] = 40% Cast Speed
-  [1] + [2] = (55-65)% Lightning Spell Damage (2H)
-  [1] + [2] = (25-35)% Lightning Spell Damage (1H)
+  [3] + [2] = 70% Attack Speed (2H)
+  [3] + [2] = 40% Attack Speed (1H)
+  [2] + [2] = 40% Cast Speed
+  [1] + [4] = (55-65)% Lightning Spell Damage (2H)
+  [1] + [4] = (25-35)% Lightning Spell Damage (1H)
   Weapon Prefixes
   \purple;[Oils of Craft] + [Souls] = [Effect]
   
@@ -14281,32 +14287,32 @@
  v: |-1
   \white;<Transmute for recipe list: Emerald>
   ---
-  \blue;[5] + [2] = 15% Dexterity (Body)
-  [4] + [2] = 15% Lightning Pierce (Body)
-  [4] + [2] = 5% Lightning Pierce
-  [3] + [1] = 1% Max Lightning Resist
+  \blue;[5] + [4] = 15% Dexterity (Body)
+  [4] + [4] = 15% Lightning Pierce (Body)
+  [4] + [4] = 5% Lightning Pierce
+  [3] + [2] = 1% Max Lightning Resist
   Armor Suffixes
   
-  [2] + [2] = 25% Lightning Pierce (2H)
-  [2]  + [2] = 15% Lightning Pierce (1H)
-  [1] + [1] = (1-750) Lightning Damage [1]
+  [2] + [4] = 25% Lightning Pierce (2H)
+  [2]  + [4] = 15% Lightning Pierce (1H)
+  [1] + [2] = (1-750) Lightning Damage [1]
   Weapon Suffixes
   \purple;[Oils of Enhancement] + [Souls] = [Effect]\blue;
   
-  [5] + [1] = (41-50)% Magic Find (Body)
-  [4] + [2] = (21-30)% Lightning Spell Damage (Body)
+  [5] + [2] = (41-50)% Magic Find (Body)
+  [4] + [4] = (21-30)% Lightning Spell Damage (Body)
 
 - # 2234
  k: |-1
   12233
  v: |-1
-  [3] + [2] = +10% Poison Spell Damage
-  [2] + [1] = (41-50)% Poison Length Reduced (Body)
-  [2] + [1] = 25% Poison Length Reduced
+  [3] + [4] = +10% Poison Spell Damage
+  [2] + [2] = (41-50)% Poison Length Reduced (Body)
+  [2] + [2] = 25% Poison Length Reduced
   Armor Prefixes
   
-  [1] + [2] = (55-65)% Poison Spell Damage (2H)
-  [1] + [2] = (25-35)% Poison Spell Damage (1H)
+  [1] + [4] = (55-65)% Poison Spell Damage (2H)
+  [1] + [4] = (25-35)% Poison Spell Damage (1H)
   Weapon Prefixes
   \purple;[Oils of Craft] + [Souls] = [Effect]
   
@@ -14321,33 +14327,33 @@
  v: |-1
   \white;<Transmute for recipe list: Skull>
   ---
-  \blue;[7] + [2] = 20% Strength (Body)
-  [6] + [2] = 15% Poison Pierce (Body)
-  [6] + [2] = 5% Poison Pierce
-  [5] + [1] = 1% Max Poison Resist
-  [4] + [1] = 1% Block Chance (non-class Shield)
+  \blue;[7] + [4] = 20% Strength (Body)
+  [6] + [4] = 15% Poison Pierce (Body)
+  [6] + [4] = 5% Poison Pierce
+  [5] + [2] = 1% Max Poison Resist
+  [4] + [2] = 1% Block Chance (non-class Shield)
   Armor Suffixes
   
-  [3] + [1] = 200% Attack Rating
-  [2] + [2] = 25% Poison Pierce (2H)
-  [2] + [2] = 15% Poison Pierce (1H)
-  [1] + [1] = 538 Poison Damage per second
+  [3] + [2] = 200% Attack Rating
+  [2] + [4] = 25% Poison Pierce (2H)
+  [2] + [4] = 15% Poison Pierce (1H)
+  [1] + [2] = 538 Poison Damage per second
   Weapon Suffixes
   \purple;[Oils of Enhancement] + [Souls] = [Effect]\blue;
   
-  [3] + [2] = (21-30)% Poison Spell Damage (Body}
+  [3] + [4] = (21-30)% Poison Spell Damage (Body)
 
 - # 2236
  k: |-1
   12235
  v: |-1
   
-  [2] + [2] = (25-35)% Phys/Mag Spell Damage (Body)
-  [2] + [2] = 12% Phys/Mag Spell Damage
+  [2] + [4] = (25-35)% Phys/Mag Spell Damage (Body)
+  [2] + [4] = 12% Phys/Mag Spell Damage
   Armor Prefixes
   
-  [1] + [2] = (70-80)% Phys/Mag Spell Damage (2H)
-  [1] + [2] = (30-40)% Phys/Mag Spell Damage (1H)
+  [1] + [4] = (70-80)% Phys/Mag Spell Damage (2H)
+  [1] + [4] = (30-40)% Phys/Mag Spell Damage (1H)
   Weapon Prefixes
   \purple; [Oils of Craft] + [Souls] = [Effect]
   
@@ -14362,11 +14368,11 @@
  v: |-1
   \white;<Transmute for recipe list: Rainbow Stone>
   ---
-  \blue;[3] + [2] = 15% Vitality (Body)
-  [2] + [1] = 25% Gold Find (Body)
+  \blue;[3] + [4] = 15% Vitality (Body)
+  [2] + [2] = 25% Gold Find (Body)
   Armor Suffixes
   
-  [1] + [1] = (350-400) Magic Damage
+  [1] + [2] = (350-400) Magic Damage
   Weapon Suffixes
   \purple;[Oils of Enhancement] + [Souls] = [Effect]\blue;
 
@@ -14392,6 +14398,9 @@
  v: |-1
   \white;<Transmute for recipe list: Craft Uniques>
   ---
+  \blue;[1] + [4] = 12 to Flash [Claw, Barbarian/Paladin Helm]
+  \purple;[Oils of Craft] + [Souls] = [Effect]
+  
   \blue;[6] + [4] = 18 to Tantrum [Bow/Crossbow]
   
   [5] + [4] = (4-14) to Searing Glow [Amazon/Paladin Shield, Druid Helm, Necromancer Staff]
@@ -14877,8 +14886,7 @@
  k: |-1
   12314
  v: |-1
-  \orange;Adds +160-250 Cold Damage to Weapon
-  +1 Life on Striking per 100 Base Vitality
+  \orange;1% Deadly Strike per 7% Movement Speed
   \red;Cannot be Renewed
 
 - # 2316
@@ -15453,9 +15461,9 @@
 
 - # 2377
  k: |-1
-  ModitemAFreq
+  12376
  v: |-1
-  Activation Frequency
+  UNUSED
 
 - # 2378
  k: |-1
@@ -15513,8 +15521,8 @@
  k: |-1
   12382
  v: |-1
-  duration lowered by 1.12 sec, flechettes pierce
-  APF-20 'Maelstrom' MkI: Maelstroms explode around the thrower
+  \orange;1 Dexterity for Each Skill Level of Your Ways Passives
+  \orange;Your Ways Passives No Longer Grant Elemental Damage
 
 - # 2384
  k: |-1
@@ -15576,14 +15584,14 @@
   12388
  v: |-1
   \dgrey;(Stackable)
-  \orange;+2% to Experience Gained Until Level 100
+  \orange;+1% to Experience Gained Until Level 100
 
 - # 2390
  k: |-1
   12389
  v: |-1
   \dgrey;(Stackable)\orange;
-  +3% to Movement Speed Until Level 100
+  +2% to Movement Speed Until Level 100
 
 - # 2391
  k: |-1
@@ -15646,8 +15654,7 @@
  k: |-1
   12398
  v: |-1
-  
-  Revenants gain 100 life regeneration per Resurrect skill level
+  UNUSED
 
 - # 2400
  k: |-1
@@ -15735,13 +15742,16 @@
  k: |-1
   12412
  v: |-1
-  Life and Mana Recovery from Potions reduced by 95%
+  \red;Drains 5% of Maximum Life per second
+  \orange;Hammertime boons from drinking potions have double effect
+  Potions last 5 extra seconds, can drink all 3 types of potions at the same time
 
 - # 2414
  k: |-1
   12413
  v: |-1
-  \dgrey;67% Success | 33% to Add 50 Required Level
+  \dgrey;7% to Remove 10 Required Level
+  60% Success | 33% to Add 50 Required Level
   Can be corrupted any number of times
   
 
@@ -15791,14 +15801,14 @@
  k: |-1
   12420
  v: |-1
-  \orange; Magnetic field: deals 50% of weapon lighting damage as spell damage per hit
+  \orange; Magnetic Field: Deals 65% of Weapon Lighting Damage per Hit. Does Not Trigger On-Hit Effects
   \orange;Adds 35% of current mana as lightning damage
 
 - # 2422
  k: |-1
   12421
  v: |-1
-  gain 20 fire damage to weapon per 1% life stolen per hit
+  Gain 20 Fire Damage to Weapon per 1% Life stolen per Hit
 
 - # 2423
  k: |-1
@@ -15811,7 +15821,7 @@
  k: |-1
   12423
  v: |-1
-  \dgrey;+50 Life after each Kill
+  \dgrey;+30 Life after each Kill
   \dgrey;Maximum Fire and Cold Resists +1%
   \dgrey;+1 to All Skills
   \orange;For each Blessed item equipped:
@@ -15856,10 +15866,10 @@
  k: |-1
   12430
  v: |-1
-  \dgrey;Energy: +12% Grit
-  Vitality: 400% of your Damage to Undead bonus added as Cold Damage to weapon
-  Dexterity: +300% Weapon Physical Damage
-  Strength: +5000 Attack Rating
+  \dgrey;Energy: +15% Grit
+  Vitality: 600% of your Damage to Undead bonus added as Cold Damage to weapon
+  Dexterity: +400% Weapon Physical Damage
+  Strength: +7000 Attack Rating
   \red;Does not work for Barbarians
   \orange;Bonus based on your highest attribute if wielding a one handed weapon without an offhand
 
@@ -16142,7 +16152,7 @@
  k: |-1
   12451
  v: |-1
-  3% of Missing Life added as Flat Physical Damage Reduction
+  5% of Missing Life added as Flat Physical Damage Reduction
 
 - # 2453
  k: |-1
@@ -16229,7 +16239,7 @@
  k: |-1
   12459
  v: |-1
-  15% of Damage is taken from Mana before Life
+  12% of Damage is taken from Mana before Life
 
 - # 2461
  k: |-1
@@ -16295,7 +16305,7 @@
  k: |-1
   12467
  v: |-1
-  Tornado: +1 Extra Projectile with 400% Attack Speed
+  Tornado: +1 Extra Projectile with 350% Attack Speed
 
 - # 2469
  k: |-1
@@ -16308,3 +16318,227 @@
   12469
  v: |-1
   \dgrey;Cube with Sacred Essence and Um rune to recharge
+
+- # 2471
+ k: |-1
+  12470
+ v: |-1
+  Activation Frequency of Periodic Fire Skills +20%
+
+- # 2472
+ k: |-1
+  12471
+ v: |-1
+  Activation Frequency of Periodic Cold Skills +20%
+
+- # 2473
+ k: |-1
+  12472
+ v: |-1
+  Activation Frequency of Periodic Lightning Skills +20%
+
+- # 2474
+ k: |-1
+  12473
+ v: |-1
+  Activation Frequency of Periodic Poison Skills +20%
+
+- # 2475
+ k: |-1
+  12474
+ v: |-1
+  \orange;Gain Life after Each Kill or Life Regen based on which counter is higher
+  \dgrey;(Frequency charges gradually decay while moving)
+  \orange;Accumulate Frequency charges for Periodic Cold Skills while stationary
+  \dgrey;(AoE charges gradually decay while stationary)
+  \orange;Accumulate AoE charges for Periodic Cold Skills while moving
+
+- # 2476
+ k: |-1
+  12475
+ v: |-1
+  \dgrey;(Blessing will have perfect rolls)
+  \orange;Can be Blessed
+
+- # 2477
+ k: |-1
+  12476
+ v: |-1
+  \orange;Disenchant to open a portal to Inarius in the Void
+  
+
+- # 2478
+ k: |-1
+  12477
+ v: |-1
+  \dgrey;(Stackable)
+  \orange;+3 to Maximum Dynamo charges
+
+- # 2479
+ k: |-1
+  12478
+ v: |-1
+  \red;Beacon also damages you
+  \orange;Beacon always spawns on your location
+
+- # 2480
+ k: |-1
+  12479
+ v: |-1
+  Overheat: Burns One Target, Hits Multiple Times
+
+- # 2481
+ k: |-1
+  12480
+ v: |-1
+  \dgrey;(Mystic Orbs and other upgrades are lost upon transformation)
+  \tan;Cube with 2 Sacred Essences to transform into a Bolt Quiver
+  
+
+- # 2482
+ k: |-1
+  12481
+ v: |-1
+  \dgrey;(Mystic Orbs and other upgrades are lost upon transformation)
+  \tan;Cube with 2 Sacred Essences to transform into an Arrow Quiver
+  
+
+- # 2483
+ k: |-1
+  12482
+ v: |-1
+  \gold;from the Future, Past, or from a different Timeline entirely...
+  Cube with Essence of Time to uncover a Skill, Recipe or Unique item mod
+
+- # 2484
+ k: |-1
+  12483
+ v: |-1
+  \orange;1% of total Defense of your shield added as Physical Damage (max 125)
+
+- # 2485
+ k: |-1
+  12484
+ v: |-1
+  \orange;Cone of Cold Size increased by 50% per 10 Trophied Charms you have
+  Chance to Cast level 60 Cone of Cold on Melee Attack equal to your Deadly/Critical Strike chance
+
+- # 2486
+ k: |-1
+  12485
+ v: |-1
+  \dgrey;+23% Fire/Cold/Lightning Absorb
+  \orange;If your maximum or uncapped Fire/Cold/Lightning resist is below 80:
+
+- # 2487
+ k: |-1
+  12486
+ v: |-1
+  Overheat: 33% Less Heat Lost When Activating
+
+- # 2488
+ k: |-1
+  12487
+ v: |-1
+  \dgrey;+2% to Experience Gained
+  +20 Life Regenerated per Second
+  +6% Damage to Demons
+  \orange;Stat doubling remains past level 90 if character has no deaths
+  Gives stats that are doubled for every 30 character levels up to level 90
+
+- # 2489
+ k: |-1
+  12488
+ v: |-1
+  \tan;Life Potion + Oil of Renewal -> Moon Symbol
+  
+  \dgrey;someone who attempted to translate it:
+  Written in a runic language unbeknown to you. There is a recipe handwritten in the margins by
+  \orange;Ancient Sorceress Cookbook
+
+- # 2490
+ k: |-1
+  12489
+ v: |-1
+  \tan;(4% Chance to Cast level 50 Spark Nova when Damaged)
+  \tan;Become \yellow;Lightning Enchanted
+  
+  \orange;While your uncapped Lightning Resist, Lightning Spell Damage and Spell Focus sum up to exactly 2000
+
+- # 2491
+ k: |-1
+  12490
+ v: |-1
+  +20 Defense per 1% Cold Resistance During Effect
+  Winter Avatar: Cooldown Reduced by 0.3 Seconds,
+
+- # 2492
+ k: |-1
+  12491
+ v: |-1
+  \dgrey;+2% Physical Resist
+  +2% Lightning Absorb
+  +50% Faster Hit Recovery
+  \orange;Gives stats that are doubled for every 2000 defense this helm has
+
+- # 2493
+ k: |-1
+  12492
+ v: |-1
+  \dgrey;(Becomes a brand new item, any socketed items will be lost. Doesn't work if corrupted)
+  \tan;Cube with 10 Sacred Essences to be able to wield this weapon with one hand
+  \gold;If your Strength plus Energy total is over 9000
+  
+
+- # 2494
+ k: |-1
+  12493
+ v: |-1
+  \gold;Whosoever be he worthy shall have the power
+
+- # 2495
+ k: |-1
+  12494
+ v: |-1
+  Whirlpool: Only Produces Largest Whirlpool
+
+- # 2496
+ k: |-1
+  12495
+ v: |-1
+  Hammer of Zerae: Deals Weapon Damage in an Area as it Travels
+  You May Only use Melee, Summon and Support Skills 
+  Deal no Elemental Damage
+
+- # 2497
+ k: |-1
+  12496
+ v: |-1
+  Shadow Dancer: Applies to Throwing Knives
+
+- # 2498
+ k: |-1
+  12497
+ v: |-1
+  Night Hawks: +6% Total Damage, Die After Being Summoned
+
+- # 2499
+ k: |-1
+  12498
+ v: |-1
+  +1 Steady Aim charge per Steady Shot
+
+- # 2500
+ k: |-1
+  12499
+ v: |-1
+  \orange;You have a chance to get extra potions from slain enemies
+  Potions last one extra second
+
+- # 2501
+ k: |-1
+  12500
+ v: |-1
+  \dgrey;(At 125% Effectiveness)
+  \orange;Activation Frequency lowers Singularity's cooldown
+  Singularity: base cooldown increased by 1 second

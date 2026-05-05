@@ -26859,7 +26859,7 @@
  k: |-1
   SkillnameMael4
  v: |-1
-  APF-20 'Maelstrom' MkI
+  APF-20 'Maelstrom' MkV
 
 - # 4189
  k: |-1
@@ -28867,7 +28867,7 @@
  k: |-1
   SkillsdWillOWisp
  v: |-1
-  \grey;buff - infuse your spells and weapons with fiery power
+  \grey;passive - infuse your spells and weapons with fiery power
 
 - # 4517
  k: |-1
@@ -29098,7 +29098,6 @@
  k: |-1
   SkillsdDecoySwarm
  v: |-1
-  \red;requires a dagger
   \grey;projectile - create a wall of surging spikes below your preys
 
 - # 4552
@@ -29150,7 +29149,7 @@
  k: |-1
   SkillsdDissUber
  v: |-1
-  \blue; useable under melee locks
+  \blue;Usable under melee locks
   \grey;spell - powerful energy wave that destroys everything nearby
 
 - # 4560
@@ -29347,15 +29346,15 @@
  k: |-1
   SkillsdFeralists2
  v: |-1
-  \red;requires an axe, mace, or sword
-  \blue;only allows the use of melee, summoning and buff/debuff skills
-  \grey;melee attack that increases attack and movement speed
+  \red;Requires an Axe, Sword or Dagger
+  \blue;Only allows the use of melee, summoning and buff/debuff skills
+  \grey;Melee attack that increases attack and movement speed
 
 - # 4591
  k: |-1
   SkillsdFireBarBolt
  v: |-1
-  \grey;...stuff...
+  \grey;spell - conjure a massive barrage of fireballs
 
 - # 4592
  k: |-1
@@ -29428,7 +29427,7 @@
  k: |-1
   SkillsdForceShout
  v: |-1
-  \grey;debuff - sonic blast that weakens enemies
+  \grey;curse - sonic blast that weakens enemies
 
 - # 4604
  k: |-1
@@ -29446,7 +29445,7 @@
  k: |-1
   SkillsdFrigidSphere
  v: |-1
-  \red;requires a scepter or an orb
+  \red;requires an orb or scepter
   \grey;melee spell - emit a wave of creeping frozen doom
 
 - # 4607
@@ -29897,7 +29896,7 @@
   SkillsdLightningSh
  v: |-1
   \dgreen; monsters killed by reflected damage do not trigger on death effects
-  \blue; shocks monsters that attempt to attack you or hit you with ranged attacks
+  \blue; shocks monsters that attempt to melee attack you or hit you with ranged attacks
   \grey;buff - cast a protective static field that shocks attackers
 
 - # 4676
@@ -30035,6 +30034,8 @@
  k: |-1
   SkillsdTwilightHavoc
  v: |-1
+  \red; requires overheat and at least 50% heat to cast, otherwise has no effect
+  
   \red;you cannot learn this skill if you have points in Mana Sweep
   \gold;fire proficiency - requires 50 points in other fire tree skills
   \grey;spell - a devastating fiery incantation
@@ -30141,7 +30142,8 @@
  k: |-1
   SkillsdNewHex
  v: |-1
-  \grey;spell - field of living black magic that poisons and haunts enemies
+  \blue;Usable under melee locks
+  \grey;spell - field of living black magic that haunts enemies
 
 - # 4713
  k: |-1
@@ -30255,7 +30257,7 @@
  k: |-1
   SkillsdPathOfFlames
  v: |-1
-  \grey;when activated, causes a lake of fire when approached
+  \grey;buff - while active, causes a lake of fire when approached
 
 - # 4731
  k: |-1
@@ -30278,7 +30280,7 @@
  k: |-1
   SkillsdPestilence
  v: |-1
-  \blue; useable under melee locks
+  \blue; usable under melee locks
   \grey;spell - conjure a vile storm of toxic wrath
 
 - # 4734
@@ -30587,7 +30589,7 @@
  k: |-1
   SkillsdSeismicCharge
  v: |-1
-  \blue; useable under melee locks
+  \blue; usable under melee locks
   \grey;spell - device that attaches to a wall and shoots freezing bolts
 
 - # 4781
@@ -30773,7 +30775,7 @@
  k: |-1
   SkillsdSolarFlare
  v: |-1
-  \blue; useable under melee locks
+  \blue; usable under melee locks
   \grey;spell - burn and blind enemies in a large area around you
 
 - # 4810
@@ -30800,8 +30802,8 @@
  k: |-1
   SkillsdSOVeng
  v: |-1
-  \grey;and has an aura which increases spell damage and life
-  special summon - raises a spirit from a corpse that summons random undead
+  \grey;and has an aura that increases spell damage and life
+  special summon - calls upon a vengeful spirit that summons random undead
 
 - # 4814
  k: |-1
@@ -31199,7 +31201,7 @@
  k: |-1
   SkillsdVanquish
  v: |-1
-  \grey;temporarily grants a huge damage boost to self or target ally
+  \grey;buff - quickly vanquish as many foes as you can to gain power
 
 - # 4874
  k: |-1
@@ -31246,6 +31248,9 @@
  k: |-1
   SkillsdWaspSting
  v: |-1
+  \grey;Activation Frequency Effectiveness: 35%
+  \grey;Base delay between novas: 2 seconds
+  
   \grey;buff - shoots spike novas when near enemies and adds bonuses based on your devotion
 
 - # 4881
@@ -31272,7 +31277,7 @@
   SkillsdWhirlpool
  v: |-1
   \red;requires a melee weapon
-  \grey;attack - creates a devastating maelstrom of damage
+  \grey;attack - devastate an area with vicious floods of random sizes
 
 - # 4885
  k: |-1
@@ -31410,9 +31415,9 @@
 
 - # 4906
  k: |-1
-  StrSkillAxes
+  xx
  v: |-1
-   axes
+   
 
 - # 4907
  k: |-1
@@ -31452,9 +31457,9 @@
 
 - # 4913
  k: |-1
-  DescSparklies
+  xx
  v: |-1
-   bolts
+   
 
 - # 4914
  k: |-1
@@ -31526,15 +31531,15 @@
 
 - # 4925
  k: |-1
-  DescHammersHoly
+  DescExtraTargets
  v: |-1
    extra targets
 
 - # 4926
  k: |-1
-  DescHammersUnh
+  xx
  v: |-1
-   extra targets
+   
 
 - # 4927
  k: |-1
@@ -31816,9 +31821,9 @@
 
 - # 4973
  k: |-1
-  TieflingBonus
+  xx
  v: |-1
-   to Dexterity
+   
 
 - # 4974
  k: |-1
@@ -31858,33 +31863,36 @@
 
 - # 4980
  k: |-1
-  DescCritSpelldesc
+  urdeadpoolsplain
  v: |-1
-  %
+  
+  chance to roll larger whirlpools decreases by 1% per skill level
+  smallest whirlpool hits much faster
+  smaller whirlpools deal more damage
 
 - # 4981
  k: |-1
-  DescPctBr
+  winteravasplain2
  v: |-1
-  %
+  % of your uncapped cold resistance as base cold damage
 
 - # 4982
  k: |-1
-  DescToDur
+  BeastfurPelt
  v: |-1
-  %
+  Beastfur Pelt
 
 - # 4983
  k: |-1
-  DescPctHoly
+  xx
  v: |-1
-  %
+  
 
 - # 4984
  k: |-1
-  DescPctUnh
+  xx
  v: |-1
-  %
+  
 
 - # 4985
  k: |-1
@@ -32047,7 +32055,7 @@
  k: |-1
   DescLife
  v: |-1
-  % life
+  % increased Damage per Base Level
 
 - # 5012
  k: |-1
@@ -32166,9 +32174,9 @@
 
 - # 5031
  k: |-1
-  Damplevv
+  xx
  v: |-1
-  % Physical Damage per Base Level
+   
 
 - # 5032
  k: |-1
@@ -32487,11 +32495,9 @@
 
 - # 5079
  k: |-1
-  DescReflectNoKills
+  xx
  v: |-1
-  
-  \dgreen;do not trigger on-death effects
-  enemies killed by reflected damage
+   
 
 - # 5080
  k: |-1
@@ -32559,9 +32565,10 @@
 
 - # 5089
  k: |-1
-  DescTwistingBite
+  DescPassiveSkill
  v: |-1
-  unused
+  
+  \blue;item granted passive skill
 
 - # 5090
  k: |-1
@@ -32574,7 +32581,7 @@
   DescNovaEffectM
  v: |-1
   
-  Converts 70% Physical Damage to Magic
+  Converts 60% Physical Damage to Magic
   16 Projectiles per Nova
   \orange;Flechette Novas
   
@@ -32771,30 +32778,30 @@
 
 - # 5116
  k: |-1
-  DescBeneBlank
+  xx
  v: |-1
-  \yellow;can be cast on other units
+   
   
 
 - # 5117
  k: |-1
-  DescBlankBenecast
+  xx
  v: |-1
-  \yellow;can be cast on other units
+   
   
 
 - # 5118
  k: |-1
-  DescBlankBeneGain
+  DescCastOnOthers
  v: |-1
   \yellow;can be cast on other units
   
 
 - # 5119
  k: |-1
-  DescUncursedCursed
+  xx
  v: |-1
-  \yellow;can be cast on other units
+   
 
 - # 5120
  k: |-1
@@ -32959,15 +32966,15 @@
 
 - # 5146
  k: |-1
-  DescPlusA
+  DescTgtPBlvl
  v: |-1
   +1 Target per Base Level
 
 - # 5147
  k: |-1
-  DescPlusAerial
+  xx
  v: |-1
-  +1 Target per Base Level
+   
 
 - # 5148
  k: |-1
@@ -33280,16 +33287,16 @@
 
 - # 5195
  k: |-1
-  DescBlankThreeFour
+  DescFortyWDM
  v: |-1
   40% Weapon Damage
   
 
 - # 5196
  k: |-1
-  DescBlankWar32
+  xx
  v: |-1
-  40% Weapon Damage
+   
   
 
 - # 5197
@@ -33310,28 +33317,27 @@
  k: |-1
   DescWeakeningSyn
  v: |-1
-  -5% Enemy Cast Speed per Base Level
+  % Enemy Damage and Cast Speed per Base Level (Max -50%)
 
 - # 5200
  k: |-1
-  DescThreeFourBlank
+  xx
  v: |-1
-  60% Weapon Damage
+   
   
 
 - # 5201
  k: |-1
-  DescOverkilled
+  xx
  v: |-1
-  110% Weapon Damage
+   
   
 
 - # 5202
  k: |-1
-  DescBlank3wd2
+  xx
  v: |-1
-  90% Weapon Damage
-  
+   
 
 - # 5203
  k: |-1
@@ -33341,9 +33347,9 @@
 
 - # 5204
  k: |-1
-  DescBlankDmg9
+  xx
  v: |-1
-  75% Weapon Damage
+   
   
 
 - # 5205
@@ -33367,9 +33373,9 @@
 
 - # 5208
  k: |-1
-  DescRocksDmg
+  xx
  v: |-1
-  85% Weapon Damage
+   
   
 
 - # 5209
@@ -33570,8 +33576,8 @@
   DescTSR
  v: |-1
   
-  \blue;Consumes Steady Aim
-  Requires Steady Aim
+  \grey;Consumes 1\dgreen; Steady Aim \grey;charge per shot
+  Requires \dgreen;Steady Aim
 
 - # 5241
  k: |-1
@@ -33587,33 +33593,33 @@
 
 - # 5243
  k: |-1
-  DescDeadalusAtt
+  xx
  v: |-1
-  Attack Rating: 
+  
 
 - # 5244
  k: |-1
-  DescGenericAR
+  xx
  v: |-1
-  Attack Rating: 
+  
 
 - # 5245
  k: |-1
-  DescAttR
+  xx
  v: |-1
-  Attack Speed: 
+  
 
 - # 5246
  k: |-1
-  DescATTS
+  xx
  v: |-1
-  Attack Speed: 
+  
 
 - # 5247
  k: |-1
-  DescTrapIAS
+  xx
  v: |-1
-  Attack Speed: 
+  
 
 - # 5248
  k: |-1
@@ -33783,9 +33789,9 @@
 
 - # 5275
  k: |-1
-  DescTCDLioness
+  xx
  v: |-1
-  Bonus Defense: 
+   
 
 - # 5276
  k: |-1
@@ -33854,9 +33860,9 @@
 
 - # 5286
  k: |-1
-  DescCastWowz
+  xx
  v: |-1
-  Cast Speed: 
+   
 
 - # 5287
  k: |-1
@@ -34227,9 +34233,8 @@
   +20% to Total Defense
   \orange;Frost Essence Aura\grey;
   
-  Cast Ice Lance and Glacial Nova on attack
-  40% Chance to Cast level 3/33/63 Glacial Nova on Death
   Elementals inherit your Cold Spell Damage, Cold Pierce, Energy and Spell Focus
+  Cast Ice Lance and Glacial Nova on attack
 
 - # 5344
  k: |-1
@@ -34305,27 +34310,28 @@
  k: |-1
   DescNukeDelay
  v: |-1
-  Delay between Detonations: 
+  Activation Frequency Effectiveness: 125%
+  Base delay between Detonations: 
 
 - # 5356
  k: |-1
   DescPewPewPewPew
  v: |-1
-  Delay between Blasts: 0.16 seconds
+  Base Delay between Blasts: 0.16 seconds
   Target seek range: 4 yards
 
 - # 5357
  k: |-1
   DescPewPewPewPewPew
  v: |-1
-  Delay between Blasts: 0.32 seconds
+  Base Delay between Blasts: 0.32 seconds
   Target seek range: 10 yards
 
 - # 5358
  k: |-1
   DescBlamBlamBlamBlam
  v: |-1
-  Delay between Blasts: 0.4 seconds
+  Base Delay between Blasts: 0.4 seconds
   Activation Range: 4 yards
 
 - # 5359
@@ -34338,13 +34344,13 @@
  k: |-1
   DescDmgDelay
  v: |-1
-  Delay between Novas: 
+  Base Delay between activations: 
 
 - # 5361
  k: |-1
   DescBzzBzzBzzBzz
  v: |-1
-  Delay between Swarms: 2 second
+  Base Delay between activations: 2 seconds
 
 - # 5362
  k: |-1
@@ -34867,9 +34873,7 @@
  k: |-1
   DescDmgDist
  v: |-1
-  \blue;
-  Disables non-Hunter Ranged Skills
-  Grants Steady Aim
+   \dgreen;Steady Aim \grey;charges gained per shot
 
 - # 5443
  k: |-1
@@ -35122,9 +35126,9 @@
 
 - # 5484
  k: |-1
-  DescLaserbladeMag
+  xx
  v: |-1
-  Magic Damage: 
+  
 
 - # 5485
  k: |-1
@@ -35140,9 +35144,9 @@
 
 - # 5487
  k: |-1
-  DescDmgMagDBFG
+  xx
  v: |-1
-  Magic Damage: DOOM DEATH KILL KABOOM BLAM
+  
 
 - # 5488
  k: |-1
@@ -35283,6 +35287,7 @@
  k: |-1
   DescMoreAtPB
  v: |-1
+  Every 5th Nova has +150% Radius and Damage Multiplier
   Multiple Explosions Do Not Stack
 
 - # 5510
@@ -35446,9 +35451,9 @@
 
 - # 5535
  k: |-1
-  DescTrapDmgSyn
+  xx
  v: |-1
-  Physical Damage: 
+  
 
 - # 5536
  k: |-1
@@ -35924,7 +35929,8 @@
   DescWelcomeToThe
  v: |-1
   Stun Length: 0.6 seconds
-  Delay between Activations: 6 seconds
+  Activation Frequency Effectiveness: 55%
+  Base Delay between Activations: 6 seconds
   Arena Duration: 2 seconds
 
 - # 5610
@@ -35940,7 +35946,8 @@
   DescWotanSaysHi
  v: |-1
   Stun Length: 1 second
-  Frequency: 15 seconds
+  Activation Frequency Effectiveness: 75%
+  Base Frequency: 15 seconds
   25% Weapon Damage
   \orange;Thunder Nova
 
@@ -36114,15 +36121,15 @@
 
 - # 5638
  k: |-1
-  DescStoneVel
+  xx
  v: |-1
-  Movement Speed: 
+  
 
 - # 5639
  k: |-1
-  DescWhenActVel
+  xx
  v: |-1
-  Movement Speed: 
+  
 
 - # 5640
  k: |-1
@@ -36174,7 +36181,7 @@
  k: |-1
   DescWychSelfEffect
  v: |-1
-  Vulnerability: Physical Resist 
+  \red;Vulnerability: Physical Resist 
 
 - # 5647
  k: |-1
@@ -36208,9 +36215,9 @@
 
 - # 5652
  k: |-1
-  DescJustPhys
+  xx
  v: |-1
-  Weapon Physical Damage: 
+  
 
 - # 5653
  k: |-1
@@ -37141,8 +37148,17 @@
  k: |-1
   SkillsdHammertime
  v: |-1
-  \dgrey;(active while current mana is between 40 and 60% of maximum mana)
-  \blue;Mana Equilibrium: \grey;Hammer seek range increased by 50%
+  \tan;+5% Physical and Magic Resist
+  \tan;+2% Weapon Physical Damage per Character Level
+  \grey;While drinking \purple;rejuvenation potion
+  
+  \tan;+1 Life on Striking 
+  \tan;+30% Hammers Released
+  \grey;While drinking \blue;mana potion
+  
+  \tan;+2 Hammertime targets
+  \tan;+30% Hammer Seek Range
+  \grey;While drinking \red;healing potion
   
   \red;requires a mace, hammer or scepter
   \grey;projectile - bombards nearby enemies with flying ethereal mallets
@@ -37883,7 +37899,9 @@
  k: |-1
   WinterAvatarSplain
  v: |-1
-  Enemies Closer to the Avatar Receive More Damage
+  Enemies Closer to the Center of the Nova take More Damage
+  
+  (increased by 0.5% per level)
 
 - # 5901
  k: |-1
@@ -38187,8 +38205,8 @@
  k: |-1
   SkillFireEleSyn
  v: |-1
-  +1% extra per Base Level
-  +1% Fire Spell Damage and Fire Pierce per Skill Level
+  +1% Fire Spell Damage and Fire Pierce per Skill Level and Base Level
+  Balance, Curare, Wild and Free, Defensive Harmony
 
 - # 5948
  k: |-1
@@ -39947,6 +39965,7 @@
  k: |-1
   FlamestrikeSplain
  v: |-1
+  Deals the most damage at the center
   Up to 13 hits per cast
 
 - # 6159
@@ -40361,8 +40380,8 @@
   DescCatalyst3
  v: |-1
   Enemy Movement Speed: -50%
-  Arming Time: 1.6 seconds
-  Duration: 50 seconds
+  Arming Time: 0.8 seconds
+  Duration: 25 seconds
   
 
 - # 6223
@@ -40413,7 +40432,7 @@
  k: |-1
   DescBeaconX
  v: |-1
-  increases Total blast damage by 
+  increases total blast damage by 
 
 - # 6231
  k: |-1
@@ -40785,7 +40804,7 @@
 
 - # 6290
  k: |-1
-  DOptional1
+  UNUSED
  v: |-1
   Warp skill cooldowns increased by 20 seconds
 
@@ -40797,26 +40816,26 @@
 
 - # 6292
  k: |-1
-  DOptional2
+  UNUSED
  v: |-1
   Allies regenerate life
 
 - # 6293
  k: |-1
-  DOptional5
+  UNUSED
  v: |-1
   Player Max Elemental Resistances -2%%
   Player fire absorb -10%%
 
 - # 6294
  k: |-1
-  DOptional3
+  UNUSED
  v: |-1
   Casts lightning skills
 
 - # 6295
  k: |-1
-  DOptional4
+  UNUSED
  v: |-1
   Casts poison skills
 
@@ -40840,7 +40859,7 @@
 
 - # 6299
  k: |-1
-  DOptional6
+  UNUSED
  v: |-1
   Reduces player speeds
 
@@ -41995,7 +42014,7 @@
  k: |-1
   IceBoltNovaSyn
  v: |-1
-  Damage Increases With Your Uncapped Cold Resist
+  Increases to Weapon Physical Damage count as Cold Spell Damage
 
 - # 6491
  k: |-1
@@ -42020,7 +42039,7 @@
  k: |-1
   DescClawTornadoBlank
  v: |-1
-   % Increased Physical Damage per 1% Increased Attack Speed
+   % Increased Physical Damage per 2% Increased Attack Speed
   
 
 - # 6495
@@ -42176,8 +42195,10 @@
  k: |-1
   DOptionalSpawn1
  v: |-1
-  \red;Destroy to heal Deimoss. Increases difficulty and rewards.
+  Warp skill cooldowns increased by 20 seconds
   \orange;Warp Paralysis
+  
+  \red;Destroy to heal Deimoss. Increases difficulty and rewards
 
 - # 6518
  k: |-1
@@ -42189,36 +42210,48 @@
  k: |-1
   DOptionalSpawn2
  v: |-1
-  \red;Destroy to heal Deimoss. Increases difficulty and rewards.
+  Allies regenerate life
   \orange;Sinew Reconstruction
+  
+  \red;Destroy to heal Deimoss. Increases difficulty and rewards
 
 - # 6520
  k: |-1
   DOptionalSpawn3
  v: |-1
-  \red;Destroy to heal Deimoss. Increases difficulty and rewards.
+  Casts lightning skills
   \orange;Herald of Thunder
+  
+  \red;Destroy to heal Deimoss. Increases difficulty and rewards
 
 - # 6521
  k: |-1
   DOptionalSpawn4
  v: |-1
-  \red;Destroy to heal Deimoss. Increases difficulty and rewards.
+  Casts poison skills
   \orange;Herald of Pestilence
+  
+  \red;Destroy to heal Deimoss. Increases difficulty and rewards
 
 - # 6522
  k: |-1
   DOptionalSpawn5
  v: |-1
-  \red;Destroy to heal Deimoss. Increases difficulty and rewards.
+  Player Max Elemental Resistances -2%%
+  Player fire absorb -10%%
   \orange;Ill Ignition
+  
+  \red;Destroy to heal Deimoss. Increases difficulty and rewards
 
 - # 6523
  k: |-1
   DOptionalSpawn6
  v: |-1
-  \red;Destroy to heal Deimoss. Increases difficulty and rewards.
+  -100%% Attack and Cast Speeds
+  -40%% Velocity
   \orange;Stone Curse
+  
+  \red;Destroy to heal Deimoss. Increases difficulty and rewards
 
 - # 6524
  k: |-1
@@ -42450,7 +42483,7 @@
  k: |-1
   DescHunterInstinct
  v: |-1
-  Enemy Lightning and Cold Resists are Reduced by your Fire Pierce
+  Enemy Lightning and Cold Resists are Reduced by half of your Fire Pierce
 
 - # 6560
  k: |-1
@@ -42462,7 +42495,7 @@
  k: |-1
   DescAnimalComp2
  v: |-1
-  Steady Aim Cannot be Consumed
+  \grey;Heartseeker and Cascade do not consume \dgreen;Steady Aim \grey;charges
   \blue;During Heart of the Pack:
   
 
@@ -42485,8 +42518,8 @@
   DescHeartseeker1
  v: |-1
   
-  \blue;Consumes Steady Aim
-  Requires Steady Aim
+  \grey;Consumes 1 \dgreen;Steady Aim \grey;charge per shot
+  Requires \dgreen;Steady Aim
 
 - # 6565
  k: |-1
@@ -42590,6 +42623,7 @@
  k: |-1
   DescBarksyn
  v: |-1
+  +1% Grit per 3 Base Levels while unmorphed
   Increased Maximum Life and Defense per Base Level
   +5% Efficiency per Base Level (Max 100%)
 
@@ -43636,8 +43670,8 @@
  k: |-1
   MasteryChemistrySyn
  v: |-1
-  +8% Mana Restored From Potions per Base Level
-  +4% Healing From Potions per Base Level
+  +12% Mana Restored From Potions per Base Level
+  +6% Healing From Potions per Base Level
 
 - # 6748
  k: |-1
@@ -43831,7 +43865,7 @@
  k: |-1
   SkillsdVoidGazer
  v: |-1
-  \grey;upgrade - perceive the void bestowing you with power other than weakness
+  \grey;upgrade - channel the void, \purple;the void protects
 
 - # 6780
  k: |-1
@@ -44214,7 +44248,7 @@
  k: |-1
   DescVoidGazVulne3
  v: |-1
-  Movement/Hit Recovery Speeds
+  Movement/Hit Recovery Speeds: 
 
 - # 6843
  k: |-1
@@ -44310,6 +44344,7 @@
  k: |-1
   DescAmbushSyn
  v: |-1
+  Minions inherit 33% of your on Attack/Kill/Death Blow triggers (Min 1%)
   Inherits Ways Skill Levels as Base Levels
   Batstrike: +1 Familiar per 5 Base Levels
   All Assassin Passives
@@ -46058,7 +46093,7 @@
  k: |-1
   DescMaxBlockChance
  v: |-1
-  Maximum Block Chance
+  Maximum Block Chance: 
 
 - # 7140
  k: |-1
@@ -46130,9 +46165,9 @@
 
 - # 7151
  k: |-1
-  DescJinnEruption
+  Mjolner1h
  v: |-1
-  unused
+  Mjolner
 
 - # 7152
  k: |-1
@@ -46689,7 +46724,7 @@
   SkillsdTracking
  v: |-1
   \gold;requires 70 points in other hunter tree skills
-  \grey;passive - the expertise of an Hunter traces your path to greater heights
+  \grey;passive - the expertise of a Hunter traces your path to greater heights
 
 - # 7239
  k: |-1
@@ -46932,7 +46967,7 @@
  k: |-1
   SkillsdGlacialTorrent
  v: |-1
-  \red;requires a scepter or an orb
+  \red;requires an orb or scepter
   \grey;attack - unleash a freezing cascade through your weapon
 
 - # 7278
@@ -46952,7 +46987,7 @@
   SkillsdCrystallineBarrier
  v: |-1
   \red;disables Mooncall damage bonuses
-  requires a scepter or an orb
+  requires an orb or scepter
   \grey;buff - a protective shield freezing melee attackers
 
 - # 7281
@@ -47032,7 +47067,7 @@
  k: |-1
   SkillsdWintertide
  v: |-1
-  \red;requires a scepter or an orb
+  \red;requires an orb or scepter
   \grey;warp strike - teleports you to a target enemy
 
 - # 7294
@@ -47272,13 +47307,13 @@
  k: |-1
   SkillsdElucidation
  v: |-1
-  \grey;upgrade - number of Lorenadoes increase with poison duration
+  \grey;upgrade - Lorenado damage increases with poison duration
 
 - # 7332
  k: |-1
   SkillElucidation1
  v: |-1
-  +1 Lorenado per 
+  +1% Damage Multiplier per 
 
 - # 7333
  k: |-1
@@ -47296,19 +47331,23 @@
  k: |-1
   SkillsdDecay
  v: |-1
-  \grey;upgrade - greatly increases Haunt duration
+  \red;requires 5 skill points in Inoculation to learn
+  requires 5 skill points to unlock effects
+  \grey;upgrade - Miasma temporarily increases your poison spell damage and duration
 
 - # 7336
  k: |-1
   SkillDecay1
  v: |-1
-   seconds to Haunt Duration
+  % Poison Spell Damage for 3 seconds
 
 - # 7337
  k: |-1
   SkillDecay2
  v: |-1
-  Miasma deals no damage
+  Cooldown increased by 4 seconds
+  +150% Poison Skill Duration for 3 seconds
+  (Bonus increases at character level: 81, 121, 141)
 
 - # 7338
  k: |-1
@@ -47360,7 +47399,7 @@
  k: |-1
   SkillFlamefrontSyn
  v: |-1
-  +1 Firebolt per 10 Skill Levels (Max 
+  +1 Firebolt per 10 Skill Levels
 
 - # 7346
  k: |-1
@@ -47378,13 +47417,15 @@
  k: |-1
   SkillsdIncineration
  v: |-1
-  \grey;upgrade - your mana empowers Flamefront
+  \grey;upgrade - your heat empowers Flamefront
 
 - # 7349
  k: |-1
   SkillIncineration1
  v: |-1
-  +1 Firebolt per 25% Current Mana
+  Above 50% Heat: 15% Increased Explosion Radius
+  +1 Firebolt per 25% Current Heat
+  \red;Requires Overheat
 
 - # 7350
  k: |-1
@@ -47396,7 +47437,7 @@
  k: |-1
   SkillsdPyre
  v: |-1
-  \grey;upgrade - you gain physical resistance while casting Pyroblast
+  \grey;upgrade - your heat empowers flamestrike
 
 - # 7352
  k: |-1
@@ -47441,7 +47482,8 @@
  k: |-1
   SkillPyre2
  v: |-1
-  1% Physical Resist per 200 Energy
+  Above 50% Heat: 25% Increased Radius, 33% Reduced Delay
+  \red;Requires Overheat
 
 - # 7359
  k: |-1
@@ -47459,7 +47501,7 @@
  k: |-1
   SkillIceEle6
  v: |-1
-  % Minion Life and Damage per Base Level
+  % Multiplier to Minion Life and Damage per Base Level
 
 - # 7362
  k: |-1
@@ -48886,7 +48928,7 @@
   DamnedDiff5Str
  v: |-1
   they drop jewellery and crafting materials
-  Summons six Corruption Bearers
+  Summons seven Corruption Bearers
 
 - # 7579
  k: |-1
@@ -49320,7 +49362,7 @@
  k: |-1
   DescNewVoracity
  v: |-1
-  Parasite Bolts Have Area of Effect
+  Parasite Bolts Explode in a 6 yard radius when bouncing
   \green;Parasite -> Reaper
 
 - # 7646
@@ -49421,6 +49463,11 @@
  k: |-1
   DescJustTestedOnMyWeapon
  v: |-1
+  \grey;will be of sacrificed rune's element
+  (if you happen to hit one)
+  corruption reveal step to guarantee that elemental mods
+  Can add Fire/Ice/Light/Poison Rune from Teganze to the
+  
   25% Chance to add Nothing
   25% Chance to add +100 Required Level
   50% Chance to add Random Bonus Stat
@@ -49435,7 +49482,6 @@
  k: |-1
   SkillApocalypse1
  v: |-1
-  Total Apocalypse damage increased by the percentage difference between them (up to 100%)
   \orange;While your Maximum Mana is higher than Maximum Life:
   
   \red;Damage does not increase with Skill Levels
@@ -49667,7 +49713,7 @@
  k: |-1
   DescEleventhEye
  v: |-1
-  \red;Requires Standing within Tur Durla
+  \red;Requires Standing within Tur Dulra
   \grey;Cube with Dulra Aegis to enter the Frozen Sea
   
   Cube Reagent
@@ -49760,7 +49806,7 @@
  k: |-1
   DescKirksWahWah
  v: |-1
-  Delay between Explosions: 1.2 seconds
+  Base delay between explosions: 1.2 seconds
 
 - # 7708
  k: |-1
@@ -49791,6 +49837,7 @@
   DescGodSaveTheQueen
  v: |-1
   Triggers "On Melee Attack" Skill Procs
+  Activation Frequency Effectiveness: 35%
   
   Time Between Attacks: 
 
@@ -50431,8 +50478,8 @@
   DescCascade1
  v: |-1
   
-  \red;Bonus fire damage reduced by 66% without Steady Aim
-  \blue;Consumes Steady Aim
+  \grey;+0.5 second duration per charge consumed
+  Consumes all\dgreen; Steady Aim \grey;charges
 
 - # 7815
  k: |-1
@@ -51167,7 +51214,7 @@
  k: |-1
   SkillGaleForce1
  v: |-1
-  Deals up to 400% extra weapon damage in melee
+  Deals 375% extra weapon damage in melee
 
 - # 7929
  k: |-1
@@ -51641,7 +51688,7 @@
  k: |-1
   DescAlchemistPath
  v: |-1
-  \grey;% Increased Healing From Potions
+  \grey;% Increased Potion Effectiveness
   \green;Alchemist Path\dgrey;
 
 - # 8000
@@ -51897,7 +51944,7 @@
  k: |-1
   DescWychSyn
  v: |-1
-  Storm Crows: +0.2s to Vulnerability Duration per Base Level
+  (+1% of weapon cold damage added as magic per level)
 
 - # 8040
  k: |-1
@@ -51916,8 +51963,8 @@
  k: |-1
   DescLifeFromDeathSynBonusTemp
  v: |-1
-  \grey;2.5% Increased Healing from Potions per Base Level
-  Healing Potions Last 2 Additional Seconds per 5 Base Levels
+  \grey;2.5% Increased Effectiveness of Potions per Base Level
+  Potions Last 1 Extra Second per 4 Base Levels
   \green;Alchemist Path
   
   \grey;1% Physical Resistance per 2 Base Levels
@@ -51940,7 +51987,7 @@
  k: |-1
   DescAlchemyPotDuration
  v: |-1
-  Healing Potions Last 
+  Potions Last 
 
 - # 8046
  k: |-1
@@ -51971,7 +52018,7 @@
   SkillsdEntanglement1
  v: |-1
   \gold;lightning proficiency - requires 50 points in other lightning tree skills
-  \red;you cannot learn this skill if you have points in Mana Sweep
+  \red;you cannot learn this skill if you have points in Mana Sweep or Molten Core
   \grey;upgrade - Superposition leaves you entangled
 
 - # 8051
@@ -52119,7 +52166,7 @@
  k: |-1
   DescFrigidFrequency
  v: |-1
-  Releases a Pulse Once per Second
+  Base Pulse Frequency: Once per Second
 
 - # 8074
  k: |-1
@@ -52263,9 +52310,9 @@
 
 - # 8095
  k: |-1
-  SkillnameJudgmentDay
+  SkillnameJudgementDay
  v: |-1
-  Judgment Day
+  Judgement Day
 
 - # 8096
  k: |-1
@@ -54116,9 +54163,9 @@
 
 - # 8380
  k: |-1
-  Drought
+  Thirst Eternum
  v: |-1
-  Drought
+  Thirst Eternum
 
 - # 8381
  k: |-1
@@ -54158,7 +54205,7 @@
  k: |-1
   DescUsedWithMeleeDevo
  v: |-1
-  \blue;Can be used with Melee Devotion
+  \blue;Usable under melee locks
 
 - # 8387
  k: |-1
@@ -54189,7 +54236,7 @@
  k: |-1
   lionsohmy1
  v: |-1
-  2% deadly strike per 
+  1% deadly strike per 
 
 - # 8392
  k: |-1
@@ -54253,7 +54300,7 @@
  k: |-1
   SkillNameLMSH
  v: |-1
-  \red;LET ME SOLO HIM
+  \gold;The Last Warchief
 
 - # 8402
  k: |-1
@@ -54673,12 +54720,12 @@
   DescDarude
  v: |-1
   
-  \gold; Per 4% attack speed above 800:\grey; maximum mana -2%
+  \gold; Per 4% attack speed above 1000:\grey; maximum mana -2%
   
-  \gold; Per 3% attack speed above 500:\grey; regenerate mana -3%
+  \gold; Per 3% attack speed above 500:\grey; regenerate mana -2%
   
-  (500% attack speed to remove cooldown)
-  \gold; Per 4% attack speed:\grey; -0.04 sec cooldown
+  (875% attack speed to remove cooldown)
+  \gold; Per 7% attack speed:\grey; -0.04 sec cooldown
   
 
 - # 8465
@@ -54760,6 +54807,7 @@
  k: |-1
   AssurBaneUpgrade50
  v: |-1
+  Cube with any Enhanced Rune instead to create a crafting scroll
   Limit: once per game. Purify to craft
   
   \blue;+4 Required Level
@@ -54771,6 +54819,7 @@
  k: |-1
   AssurBaneUpgrade51
  v: |-1
+  Cube with any Enhanced Rune instead to create a crafting scroll
   Limit: once per game. Purify to craft
   
   \blue;+12 Required Level
@@ -54782,6 +54831,7 @@
  k: |-1
   AssurBaneUpgrade52
  v: |-1
+  Cube with any Enhanced Rune instead to create a crafting scroll
   Limit: once per game. Purify to craft
   
   \blue;+4 Required Level
@@ -54793,6 +54843,7 @@
  k: |-1
   AssurBaneUpgrade53
  v: |-1
+  Cube with any Enhanced Rune instead to create a crafting scroll
   Limit: once per game. Purify to craft
   
   \blue;+4 Required Level
@@ -54804,6 +54855,7 @@
  k: |-1
   AssurBaneUpgrade54
  v: |-1
+  Cube with any Enhanced Rune instead to create a crafting scroll
   Limit: once per game. Purify to craft
   
   \blue;+5 Required Level
@@ -54815,6 +54867,7 @@
  k: |-1
   AssurBaneUpgrade55
  v: |-1
+  Cube with any Enhanced Rune instead to create a crafting scroll
   Limit: once per game. Purify to craft
   
   \blue;+5 Required Level
@@ -54826,6 +54879,7 @@
  k: |-1
   AssurBaneUpgrade56
  v: |-1
+  Cube with any Enhanced Rune instead to create a crafting scroll
   Limit: once per game. Purify to craft
   
   \blue;+5 Required Level
@@ -54837,6 +54891,7 @@
  k: |-1
   AssurBaneUpgrade57
  v: |-1
+  Cube with any Enhanced Rune instead to create a crafting scroll
   Limit: once per game. Purify to craft
   
   \blue;+5 Required Level
@@ -54848,6 +54903,7 @@
  k: |-1
   AssurBaneUpgrade58
  v: |-1
+  Cube with any Enhanced Rune instead to create a crafting scroll
   Limit: once per game. Purify to craft
   
   \blue;Fire Resist -10%%
@@ -54861,6 +54917,7 @@
  k: |-1
   AssurBaneUpgrade59
  v: |-1
+  Cube with any Enhanced Rune instead to create a crafting scroll
   Limit: once per game. Purify to craft
   
   \blue;Fire Resist -10%%
@@ -54874,6 +54931,7 @@
  k: |-1
   AssurBaneUpgrade60
  v: |-1
+  Cube with any Enhanced Rune instead to create a crafting scroll
   Limit: once per game. Purify to craft
   
   \blue;Fire Resist -20%%
@@ -54887,6 +54945,7 @@
  k: |-1
   AssurBaneUpgrade61
  v: |-1
+  Cube with any Enhanced Rune instead to create a crafting scroll
   Limit: once per game. Purify to craft
   
   \blue;Fire Resist -10%%
@@ -54900,10 +54959,11 @@
  k: |-1
   AssurBaneUpgrade70
  v: |-1
+  Cube with any Enhanced Rune instead to create a crafting scroll
   Limit: once per game. Purify to craft
   
   \blue;Fire Resist -20%%
-  \orange;1%% Fire Spell Damage per 4 Spell Focus above the cap
+  \orange;1%% Fire Spell Damage per 5 Spell Focus above the cap
   \red;Replaces Purify
   \purple;Cost: 4 Sacred Essence
   \gold;Assur's Bane Upgrade
@@ -54912,10 +54972,11 @@
  k: |-1
   AssurBaneUpgrade71
  v: |-1
+  Cube with any Enhanced Rune instead to create a crafting scroll
   Limit: once per game. Purify to craft
   
   \blue;Fire Resist -20%%
-  \orange;1%% Lightning Spell Damage per 4 Spell Focus above the cap
+  \orange;1%% Lightning Spell Damage per 5 Spell Focus above the cap
   \red;Replaces Purify
   \purple;Cost: 4 Sacred Essence
   \gold;Assur's Bane Upgrade
@@ -54924,10 +54985,11 @@
  k: |-1
   AssurBaneUpgrade72
  v: |-1
+  Cube with any Enhanced Rune instead to create a crafting scroll
   Limit: once per game. Purify to craft
   
   \blue;Fire Resist -20%%
-  \orange;1%% Cold Spell Damage per 4 Spell Focus above the cap
+  \orange;1%% Cold Spell Damage per 5 Spell Focus above the cap
   \red;Replaces Purify
   \purple;Cost: 4 Sacred Essence
   \gold;Assur's Bane Upgrade
@@ -54936,10 +54998,11 @@
  k: |-1
   AssurBaneUpgrade73
  v: |-1
+  Cube with any Enhanced Rune instead to create a crafting scroll
   Limit: once per game. Purify to craft
   
   \blue;Fire Resist -20%%
-  \orange;1%% Poison Spell Damage per 4 Spell Focus above the cap
+  \orange;1%% Poison Spell Damage per 5 Spell Focus above the cap
   \red;Replaces Purify
   \purple;Cost: 4 Sacred Essence
   \gold;Assur's Bane Upgrade
@@ -54948,6 +55011,7 @@
  k: |-1
   AssurBaneUpgrade74
  v: |-1
+  Cube with any Enhanced Rune instead to create a crafting scroll
   Limit: once per game. Purify to craft
   
   \blue;Fire Resist -30%%
@@ -54965,6 +55029,7 @@
  k: |-1
   HDuncSURecipe1
  v: |-1
+  Cube with any Enhanced Rune instead to create a crafting scroll
   Limit: once per game. Purify to craft
   
   Sacred Weapon/Armor + 1 Sacred Essence
@@ -54985,6 +55050,7 @@
  k: |-1
   HDuncSURecipe3
  v: |-1
+  Cube with any Enhanced Rune instead to create a crafting scroll
   Limit: once per game. Purify to craft
   
   Sacred Unique Weapon/Armor + 4 Sacred Essence
@@ -54995,6 +55061,7 @@
  k: |-1
   HDuncSURecipe4
  v: |-1
+  Cube with any Enhanced Rune instead to create a crafting scroll
   Limit: once per game. Purify to craft
   
   (allows item to be corrupted once more)
@@ -55213,7 +55280,7 @@
   (energy, spell focus, lightning spell damage)
   - Double your caster synergy
   
-  - 15% per 1% weapon physical damage bonus
+  - 4% per your average weapon physical and lightning damage
   
   \gold;(whichever is higher)
   \grey;Thorns damage increased by:
@@ -55512,3 +55579,914 @@
   AllFlatDmgReductions
  v: |-1
   Flat Physical, Elemental and Magic damage reduction: 
+
+- # 8568
+ k: |-1
+  rbar
+ v: |-1
+  \purple;Barrel of Rejuvenation
+
+- # 8569
+ k: |-1
+  afreqeff
+ v: |-1
+  Activation Frequency Effectiveness: 
+
+- # 8570
+ k: |-1
+  SkillnameCoronation
+ v: |-1
+  \tan;Coronation\blue;
+
+- # 8571
+ k: |-1
+  SkillsdCoronation
+ v: |-1
+  \grey;buff - periodically triggers Frozen Crowns around you
+
+- # 8572
+ k: |-1
+  CoronationBaseFreq
+ v: |-1
+  Base delay between Frozen Crowns: 
+
+- # 8573
+ k: |-1
+  CoronationMechanics
+ v: |-1
+  \dgrey;(Frequency charges gradually decay while moving)
+  \grey;Accumulate Frequency charges for Periodic Cold Skills while stationary
+  
+  \dgrey;(AoE charges gradually decay while stationary)
+  \grey;Accumulate AoE charges for Periodic Cold Skills while moving
+
+- # 8574
+ k: |-1
+  SkillnamePneumaticBurst
+ v: |-1
+  Pneumatic Burst
+
+- # 8575
+ k: |-1
+  SkillnameRingofSteel
+ v: |-1
+  Ring of Steel
+
+- # 8576
+ k: |-1
+  SkillsdPBurst
+ v: |-1
+  \red; Requires a Throwing Knife
+  \grey;Projectile - exploding payload that pelts nearby enemies with dagger shards
+
+- # 8577
+ k: |-1
+  SkillsdRingofSteel
+ v: |-1
+  \red; Requires a Throwing Knife
+  \grey;Projectile - a whirling ring of shrapnel that shreds your foes to pieces
+
+- # 8578
+ k: |-1
+  Pbursthowmany
+ v: |-1
+  +1 target per 2 storm crows base knives
+
+- # 8579
+ k: |-1
+  pburstowards
+ v: |-1
+  Fires shrapnel at: 
+
+- # 8580
+ k: |-1
+  maelsmagnotmine
+ v: |-1
+  (equal to APF-20 'Maelstrom' MkV's magic damage)
+
+- # 8581
+ k: |-1
+  SkillnameBlackwind
+ v: |-1
+  Black Wind
+
+- # 8582
+ k: |-1
+  SkillsdBlackwind
+ v: |-1
+  buff - your study of dark magic enables your knives to whistle with dark wind
+
+- # 8583
+ k: |-1
+  chancetowind
+ v: |-1
+  
+  \grey;class throwing skills have a 15% Chance to Cast Black Wind on striking
+  \purple; During Black wind:
+
+- # 8584
+ k: |-1
+  bwinddeals1
+ v: |-1
+  \blue;Deals 
+
+- # 8585
+ k: |-1
+  bwinddeals2
+ v: |-1
+  \blue;% of your weapon Fire, Lightning, and Cold, or physical damage as magic damage
+
+- # 8586
+ k: |-1
+  bwindsyn
+ v: |-1
+  % of total weapon elemental or physical damage dealt as magic per Skill Level
+
+- # 8587
+ k: |-1
+  bwindohbtw
+ v: |-1
+  \red;Black wind does not deal weapon damage, and cannot trigger other skills or effects
+  \blue; (whichever is higher)
+
+- # 8588
+ k: |-1
+  bwindpenalty
+ v: |-1
+  \red;Mana regeneration: 
+
+- # 8589
+ k: |-1
+  voidgazesyn
+ v: |-1
+  +2% Movement Speed to black wind per base level
+  +1 Life and Mana on Striking at base level 5
+  +0.1% of Maximum Life Drained per second per base level
+  -7% Mana Regeneration to Black Wind per base level
+
+- # 8590
+ k: |-1
+  descwhydoesthisnotexist
+ v: |-1
+  life and mana on striking: 
+
+- # 8591
+ k: |-1
+  bwindpenalty2
+ v: |-1
+  Life regenerated per second:  
+
+- # 8592
+ k: |-1
+  SkillnameMael1
+ v: |-1
+  APF-20 'Maelstrom' MkI
+
+- # 8593
+ k: |-1
+  AfreqNA
+ v: |-1
+  \red;Not affected by activation frequency
+
+- # 8594
+ k: |-1
+  SkillnameMoltencore
+ v: |-1
+  Molten Core
+
+- # 8595
+ k: |-1
+  SkillsdMoltencore
+ v: |-1
+  passive - your fire skills build heat to devastate your enemies and melt their weapons
+
+- # 8596
+ k: |-1
+  SkillnameOverheat
+ v: |-1
+  Overheat
+
+- # 8597
+ k: |-1
+  SkillsdOverheat
+ v: |-1
+  buff - expend excess heat to burn nearby foes and empower your spells
+
+- # 8598
+ k: |-1
+  SkillMC1
+ v: |-1
+  +1% Physical Resist per 300 energy (maximum +10%)
+  5% Physical Resist
+  
+
+- # 8599
+ k: |-1
+  DescLosesHeat
+ v: |-1
+  \blue;(heat loss rate is a multiplier for how quickly you lose heat while not casting)
+  \grey;Mana Regeneration Causes Heat to Build/Drain Faster
+  \grey;Your Fire Tree Skills Cost No Mana
+  \red;Passively Lose Heat
+  \orange; Flamefront and Flamestrike stop heat loss and cause it to build while casting
+  \orange;Mana Becomes Heat
+
+- # 8600
+ k: |-1
+  DescCurrentHeat
+ v: |-1
+  \red;Current Heat Loss Rate: 
+
+- # 8601
+ k: |-1
+  DescHeatChanges
+ v: |-1
+  -1 Base Heat Loss Rate per 10% Mana Regeneration
+  +1 Base Heat Loss Rate per 3 Character Levels
+
+- # 8602
+ k: |-1
+  WorldstoneShard
+ v: |-1
+  Worldstone Shard
+
+- # 8603
+ k: |-1
+  Dynamo
+ v: |-1
+  Arcane Dynamo
+
+- # 8604
+ k: |-1
+  AfreqFire
+ v: |-1
+  Activation Frequency of Periodic Fire skills
+
+- # 8605
+ k: |-1
+  AfreqCold
+ v: |-1
+  Activation Frequency of Periodic Cold skills
+
+- # 8606
+ k: |-1
+  AfreqLight
+ v: |-1
+  Activation Frequency of Periodic Lightning skills
+
+- # 8607
+ k: |-1
+  AfreqPoison
+ v: |-1
+  Activation Frequency of Periodic Poison skills
+
+- # 8608
+ k: |-1
+  AfreqPMSD
+ v: |-1
+  Activation Frequency of Periodic Physical/Magic Spell Damage skills
+
+- # 8609
+ k: |-1
+  AfreqWDM
+ v: |-1
+  Activation Frequency of Periodic WDM skills
+
+- # 8610
+ k: |-1
+  ModitemAfreq
+ v: |-1
+  Activation Frequency
+
+- # 8611
+ k: |-1
+  du01X
+ v: |-1
+  \gold;Heroic Duncraig Crafting Scroll
+
+- # 8612
+ k: |-1
+  du02X
+ v: |-1
+  Sacred Unique manipulation scroll
+
+- # 8613
+ k: |-1
+  du01
+ v: |-1
+  \blue;+4 Required Level
+  Adds 3-4 Damage
+  \gold;Assur's Bane Upgrade
+
+- # 8614
+ k: |-1
+  du02
+ v: |-1
+  \blue;+12 Required Level
+  +1 to All Skills
+  \gold;Assur's Bane Upgrade
+
+- # 8615
+ k: |-1
+  du03
+ v: |-1
+  \blue;+4 Required Level
+  +15% Damage to Undead
+  \gold;Assur's Bane Upgrade
+
+- # 8616
+ k: |-1
+  du04
+ v: |-1
+  \blue;+4 Required Level
+  Maximum Life +1%
+  \gold;Assur's Bane Upgrade
+
+- # 8617
+ k: |-1
+  du05
+ v: |-1
+  \blue;+5 Required Level
+  -3% to Enemy Fire Resistance
+  \gold;Assur's Bane Upgrade
+
+- # 8618
+ k: |-1
+  du06
+ v: |-1
+  \blue;+5 Required Level
+  -3% to Enemy Cold Resistance
+  \gold;Assur's Bane Upgrade
+
+- # 8619
+ k: |-1
+  du07
+ v: |-1
+  \blue;+5 Required Level
+  -3% to Enemy Lightning Resistance
+  \gold;Assur's Bane Upgrade
+
+- # 8620
+ k: |-1
+  du08
+ v: |-1
+  \blue;+5 Required Level
+  -3% to Enemy Poison Resistance
+  \gold;Assur's Bane Upgrade
+
+- # 8621
+ k: |-1
+  du09
+ v: |-1
+  \blue;Fire Resist -10%
+  -1 to Light Radius
+  +40% Weapon Physical Damage
+  \red;Requires at least 1 Light Radius on item
+  \gold;Assur's Bane Upgrade
+
+- # 8622
+ k: |-1
+  du10
+ v: |-1
+  \blue;Fire Resist -10%
+  -1 to Light Radius
+  +5% Innate Elemental Damage
+  \red;Requires at least 1 Light Radius on item
+  \gold;Assur's Bane Upgrade
+
+- # 8623
+ k: |-1
+  du11
+ v: |-1
+  \blue;Fire Resist -20%
+  -2 to Light Radius
+  +1% to maximum Fire, Poison, Cold Resistances
+  \red;Requires at least 2 Light Radius on item
+  \gold;Assur's Bane Upgrade
+
+- # 8624
+ k: |-1
+  du12
+ v: |-1
+  \blue;Fire Resist -10%
+  -1 to Light Radius
+  +10% Spell Damage
+  \red;Requires at least 1 Light Radius on item
+  \gold;Assur's Bane Upgrade
+
+- # 8625
+ k: |-1
+  du13
+ v: |-1
+  \blue;Fire Resist -20%
+  \orange;1% Fire Spell Damage per 5 Spell Focus above the cap
+  \red;Replaces Purify
+  \gold;Assur's Bane Upgrade
+
+- # 8626
+ k: |-1
+  du14
+ v: |-1
+  \blue;Fire Resist -20%
+  \orange;1% Lightning Spell Damage per 5 Spell Focus above the cap
+  \red;Replaces Purify
+  \gold;Assur's Bane Upgrade
+
+- # 8627
+ k: |-1
+  du15
+ v: |-1
+  \blue;Fire Resist -20%
+  \orange;1% Cold Spell Damage per 5 Spell Focus above the cap
+  \red;Replaces Purify
+  \gold;Assur's Bane Upgrade
+
+- # 8628
+ k: |-1
+  du16
+ v: |-1
+  \blue;Fire Resist -20%
+  \orange;1% Poison Spell Damage per 5 Spell Focus above the cap
+  \red;Replaces Purify
+  \gold;Assur's Bane Upgrade
+
+- # 8629
+ k: |-1
+  du17
+ v: |-1
+  \blue;Fire Resist -30%
+  \dgrey;Energy: +12% Grit
+  Vitality: 400% of your Damage to Undead bonus added as Cold Damage to weapon
+  Dexterity: +300% Weapon Physical Damage
+  Strength: +5000 Attack Rating
+  \orange;Bonus based on your highest attribute if wielding a one handed weapon without a shield
+  \red;Does not work for Barbarians
+  Replaces Purify
+  \gold;Assur's Bane Upgrade
+
+- # 8630
+ k: |-1
+  du18
+ v: |-1
+  Use with Sacred Weapon/Armor
+  \red;Does not work with corrupted items
+  \orange;Sacred Unique (105) Creation
+
+- # 8631
+ k: |-1
+  du19
+ v: |-1
+  Use With Sacred Unique (120) Weapon/Armor
+  \red;Does not work with corrupted items
+  \orange;Sacred Unique (120) Stat Reroll
+
+- # 8632
+ k: |-1
+  du20
+ v: |-1
+  Use with Sacred Unique Weapon/Armor
+  \red;Does not work with corrupted items
+  \orange;Sacred Unique (105-130) Item Reroll
+
+- # 8633
+ k: |-1
+  du21
+ v: |-1
+  (allows item to be corrupted once more)
+  Any Corrupted Sacred Unique
+  \red;Recipe cannot be repeated
+  \orange;Sacred Unique Double Corruption
+
+- # 8634
+ k: |-1
+  GenGrants
+ v: |-1
+  Grants 
+
+- # 8635
+ k: |-1
+  DescOverheatDoes
+ v: |-1
+  % Global Fire Skill Activation Frequency During Buff Effect
+
+- # 8636
+ k: |-1
+  DelayBetweenDynamic
+ v: |-1
+  Base Delay Between Activations: 
+
+- # 8637
+ k: |-1
+  Overheatsyn1
+ v: |-1
+  
+  Deals fire damage equal to half the total maximum damage of your fire tree skills
+  Activates while at or above 60% heat
+
+- # 8638
+ k: |-1
+  Overheatsyn2
+ v: |-1
+  Havoc
+  Flamestrike
+  Flamefront
+  +3% Fire Skill Activation frequency per base level
+
+- # 8639
+ k: |-1
+  ModitemPotEff
+ v: |-1
+  Potion Effectiveness
+
+- # 8640
+ k: |-1
+  WhatKilledYou
+ v: |-1
+  Nuclear Fallout
+
+- # 8641
+ k: |-1
+  strCainMenuCraftMaterials
+ v: |-1
+  crafting materials
+
+- # 8642
+ k: |-1
+  strCainMenuCMHoradricCube
+ v: |-1
+  horadric cube
+
+- # 8643
+ k: |-1
+  strCainMenuCMCatalyst1
+ v: |-1
+  catalyst of disenchantment
+
+- # 8644
+ k: |-1
+  strCainMenuCMCatalyst2
+ v: |-1
+  catalyst of learning
+
+- # 8645
+ k: |-1
+  strCainMenuCMCatalyst3
+ v: |-1
+  catalyst of jewelcraft
+
+- # 8646
+ k: |-1
+  Ground Zero
+ v: |-1
+  Ground Zero
+
+- # 8647
+ k: |-1
+  SkillnameCollateralD
+ v: |-1
+  Collateral Damage
+
+- # 8648
+ k: |-1
+  SkillnameBrace
+ v: |-1
+  \tan;Brace for Impact
+
+- # 8649
+ k: |-1
+  SkillsdBrace
+ v: |-1
+  buff - hunker down to withstand the incoming blast
+
+- # 8650
+ k: |-1
+  SkilldescBrace
+ v: |-1
+  +10% chance to trigger Collateral Damage
+  Reduces all incoming damage by 65%
+  \red;Nullifies your Damage Avoidance and Block
+  
+
+- # 8651
+ k: |-1
+  UNUSED
+ v: |-1
+  Every 5th Nova has 150% increased AoE and damage
+
+- # 8652
+ k: |-1
+  SkillnameInoculation
+ v: |-1
+  \orange;Inoculation
+
+- # 8653
+ k: |-1
+  SkillsdInoculation
+ v: |-1
+  \red;requires 5 skill points to unlock effects
+  \grey;upgrade - Miasma heals you and repels incoming poisons
+
+- # 8654
+ k: |-1
+  SkillInoculation1
+ v: |-1
+  Restores 2 Life per total Energy (up to 50% of max life)
+  Repels incoming poisons for 3 seconds
+  Cooldown increased by 2 seconds
+
+- # 8655
+ k: |-1
+  SkillInoculation2
+ v: |-1
+  (Current heal: +
+
+- # 8656
+ k: |-1
+  descbetterbanshee
+ v: |-1
+  Hits up to 8 times per wraith
+
+- # 8657
+ k: |-1
+  syntoastywarm
+ v: |-1
+  Max Level Increases Every 4 Character Levels
+  +2% Cold Resistance per Base Level
+  Mana Regeneration rate: +2% per Base Level
+
+- # 8658
+ k: |-1
+  SkillsdWarmth
+ v: |-1
+  Passive - provides faster heat generation and resistance to the cold
+
+- # 8659
+ k: |-1
+  SkillnameWarmth
+ v: |-1
+  Warmth
+
+- # 8660
+ k: |-1
+  coldres
+ v: |-1
+  Cold Resistance: 
+
+- # 8661
+ k: |-1
+  MaxCharges
+ v: |-1
+  
+  Maximum Charges: 
+
+- # 8662
+ k: |-1
+  SkillApocalypse2
+ v: |-1
+  Total Apocalypse damage increased by the percentage difference between them (up to 
+
+- # 8663
+ k: |-1
+  SkillApocalypse3
+ v: |-1
+  Current Total Damage increase: 
+
+- # 8664
+ k: |-1
+  SkillRavenFlight
+ v: |-1
+  
+  Doubles the Energy bonus from Raven Familiar
+
+- # 8665
+ k: |-1
+  BagofTricks2
+ v: |-1
+  Bag of Tricks
+
+- # 8666
+ k: |-1
+  RelicXX
+ v: |-1
+  Time-Lost Relic
+
+- # 8667
+ k: |-1
+  &101
+ v: |-1
+  \orange;Mystic Orb
+  Apple of Discord
+
+- # 8668
+ k: |-1
+  Wintermourne
+ v: |-1
+  Wintermourne
+
+- # 8669
+ k: |-1
+  SkillsdJudgementDay
+ v: |-1
+  spell - destruction rains down on your foes
+
+- # 8670
+ k: |-1
+  SkillnameEmberstep
+ v: |-1
+  Emberstep
+
+- # 8671
+ k: |-1
+  SkillsdEmberstep
+ v: |-1
+  warp - teleport to the target location and generate heat
+
+- # 8672
+ k: |-1
+  Embersteppin
+ v: |-1
+  Heat generation increases with mana regen
+  \orange; Generates heat when cast
+
+- # 8673
+ k: |-1
+  Embergofast
+ v: |-1
+  Reduces cooldown by 0.04 seconds per 6% Mana Regeneration (Min 3 seconds)
+
+- # 8674
+ k: |-1
+  DescSteadyAimStackSyn
+ v: |-1
+  Grants 1 additional Steady Aim charge per shot per 10 Base Levels
+
+- # 8675
+ k: |-1
+  LifeManaOnKillCombo
+ v: |-1
+  Life and Mana after each Kill
+
+- # 8676
+ k: |-1
+  LifeManaLeechCombo
+ v: |-1
+  Life and Mana stolen per Hit
+
+- # 8677
+ k: |-1
+  breakswind
+ v: |-1
+  
+  \red; Will only trigger black wind while attacking with other throwing knife skills
+
+- # 8678
+ k: |-1
+  doomdur
+ v: |-1
+  + 0.2 seconds to duration per skill level
+
+- # 8679
+ k: |-1
+  LifeManaStrikingCombo
+ v: |-1
+  Life and Mana on Striking
+
+- # 8680
+ k: |-1
+  UnmorphedGrit
+ v: |-1
+  % Grit while unmorphed
+
+- # 8681
+ k: |-1
+  DescVanquish
+ v: |-1
+  
+  4% Weapon Physical Damage per Kill
+  
+  \blue;Gain a secondary buff afterwards with bonuses proportional to number of foes vanquished
+  \red;Kill as many enemies as you can during primary buff
+
+- # 8682
+ k: |-1
+  Dur1
+ v: |-1
+  Primary buff duration: 
+
+- # 8683
+ k: |-1
+  Dur2
+ v: |-1
+  Secondary buff duration: 
+
+- # 8684
+ k: |-1
+  Overheatsyn2a
+ v: |-1
+  sacrifices heat equal to 
+
+- # 8685
+ k: |-1
+  Overheatsyn2b
+ v: |-1
+  % of your mana regenerated per second
+  
+
+- # 8686
+ k: |-1
+  DescDurBlank
+ v: |-1
+  
+  Duration: 
+
+- # 8687
+ k: |-1
+  Echoingfury
+ v: |-1
+  Echoing Fury
+
+- # 8688
+ k: |-1
+  Voiddancer
+ v: |-1
+  Void Dancer
+
+- # 8689
+ k: |-1
+  MinionProc1
+ v: |-1
+  Minions inherit 
+
+- # 8690
+ k: |-1
+  MinionProc2
+ v: |-1
+  % of your on Attack/Kill/Death Blow triggers (Min 1%)
+
+- # 8691
+ k: |-1
+  PalNeutral
+ v: |-1
+  UNUSED
+
+- # 8692
+ k: |-1
+  PalUnholy
+ v: |-1
+  UNUSED
+
+- # 8693
+ k: |-1
+  PalHoly
+ v: |-1
+  UNUSED
+
+- # 8694
+ k: |-1
+  MinionProc3
+ v: |-1
+  Minions inherit your on Kill/Death Blow triggers
+
+- # 8695
+ k: |-1
+  SkillnameCursebreaker
+ v: |-1
+  Cursebreaker
+
+- # 8696
+ k: |-1
+  &102
+ v: |-1
+  \orange;Mystic Orb
+  Eye of Beholder
+
+- # 8697
+ k: |-1
+  ExtraSeconds
+ v: |-1
+   Extra Seconds
+
+- # 8698
+ k: |-1
+  SkillsdAmaToxin
+ v: |-1
+  passive - adds poison damage to attacks
+
+- # 8699
+ k: |-1
+  AkaratTheSavior
+ v: |-1
+  Grants Resists and Life Regeneration to Nearby Allies
+
+- # 8700
+ k: |-1
+  ResurrectSyn2
+ v: |-1
+  Minions inherit your Elemental Pierce and half of your Spell Damage
+  Minions gain 100 Life Regeneration per Base Level
+
+- # 8701
+ k: |-1
+  statExplanation afreq
+ v: |-1
+  Increases frequency of how often periodic skills activate their effects

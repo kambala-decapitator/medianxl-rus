@@ -1,6 +1,6 @@
 - # 1
  k: |-1
-  WarrivAct1IntroGossip1
+  x
  v: |-1
   45
   Greetings, stranger. I'm not surprised 
@@ -184,14 +184,44 @@
 
 - # 11
  k: |-1
-  WarrivGossip9
+  WarrivAct1IntroGossip1
  v: |-1
-  70
-  It's easy to become lost in the 
-  wilderness on the way to the Citadel. 
-  After you have come to the Cairn 
-  Stones, you must remember that the 
-  path continues through the caves.
+  45
+  Greetings, stranger. I'm not surprised 
+  to see your kind here. Many 
+  adventurers have traveled this way 
+  since the recent troubles began.
+   
+  No doubt you've heard about the 
+  tragedy that befell the town of 
+  Tristram. Some say that Diablo, the 
+  Lord of Terror, walks the world again.
+   
+  I don't know if I believe that, but a Dark 
+  Wanderer did travel this route a few 
+  weeks ago. He was headed east to the 
+  mountain pass guarded by the Rogue 
+  Monastery.
+   
+  Maybe it's nothing, but evil seems to 
+  have trailed in his wake. You see, 
+  shortly after the Wanderer went 
+  through, the Monastery's Gates to the 
+  pass were closed and strange 
+  creatures began ravaging the 
+  countryside.
+   
+  Until it's safer outside the camp and the 
+  gates are re-opened, I'll remain here 
+  with my caravan. I hope to leave for 
+  Lut Gholein before the shadow that fell 
+  over Tristram consumes us all. If 
+  you're still alive then, I'll take you 
+  along.
+   
+  You should talk to Akara, too. She 
+  seems to be the leader of this camp. 
+  Maybe she can tell you more.
   
 
 - # 12
@@ -24989,49 +25019,49 @@
  k: |-1
   strhirespecial3
  v: |-1
-  Jab Attack
+  Exemplar
 
 - # 3375
  k: |-1
   strhirespecial4
  v: |-1
-  Poison Resistant
+  Shapeshifter
 
 - # 3376
  k: |-1
   strhirespecial5
  v: |-1
-  Abjurer
+  Fighter Mage
 
 - # 3377
  k: |-1
   strhirespecial6
  v: |-1
-  Bloodmage
+  Necrolyte
 
 - # 3378
  k: |-1
   strhirespecial7
  v: |-1
-  Necrolyte
+  Bloodmage
 
 - # 3379
  k: |-1
   strhirespecial8
  v: |-1
-  Lightning, Fast Cast
+  Abjurer
 
 - # 3380
  k: |-1
   strhirespecial9
  v: |-1
-  Cold, Fast Cast
+  Barbarian
 
 - # 3381
  k: |-1
   strhirespecial10
  v: |-1
-  Fire, Fast Cast
+  UNUSED
 
 - # 3382
  k: |-1
@@ -26381,7 +26411,7 @@
  k: |-1
   ModStr6e
  v: |-1
-  Stamina Drain
+  to Stamina Drain
 
 - # 3607
  k: |-1
@@ -28888,7 +28918,7 @@
 
 - # 4018
  k: |-1
-  Upgrade
+  NpcMenuImbue
  v: |-1
   imbue
 
@@ -47128,8 +47158,7 @@
  k: |-1
   c@c
  v: |-1
-  (Sorceress Only)
-  \red;Moon Symbol
+  \blue;Moon Cookie
 
 - # 6988
  k: |-1
@@ -47947,9 +47976,9 @@
 
 - # 7107
  k: |-1
-  customize_charm_yeah
+  FlatLifeManaCombo
  v: |-1
-  unused
+  to Life and Mana
 
 - # 7108
  k: |-1
@@ -48037,6 +48066,21 @@
   
   Oil + Corrupted Crystal
   --> Corrupted Cluster (1)
+  
+  Oil + Greater Signet of Learning
+  --> Container of Knowledge (1)
+  
+  Oil + Belladonna Elixir
+  --> Barrel of Belladonna (1)
+  
+  Oil + Apple
+  --> Barrel of Apples (1)
+  
+  Oil + Full Rejuvenation Potion
+  --> Barrel of Rejuvenation (1)
+  
+  Oil + Corrupted Treasure
+  --> Stash O' Treasures (1)
   
 
 - # 7117
@@ -48265,7 +48309,8 @@
  k: |-1
   DescItemstatsWitchberry
  v: |-1
-  A blessed symbol of the goddess...
+  \dgrey;...yet something \green;feels off\dgrey; about it
+  Looks like a perfect recreation of Moon Symbol of the past
 
 - # 7140
  k: |-1
@@ -55896,9 +55941,9 @@
 
 - # 8376
  k: |-1
-  Dragonheart
+  Lionheart
  v: |-1
-  Dragonheart
+  Lionheart
 
 - # 8377
  k: |-1
@@ -61273,7 +61318,7 @@
  k: |-1
   DescLexTimer
  v: |-1
-   Second Delay between Novas
+  UNUSED
 
 - # 9248
  k: |-1
@@ -62125,7 +62170,7 @@
  k: |-1
   ir81x
  v: |-1
-  \blue;+5 Required Level
+  \blue;15% Faster Stamina Drain
   Set Movement Speed to 40%
   \grey;Cube with Boots to Add Bonus
   
@@ -63621,7 +63666,7 @@
  k: |-1
   SkillnameAzurePassive
  v: |-1
-  \tan;Remorseless Winter
+  \tan;Remorseless Winter\blue;
 
 - # 9567
  k: |-1
@@ -66168,7 +66213,7 @@
  k: |-1
   DescShockwavez
  v: |-1
-  Casts one Shockwave per second
+  Base delay between Shockwaves: 1 second
   \red;Duration Reduced by 90%
 
 - # 9922
@@ -66183,13 +66228,13 @@
  k: |-1
   DescShockwaveWDM
  v: |-1
-  (Shockwave Deals 
+  Shockwaves Deal 
 
 - # 9924
  k: |-1
   DescShockwaveWDM2
  v: |-1
-  % Weapon Damage)
+  % Weapon Damage
 
 - # 9925
  k: |-1
