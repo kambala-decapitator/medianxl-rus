@@ -28848,7 +28848,7 @@
   
   \red;requires a melee target
   requires a melee weapon\grey;
-  melee spell that inflicts heavenly flames that spread to others
+  Melee Spell - inflicts heavenly flames that spread to others
 
 - # 4514
  k: |-1
@@ -30016,7 +30016,7 @@
   200% minion damage for 5 serpents, 400% minion damage for 6
   
   \red;requires a scythe or spear\grey;
-  Melee Attack: command powerful water serpents to attack your enemies
+  Attack - command powerful water serpents to attack your enemies
 
 - # 4693
  k: |-1
@@ -31493,9 +31493,9 @@
 
 - # 4919
  k: |-1
-  DescThirdTime
+  xx
  v: |-1
-   Bonus Magic Damage
+   
 
 - # 4920
  k: |-1
@@ -34095,7 +34095,7 @@
  k: |-1
   DescSplatConv
  v: |-1
-  Converts 85% Physical Damage to Magic Damage
+  Converts 85% Physical Damage to Magic
   
 
 - # 5322
@@ -49307,7 +49307,7 @@
   SkillsdNoxiousMastery
  v: |-1
   \red;requires Curare
-  \grey;passive - improves Curare and your defences
+  \grey;passive - improves Curare and your defenses
 
 - # 7637
  k: |-1
